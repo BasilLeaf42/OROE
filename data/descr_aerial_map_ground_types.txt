@@ -1,0 +1,240 @@
+;
+;
+;
+;	cultivated_low
+;	cultivated_medium
+;	cultivated_high
+;	fertility_low
+;	fertility_medium
+;	fertility_high
+;	forest_dense
+;	forest_sparse
+;	hills
+;	mountains_high
+;	mountains_low
+;	swamp				
+;	beach
+;	scorched
+;
+;
+;
+
+climate default
+{
+	cultivated_low		fertility_low2.tga			snow_thin.tga
+	cultivated_medium		cultivated.tga			snow_thin.tga
+	cultivated_high		cultivated.tga			snow_thin.tga
+	fertility_low		fertility_low2.tga			snow_thin.tga
+	fertility_medium		fertility_medium1.tga		snow_thin.tga
+	fertility_high		fertility_high1.tga			snow_thin.tga
+	forest_dense		forest_sparse.tga			snow_thin.tga
+	forest_sparse		forest_sparse.tga			snow_thin.tga
+	hills			hills2.tga				arctic.tga
+	mountains_high		high_mountains.tga		high_mountains.tga
+	mountains_low		hills2.tga				high_mountains.tga
+	swamp			swamp.tga			snow_thin.tga
+	beach			beach.tga			beach_w.tga
+	scorched			scorched.tga			scorched2.tga
+	impassable_land		alpine2.tga
+	impassable_sea		impassable_sea.tga
+}
+
+climate temperate_deciduous_forest
+{
+	cultivated_low		fertility_low2.tga			fertility_low1_snow.tga		
+	cultivated_medium		cultivated.tga			cultivated_snow.tga
+	cultivated_high		cultivated.tga			cultivated_snow.tga
+	fertility_low		fertility_low2.tga			fertility_low1_snow.tga	
+	fertility_medium		fertility_medium1.tga		fertility_medium1_snow.tga	
+	fertility_high		fertility_high1.tga			fertility_medium1_snow.tga			
+	forest_dense		forest_sparse.tga			snow_thick.tga
+	forest_sparse		forest_sparse.tga			forest_sparse_snow.tga		
+	hills			fertility_low2.tga			fertility_medium1_snow.tga	
+	mountains_high		high_mountains.tga		high_mountains.tga
+	mountains_low		alpine2.tga			high_mountains.tga
+	swamp			swamp.tga			swamp_snow.tga
+	beach			beach.tga			beach_w.tga
+	scorched			scorched.tga			scorched2.tga
+	impassable_land		alpine2.tga			high_mountains.tga
+	impassable_sea		impassable_sea.tga
+}
+
+climate temperate_coniferous_forest
+{
+	cultivated_low		fertility_low2.tga			snow_thick.tga
+	cultivated_medium		cultivated.tga			snow_thick.tga
+	cultivated_high		cultivated.tga			snow_thick.tga
+	fertility_low		fertility_low2.tga			snow_thick.tga
+	fertility_medium		fertility_medium2.tga		snow_thick.tga
+	fertility_high		fertility_high1.tga			snow_thick.tga
+	forest_dense		forest_sparse.tga			snow_thick.tga
+	forest_sparse		forest_sparse.tga			snow_thick.tga
+	hills			fertility_low2.tga			arctic.tga
+	mountains_high		high_mountains.tga		high_mountains.tga
+	mountains_low		alpine2.tga			high_mountains.tga
+	swamp			swamp.tga			snow_thin.tga
+	beach			beach.tga			beach_w.tga
+	scorched			scorched.tga			scorched2.tga
+	impassable_land		alpine2.tga
+	impassable_sea		impassable_sea.tga
+}
+
+climate highland
+{
+	cultivated_low		fertility_low2.tga			snow_thick.tga
+	cultivated_medium		cultivated_rome.tga		snow_thick.tga
+	cultivated_high		cultivated_rome.tga		snow_thick.tga
+	fertility_low		fertility_low2.tga			snow_thick.tga
+	fertility_medium		fertility_medium2.tga		snow_thick.tga
+	fertility_high		fertility_high1.tga			snow_thick.tga
+	forest_dense		forest_sparse.tga			snow_thick.tga
+	forest_sparse		forest_sparse.tga			snow_thick.tga
+	hills			fertility_low2.tga			arctic.tga
+	mountains_high		high_mountains.tga		high_mountains.tga
+	mountains_low		alpine2.tga			high_mountains.tga
+	swamp			swamp.tga			snow_thin.tga
+	beach			beach.tga			beach_w.tga
+	scorched			scorched.tga			scorched2.tga
+	impassable_land		high_mountains.tga
+	impassable_sea		impassable_sea.tga
+}
+
+climate alpine
+{
+	cultivated_low		alpine.tga			snow_thick.tga	
+	cultivated_medium		cultivated_rome.tga		snow_thick.tga
+	cultivated_high		cultivated_rome.tga		snow_thick.tga
+	fertility_low		alpine.tga			snow_thick.tga
+	fertility_medium		alpine.tga			snow_thick.tga
+	fertility_high		alpine.tga			snow_thick.tga
+	forest_dense		forest_sparse.tga			snow_thick.tga
+	forest_sparse		forest_sparse.tga			snow_thick.tga
+	hills			alpine.tga			arctic.tga
+	mountains_high		high_mountains.tga		high_mountains.tga
+	mountains_low		alpine2.tga			high_mountains.tga
+	swamp			swamp.tga			snow_thin.tga
+	beach			beach.tga			beach_w.tga
+	scorched			scorched.tga			scorched2.tga
+	impassable_land		high_mountains.tga
+	impassable_sea		impassable_sea.tga
+}
+
+climate steppe
+{
+	cultivated_low		fertility_low2.tga			snow_thick.tga
+	cultivated_medium		cultivated.tga			snow_thick.tga
+	cultivated_high		cultivated.tga			snow_thick.tga
+	fertility_low		fertility_low2.tga			snow_thick.tga
+	fertility_medium		fertility_medium2.tga		snow_thick.tga
+	fertility_high		fertility_high1.tga			snow_thick.tga
+	forest_dense		forest_sparse.tga			snow_thick.tga
+	forest_sparse		forest_sparse.tga			snow_thick.tga
+	hills			fertility_medium_sa.tga		arctic.tga
+	mountains_high		high_mountains.tga		high_mountains.tga
+	mountains_low		alpine2.tga			high_mountains.tga
+	swamp			swamp.tga			snow_thin.tga
+	beach			beach.tga			beach_w.tga
+	scorched			scorched.tga			scorched2.tga
+	impassable_land		alpine2.tga
+	impassable_sea		impassable_sea.tga
+}
+
+climate tropical
+{
+	cultivated_low		swamp.tga		
+	cultivated_medium		cultivated.tga		
+	cultivated_high		cultivated.tga			
+	fertility_low		swamp.tga			
+	fertility_medium		fertility_medium1.tga		
+	fertility_high		fertility_high1.tga			
+	forest_dense		forest_sparse.tga			
+	forest_sparse		forest_sparse.tga			
+	hills			forest_sparse.tga			
+	mountains_high		high_mountains.tga		
+	mountains_low		alpine2.tga			
+	swamp			swamp.tga			
+	beach			beach.tga			
+	scorched			scorched.tga
+	impassable_land		swamp.tga
+	impassable_sea		impassable_sea.tga
+}
+
+climate semi_arid
+{
+	cultivated_low		fertility_low2.tga		
+	cultivated_medium		cultivated.tga
+	cultivated_high		cultivated.tga	
+	fertility_low		fertility_low2.tga			
+	fertility_medium		fertility_medium_sa.tga		
+	fertility_high		fertility_high2.tga		
+	forest_dense		forest_sparse.tga
+	forest_sparse		forest_sparse.tga
+	hills			hills2.tga
+	mountains_high		high_mountains.tga
+	mountains_low		mountains_sa.tga		
+	swamp			swamp.tga
+	beach			beach.tga
+	scorched			scorched.tga
+	impassable_land		alpine2.tga
+	impassable_sea		impassable_sea.tga
+}
+
+climate mediterranean
+{
+	cultivated_low		fertility_low2.tga				
+	cultivated_medium		cultivated.tga		
+	cultivated_high		cultivated.tga		
+	fertility_low		fertility_low2.tga				
+	fertility_medium		fertility_medium1.tga		
+	fertility_high		fertility_high1.tga					
+	forest_dense		forest_sparse.tga			
+	forest_sparse		forest_sparse.tga				
+	hills			fertility_low2.tga			
+	mountains_high		high_mountains.tga		
+	mountains_low		alpine2.tga							
+	swamp			swamp.tga
+	beach			beach.tga			
+	scorched			scorched.tga
+	impassable_land		alpine2.tga			
+	impassable_sea		impassable_sea.tga
+}
+
+climate rocky_desert
+{
+	cultivated_low		rocky_desert.tga	
+	cultivated_medium		cultivated.tga
+	cultivated_high		cultivated.tga
+	fertility_low		rocky_desert.tga
+	fertility_medium		rocky_desert_medium.tga	
+	fertility_high		rocky_desert_high.tga	
+	forest_dense		rocky_desert.tga
+	forest_sparse		rocky_desert_medium.tga
+	hills			hills3.tga
+	mountains_high		mountains_desert.tga
+	mountains_low		hills3.tga
+	swamp			swamp.tga
+	beach			beach.tga
+	scorched			scorched.tga
+	impassable_land		rocky_desert.tga	
+	impassable_sea		impassable_sea.tga
+}
+
+climate sandy_desert
+{
+	cultivated_low		sand.tga	
+	cultivated_medium		cultivated.tga
+	cultivated_high		cultivated.tga
+	fertility_low		sand.tga
+	fertility_medium		sand_medium.tga
+	fertility_high		sand_high.tga
+	forest_dense		forest_sparse_sand.tga
+	forest_sparse		forest_sparse_sand.tga
+	hills			hills4.tga
+	mountains_high		mountains_desert.tga
+	mountains_low		hills3.tga
+	swamp			swamp.tga
+	beach			beach.tga
+	scorched			scorched.tga
+	impassable_land		sand.tga	
+	impassable_sea		impassable_sea.tga
+}

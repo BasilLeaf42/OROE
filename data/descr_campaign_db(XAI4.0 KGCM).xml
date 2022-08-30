@@ -1,0 +1,311 @@
+<!--XAI V4.0 April 2010 Modded many things-->
+<!--For KGCM 4.2 mod with XAI integration.-->
+<!--Use it as an Example of the AI and Autoresolve sections for other mod use-->
+<root>
+    <recruitment>
+        <recruitment_slots uint = "1"/>
+        <retraining_slots uint = "1"/>
+        <deplenish_pools_with_caps bool = "false"/>
+        <clear_pools_with_caps bool = "false"/>
+        <add_initial_with_caps bool = "true"/>
+        <add_disband_no_caps bool = "true"/>
+        <force_clamp_to_max bool = "false"/>
+        <deplenish_multiplier float = "0.9"/>
+        <deplenish_offset float = "-0.2"/>
+        <percentage_pool_reduction_lost uint = "10"/>
+        <percentage_pool_reduction_occupy uint = "20"/>
+        <percentage_pool_reduction_sack uint = "45"/>
+        <percentage_pool_reduction_exterminate uint = "100"/>
+        <max_agents_per_turn uint = "1"/>
+    </recruitment>
+    <religion>
+        <max_witches_per_region uint = "1"/>
+        <max_witches uint = "5"/>
+        <max_heretics_per_region uint = "1"/>
+        <max_heretics uint = "15"/>
+        <max_heretics_conversion_modifier float = "1.0"/>
+        <max_inquisitors_per_region uint = "1"/>
+        <max_inquisitors uint = "6"/>
+        <heretic_conversion_rate_modifier float = "0.0075"/>
+        <heretic_conversion_rate_offset float = "0.025"/>
+        <witch_conversion_rate_modifier float = "0.0075"/>
+        <witch_conversion_rate_offset float = "0.025"/>
+        <inquisitor_conversion_rate_modifier float = "0.010"/>
+        <inquisitor_conversion_rate_offset float = "0.04"/>
+        <priest_conversion_rate_modifier float = "0.004"/>
+        <priest_conversion_rate_offset float = "0.015"/>
+        <witch_creation_modifier float = "1.0"/>
+        <heretic_creation_modifier float = "0.4"/>
+        <inquisitor_creation_modifier float = "0.3"/>
+        <min_cardinal_piety uint = "6"/>
+        <convert_to_heretic_base_modifier float = "0.7"/>
+        <convert_to_heretic_unorthodox_modifier float = "0.7"/>
+        <inquisitor_turn_start uint = "20"/>
+        <inquisitor_target_crusades bool = "false"/>
+        <founding_conversion_default_rate float = "0.0"/>
+        <neighbour_normalise_weight float = "0.02"/>
+        <governor_conversion_rate_offset float = "0.02"/>
+        <governor_conversion_rate_modifier float = "0.025"/>
+        <spy_conversion_rate_offset float = "0.001"/>
+        <spy_conversion_rate_modifier float = "0.002"/>
+        <owner_conversion_default_rate float = "0.02"/>
+        <spy_conversion_rate_foreign_modifier float = "0.0"/>
+    </religion>
+    <bribery>
+        <bribe_to_family_tree bool = "false"/>
+        <base_character_chance float = "0.4"/>
+        <religion_modifier float = "0.66"/>
+        <combined_attribute_modifier float = "0.2"/>
+        <briber_attribute_divisor float = "3.0"/>
+        <bribee_attribute_divisor float = "3.0"/>
+        <army_size_modifier float = "0.035"/>
+        <base_settlement_chance float = "0.8"/>
+        <settlement_loyalty_modifier float = "0.01"/>
+        <settlement_population_modifier float = "0.0001"/>
+        <faction_standing_divisor float = "10.0"/>
+        <max_bribe_chance float = "100.0"/>
+        <min_bribe_chance float = "1.0"/>
+        <bribe_chance_modifier float = "1.0"/>
+    </bribery>
+    <family_tree>
+        <max_age uint = "100"/>
+        <max_age_for_marriage_for_male uint = "75"/>
+        <max_age_for_marriage_for_female uint = "45"/>
+        <max_age_before_death uint = "101"/>
+        <max_age_of_child uint = "10"/>
+        <old_age uint = "60"/>
+        <age_of_manhood uint = "14"/>
+        <daughters_age_of_consent uint = "13"/>
+        <daughters_retirement_age uint = "40"/>
+        <age_difference_min int = "6"/>
+        <age_difference_max int = "30"/>
+        <parent_to_child_min_age_diff uint = "13"/>
+        <min_adoption_age uint = "14"/>
+        <max_adoption_age uint = "40"/>
+        <max_age_for_conception uint = "40"/>
+        <age_of_manhood_close uint = "14"/>
+        <max_number_of_children uint = "4"/>
+    </family_tree>
+    <diplomacy>
+        <max_diplomacy_items uint = "8"/>
+        <enemies_reject_gifts bool = "false"/>
+        <use_balance_owed bool = "false"/>
+    </diplomacy>
+    <missions>
+        <null_mission_score float = "25.0"/>
+    </missions>
+    <display>
+        <character_selection_radius float = "0.3"/>
+        <character_selection_height float = "1.3"/>
+        <character_selection_height_crouching float = "1.0"/>
+        <diplomacy_scroll_height uint = "768"/>
+        <recruitment_sort_simple bool = "false"/>
+        <faction_standing_min float = "-1.0"/>
+        <faction_standing_max float = "1.0"/>
+        <use_orig_rebel_faction_models bool = "true"/>
+        <keep_original_heretic_portraits bool = "false"/>
+        <alt_sett_order_colours bool = "false"/>
+        <hud_tab_text_vert_offset uint = "18"/><!--vertical text offset for campaign hud tabs -->
+        <show_building_browser_castles bool = "false"/><!--are castles shown in the building browser -->
+        <separate_games_races bool = "true"/><!--use separate games and races settlement icons -->
+        <standard_soldier_limit uint = "1000"/><!--Used to specify range for amry standards (banners) -->
+        <standard_soldier_level_scale uint = "50"/><!--Used to scale army size display compared to standard range specified above -->
+        <chivalry_display_threshold int = "1"/><!--What level of chivalry a character needs to have 'chivalry' displayed instead of 'dread' -->
+        <clear_battle_models_on_new_faction bool = "true"/><!--Are unique battle models cleared when a character changes factions -->
+    </display>
+    <ransom>
+        <captor_release_chance_base float = "50.0"/>
+        <captor_release_chance_chiv_mod float = "12.0"/>
+        <captor_ransom_chance_base float = "60.0"/>
+        <captor_ransom_chance_chiv_mod float = "-5.0"/>
+        <captor_ransom_chance_tm_mod float = "10.0"/>
+        <captive_ransom_chance_base float = "40.0"/>
+        <captive_ransom_chance_chiv_mod float = "6.67"/>
+        <captive_ransom_chance_tm_mod float = "-10.0"/>
+        <captive_ransom_chance_msm_mod float = "10.0"/>
+        <captive_ransom_for_slave bool = "false"/>
+    </ransom>
+    <autoresolve>
+        <min_capture_percent float = "10.0"/>
+        <max_capture_percent float = "35.0"/>
+        <lopsided_thresh float = "1.0"/>
+        <lopsided_hn_mod float = "100.0"/>
+        <separation_missile_add uint = "1"/>
+        <naval_sink_modifier float = "65.0"/>
+        <naval_sink_offset float = "1.0"/>
+        <naval_sink_max float = "80.0"/>
+        <sally_att_def_draw_divisor float = "1.75"/><!--sally battles are a draw if attacker lost and (number of attacker troops) > (number of defender troops)/divisor -->
+        <use_new_sett_autoresolve bool = "true"/><!--do we use the new settlement autoresolve -->
+        <switchable_defence_exposed bool = "true"/><!--can unit switch exposed state during autoresolve -->
+        <gate_defence_num_oil_attacks int = "3"/><!--number of gate oil attacks -->
+        <gate_defence_strength_oil_base float = "4.0"/><!--gate oil attack strength -->
+        <gate_defence_strength_oil_level_modifier float = "0.0"/><!--gate oil attack strength += modifier * oil_level -->
+        <gate_defence_num_arrow_attacks int = "2"/><!--number of gate arrow attacks -->
+        <gate_defence_strength_arrow_base float = "2.0"/><!--gate arrow attack strength -->
+        <gate_defence_strength_arrow_level_modifier float = "2.0"/><!--gate arrow attack strength += modifier * arrow_level -->
+        <gate_defence_num_default_attacks int = "2"/><!--number of gate generic advantage attacks -->
+        <gate_defence_strength_default_base float = "1.0"/><!--gate generic advantage attack strength -->
+        <gate_defence_strength_default_level_modifier float = "1.0"/><!--gate advantage attack strength += modifier * fortification_level -->
+        <sett_defence_num_arrow_attacks int = "2"/><!--number of settlement arrow attacks -->
+        <sett_defence_strength_arrow_base float = "2.0"/><!--settlement arrow attack strength -->
+        <sett_defence_strength_arrow_level_modifier float = "2.0"/><!--sett arrow attack strength += modifier * arrow_level -->
+        <sett_defence_num_default_attacks int = "0"/><!--number of sett generic advantage attacks -->
+        <sett_defence_strength_default_base float = "1.0"/><!--sett generic advantage attack strength -->
+        <sett_defence_strength_default_level_modifier float = "1.0"/><!--sett advantage attack strength += modifier * fortification_level -->
+        <display_strength_oil float = "600"/><!--additional effective army strength for defending residence with oil -->
+        <display_strength_arrow float = "600"/><!--additional effective army strength for defending residence with arrows -->
+        <display_strength_default float = "500"/><!--additional effective army strength for defending residence with fortification levels -->
+    </autoresolve>
+    <settlement>
+        <!--Minimum garrison test  AI only-->
+        <num_units_sett_garrison_base int = "3"/>
+      <num_units_sett_garrison_level_modifier int = "3"/>
+<!-- <min_garrison_percentage float = "50.0"/>-->
+        <sack_money_modifier float = "0.4"/>
+        <exterminate_money_modifier float = "0.5"/>
+        <chiv_spf_modifier float = "1.0"/>
+        <chiv_sof_modifier float = "1.0"/>
+        <dread_sof_modifier float = "-1.0"/>
+        <piety_cor_sif_modifier float = "1.0"/>
+        <piety_admin_sif_modifier float = "1.0"/>
+        <port_to_port_mp_min float = "100.0"/>
+        <heresy_unrest_modifier float = "30.0"/>
+        <religion_unrest_modifier float = "20.0"/>
+        <siege_gear_required_for_city_level string = "huge_city"/>
+        <siege_gear_required_for_castle_level string = "moat_and_bailey"/>
+        <no_towers_only_for_city_level string = "huge_city"/>
+        <no_towers_only_for_castle_level string = "moat_and_bailey"/>
+        <min_turn_keep_rebel_garrison int = "999"/>
+        <destroy_empty_forts bool = "false"/>
+        <can_build_forts bool = "true"/>
+        <fort_fortification_level string = "1"/>
+        <games_races_cost_modifier float = "0.25"/><!--games and races cost modifier -->
+        <alternative_religious_unrest bool = "true"/><!--alternative settlement religious unrest calculations -->
+        <alt_rel_allied_modifier float = "0.5"/><!--allied religion cumulative total modifier -->
+        <alt_rel_gov_modifier_base float = "2.0"/><!--governors piety religion base modifier -->
+        <alt_rel_gov_coefficient float = "-0.2"/><!--governors piety religion coefficient -->
+    </settlement>
+    <revolt>
+        <end_turn_modifier float = "2"/>
+        <excommunicated_modifier float = "15"/>
+        <new_leader_modifier float = "10"/>
+        <max_effective_loyalty float = "7.0"/>
+        <rebel_region_modifier float = "2.0"/>
+        <shadow_region_modifier float = "0.0"/>
+        <rebel_border_modifier float = "1.1"/>
+        <shadow_border_modifier float = "1.0"/>
+        <num_units_modifier float = "1.0"/>
+        <captain_modifier float = "0.2"/>
+        <min_revolt_chance float = "0.0"/>
+        <max_revolt_chance float = "50.0"/>
+        <ai_revolt_modifier float = "0.05"/>
+        <revolt_additional_armies bool = "false"/>
+        <revolt_crusading_armies bool = "false"/>
+    </revolt>
+    <characters>
+        <agents_can_hide bool = "true"/>
+    </characters>
+    <hordes>
+        <end_target_faction_bonus int = "-300"/>
+        <start_target_faction_bonus int = "-500"/>
+        <farming_level_bonus int = "50"/>
+        <shared_target_bonus int = "-1000"/>
+        <disbanding_horde_bonus int = "-500"/>
+        <starting_region_bonus int = "-700"/>
+        <horde_target_resource_bonus int = "1000"/>
+    </hordes>
+    <merchants>
+        <base_income_modifier float = "1.25"/>
+        <trade_bonus_offset float = "30.0"/>
+    </merchants>
+    <agents>
+        <denounce_inquisitor_base_chance float = "15.0"/>
+        <denounce_priest_base_chance float = "33.0"/>
+        <denounce_attack_modifier float = "1.0"/>
+        <denounce_defence_modifier float = "1.0"/>
+        <denounce_chance_min int = "5"/>
+        <denounce_chance_max int = "95"/>
+        <denounce_heretic_attemp_modifier float = "1.5"/>
+        <denounce_character_attemp_modifier float = "0.5"/>
+        <assassinate_base_chance float = "33.0"/>
+        <assassinate_attack_modifier float = "0.8"/>
+        <assassinate_defence_modifier float = "0.8"/>
+        <assassinate_public_modifier float = "0.25"/>
+        <assassinate_personal_modifier float = "0.25"/>
+        <assassinate_counter_spy_modifier float = "1.0"/>
+        <assassinate_agent_modifier float = "1.24"/>
+        <assassinate_own_region_modifier float = "1.50"/>
+        <assassinate_assassinate_attr_modifier float = "0.18"/>
+        <assassinate_chance_min int = "5"/>
+        <assassinate_chance_max int = "95"/>
+        <acquisition_base_chance float = "40.0"/>
+        <acquisition_level_modifier float = "5.0"/>
+        <acquisition_attack_trade_rights_modifier float = "1.3"/>
+        <acquisition_defence_trade_rights_modifier float = "0.7"/>
+        <acquisition_chance_min int = "5"/>
+        <acquisition_chance_max int = "95"/>
+        <inquisitor_crt_heresy_divisor float = "1.0"/>
+        <inquisitor_crt_pfp_modifier float = "0.5"/>
+        <inquisitor_crt_pfp_modifier_min float = "0.0"/>
+        <inquisitor_crt_pfp_modifier_max float = "1.0"/>
+        <inquisitor_crt_chance_min float = "0.0"/>
+        <inquisitor_crt_chance_max float = "0.1"/>
+        <inquisitor_target_leaders bool = "false"/>
+        <inquisitor_target_heirs bool = "false"/>
+        <spy_base_chance float = "40.0"/><!--base spying chance -->
+        <spy_level_modifier float = "0.15"/><!--modifies the amount the subterfuge rating of a spy affects chance of success -->
+        <not_spy_level_modifier float = "0.5"/><!--modifies the chance of success if spying object not a spy -->
+        <spy_public_modifier float = "1.0"/><!--inversely modifies the amount the public security aspects of the target affects chance of success -->
+        <spy_counter_spy_modifier float = "1.0"/><!--inversely modifies the amount the combined subterfuge rating with the target affects chance of success -->
+        <spy_distance_modifier float = "1.0"/><!--inversely modifies the amount the distance in movement points from the target affects chance of success -->
+        <spy_secret_agent_target_modifier float = "0.5"/><!--modifies the chance of success if an assassin or spy is travelling with a target army -->
+        <spy_sedentary_turns_modifier float = "0.2"/><!--modifies the amount of turns a target has been stationary affects chance of success -->
+        <spy_alliance_modifier float = "1.5"/><!--modifies the chance of success if the target is allied with spy faction -->
+        <spy_target_engaged_modifier float = "2.0"/><!--modifies the chance of success if target is in engagement, under siege or battle -->
+        <spy_in_settlement_modifier float = "5.0"/><!--modifies the chance of success if spy in settlement they are spying on -->
+        <spy_watchtower_modifier float = "1.5"/><!--modifies the chance of success if spying object is a watchtower -->
+        <spy_in_own_region_modifier float = "1.5"/><!--modifies the chance of success if spy in in their own factions region -->
+        <spy_chance_min int = "5"/><!--min clamp for spy chance -->
+        <spy_chance_max int = "95"/><!--max clamp for spy chance -->
+        <spy_rescale_chance bool = "true"/><!--flag to indicate if the final chance is non-linearly rescaled to improve spying chance of success -->
+    </agents>
+    <crusades>
+        <required_jihad_piety int = "4"/>
+        <max_disband_progress float = "10.0"/>
+        <near_target_no_disband_distance float = "50.0"/>
+        <disband_progress_window float = "10.0"/>
+        <crusade_called_start_turn float = "25.0"/>
+        <jihad_called_start_turn float = "25.0"/>
+        <movement_points_modifier float = "1.5"/>
+    </crusades>
+    <ai>
+        <!--PRIEST CONTROLLER -->
+        <priest_religion_min float = "0.55"/><!--if religion < religion_min then region needs a priest -->
+        <priest_religion_max float = "0.95"/><!--if religion >= religion_max then a priest can be taken from this region for other missions -->
+        <priest_heresey_min float = "0.40"/><!--if heresey >= heresey_min then region needs a priest -->
+        <priest_heresey_max float = "0.60"/><!--if heresey >= heresey_max then region needs a priest with highest priority -->
+        <priest_religion_export float = "0.50"/><!--if my religion in foreign region < religion_export then then we will export our religion in this region -->
+        <priest_max_prod_turns float = "5.0"/>
+        <!--CAMPAIGN ATTACK -->
+        <att_str_modifier float = "0.75"/><!--modifies the effective attackers strength when determining the priority of making attack decision (i.e. att_def_strength_ratio = ((att_str*att_str_modifier)/def_str) -->
+        <siege_att_str_modifier float = "0.30"/><!--modifies the effective sieging attackers strength when determining the priority of making attack decision -->
+        <crusade_att_str_modifier float = "1.0"/><!--modifies the effective crusading sieging attackers strength when determining the priority of making attack decision -->
+        <sally_att_str_modifier float = "0.70"/><!--modifies the effective sallying attackers strength when determining the priority of making attack decision -->
+        <ambush_att_str_modifier float = "1.2"/><!--modifies the effective ambushing attackers strength when determining the priority of making attack decision -->
+        <str_limit_weak float = "0.50"/><!--min ideal strength ratio modifier for determining when an army is far too weak for an attack ( att_def_strength_ratio < (ideal_str_ratio*str_limit_weak) ) -->
+        <str_limit_strong float = "99.0"/><!--max ideal strength ratio modifier for determining when an army is far too strong for a fair attack ( att_def_strength_ratio > (ideal_str_ratio*str_limit_strong) ) -->
+        <merchant_min_survival_acquire int = "75"/><!--the minimum survival chance for a merchant to consider attempting an acquisition -->
+    </ai>
+    <misc>
+        <allow_resource_forts bool = "true"/><!--do we allow forts and watchtowers to be built on resource locations -->
+        <fort_devastation_distance uint = "20"/><!--maximum movement point extents for determining devastation tile targets for forts -->
+        <army_devastation_distance uint = "20"/><!--maximum movement point extents for determining devastation tile targets for field armies -->
+        <fort_devastation_modifier float = "1.0"/><!--num devastated tiles modifier for forts -->
+        <army_devastation_modifier float = "1.0"/><!--num devastated tiles modifier for field armies -->
+        <allow_enemy_forts bool = "false"/><!--do we allow forts to be built in enemy regions -->
+        <siege_movement_points_modifier float = "1.00"/><!--movement points modifier for siege units -->
+        <cavalry_movement_points_modifier float = "1.00"/><!--movement points modifier for cavalry units -->
+        <enable_hotseat_messages bool = "true"/><!--do we allow hotseat messages to be send between human players -->
+        <enable_unit_accent_overrides bool = "true"/><!--do we use unit db accent overrides for campaign unit selection -->
+    </misc>
+</root>

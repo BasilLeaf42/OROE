@@ -1,0 +1,684 @@
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
+;non region			based
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+rebel_type			gladiator_uprising
+category			gladiator_revolt
+chance				100
+description			gladiator_uprising
+unit				Euro Bandits
+
+;======================================================================================
+					
+rebel_type			brigands
+category			brigands
+chance				50
+description			brigands
+unit				Euro Bandits
+					
+rebel_type			pirates
+category			pirates
+chance				50
+description			pirates
+unit				Ship Transport	
+
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
+;region			based
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+		
+rebel_type			Livonian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Livonian_Rebels
+unit				Euro Bandits
+
+rebel_type			Bohemian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Bohemian_Rebels
+unit				Euro Bandits
+
+rebel_type			Bulgarian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Bulgarian_Rebels
+unit				Euro Bandits
+
+rebel_type			Wallachian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Wallachian_Rebels
+unit				Euro Bandits
+
+rebel_type			Greek_Rebels
+category			peasant_revolt 
+chance				3					
+description			Greek_Rebels
+unit				Euro Bandits
+
+rebel_type			Albania_Rebels
+category			peasant_revolt 
+chance				3					
+description			Albania_Rebels
+unit				Euro Bandits
+
+rebel_type			Native_Rebels
+category			peasant_revolt 
+chance				3					
+description			Native_Rebels
+unit				Euro Bandits
+
+rebel_type			Sioux_Rebels
+category			peasant_revolt 
+chance				3					
+description			Sioux_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Wyandot_Rebels
+category			peasant_revolt 
+chance				3					
+description			Wyandot_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Inuit_Rebels
+category			peasant_revolt 
+chance				3					
+description			Inuit_Rebels
+unit				Steppe Spearmen
+
+rebel_type			Apache_Rebels
+category			peasant_revolt 
+chance				3					
+description			Apache_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Coahuiltec_Rebels
+category			peasant_revolt 
+chance				3					
+description			Coahuiltec_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Cherokee_Rebels
+category			peasant_revolt 
+chance				3					
+description			Cherokee_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Shawnee_Rebels
+category			peasant_revolt 
+chance				3					
+description			Shawnee_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Taiwan_Rebels
+category			peasant_revolt 
+chance				3					
+description			Taiwan_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Japan_Rebels
+category			peasant_revolt 
+chance				3					
+description			Japan_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Japanbudi_Rebels
+category			peasant_revolt 
+chance				3					
+description			Japanbudi_Rebels
+unit				Japan Sohei
+
+rebel_type			Ryukyu_Rebels
+category			peasant_revolt 
+chance				3					
+description			Ryukyu_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Ainu_Rebels
+category			peasant_revolt 
+chance				3					
+description			Ainu_Rebels
+unit				Japan Ainu
+
+rebel_type			Malaya_Rebels
+category			peasant_revolt 
+chance				3					
+description			Malaya_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Papu_Rebels
+category			peasant_revolt 
+chance				3					
+description			Papu_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Australia_Rebels
+category			peasant_revolt 
+chance				3					
+description			Australia_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Champa_Rebels
+category			peasant_revolt 
+chance				3					
+description			Champa_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Pagan_Rebels
+category			peasant_revolt 
+chance				3					
+description			Pagan_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Siam_Rebels
+category			peasant_revolt 
+chance				3					
+description			Siam_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Mueang_Rebels
+category			peasant_revolt 
+chance				3					
+description			Mueang_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Croatian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Croatian_Rebels
+unit				Euro Bandits
+
+rebel_type			Anatolian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Anatolian_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			English_Rebels
+category			peasant_revolt 
+chance				3					
+description			English_Rebels
+unit				Euro Bandits
+
+rebel_type			French_Rebels
+category			peasant_revolt 
+chance				3					
+description			French_Rebels
+unit				Euro Bandits
+
+rebel_type			Normandie_Rebels
+category			peasant_revolt 
+chance				3					
+description			Normandie_Rebels
+unit				Euro Bandits
+
+rebel_type			Breizh_Rebels
+category			peasant_revolt 
+chance				3					
+description			Breizh_Rebels
+unit				Euro Bandits
+
+rebel_type			Acquitaine_Rebels
+category			peasant_revolt 
+chance				3					
+description			Acquitaine_Rebels
+unit				Euro Bandits
+
+rebel_type			Magyar_Rebels
+category			peasant_revolt 
+chance				3					
+description			Magyar_Rebels
+unit				Euro Bandits
+
+rebel_type			Iberian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Iberian_Rebels
+unit				Euro Bandits
+
+rebel_type			Andalousia_Rebels
+category			peasant_revolt 
+chance				3					
+description			Andalousia_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Irish_Rebels
+category			peasant_revolt 
+chance				3					
+description			Irish_Rebels
+unit				Euro Bandits
+
+rebel_type			Rus_Rebels
+category			peasant_revolt 
+chance				3					
+description			Rus_Rebels
+unit				Euro Bandits
+
+rebel_type			Kiev_Rebels
+category			peasant_revolt 
+chance				3					
+description			Kiev_Rebels
+unit				Euro Bandits
+
+rebel_type			Muscovy_Rebels
+category			peasant_revolt 
+chance				3					
+description			Muscovy_Rebels
+unit				Euro Bandits
+
+rebel_type			Smolensk_Rebels
+category			peasant_revolt 
+chance				3					
+description			Smolensk_Rebels
+unit				Euro Bandits
+
+rebel_type			Chernigov_Rebels
+category			peasant_revolt 
+chance				3					
+description			Chernigov_Rebels
+unit				Euro Bandits
+
+rebel_type			Mexican_Rebels
+category			peasant_revolt 
+chance				3					
+description			Mexican_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Chichimec_Rebels
+category			peasant_revolt 
+chance				3					
+description			Chichimec_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Tlaxcaltec_Rebels
+category			peasant_revolt 
+chance				3					
+description			Tlaxcaltec_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Texcoco_Rebels
+category			peasant_revolt 
+chance				3					
+description			Texcoco_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Inca_Rebels
+category			peasant_revolt 
+chance				3					
+description			Inca_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Maya_Rebels
+category			peasant_revolt 
+chance				3					
+description			Maya_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Tarasc_Rebels
+category			peasant_revolt 
+chance				3					
+description			Tarasc_Rebels
+unit				Meso Levy Spearmen
+
+rebel_type			Norse_Rebels
+category			peasant_revolt 
+chance				3					
+description			Norse_Rebels
+unit				Euro Bandits
+
+rebel_type			Sweden_Rebels
+category			peasant_revolt 
+chance				3					
+description			Sweden_Rebels
+unit				Euro Bandits
+
+rebel_type			Norge_Rebels
+category			peasant_revolt 
+chance				3					
+description			Norge_Rebels
+unit				Euro Bandits
+
+rebel_type			Viking_Rebels
+category			peasant_revolt 
+chance				3					
+description			Viking_Rebels
+unit				Euro Bandits
+
+rebel_type			Polish_Rebels
+category			peasant_revolt 
+chance				3					
+description			Polish_Rebels
+unit				Euro Bandits
+
+rebel_type			Pomerania_Rebels
+category			peasant_revolt 
+chance				3					
+description			Pomerania_Rebels
+unit				Euro Bandits
+
+rebel_type			Saharan_Rebels
+category			peasant_revolt 
+chance				3					
+description			Saharan_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Ethiopia_Rebels
+category			peasant_revolt 
+chance				3					
+description			Ethiopia_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Bantu_Rebels
+category			peasant_revolt 
+chance				3					
+description			Bantu_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Nubia_Rebels
+category			peasant_revolt 
+chance				3					
+description			Nubia_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Scots_Rebels
+category			peasant_revolt 
+chance				3					
+description			Scots_Rebels
+unit				Euro Bandits
+
+rebel_type			Seljuk_Rebels
+category			peasant_revolt 
+chance				3					
+description			Seljuk_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Sindh_Rebels
+category			peasant_revolt 
+chance				3					
+description			Sindh_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			India_Rebels
+category			peasant_revolt 
+chance				3					
+description			India_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Bangla_Rebels
+category			peasant_revolt 
+chance				3					
+description			Bangla_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Gujarat_Rebels
+category			peasant_revolt 
+chance				3					
+description			Gujarat_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Sri_Rebels
+category			peasant_revolt 
+chance				3					
+description			Sri_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Karnataka_Rebels
+category			peasant_revolt 
+chance				3					
+description			Karnataka_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Tamil_Rebels
+category			peasant_revolt 
+chance				3					
+description			Tamil_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Afghan_Rebels
+category			peasant_revolt 
+chance				3					
+description			Afghan_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Swahili_Rebels
+category			peasant_revolt 
+chance				3					
+description			Swahili_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Island_Rebels
+category			peasant_revolt 
+chance				3					
+description			Island_Rebels
+unit				Euro Bandits
+
+rebel_type			Spanish_Rebels
+category			peasant_revolt 
+chance				3					
+description			Spanish_Rebels
+unit				Euro Bandits
+
+rebel_type			Leon_Rebels
+category			peasant_revolt 
+chance				3					
+description			Leon_Rebels
+unit				Euro Bandits
+
+rebel_type			Navarre_Rebels
+category			peasant_revolt 
+chance				3					
+description			Navarre_Rebels
+unit				Euro Bandits
+
+rebel_type			Aragon_Rebels
+category			peasant_revolt 
+chance				3					
+description			Aragon_Rebels
+unit				Euro Bandits
+
+rebel_type			Steppe_Rebels
+category			peasant_revolt 
+chance				3					
+description			Steppe_Rebels
+unit				Steppe Archers
+
+rebel_type			Chinese_Rebels
+category			peasant_revolt 
+chance				3					
+description			Chinese_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Liao_Rebels
+category			peasant_revolt 
+chance				3					
+description			Liao_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Nanzhao_Rebels
+category			peasant_revolt 
+chance				3					
+description			Nanzhao_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Goryeo_Rebels
+category			peasant_revolt 
+chance				3					
+description			Goryeo_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Daiviet_Rebels
+category			peasant_revolt 
+chance				3					
+description			Daiviet_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Mongol_Rebels
+category			peasant_revolt 
+chance				3					
+description			Mongol_Rebels
+unit				Steppe Archers
+
+rebel_type			Jurchen_Rebels
+category			peasant_revolt 
+chance				3					
+description			Jurchen_Rebels
+unit				Asian Levy Spearmen
+
+rebel_type			Xia_Rebels
+category			peasant_revolt 
+chance				3					
+description			Xia_Rebels
+unit				Steppe Archers
+
+rebel_type			Karakitai_Rebels
+category			peasant_revolt 
+chance				3					
+description			Karakitai_Rebels
+unit				Steppe Archers
+
+rebel_type			Kazakh_Rebels
+category			peasant_revolt 
+chance				3					
+description			Kazakh_Rebels
+unit				Steppe Archers
+
+rebel_type			Cuman_Rebels
+category			peasant_revolt 
+chance				3					
+description			Cuman_Rebels
+unit				Steppe Archers
+
+rebel_type			Bolgar_Rebels
+category			peasant_revolt 
+chance				3					
+description			Bolgar_Rebels
+unit				Euro Bandits
+
+rebel_type			Khazar_Rebels
+category			peasant_revolt 
+chance				3					
+description			Khazar_Rebels
+unit				Euro Bandits
+
+rebel_type			Swiss_Rebels
+category			peasant_revolt 
+chance				3					
+description			Swiss_Rebels
+unit				Euro Bandits
+
+rebel_type			Austria_Rebels
+category			peasant_revolt 
+chance				3					
+description			Austria_Rebels
+unit				Euro Bandits
+
+rebel_type			Welsh_Rebels
+category			peasant_revolt 
+chance				3					
+description			Welsh_Rebels
+unit				Euro Bandits
+
+rebel_type			Fatimid_Rebels
+category			peasant_revolt 
+chance				3					
+description			Fatimid_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Maroc_Rebels
+category			peasant_revolt 
+chance				3					
+description			Maroc_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Tunis_Rebels
+category			peasant_revolt 
+chance				3					
+description			Tunis_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Algiers_Rebels
+category			peasant_revolt 
+chance				3					
+description			Algiers_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			Flemish_Rebels
+category			peasant_revolt 
+chance				3					
+description			Flemish_Rebels
+unit				Euro Bandits
+
+rebel_type			Holland_Rebels
+category			peasant_revolt 
+chance				3					
+description			Holland_Rebels
+unit				Euro Bandits
+
+rebel_type			Italian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Italian_Rebels
+unit				Euro Bandits
+
+rebel_type			Venice_Rebels
+category			peasant_revolt 
+chance				3					
+description			Venice_Rebels
+unit				Euro Bandits
+
+rebel_type			Toscana_Rebels
+category			peasant_revolt 
+chance				3					
+description			Toscana_Rebels
+unit				Euro Bandits
+
+rebel_type			Roma_Rebels
+category			peasant_revolt 
+chance				3					
+description			Roma_Rebels
+unit				Euro Bandits
+
+rebel_type			Arab_Rebels
+category			peasant_revolt 
+chance				3					
+description			Arab_Rebels
+unit				Muslim Mutatawwia
+
+rebel_type			German_Rebels
+category			peasant_revolt 
+chance				3					
+description			German_Rebels
+unit				Euro Bandits
+
+rebel_type			Preusse_Rebels
+category			peasant_revolt 
+chance				3					
+description			Preusse_Rebels
+unit				Euro Bandits
+
+rebel_type			Hamburg_Rebels
+category			peasant_revolt 
+chance				3					
+description			Hamburg_Rebels
+unit				Euro Bandits
+			
+rebel_type			Burgundian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Burgundian_Rebels
+unit				Euro Bandits
+
+rebel_type			Armenian_Rebels
+category			peasant_revolt 
+chance				3					
+description			Armenian_Rebels
+unit				Euro Bandits
+
+rebel_type			Georgia_Rebels
+category			peasant_revolt 
+chance				3
+description			Georgia_Rebels		
+unit				Euro Bandits
+
+					

@@ -1,0 +1,11 @@
+catholic
+orthodox
+islam
+buddhism
+hinduism
+shinto
+chinese
+pagan
+heretic
+sungod
+z_orthodox

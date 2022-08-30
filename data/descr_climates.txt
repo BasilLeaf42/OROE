@@ -1,0 +1,352 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	heat	range 1-4 (zero would mean no armour effects to fatigue at all)
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+climates
+{
+	mediterranean
+	sandy_desert
+	rocky_desert
+	unused1
+	steppe
+	temperate_deciduous_forest
+	temperate_coniferous_forest
+	unused2
+	highland
+	alpine
+	tropical
+	semi_arid
+}
+
+climate mediterranean
+{
+	colour	236 0 140
+	heat	1
+
+	strategy	summer	sparse_tree	deciduous_A.CAS				5
+	strategy	summer	sparse_tree	cypress_A.CAS				5
+	strategy	summer	sparse_tree	olive_A.CAS				5
+	strategy	summer	dense_tree	cypress_A_impassable.CAS			5
+	strategy	summer	dense_tree	birch_a.CAS				5
+	strategy	summer	dense_tree	olive_A_impassable.CAS			5
+	strategy	summer	canopy		cypress_A_impassable.CAS			5
+	strategy	summer	canopy		birch_a.CAS				5
+
+	battle_vegetation
+	dense_forest		medi_dense_forest
+	dense_scrub		medi_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest		medi_dense_forest
+	dense_scrub		medi_dense_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate sandy_desert
+{
+	colour	102 45 145
+	heat	4
+
+	strategy	summer	sparse_tree	palm_b.CAS				5
+	strategy	summer	dense_tree	palm_small_a.CAS				5
+	strategy	summer	dense_tree	palm_small_b.CAS				5
+	strategy	summer	dense_tree	palm_a.CAS				5
+	strategy	summer	canopy		tropical_group_a.cas			5
+	strategy	summer	canopy		tropical_group_b.cas			5
+
+	battle_vegetation
+	dense_forest	dense_pine
+	dense_scrub		medi_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	winter_dense_pine
+	dense_scrub		medi_dense_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate rocky_desert
+{
+	colour	146 39 143
+	heat	3
+
+	strategy	summer	sparse_tree	palm_b.CAS				5
+	strategy	summer	dense_tree	palm_b.CAS				5
+	strategy	summer	canopy		palm_a.CAS				5
+	strategy	summer	canopy		palm_b.CAS				5
+
+	battle_vegetation
+	dense_forest		rocky_desert_rock
+	dense_scrub		rocky_desert_scrub
+
+	battle_winter_vegetation
+	dense_forest		rocky_desert_rock
+	dense_scrub		rocky_desert_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate unused1
+{
+	colour	237 20 91
+	heat	1
+	winter
+
+	strategy	summer	sparse_tree	birch_a.cas						1
+	strategy	summer	dense_tree	birch_a.cas			0
+	strategy	summer	canopy		birch_a.cas				12
+
+	strategy	winter	sparse_tree	birch_a_winter.cas				5
+	strategy	winter	dense_tree	birch_a_winter.cas		4
+	strategy	winter	canopy		birch_a_winter.cas			13
+
+	battle_vegetation
+	dense_forest	grass_fert_dense_forest
+	dense_scrub		grass_fert_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	grass_fert_dense_forest_win
+	dense_scrub		grass_fert_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate steppe
+{
+	colour	237 28 36
+	heat	1
+	winter
+	
+	strategy	summer	sparse_tree	deciduous_A.CAS				5
+	strategy	summer	sparse_tree	cypress_A.CAS				5
+	strategy	summer	sparse_tree	conifer_a.cas				5
+	strategy	summer	dense_tree	cypress_A_impassable.CAS			5
+	strategy	summer	dense_tree	birch_a.CAS				5
+	strategy	summer	dense_tree	conifer_a_impassable.cas			5
+	strategy	summer	canopy		cypress_A_impassable.CAS			5
+	strategy	summer	canopy		conifer_a_impassable.cas			5
+
+	strategy	winter	sparse_tree	deciduous_A_winter.CAS			5
+	strategy	winter	sparse_tree	cypress_A_winter.CAS			5
+	strategy	winter	sparse_tree	conifer_a_winter.cas			5
+	strategy	winter	dense_tree	cypress_A_impassable_winter.CAS		5
+	strategy	winter	dense_tree	birch_a_winter.cas				5
+	strategy	winter	dense_tree	conifer_a_impassable_winter.cas		5
+	strategy	winter	canopy		cypress_A_impassable_winter.CAS		5
+	strategy	winter	canopy		conifer_a_impassable_winter.cas		5
+
+	battle_vegetation
+	dense_forest	grass_infert_dense_forest
+	dense_scrub		grass_infert_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	grass_infert_dense_forest_win
+	dense_scrub		grass_infert_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_deciduous_forest
+{
+	colour	242 101 34
+	heat	1
+	winter
+
+	strategy	summer	sparse_tree	deciduous_A.CAS				5
+	strategy	summer	sparse_tree	cypress_A.CAS				5
+	strategy	summer	sparse_tree	olive_A.CAS				5
+	strategy	summer	dense_tree	cypress_A_impassable.CAS			5
+	strategy	summer	dense_tree	birch_a.CAS				5
+	strategy	summer	dense_tree	olive_A_impassable.CAS			5
+	strategy	summer	canopy		conifer_a_impassable.cas			5
+	strategy	summer	canopy		cypress_A_impassable.CAS			5
+
+	strategy	winter	sparse_tree	deciduous_A_winter.CAS			5
+	strategy	winter	sparse_tree	cypress_A_winter.CAS			5
+	strategy	winter	sparse_tree	olive_winter.CAS				5
+	strategy	winter	dense_tree	cypress_A_impassable_winter.CAS		5
+	strategy	winter	dense_tree	birch_a_winter.cas				5
+	strategy	winter	dense_tree	olive_impassable_winter.CAS		5
+	strategy	winter	canopy		cypress_A_impassable_winter.CAS		5
+	strategy	winter	canopy		conifer_a_impassable_winter.cas		5
+
+	battle_vegetation
+	dense_forest	forest_open_dense_forest
+	dense_scrub		forest_open_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	forest_open_dense_forest_win
+	dense_scrub		forest_open_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_coniferous_forest
+{
+	colour	247 148 29
+	heat	1
+	winter
+
+	strategy	summer	sparse_tree	deciduous_A.CAS				5
+	strategy	summer	sparse_tree	cypress_A.CAS				5
+	strategy	summer	sparse_tree	conifer_a.cas				5
+	strategy	summer	dense_tree	cypress_A_impassable.CAS			5
+	strategy	summer	dense_tree	birch_a.CAS				5
+	strategy	summer	dense_tree	conifer_a.cas				5
+	strategy	summer	canopy		conifer_a_impassable.cas			5
+	strategy	summer	canopy		conifer_a_canopy.cas			15
+	strategy	summer	canopy		cypress_A_impassable.CAS			5
+
+	strategy	winter	sparse_tree	deciduous_A_winter.CAS			5
+	strategy	winter	sparse_tree	cypress_A_winter.CAS			5
+	strategy	winter	sparse_tree	conifer_a_winter.cas			5
+	strategy	winter	dense_tree	cypress_A_impassable_winter.CAS		5
+	strategy	winter	dense_tree	birch_a_winter.cas				5
+	strategy	winter	dense_tree	conifer_a_winter.cas			5
+	strategy	winter	canopy		conifer_a_impassable_winter.cas		5
+	strategy	winter	canopy		cypress_A_impassable_winter.CAS		5
+
+	battle_vegetation
+	dense_forest	forest_deep_dense_forest
+	dense_scrub		forest_deep_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	forest_deep_dense_forest_win
+	dense_scrub		forest_deep_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate unused2
+{
+	colour	255 242 0
+	heat	1
+
+	battle_vegetation
+	dense_forest	dense_pine
+	dense_scrub		medi_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	winter_dense_pine
+	dense_scrub		medi_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate highland
+{
+	colour	141 198 63
+	heat	1
+	winter
+
+	strategy	summer	sparse_tree	deciduous_A.CAS				5
+	strategy	summer	sparse_tree	cypress_A.CAS				5
+	strategy	summer	sparse_tree	conifer_a.cas				5
+	strategy	summer	dense_tree	cypress_A_impassable.CAS			5
+	strategy	summer	dense_tree	birch_a.CAS				5
+	strategy	summer	dense_tree	conifer_a.cas				5
+	strategy	summer	canopy		cypress_A_impassable.CAS			5
+	strategy	summer	canopy		conifer_a_impassable.cas			5
+
+	strategy	winter	sparse_tree	deciduous_A_winter.CAS			5
+	strategy	winter	sparse_tree	cypress_A_winter.CAS			5
+	strategy	winter	sparse_tree	conifer_a_winter.cas			5
+	strategy	winter	dense_tree	cypress_A_impassable_winter.CAS		5
+	strategy	winter	dense_tree	birch_a_winter.cas				5
+	strategy	winter	dense_tree	conifer_a_winter.cas			5
+	strategy	winter	canopy		cypress_A_impassable_winter.CAS		5
+	strategy	winter	canopy		conifer_a_impassable_winter.cas		5
+	
+	battle_vegetation
+	dense_forest	highland_dense_forest
+	dense_scrub		highland_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	highland_dense_forest_win
+	dense_scrub		highland_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate alpine
+{
+	colour	57 181 74
+	heat	1
+	winter
+
+	strategy	summer	sparse_tree	deciduous_A.CAS				5
+	strategy	summer	sparse_tree	cypress_A.CAS				5
+	strategy	summer	sparse_tree	conifer_a.cas				5
+	strategy	summer	dense_tree	cypress_A_impassable.CAS			5
+	strategy	summer	dense_tree	birch_a.CAS				5
+	strategy	summer	dense_tree	conifer_a.cas				5
+	strategy	summer	canopy		cypress_A_impassable.CAS			5
+	strategy	summer	canopy		conifer_a_impassable.cas			5
+
+	strategy	winter	sparse_tree	deciduous_A_winter.CAS			5
+	strategy	winter	sparse_tree	cypress_A_winter.CAS			5
+	strategy	winter	sparse_tree	conifer_a_winter.cas			5
+	strategy	winter	dense_tree	cypress_A_impassable_winter.CAS		5
+	strategy	winter	dense_tree	birch_a_winter.cas				5
+	strategy	winter	dense_tree	conifer_a_winter.cas			5
+	strategy	winter	canopy		cypress_A_impassable_winter.CAS		5
+	strategy	winter	canopy		conifer_a_impassable_winter.cas		5
+
+	battle_vegetation
+	dense_forest	alpine_dense_forest
+	dense_scrub		alpine_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest		alpine_dense_forest_win
+	dense_scrub		alpine_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate tropical
+{
+	colour	0 166 81
+	heat	2
+	winter
+
+	strategy	summer	sparse_tree	palm_small_a.cas		5
+	strategy	summer	sparse_tree	palm_b.cas		5
+	strategy	summer	sparse_tree	tropical_group_b.cas	5
+	strategy	summer	dense_tree	tropical_group_b.cas	5
+	strategy	summer	dense_tree	palm_small_b.cas		5
+	strategy	summer	canopy		tropical_group_a.cas	5
+	strategy	summer	canopy		tropical_group_b.cas	5
+	strategy	summer	canopy		palm_a.cas		5
+
+	
+	battle_vegetation
+	dense_forest	sub_arctic_dense_forest
+	dense_scrub		sub_arctic_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	sub_arctic_dense_forest_win
+	dense_scrub		sub_arctic_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate semi_arid
+{
+	colour	0 114 188
+	heat	2
+
+	strategy	summer	sparse_tree	deciduous_A.CAS		5
+	strategy	summer	sparse_tree	palm_b.CAS		5
+	strategy	summer	sparse_tree	olive_A.CAS		5
+	strategy	summer	sparse_tree	cypress_A.CAS		5
+	strategy	summer	dense_tree	olive_A_impassable.CAS	5
+	strategy	summer	dense_tree	birch_a.CAS		5
+	strategy	summer	dense_tree	deciduous_A.CAS		5
+	strategy	summer	dense_tree	cypress_A.CAS		5
+	strategy	summer	canopy		olive_A.CAS		5
+	strategy	summer	canopy		birch_a.CAS		5
+	strategy	summer	canopy		deciduous_A.CAS		5
+	strategy	summer	canopy		cypress_A_impassable.CAS	5
+
+	battle_vegetation
+	dense_forest	semi_arid_dense_forest
+	dense_scrub		semi_arid_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	semi_arid_dense_forest
+	dense_scrub		semi_arid_dense_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+

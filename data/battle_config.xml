@@ -1,0 +1,367 @@
+<config>
+    <!--XAI V4.0 April 2010, Personal use only! You need specific written permisson,-->
+    <!--to use this code in part or  in whole, for any mod other than XAI approved mods-->
+    <!--Seriously-->
+    <!--We worked extremely hard on this code and want you to enjoy it!-->
+    <!--This file affects both the AI and the human player -->
+    <!--******You may choose the red or the blue pill the decision is yours******** -->
+    <!--Global Combat Balancing Factors -->
+    <!--Use these to perform general game balancing between unit types, -->
+    <!--then edit EDU,and Missiles for fine tuning of unit performance -->
+    <combat-balancing>
+        <!--Combat balancing is designed to help bring balance to the player in the most convienant way possible
+        Fair warning though, it can have unpredicted results in your campaign balance, however if you feel a particular 
+        type of unit is too strong or weak (say cavalry) simply balance here, use very small increments, like tenths-->
+        <missile-target-accuracy>
+            <infantry>
+                <gunpowder_unit>1.0</gunpowder_unit>
+                <crossbow>1.0</crossbow>
+                <missile>1.0</missile>
+                <skirmish>1.0</skirmish>
+            </infantry>
+            <cavalry>
+                <elephants>1.0</elephants>
+                <gunpowder_unit>1.0</gunpowder_unit>
+                <crossbow>1.0</crossbow>
+                <missile>1.0</missile>
+                <skirmish>1.0</skirmish>
+            </cavalry>
+            <siege>
+                <mortar>1.0</mortar>
+                <rocket>1.0</rocket>
+                <cannon>1.0</cannon>
+                <artillery>1.0</artillery>
+            </siege>
+        </missile-target-accuracy>
+        <melee-hit-rate>
+            <infantry>
+                <pike>1.0</pike>
+                <spearmen>1.0</spearmen>
+                <heavy>1.0</heavy>
+                <light>1.0</light>
+                <missile>1.0</missile>
+                <skirmish>1.0</skirmish>
+            </infantry>
+            <cavalry>
+                <general_unit>1.0</general_unit>
+                <general_unit_upgrade>1.0</general_unit_upgrade>
+                <heavy>1.0</heavy>
+                <light>1.0</light>
+                <missile>1.0</missile>
+                <skirmish>1.0</skirmish>
+            </cavalry>
+        </melee-hit-rate>
+    </combat-balancing>
+    <!--per unit task configuration -->
+    <unit-tasks>
+        <!--wall reform - used for split up units -->
+        <wall-reform>
+            <!--once more than this number are queued up, split across the other ladders -->
+            <queue-length-before-split>2</queue-length-before-split>
+        </wall-reform>
+        <!--unformed charge -->
+        <unformed-charge>
+            <!--Sets minimum range for charging and seperates by type of unit-->
+            <min-charge-dist>
+                <infantry>50</infantry>
+                <cavalry>80</cavalry>
+            </min-charge-dist>
+            <percentage>50</percentage>
+            <!--Sets maximum units needed to be considered able to charge -->
+            <percentage-finished>
+                <general_unit>85.0</general_unit>
+                <general_unit_upgrade>85.0</general_unit_upgrade>
+                <pike>85.0</pike>
+                <spearmen>80.0</spearmen>
+                <infantry>
+                    <heavy>75.0</heavy>
+                    <light>70.0</light>
+                    <skirmish>65.0</skirmish>
+                    <missile>65.0</missile>
+                </infantry>
+                <cavalry>
+                    <heavy>80.0</heavy>
+                    <light>75.0</light>
+                    <skirmish>70.0</skirmish>
+                    <missile>70.0</missile>
+                </cavalry>
+            </percentage-finished>
+        </unformed-charge>
+    </unit-tasks>
+    <unit>
+        <intercept-range>
+            <open>
+                <general_unit>.25</general_unit>
+                <general_unit_upgrade>.25</general_unit_upgrade>
+                <pike>.25</pike>
+                <spearmen>.50</spearmen>
+                <heavy-infantry>.50</heavy-infantry>
+                <light-infantry>.50</light-infantry>
+                <heavy-cavalry>.75</heavy-cavalry>
+                <light-cavalry>.75</light-cavalry>
+            </open>
+            <settlement>
+                <general_unit>.10</general_unit>
+                <general_unit_upgrade>.10</general_unit_upgrade>
+                <pike>.10</pike>
+                <spearmen>.20</spearmen>
+                <heavy-infantry>.30</heavy-infantry>
+                <light-infantry>.30</light-infantry>
+                <heavy-cavalry>.50</heavy-cavalry>
+                <light-cavalry>.50</light-cavalry>
+            </settlement>
+        </intercept-range>
+        <!--skirmish configuration -->
+        <skirmish>
+            <infantry>
+                <default>
+                    <!--ignore targets at a distance greater than the maximum range times this scale factor -->
+                    <max-range-scale>1.25</max-range-scale>
+                    <!--must skirmish if within this range -->
+                    <min-range>10</min-range>
+                    <!--stop at this distance if the enemy is blocking the path -->
+                    <min-stopping-range>20</min-stopping-range>
+                    <!--time to react to being intercepted -->
+                    <collision-reaction-time>5</collision-reaction-time>
+                    <!--retreat buffer time -->
+                    <retreat-time>8</retreat-time>
+                    <!--don't skirmish until attackers are within this fraction of the missile range -->
+                    <range-factor>
+                        <moving>1.1</moving>
+                        <shooting>0.80</shooting>
+                    </range-factor>
+                </default>
+                <gunpowder_unit>
+                    <!--ignore targets at a distance greater than the maximum range times this scale factor -->
+                    <max-range-scale>1.25</max-range-scale>
+                    <!--must skirmish if within this range -->
+                    <min-range>80</min-range>
+                    <!--stop at this distance if the enemy is blocking the path -->
+                    <min-stopping-range>90</min-stopping-range>
+                    <!--time to react to being intercepted -->
+                    <collision-reaction-time>5</collision-reaction-time>
+                    <!--retreat buffer time -->
+                    <retreat-time>8</retreat-time>
+                    <!--don't skirmish until attackers are within this fraction of the missile range -->
+                    <range-factor>
+                        <moving>1.1</moving>
+                        <shooting>0.80</shooting>
+                    </range-factor>
+                </gunpowder_unit>
+            </infantry>
+            <cavalry>
+                <default>
+                    <!--ignore targets at a distance greater than the maximum range times this scale factor -->
+                    <max-range-scale>1.5</max-range-scale>
+                    <!--must skirmish if within this range -->
+                    <min-range>20</min-range>
+                    <!--stop at this distance if the enemy is blocking the path -->
+                    <min-stopping-range>30</min-stopping-range>
+                    <!--time to react to being intercepted -->
+                    <collision-reaction-time>4</collision-reaction-time>
+                    <!--retreat buffer time -->
+                    <retreat-time>8</retreat-time>
+                    <!--don't skirmish until attackers are within this fraction of the missile range -->
+                    <range-factor>
+                        <moving>1.1</moving>
+                        <shooting>0.80</shooting>
+                    </range-factor>
+                    <!--reaction time for cantabrian circle -->
+                    <cantabrian-reaction-time>8</cantabrian-reaction-time>
+                </default>
+                <gunpowder_unit>
+                    <!--ignore targets at a distance greater than the maximum range times this scale factor -->
+                    <max-range-scale>1.5</max-range-scale>
+                    <!--must skirmish if within this range -->
+                    <min-range>60</min-range>
+                    <!--stop at this distance if the enemy is blocking the path -->
+                    <min-stopping-range>70</min-stopping-range>
+                    <!--time to react to being intercepted -->
+                    <collision-reaction-time>4</collision-reaction-time>
+                    <!--retreat buffer time -->
+                    <retreat-time>10</retreat-time>
+                    <!--don't skirmish until attackers are within this fraction of the missile range -->
+                    <range-factor>
+                        <moving>1.1</moving>
+                        <shooting>0.80</shooting>
+                    </range-factor>
+                    <!--reaction time for cantabrian circle -->
+                    <cantabrian-reaction-time>8</cantabrian-reaction-time>
+                </gunpowder_unit>
+            </cavalry>
+        </skirmish>
+        <!--missile configuration -->
+        <missile>
+            <!--missile units can exceed their max range by this percentage -->
+            <max-missile-range-extension>20</max-missile-range-extension>
+            <infantry>
+                <default>
+                    <!--ignore targets at a distance greater than the maximum range times this scale factor -->
+                    <max-range-scale>1.25</max-range-scale>
+                    <!--must skirmish if within this range -->
+                    <min-range>70</min-range>
+                    <!--stop at this distance if the enemy is blocking the path -->
+                    <min-stopping-range>80</min-stopping-range>
+                    <!--time to react to being intercepted -->
+                    <collision-reaction-time>6</collision-reaction-time>
+                    <!--retreat buffer time -->
+                    <retreat-time>6</retreat-time>
+                    <!--don't skirmish until attackers are within this fraction of the missile range -->
+                    <range-factor>
+                        <moving>1.1</moving>
+                        <shooting>0.80</shooting>
+                    </range-factor>
+                </default>
+                <gunpowder_unit>
+                    <!--ignore targets at a distance greater than the maximum range times this scale factor -->
+                    <max-range-scale>1.25</max-range-scale>
+                    <!--must skirmish if within this range -->
+                    <min-range>80</min-range>
+                    <!--stop at this distance if the enemy is blocking the path -->
+                    <min-stopping-range>90</min-stopping-range>
+                    <!--time to react to being intercepted -->
+                    <collision-reaction-time>5</collision-reaction-time>
+                    <!--retreat buffer time -->
+                    <retreat-time>12</retreat-time>
+                    <!--don't skirmish until attackers are within this fraction of the missile range -->
+                    <range-factor>
+                        <moving>1.1</moving>
+                        <shooting>0.80</shooting>
+                    </range-factor>
+                </gunpowder_unit>
+            </infantry>
+            <cavalry>
+                <default>
+                    <!--ignore targets at a distance greater than the maximum range times this scale factor -->
+                    <max-range-scale>1.5</max-range-scale>
+                    <!--must skirmish if within this range -->
+                    <min-range>70</min-range>
+                    <!--stop at this distance if the enemy is blocking the path -->
+                    <min-stopping-range>80</min-stopping-range>
+                    <!--time to react to being intercepted -->
+                    <collision-reaction-time>4</collision-reaction-time>
+                    <!--retreat buffer time -->
+                    <retreat-time>6</retreat-time>
+                    <!--don't skirmish until attackers are within this fraction of the missile range -->
+                    <range-factor>
+                        <moving>1.1</moving>
+                        <shooting>0.80</shooting>
+                    </range-factor>
+                    <!--reaction time for cantabrian circle -->
+                    <cantabrian-reaction-time>8</cantabrian-reaction-time>
+                </default>
+                <gunpowder_unit>
+                    <!--ignore targets at a distance greater than the maximum range times this scale factor -->
+                    <max-range-scale>1.5</max-range-scale>
+                    <!--must skirmish if within this range -->
+                    <min-range>80</min-range>
+                    <!--stop at this distance if the enemy is blocking the path -->
+                    <min-stopping-range>90</min-stopping-range>
+                    <!--time to react to being intercepted -->
+                    <collision-reaction-time>4</collision-reaction-time>
+                    <!--retreat buffer time -->
+                    <retreat-time>10</retreat-time>
+                    <!--don't skirmish until attackers are within this fraction of the missile range -->
+                    <range-factor>
+                        <moving>1.1</moving>
+                        <shooting>0.80</shooting>
+                    </range-factor>
+                    <!--reaction time for cantabrian circle -->
+                    <cantabrian-reaction-time>8</cantabrian-reaction-time>
+                </gunpowder_unit>
+            </cavalry>
+        </missile>
+    </unit>
+    <settlements>
+        <rules>
+            <!--rules relating to plaza capture -->
+            <plaza-capture>
+                <!--time the plaza needs to be held for to capture -->
+                <time-limit>3.0</time-limit>
+                <!--ratio of attackers to defenders to hold a plaza -->
+                <soldier-ratio>2.0</soldier-ratio>
+            </plaza-capture>
+        </rules>
+    </settlements>
+    <movement>
+        <ladders>
+            <!--should run be the default? -->
+            <default-run>1</default-run>
+            <!--start distance for the blockout region -->
+            <entry-blockout-inner>0</entry-blockout-inner>
+            <!--end distance for the blockout region -->
+            <entry-blockout-outer>25</entry-blockout-outer>
+            <!--limit on number of soldiers in the blockout region -->
+            <number-in-blockout>4</number-in-blockout>
+            <!--distance soldiers should stop at if the entrance is blocked (in metres squared) -->
+            <stand-off-distance>30</stand-off-distance>
+            <!--distance within which soldiers will step onto the line (in metres squared) -->
+            <step-on-distance>20</step-on-distance>
+            <!--queue length limit before movement will be stopped (in number of soldiers -->
+            <maximum-queue-length>32</maximum-queue-length>
+            <!--distance soldiers should stop at if the queue is too long (in metres squared) -->
+            <long-queue-stand-off-distance>50</long-queue-stand-off-distance>
+            <!--when the entrance to a line is blocked all of the soldiers are stopped. -->
+            <!--once the entrance is clear then the first x soldiers will be restarted moving. x is set below -->
+            <restart-threshold>8</restart-threshold>
+            <!--when the entrance to a line is block any soldiers beyond this position in the queue will be halted. -->
+            <halt-threshold>-4</halt-threshold>
+            <!--do the soldiers have to enter in a precise order? -->
+            <precise-order>0</precise-order>
+        </ladders>
+        <siege-tower-ladders>
+            <!--should run be the default? -->
+            <default-run>1</default-run>
+            <!--start distance for the blockout region -->
+            <entry-blockout-inner>0</entry-blockout-inner>
+            <!--end distance for the blockout region -->
+            <entry-blockout-outer>15</entry-blockout-outer>
+            <!--limit on number of soldiers in the blockout region -->
+            <number-in-blockout>4</number-in-blockout>
+            <!--distance soldiers should stop at if the entrance is blocked (in metres squared) -->
+            <stand-off-distance>25</stand-off-distance>
+            <!--distance within which soldiers will step onto the line (in metres squared) -->
+            <step-on-distance>5.0</step-on-distance>
+            <!--queue length limit before movement will be stopped (in number of soldiers -->
+            <maximum-queue-length>80</maximum-queue-length>
+            <!--distance soldiers should stop at if the queue is too long (in metres squared) -->
+            <long-queue-stand-off-distance>30</long-queue-stand-off-distance>
+            <!--when the entrance to a line is blocked all of the soldiers are stopped. -->
+            <!--once the entrance is clear then the first x soldiers will be restarted moving. x is set below -->
+            <restart-threshold>4</restart-threshold>
+            <!--when the entrance to a line is block any soldiers beyond this position in the queue will be halted. -->
+            <halt-threshold>-2</halt-threshold>
+            <!--do the soldiers have to enter in a precise order? -->
+            <precise-order>0</precise-order>
+        </siege-tower-ladders>
+        <corridors>
+            <!--should run be the default? -->
+            <default-run>0</default-run>
+            <!--start distance for the blockout region -->
+            <entry-blockout-inner>0</entry-blockout-inner>
+            <!--end distance for the blockout region -->
+            <entry-blockout-outer>30.0</entry-blockout-outer>
+            <!--limit on number of soldiers in the blockout region -->
+            <number-in-blockout>-1</number-in-blockout>
+            <!--distance soldiers should stop at if the entrance is blocked (in metres squared) -->
+            <stand-off-distance>15</stand-off-distance>
+            <!--distance within which soldiers will step onto the line (in metres squared) -->
+            <step-on-distance>5.0</step-on-distance>
+            <!--queue length limit before movement will be stopped (in number of soldiers -->
+            <maximum-queue-length>50</maximum-queue-length>
+            <!--distance soldiers should stop at if the queue is too long (in metres squared) -->
+            <long-queue-stand-off-distance>30</long-queue-stand-off-distance>
+            <!--when the entrance to a line is blocked all of the soldiers are stopped. -->
+            <!--once the entrance is clear then the first x soldiers will be restarted moving. x is set below -->
+            <restart-threshold>16</restart-threshold>
+            <!--when the entrance to a line is block any soldiers beyond this position in the queue will be halted. -->
+            <halt-threshold>15</halt-threshold>
+            <!--do the soldiers have to enter in a precise order? -->
+            <precise-order>0</precise-order>
+        </corridors>
+    </movement>
+    <audio-triggers>
+        <!--minimum time in seconds between warnings for each unit that it is idle and under fire from missiles -->
+        <min-time-between-attacked-idle-warnings>60.0</min-time-between-attacked-idle-warnings>
+    </audio-triggers>
+</config>
