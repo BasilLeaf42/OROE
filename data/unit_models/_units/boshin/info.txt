@@ -1,0 +1,18 @@
+==="rifle_militia"===
+-Allegiance: Meiji and Tokugawa
+-Recommended Name: Teppotai ("Gun-troop," with "teppo" usually referring to muzzle-loaded guns)
+-Recommended Gear: Backpack, muzzle-loading rifle, bayonet
+-Troop Type: Line infantry
+-Info: Just a generic militia unit that works for both the Meiji and Tokugawa
+
+==="yugekitai"===
+-Allegiance: Tokugawa
+-Recommended Name: Yugekitai
+-Recommended Gear: Sash, muzzle-loading rifle, katana
+-Troop Type: Light infantry/sharpshooters
+-Info: An irregular light infantry force from Jozai
+
+===Textures===
+-The Tokugawa texture is historically accurate
+-The Meiji texture is somewhat accurate, with an exaggerated difference in colours for gameplay purposes
+-The rebel/merc texture is fictional

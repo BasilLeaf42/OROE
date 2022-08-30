@@ -4,6 +4,7 @@ sounds/
 
 # File extensions
 
+*.7z
 *.cbx
 *.ms3d
 *.mp3
