@@ -1,0 +1,13 @@
+ 27 south_european_large_town_A
+ 10 settlement
+ 74 settlements/japan/Settlements/Large Town/south_european_large_town_A.world
+3         number of pairs of attributes to follow 
+  7 culture
+  5 asian
+
+ 11 environment
+  7 generic
+
+  4 type
+ 10 stone_keep
+

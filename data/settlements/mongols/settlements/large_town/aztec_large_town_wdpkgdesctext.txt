@@ -1,0 +1,22 @@
+ 16 aztec_large_town
+ 10 settlement
+ 65 settlements/mongols/Settlements/large_town/aztec_large_town.world
+6         number of pairs of attributes to follow 
+  7 culture
+  5 asian
+
+ 11 environment
+  7 generic
+
+  7 faction
+  7 mongols
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+ 10 small_town
+
+  7 variant
+  4 none
+

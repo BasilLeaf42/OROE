@@ -1,0 +1,16 @@
+ 21 south_european_town_A
+ 10 settlement
+ 62 settlements/japan/Settlements/Town/south_european_town_A.world
+4         number of pairs of attributes to follow 
+  7 culture
+  5 asian
+
+ 11 environment
+  7 generic
+
+  7 faction
+  7 normans
+
+  4 type
+ 11 wooden_fort
+

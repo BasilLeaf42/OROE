@@ -1,0 +1,22 @@
+ 23 north_european_castle_A
+ 10 settlement
+ 62 settlements/asian/Castles/Castle/north_european_castle_A.world
+6         number of pairs of attributes to follow 
+  7 culture
+ 14 north_european
+
+ 11 environment
+  7 generic
+
+  7 faction
+  3 any
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+  6 castle
+
+  7 variant
+  4 none
+

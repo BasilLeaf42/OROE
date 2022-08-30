@@ -1,0 +1,22 @@
+ 21 south_european_city_A
+ 10 settlement
+ 62 settlements/japan/Settlements/City/south_european_city_A.world
+6         number of pairs of attributes to follow 
+  7 culture
+  5 asian
+
+ 11 environment
+  7 generic
+
+  7 faction
+  5 japan
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+  6 castle
+
+  7 variant
+  4 none
+

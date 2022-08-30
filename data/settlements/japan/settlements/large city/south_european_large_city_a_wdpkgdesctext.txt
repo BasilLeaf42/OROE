@@ -1,0 +1,22 @@
+ 27 south_european_large_city_A
+ 10 settlement
+ 74 settlements/japan/Settlements/Large City/south_european_large_city_A.world
+6         number of pairs of attributes to follow 
+  7 culture
+  5 asian
+
+ 11 environment
+  7 generic
+
+  7 faction
+  7 normans
+
+ 18 fortificationlevel
+  4 none
+
+  4 type
+ 12 large_castle
+
+  7 variant
+  4 none
+
