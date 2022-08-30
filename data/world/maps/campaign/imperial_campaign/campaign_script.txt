@@ -1,0 +1,1403 @@
+;
+; Campaign script
+;
+script
+restrict_strat_radar false
+
+;;;;;;;;;;;;;;;;;;;;;;; Name Settlements ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;; Naha - Shuri
+
+	declare_counter shuri
+	monitor_conditions I_SettlementOwner Shuri = normans
+		and I_CompareCounter shuri = 0
+		change_settlement_name Shuri Naha
+		set_counter shuri 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Shuri = ryukyu
+		and I_CompareCounter shuri = 1
+		change_settlement_name Shuri Shuri
+		set_counter shuri 0
+	end_monitor 
+
+;;;;; Satporopet - Sapporo
+
+	declare_counter sapporo
+	monitor_conditions I_SettlementOwner Satporopet = normans
+		and I_CompareCounter sapporo = 0
+		change_settlement_name Satporopet Sapporo
+		set_counter sapporo 1
+	end_monitor 
+
+;;;;; Nanjing - Yanshan - Zhongdu
+
+	declare_counter zhongdu
+	declare_counter yanshan
+
+	monitor_conditions I_SettlementOwner Nanjing = saxons
+		and I_CompareCounter zhongdu = 0
+		change_settlement_name Nanjing Zhongdu
+		set_counter zhongdu 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Nanjing = china
+		and I_CompareCounter yanshan = 0
+		change_settlement_name Nanjing Yanshan
+		set_counter yanshan 1
+	end_monitor 
+
+;;;;; Visayas - Manilla
+
+	declare_counter Visayan
+	monitor_conditions I_SettlementOwner Visayan = spain
+		and I_CompareCounter Visayan = 0
+		change_settlement_name Visayan Manilla
+		set_counter Visayan 1
+	end_monitor 
+
+;;;;; Australia
+
+	declare_counter australia
+	monitor_conditions I_SettlementOwner Toolonga = england
+		and I_CompareCounter australia = 0
+		change_settlement_name Toolonga Geraldton
+		set_counter australia 1
+	end_monitor 
+
+;;;;; Cape
+
+	declare_counter cape
+	monitor_conditions I_SettlementOwner Cape = england
+		and I_CompareCounter cape = 0
+		change_settlement_name Cape Capetown
+		set_counter cape 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Cape = portugal
+		and I_CompareCounter cape = 1
+		change_settlement_name Cape Cape
+		set_counter cape 0
+	end_monitor 
+
+
+;;;;; Istanbul
+
+	declare_counter istanbul
+	monitor_conditions I_SettlementOwner Konstantinoupolis = turks
+		and I_CompareCounter istanbul = 0
+		change_settlement_name Konstantinoupolis Istanbul
+		set_counter istanbul 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Konstantinoupolis = byzantium
+		and I_CompareCounter istanbul = 1
+		change_settlement_name Konstantinoupolis Konstantinoupolis
+		set_counter istanbul 0
+	end_monitor 
+
+;;;;; Trabzon
+
+	declare_counter trabzon
+	monitor_conditions I_SettlementOwner Trebizond = turks
+		and I_CompareCounter trabzon = 0
+		change_settlement_name Trebizond Trabzon
+		set_counter trabzon 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Trebizond = byzantium
+		and I_CompareCounter trabzon = 1
+		change_settlement_name Trebizond Trebizond
+		set_counter trabzon 0
+	end_monitor 
+
+;;;;; Nicea
+
+	declare_counter nicea
+	monitor_conditions I_SettlementOwner Nicaea = turks
+		and I_CompareCounter nicea = 0
+		change_settlement_name Nicaea Iznik
+		set_counter nicea 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Nicaea = byzantium
+		and I_CompareCounter nicea = 1
+		change_settlement_name Nicaea Nicaea
+		set_counter nicea 0
+	end_monitor 
+
+;;;;; Ankara
+
+	declare_counter ankara
+	monitor_conditions I_SettlementOwner Ankara = byzantium
+		and I_CompareCounter ankara = 0
+		change_settlement_name Ankara Ancyra
+		set_counter ankara 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Ankara = turks
+		and I_CompareCounter ankara = 1
+		change_settlement_name Ankara Ankara
+		set_counter ankara 0
+	end_monitor
+
+;;;;; Sofia
+
+	declare_counter sofia
+	monitor_conditions I_SettlementOwner Sredets = byzantium
+		and I_CompareCounter sofia = 0
+		change_settlement_name Sredets Sofia
+		set_counter sofia 1
+	end_monitor 
+
+;;;;; Rennes
+
+	declare_counter rennes
+	monitor_conditions I_SettlementOwner Roazhon = france
+		and I_CompareCounter rennes = 0
+		change_settlement_name Roazhon Rennes
+		set_counter rennes 1
+	end_monitor 
+
+;;;;; Julianehaab
+
+	declare_counter Julianehaab
+	monitor_conditions I_SettlementOwner Qaqortoq = denmark
+		and I_CompareCounter Julianehaab = 0
+		change_settlement_name Qaqortoq Julianehaab
+		set_counter Julianehaab 1
+	end_monitor 
+
+;;;;; Stettin
+
+	declare_counter stettin
+	monitor_conditions I_SettlementOwner Stettin = poland
+		and I_CompareCounter stettin = 0
+		change_settlement_name Stettin Szczecin
+		set_counter stettin 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Stettin = hre
+		and I_CompareCounter stettin = 1
+		change_settlement_name Stettin Stettin
+		set_counter stettin 0
+	end_monitor
+
+;;;;; Thorn
+
+	declare_counter thorn
+	monitor_conditions I_SettlementOwner Thorn = poland
+		and I_CompareCounter thorn = 0
+		change_settlement_name Thorn Gdansk
+		set_counter thorn 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Thorn = hre
+		and I_CompareCounter thorn = 1
+		change_settlement_name Thorn Thorn
+		set_counter thorn 0
+	end_monitor
+
+;;;;; Lisboa
+
+	declare_counter lisboa
+	monitor_conditions I_SettlementOwner Alishbona = spain
+		and I_CompareCounter lisboa = 0
+		change_settlement_name Alishbona Lisboa
+		set_counter lisboa 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Alishbona = moors
+		and I_CompareCounter lisboa = 1
+		change_settlement_name Alishbona Alishbona
+		set_counter lisboa 0
+	end_monitor
+
+;;;;; Cordoba
+
+	declare_counter cordoba
+	monitor_conditions I_SettlementOwner Qurtuba = spain
+		and I_CompareCounter cordoba = 0
+		change_settlement_name Qurtuba Cordoba
+		set_counter cordoba 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Qurtuba = moors
+		and I_CompareCounter cordoba = 1
+		change_settlement_name Qurtuba Qurtuba
+		set_counter cordoba 0
+	end_monitor
+
+;;;;; Cordoba
+
+	declare_counter granada
+	monitor_conditions I_SettlementOwner Garnata = spain
+		and I_CompareCounter granada = 0
+		change_settlement_name Garnata Granada
+		set_counter granada 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Garnata = moors
+		and I_CompareCounter granada = 1
+		change_settlement_name Garnata Garnata
+		set_counter granada 0
+	end_monitor
+
+;;;;; Dublin
+
+	declare_counter dublin
+	monitor_conditions I_SettlementOwner Baile_Atha_Cliath = england
+		and I_CompareCounter dublin = 0
+		change_settlement_name Baile_Atha_Cliath Dublin
+		set_counter dublin 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Baile_Atha_Cliath = scotland
+		and I_CompareCounter dublin = 1
+		change_settlement_name Baile_Atha_Cliath Baile_Atha_Cliath
+		set_counter dublin 0
+	end_monitor
+
+;;;;; Inverness
+
+	declare_counter inverness
+	monitor_conditions I_SettlementOwner Inbhir_Nis = england
+		and I_CompareCounter inverness = 0
+		change_settlement_name Inbhir_Nis Inverness
+		set_counter inverness 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Inbhir_Nis = scotland
+		and I_CompareCounter inverness = 1
+		change_settlement_name Inbhir_Nis Inbhir_Nis
+		set_counter inverness 0
+	end_monitor
+
+;;;;; edinburgh
+
+	declare_counter edinburgh
+	monitor_conditions I_SettlementOwner Dun_Eideann = england
+		and I_CompareCounter edinburgh = 0
+		change_settlement_name Dun_Eideann Edinburgh
+		set_counter edinburgh 1
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Dun_Eideann = scotland
+		and I_CompareCounter edinburgh = 1
+		change_settlement_name Dun_Eideann Dun_Eideann
+		set_counter edinburgh 0
+	end_monitor
+
+;;;;; Mexico - Tenochtitlan
+
+	declare_counter Tenochtitlan_Spain
+	
+	;;; Spain captures Tenochtitlan
+	monitor_conditions I_SettlementOwner Tenochtitlan = spain
+		and I_CompareCounter Tenochtitlan_Spain = 0
+		
+		set_counter Tenochtitlan_Spain 1
+		change_settlement_name Tenochtitlan Mexico
+ 	end_monitor
+
+	monitor_conditions I_SettlementOwner Tenochtitlan = aztecs
+		and I_CompareCounter Tenochtitlan_Spain = 1
+		change_settlement_name Tenochtitlan Tenochtitlan
+		set_counter Tenochtitlan_Spain 0
+	end_monitor 
+
+	monitor_conditions I_SettlementOwner Tenochtitlan = mayans
+		and I_CompareCounter Tenochtitlan_Spain = 1
+		change_settlement_name Tenochtitlan Tenochtitlan
+		set_counter Tenochtitlan_Spain 0
+	end_monitor 
+
+;;;;;;;;;;;;;;;;;;;;;;;; Papal Crusades ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	monitor_event FactionTurnStart FactionIsLocal 
+		set_faction_standing papal_states papal_states 1.0 
+	end_monitor
+
+
+;;;;;;;;;;;;;;;;;;;;;;;; Indigenous Factions - Horses, Guns, Crossbows ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	declare_counter apachean_cavalry_killed
+	declare_counter apachean_gunpowder_killed
+	declare_counter incans_cavalry_killed
+	declare_counter incans_gunpowder_killed
+	declare_counter mayans_cavalry_killed
+	declare_counter mayans_gunpowder_killed
+	declare_counter aztecs_cavalry_killed
+	declare_counter aztecs_gunpowder_killed
+	declare_counter zimbabwean_gunpowder_killed
+
+	; indian_horses_1	The Apacheans defeat an army with cavalry 10 times
+	monitor_event FactionTurnStart FactionType apachean
+		and I_CompareCounter apachean_cavalry_killed > 1
+
+		add_events
+			event	counter	indian_horses_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event apachean_cavalry_1
+	 	
+		terminate_monitor
+	end_monitor
+	
+	; mayans_horses_1	The Mayans defeat an army with cavalry 10 times
+	monitor_event FactionTurnStart FactionType mayans
+		and I_CompareCounter mayans_cavalry_killed > 1
+
+		add_events
+			event	counter	mayans_horses_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event mayans_cavalry_1
+	 	
+		terminate_monitor
+	end_monitor
+	
+	; aztecs_horses_1	The Aztecs defeat an army with cavalry 10 times
+	monitor_event FactionTurnStart FactionType aztecs
+		and I_CompareCounter aztecs_cavalry_killed > 1
+
+		add_events
+			event	counter	aztecs_horses_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event aztecs_cavalry_1
+	 	
+		terminate_monitor
+	end_monitor
+
+	; incans_horses_1	The Incans defeat an army with cavalry 10 times
+	monitor_event FactionTurnStart FactionType incans
+		and I_CompareCounter incans_cavalry_killed > 1
+
+		add_events
+			event	counter	incans_horses_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event incans_cavalry_1
+	 	
+		terminate_monitor
+	end_monitor
+
+	; indian_guns_1		The Apacheans defeat an army with gunpowder 10 times
+	monitor_event FactionTurnStart FactionType apachean
+		and I_CompareCounter apachean_gunpowder_killed > 1
+
+		add_events
+			event	counter	indian_guns_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event apachean_guns_1
+	 	
+		terminate_monitor
+	end_monitor
+	
+	; incans_guns_1		The Incans defeat an army with gunpowder 10 times
+	monitor_event FactionTurnStart FactionType incans
+		and I_CompareCounter incans_gunpowder_killed > 1
+
+		add_events
+			event	counter	incans_guns_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event incans_guns_1
+	 	
+		terminate_monitor
+	end_monitor
+	
+	; mayans_guns_1		The Mayans defeat an army with gunpowder 10 times
+	monitor_event FactionTurnStart FactionType mayans
+		and I_CompareCounter mayans_gunpowder_killed > 1
+
+		add_events
+			event	counter	mayans_guns_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event mayans_guns_1
+	 	
+		terminate_monitor
+	end_monitor
+	
+	; aztecs_guns_1		The Aztecs defeat an army with gunpowder 10 times
+	monitor_event FactionTurnStart FactionType aztecs
+		and I_CompareCounter aztecs_gunpowder_killed > 1
+
+		add_events
+			event	counter	aztecs_guns_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event aztecs_guns_1
+	 	
+		terminate_monitor
+	end_monitor
+	
+	; zimbabwe_guns_1		The Zimbabweans defeat an army with gunpowder 10 times
+	monitor_event FactionTurnStart FactionType aztecs
+		and I_CompareCounter zimbabwe_gunpowder_killed > 1
+
+		add_events
+			event	counter	zimbabwe_guns_1
+	   		date	0
+	 	end_add_events
+	 	
+	 	historic_event zimbabwe_guns_1
+	 	
+		terminate_monitor
+	end_monitor
+
+	;;; Counter - The Apacheans beat an army with cavalry
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction apachean
+		and PercentageUnitCategory cavalry > 0
+		inc_counter apachean_cavalry_killed 1
+	end_monitor
+	
+	;;; Counter - The Mayans beat an army with cavalry
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction mayans
+		and PercentageUnitCategory cavalry > 0
+		inc_counter mayans_cavalry_killed 1
+	end_monitor
+	
+	;;; Counter - The Aztecs beat an army with cavalry
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction aztecs
+		and PercentageUnitCategory cavalry > 0
+		inc_counter aztecs_cavalry_killed 1
+	end_monitor
+
+	;;; Counter - The Incans beat an army with cavalry
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction incans
+		and PercentageUnitCategory cavalry > 0
+		inc_counter incans_cavalry_killed 1
+	end_monitor
+
+	;;; Counter - The Apacheans beat an army with gunpowder units
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction apachean
+		and PercentageUnitAttribute gunpowder_unit > 0
+		inc_counter apachean_gunpowder_killed 1
+	end_monitor
+	
+	;;; Counter - The Mayans beat an army with gunpowder units
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction mayans
+		and PercentageUnitAttribute gunpowder_unit > 0
+		inc_counter mayans_gunpowder_killed 1
+	end_monitor
+	
+	;;; Counter - The Aztecs beat an army with gunpowder units
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction aztecs
+		and PercentageUnitAttribute gunpowder_unit > 0
+		inc_counter aztecs_gunpowder_killed 1
+	end_monitor
+	
+	;;; Counter - The Incans beat army with gunpowder units
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction incans
+		and PercentageUnitAttribute gunpowder_unit > 0
+		inc_counter incans_gunpowder_killed 1
+	end_monitor
+	
+	;;; Counter - The Zimbabweans beat army with gunpowder units
+	monitor_event PostBattle not WonBattle
+		and GeneralFoughtFaction zimbabwe
+		and PercentageUnitAttribute gunpowder_unit > 0
+		inc_counter zimbabwe_gunpowder_killed 1
+	end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;; Discoveries ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;If dead Denmark come back
+	add_events
+	event	counter	denmark_back
+  		date	109 109
+	end_add_events
+
+	monitor_event EventCounter EventCounterType portugal_back
+		and EventCounter == 1
+	  and not I_SettlementOwner Aarhus = slave
+
+		spawn_army
+			faction slave
+			character	random_name, general, age 27, x 205, y 218, label Aarhus_attackers
+			traits Factionleader 1 , GoodCommander 3 , Energetic 2 , HaleAndHearty 3 , ReligionStarter 1 
+			unit		Euro Bandits				exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army
+			faction slave
+			character	random_name, general, age 23, x 204, y 218, label Aarhus_attackers
+			unit		Euro Bandits				exp 0 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Aarhus_attackers, Aarhus, attack
+
+		terminate_monitor
+	end_monitor
+
+;;Iceland
+	add_events
+	event	counter	denmark_expedition
+  		date	110 115
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType slave
+	  and I_EventCounter denmark_expedition == 1
+ 	  and not FactionIsLocal
+	  and not I_SettlementOwner Aarhus = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction slave
+			character	random_name, general, age 23, x 144, y 235, label reykjavik_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 3 , ReligionStarter 1
+			unit		Euro Bandits				exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction slave
+			character	random_name, admiral, age 26, x 143, y 233
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement reykjavik_attackers, Reykjavik, attack
+
+		historic_event denmark_nord
+
+		terminate_monitor
+	end_monitor
+
+;;Greenland
+	add_events
+	event	counter	denmark_expedition_2
+  		date	200 205
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType slave
+	  and I_EventCounter denmark_expedition_2 == 1
+ 	  and not FactionIsLocal
+	  and not I_SettlementOwner Aarhus = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction slave
+			character	random_name, general, age 23, x 115, y 241, label Qaqortoq_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 3 , ReligionStarter 1
+			unit		Euro Bandits				exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction slave
+			character	random_name, admiral, age 26, x 117, y 240
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Qaqortoq_attackers, Qaqortoq, attack
+
+		historic_event denmark_nord_2
+
+		terminate_monitor
+	end_monitor
+
+;Japan
+	declare_counter nanban_gun
+
+	add_events
+	event	counter	jap_gun_1
+  		date	233 237
+	end_add_events
+
+	add_events
+	event	counter	jap_gun_2
+  		date	250 250
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter jap_gun_1 == 1
+ 	  and not FactionIsLocal
+	  and I_NumberOfSettlements > 0
+	  and I_CompareCounter nanban_gun = 0
+
+		spawn_character spain random_name, priest, age 30, x 452, y 133 
+		spawn_character spain random_name, priest, age 27, x 469, y 149
+		spawn_character spain random_name, diplomat, age 36, x 474, y 146 
+
+		historic_event nanban
+		set_counter nanban_gun 1
+		terminate_monitor
+	end_monitor
+
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter jap_gun_2 == 1
+ 	  and not FactionIsLocal
+	  and I_NumberOfSettlements < 1
+	  and I_CompareCounter nanban_gun = 0
+
+		historic_event nanban
+		set_counter nanban_gun 1
+		terminate_monitor
+	end_monitor
+
+;;If dead Spain come back
+	add_events
+	event	counter	spain_back
+  		date	247 247
+	end_add_events
+
+	monitor_event EventCounter EventCounterType spain_back
+		and EventCounter == 1
+	  	and not I_SettlementOwner Toledo = spain
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 27, x 177, y 177, label Toledo_attackers
+			traits Factionleader 1 , GoodCommander 3 , Energetic 2 , HaleAndHearty 3 , ReligionStarter 1 
+			unit		Euro Bodyguard				exp 0 armour 3 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 175, y 177, label Toledo_attackers
+			unit		Euro Bodyguard				exp 0 armour 3 weapon_lvl 0
+		end
+
+		siege_settlement Toledo_attackers, Toledo, attack
+
+		terminate_monitor
+	end_monitor
+
+;;Mexico
+	add_events
+	event	counter	spain_expedition_1
+  		date	248 250
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Tenochtitlan = aztecs
+	  and not I_SettlementOwner Tlaxcala = spain
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	Hernan Cortes, general, age 23, x 5, y 155, label Tenochtitlan_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 3 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 6, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 7, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 4, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 21, y 156
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Tenochtitlan_attackers, Tlaxcala, attack
+
+		historic_event spain_america_1
+
+		terminate_monitor
+	end_monitor
+
+;;Mexico (case inca)
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Tenochtitlan = incans
+	  and not I_SettlementOwner Tlaxcala = spain
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	Hernan Cortes, general, age 23, x 5, y 155, label Tenochtitlan_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 3 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 6, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 7, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 4, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 21, y 156
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Tenochtitlan_attackers, Tlaxcala, attack
+
+		historic_event spain_america_1
+
+		terminate_monitor
+	end_monitor
+
+;;Mexico (case apachean)
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Tenochtitlan = apachean
+	  and not I_SettlementOwner Tlaxcala = spain
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	Hernan Cortes, general, age 23, x 5, y 155, label Tenochtitlan_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 3 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 6, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 7, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 4, y 155, label Tenochtitlan_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 21, y 156
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Tenochtitlan_attackers, Tlaxcala, attack
+
+		historic_event spain_america_1
+
+		terminate_monitor
+	end_monitor
+
+;;Mexico 2
+	add_events
+	event	counter	spain_expedition_2
+  		date	255 259
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_2 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Tikal = mayans
+	  and not I_SettlementOwner Yucatan = spain
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 22, y 152, label Tikal_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 3 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 23, y 152, label Tikal_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 24, y 153, label Tikal_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 25, y 152, label Tikal_attackers
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 19, y 152
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Tikal_attackers, Yucatan, attack
+
+		historic_event spain_america_2
+
+		terminate_monitor
+	end_monitor
+
+;;Cuba
+	add_events
+	event	counter	spain_expedition_3
+  		date	230 232
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_3 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner San_Cristobal_de_la_Habana = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	Cristobal Colombus, general, age 23, x 38, y 159, label San_Cristobal_de_la_Habana_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 2 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 42, y 161
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement San_Cristobal_de_la_Habana_attackers, San_Cristobal_de_la_Habana, attack
+
+		historic_event spain_america_3
+
+		terminate_monitor
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_3 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner San_Cristobal_de_la_Habana = incans
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	Cristobal Colombus, general, age 23, x 38, y 159, label San_Cristobal_de_la_Habana_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 2 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 42, y 161
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement San_Cristobal_de_la_Habana_attackers, San_Cristobal_de_la_Habana, attack
+
+		historic_event spain_america_3
+
+		terminate_monitor
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_3 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner San_Cristobal_de_la_Habana = aztecs
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	Cristobal Colombus, general, age 23, x 38, y 159, label San_Cristobal_de_la_Habana_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 2 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 42, y 161
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement San_Cristobal_de_la_Habana_attackers, San_Cristobal_de_la_Habana, attack
+
+		historic_event spain_america_3
+
+		terminate_monitor
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_3 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner San_Cristobal_de_la_Habana = mayans
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	Cristobal Colombus, general, age 23, x 38, y 159, label San_Cristobal_de_la_Habana_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 2 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 42, y 161
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement San_Cristobal_de_la_Habana_attackers, San_Cristobal_de_la_Habana, attack
+
+		historic_event spain_america_3
+
+		terminate_monitor
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType spain
+	  and I_EventCounter spain_expedition_3 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner San_Cristobal_de_la_Habana = apachean
+	  and I_NumberOfSettlements > 0
+
+		spawn_army
+			faction spain
+			character	Cristobal Colombus, general, age 23, x 38, y 159, label San_Cristobal_de_la_Habana_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 2 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 42, y 161
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement San_Cristobal_de_la_Habana_attackers, San_Cristobal_de_la_Habana, attack
+
+		historic_event spain_america_3
+
+		terminate_monitor
+	end_monitor
+
+;;Inca_1
+	declare_counter inca
+
+	monitor_event FactionTurnStart FactionType spain
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Tenochtitlan = spain
+	  and I_SettlementOwner Cuzco = incans
+	  and not I_SettlementOwner Cajamarca = spain
+	  and I_NumberOfSettlements > 0
+	  and I_CompareCounter inca = 0
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 33, y 89, label Cajamarca_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 3 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 7 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 26, y 87
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Cajamarca_attackers, Cajamarca, attack
+
+		historic_event spain_america_4
+
+		set_counter inca 1
+
+		terminate_monitor
+	end_monitor
+
+;;Inca_2
+	monitor_event FactionTurnStart FactionType spain
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Tikal = spain
+	  and I_SettlementOwner Cuzco = incans
+	  and not I_SettlementOwner Cajamarca = spain
+	  and I_NumberOfSettlements > 0
+	  and I_CompareCounter inca = 0
+
+		spawn_army
+			faction spain
+			character	random_name, general, age 23, x 33, y 89, label Cajamarca_attackers_2
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 3 , ReligionStarter 1
+			unit		Euro Bodyguard				exp 0 armour 2 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction spain
+			character	random_name, admiral, age 26, x 26, y 87
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Cajamarca_attackers_2, Cajamarca, attack
+
+		historic_event spain_america_4
+
+		set_counter inca 1
+
+		terminate_monitor
+	end_monitor
+
+;;srilanka chola
+	add_events
+	event	counter	timurids_expedition_1
+  		date	30 32
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType timurids
+	  and I_EventCounter timurids_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Polonnaruwa = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction timurids
+			character	random_name, general, age 23, x 356, y 98, label Polonnaruwa_attackers_2
+			unit		Muslim Bodyguard					exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction timurids
+			character	random_name, admiral, age 26, x 358, y 104
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Polonnaruwa_attackers_2, Polonnaruwa, attack
+
+		terminate_monitor
+	end_monitor
+
+;;malaya chola
+	add_events
+	event	counter	timurids_expedition_2
+  		date	34 40
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType timurids
+	  and I_EventCounter timurids_expedition_2 == 1
+ 	  and not FactionIsLocal
+	  and not I_SettlementOwner Palembang = timurids
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction timurids
+			character	random_name, general, age 23, x 393, y 74, label Palembang_attackers
+			traits LoyaltyStarter 2 , NaturalMilitarySkill 3 , GoodCommander 2 , ReligionStarter 1
+			unit		Muslim Bodyguard					exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction timurids
+			character	random_name, general, age 23, x 394, y 74, label Palembang_attackers
+			unit		Muslim Bodyguard					exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction timurids
+			character	random_name, admiral, age 26, x 387, y 74
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Palembang_attackers, Palembang, attack
+
+		historic_event chola_exp_2
+
+		terminate_monitor
+	end_monitor
+
+;;jurchen
+	add_events
+	event	counter	saxons_expedition_1
+  		date	1 2
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType saxons
+	  and I_EventCounter saxons_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Shangjing = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction saxons
+			character	random_name, general, age 23, x 442, y 182, label Shangjing_attackers
+			traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , GoodCommander 2 , ReligionStarter 1
+			unit		Asian Bodyguard					exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction saxons
+			character	random_name, general, age 23, x 443, y 183, label Shangjing_attackers
+			unit		Asian Bodyguard			exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction saxons
+			character	random_name, general, age 23, x 443, y 181, label Shangjing_attackers
+			unit		Asian Bodyguard			exp 0 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Shangjing_attackers, Shangjing, attack
+
+		terminate_monitor
+	end_monitor
+
+;;mongols
+	add_events
+	event	counter	mongols_expedition_1
+  		date	5 10
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType mongols
+	  and I_EventCounter mongols_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Siberia = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction mongols
+			character	random_name, general, age 23, x 416, y 230, label Siberia_attackers
+			traits LoyaltyStarter 1 , NaturalMilitarySkill 2 , GoodCommander 2 , ReligionStarter 1
+			unit		Asian Bodyguard			exp 0 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Siberia_attackers, Siberia, attack
+
+		terminate_monitor
+	end_monitor
+
+;;mali
+	add_events
+	event	counter	mali_expedition_1
+  		date	1 2
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType mali
+	  and I_EventCounter mali_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Kumasi = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction mali
+			character	random_name, general, age 23, x 172, y 98, label Kumasi_attackers
+			unit		Muslim Bodyguard				exp 0 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Kumasi_attackers, Kumasi, attack
+
+		terminate_monitor
+	end_monitor
+
+;;khmers
+	add_events
+	event	counter	khmers_expedition_1
+  		date	2 4
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType sicily
+	  and I_EventCounter khmers_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Vijaya = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction sicily
+			character	random_name, general, age 23, x 409, y 111, label Vijaya_attackers
+			unit		Asian Bodyguard				exp 0 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Vijaya_attackers, Vijaya, attack
+
+		terminate_monitor
+	end_monitor
+
+	add_events
+	event	counter	khmers_expedition_2
+  		date	4 8
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType sicily
+	  and I_EventCounter khmers_expedition_2 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Xiengthong = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction sicily
+			character	random_name, general, age 23, x 398, y 118, label Xiengthong_attackers
+			unit		Asian Bodyguard				exp 0 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Xiengthong_attackers, Xiengthong, attack
+
+		terminate_monitor
+	end_monitor
+
+;;srivijaya
+	add_events
+	event	counter	venice_expedition_1
+  		date	2 3
+	end_add_events
+
+	add_events
+	event	counter	venice_expedition_2
+  		date	4 5
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType venice
+	  and I_EventCounter venice_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Jawatengah = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction venice
+			character	random_name, general, age 23, x 407, y 64, label Jawatengah_attackers
+			unit		Asian Bodyguard			exp 0 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Jawatengah_attackers, Jawatengah, attack
+
+		terminate_monitor
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType venice
+	  and I_EventCounter venice_expedition_2 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Madagascar = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction venice
+			character	random_name, general, age 23, x 287, y 44, label Madagascar_attackers
+			unit		Asian Bodyguard			exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction venice
+			character	random_name, admiral, age 26, x 293, y 48
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Madagascar_attackers, Madagascar, attack
+
+		terminate_monitor
+	end_monitor
+
+;;ryukyu
+	add_events
+	event	counter	ryukyu_expedition_1
+  		date	4 8
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType ryukyu
+	  and I_EventCounter ryukyu_expedition_1 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Visayan = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction ryukyu
+			character	random_name, general, age 23, x 437, y 97, label Visayan_attackers
+			unit		Asian Bodyguard			exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction ryukyu
+			character	random_name, admiral, age 26, x 433, y 97
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Visayan_attackers, Visayan, attack
+
+		terminate_monitor
+	end_monitor
+
+;;ryukyu2
+	add_events
+	event	counter	ryukyu_expedition_2
+  		date	8 12
+	end_add_events
+
+	monitor_event FactionTurnStart FactionType ryukyu
+	  and I_EventCounter ryukyu_expedition_2 == 1
+ 	  and not FactionIsLocal
+	  and I_SettlementOwner Poni = slave
+	  and I_NumberOfSettlements > 0
+
+		spawn_army 
+			faction ryukyu
+			character	random_name, general, age 23, x 414, y 84, label Poni_attackers
+			unit		Asian Bodyguard			exp 0 armour 0 weapon_lvl 0
+		end
+
+		spawn_army 
+			faction ryukyu
+			character	random_name, admiral, age 26, x 411, y 87
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+			unit		Ship Transport				exp 1 armour 0 weapon_lvl 0
+		end
+
+		siege_settlement Poni_attackers, Poni, attack
+
+		terminate_monitor
+	end_monitor
+
+wait_monitors
+
+end_script
+

@@ -1,0 +1,5385 @@
+<version>1.01</version>
+<texture>_M2_Border.tga
+  <path>textures</path>
+  <region>_M2_Border
+    <left>0</left>
+    <top>0</top>
+    <right>1024</right>
+    <bottom>768</bottom>
+  </region>
+</texture>
+<texture>_M2_Buttons1.tga
+  <path>textures</path>
+  <region>_M2_MP_Buttons_Game_E
+    <left>35</left>
+    <top>355</top>
+    <right>70</right>
+    <bottom>390</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Game_G
+    <left>105</left>
+    <top>468</top>
+    <right>140</right>
+    <bottom>503</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Game_H
+    <left>70</left>
+    <top>460</top>
+    <right>105</right>
+    <bottom>495</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Game_C
+    <left>35</left>
+    <top>460</top>
+    <right>70</right>
+    <bottom>495</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Game_S
+    <left>0</left>
+    <top>460</top>
+    <right>35</right>
+    <bottom>495</bottom>
+  </region>
+  <region>filter_game
+    <left>455</left>
+    <top>445</top>
+    <right>490</right>
+    <bottom>480</bottom>
+  </region>
+  <region>filter_game_roll
+    <left>350</left>
+    <top>445</top>
+    <right>385</right>
+    <bottom>480</bottom>
+  </region>
+  <region>filter_game_depress_roll
+    <left>315</left>
+    <top>439</top>
+    <right>350</right>
+    <bottom>474</bottom>
+  </region>
+  <region>filter_game_depress
+    <left>280</left>
+    <top>439</top>
+    <right>315</right>
+    <bottom>474</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Teams_E
+    <left>245</left>
+    <top>439</top>
+    <right>280</right>
+    <bottom>474</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Teams_H
+    <left>210</left>
+    <top>433</top>
+    <right>245</right>
+    <bottom>468</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Teams_S
+    <left>175</left>
+    <top>433</top>
+    <right>210</right>
+    <bottom>468</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Teams_C
+    <left>140</left>
+    <top>433</top>
+    <right>175</right>
+    <bottom>468</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Teams_G
+    <left>105</left>
+    <top>433</top>
+    <right>140</right>
+    <bottom>468</bottom>
+  </region>
+  <region>filter_teams
+    <left>70</left>
+    <top>425</top>
+    <right>105</right>
+    <bottom>460</bottom>
+  </region>
+  <region>filter_teams_roll
+    <left>315</left>
+    <top>404</top>
+    <right>350</right>
+    <bottom>439</bottom>
+  </region>
+  <region>filter_teams_depress_roll
+    <left>280</left>
+    <top>404</top>
+    <right>315</right>
+    <bottom>439</bottom>
+  </region>
+  <region>filter_teams_depress
+    <left>245</left>
+    <top>404</top>
+    <right>280</right>
+    <bottom>439</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Incoming_E
+    <left>210</left>
+    <top>398</top>
+    <right>245</right>
+    <bottom>433</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Incoming_H
+    <left>175</left>
+    <top>398</top>
+    <right>210</right>
+    <bottom>433</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Incoming_S
+    <left>140</left>
+    <top>398</top>
+    <right>175</right>
+    <bottom>433</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Incoming_C
+    <left>105</left>
+    <top>398</top>
+    <right>140</right>
+    <bottom>433</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Incoming_G
+    <left>70</left>
+    <top>390</top>
+    <right>105</right>
+    <bottom>425</bottom>
+  </region>
+  <region>filter_incoming
+    <left>35</left>
+    <top>390</top>
+    <right>70</right>
+    <bottom>425</bottom>
+  </region>
+  <region>filter_incoming_roll
+    <left>0</left>
+    <top>390</top>
+    <right>35</right>
+    <bottom>425</bottom>
+  </region>
+  <region>filter_incoming_depress_roll
+    <left>455</left>
+    <top>375</top>
+    <right>490</right>
+    <bottom>410</bottom>
+  </region>
+  <region>filter_incoming_depress
+    <left>420</left>
+    <top>375</top>
+    <right>455</right>
+    <bottom>410</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Outgoing_E
+    <left>385</left>
+    <top>375</top>
+    <right>420</right>
+    <bottom>410</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Outgoing_H
+    <left>350</left>
+    <top>375</top>
+    <right>385</right>
+    <bottom>410</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Outgoing_S
+    <left>315</left>
+    <top>369</top>
+    <right>350</right>
+    <bottom>404</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Outgoing_C
+    <left>280</left>
+    <top>369</top>
+    <right>315</right>
+    <bottom>404</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Outgoing_G
+    <left>245</left>
+    <top>369</top>
+    <right>280</right>
+    <bottom>404</bottom>
+  </region>
+  <region>filter_outgoing
+    <left>210</left>
+    <top>363</top>
+    <right>245</right>
+    <bottom>398</bottom>
+  </region>
+  <region>filter_outgoing_roll
+    <left>175</left>
+    <top>363</top>
+    <right>210</right>
+    <bottom>398</bottom>
+  </region>
+  <region>filter_outgoing_depress_roll
+    <left>140</left>
+    <top>363</top>
+    <right>175</right>
+    <bottom>398</bottom>
+  </region>
+  <region>filter_outgoing_depress
+    <left>105</left>
+    <top>363</top>
+    <right>140</right>
+    <bottom>398</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Block_E
+    <left>70</left>
+    <top>355</top>
+    <right>105</right>
+    <bottom>390</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Block_H
+    <left>0</left>
+    <top>355</top>
+    <right>35</right>
+    <bottom>390</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Block_S
+    <left>447</left>
+    <top>340</top>
+    <right>482</right>
+    <bottom>375</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Block_C
+    <left>412</left>
+    <top>340</top>
+    <right>447</right>
+    <bottom>375</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Block_G
+    <left>307</left>
+    <top>334</top>
+    <right>342</right>
+    <bottom>369</bottom>
+  </region>
+  <region>filter_ignoring
+    <left>408</left>
+    <top>305</top>
+    <right>443</right>
+    <bottom>340</bottom>
+  </region>
+  <region>filter_ignoring_roll
+    <left>404</left>
+    <top>200</top>
+    <right>439</right>
+    <bottom>235</bottom>
+  </region>
+  <region>filter_ignoring_depress_roll
+    <left>439</left>
+    <top>200</top>
+    <right>474</right>
+    <bottom>235</bottom>
+  </region>
+  <region>filter_ignoring_depress
+    <left>474</left>
+    <top>200</top>
+    <right>509</right>
+    <bottom>235</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Mute_E
+    <left>404</left>
+    <top>235</top>
+    <right>439</right>
+    <bottom>270</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Mute_H
+    <left>439</left>
+    <top>235</top>
+    <right>474</right>
+    <bottom>270</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Mute_S
+    <left>474</left>
+    <top>235</top>
+    <right>509</right>
+    <bottom>270</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Mute_C
+    <left>474</left>
+    <top>270</top>
+    <right>509</right>
+    <bottom>305</bottom>
+  </region>
+  <region>_M2_MP_Buttons_Mute_G
+    <left>443</left>
+    <top>305</top>
+    <right>478</right>
+    <bottom>340</bottom>
+  </region>
+  <region>filter_out_incoming
+    <left>272</left>
+    <top>334</top>
+    <right>307</right>
+    <bottom>369</bottom>
+  </region>
+  <region>filter_out_incoming_roll
+    <left>140</left>
+    <top>468</top>
+    <right>175</right>
+    <bottom>503</bottom>
+  </region>
+  <region>filter_out_incoming_depress_roll
+    <left>342</left>
+    <top>334</top>
+    <right>377</right>
+    <bottom>369</bottom>
+  </region>
+  <region>filter_out_incoming_depress
+    <left>377</left>
+    <top>340</top>
+    <right>412</right>
+    <bottom>375</bottom>
+  </region>
+  <region>_M2_AI_Player_Button_Highlighted
+    <left>0</left>
+    <top>255</top>
+    <right>202</right>
+    <bottom>276</bottom>
+  </region>
+  <region>_M2_AI_Player_Button_Enabled
+    <left>202</left>
+    <top>234</top>
+    <right>404</right>
+    <bottom>255</bottom>
+  </region>
+  <region>_M2_AI_Player_Button_Selected
+    <left>0</left>
+    <top>150</top>
+    <right>202</right>
+    <bottom>171</bottom>
+  </region>
+  <region>_M2_Lock_Game_Button_Enabled
+    <left>0</left>
+    <top>276</top>
+    <right>202</right>
+    <bottom>297</bottom>
+  </region>
+  <region>_M2_Lock_Game_Button_Highlighted
+    <left>222</left>
+    <top>21</top>
+    <right>424</right>
+    <bottom>42</bottom>
+  </region>
+  <region>_M2_Lock_Game_Button_Selected
+    <left>202</left>
+    <top>150</top>
+    <right>404</right>
+    <bottom>171</bottom>
+  </region>
+  <region>_M2_Lock_Game_Button_Checked
+    <left>222</left>
+    <top>0</top>
+    <right>424</right>
+    <bottom>21</bottom>
+  </region>
+  <region>_M2_Field_HL
+    <left>0</left>
+    <top>0</top>
+    <right>222</right>
+    <bottom>45</bottom>
+  </region>
+  <region>_M2_Restore_Button_Enabled
+    <left>0</left>
+    <top>108</top>
+    <right>202</right>
+    <bottom>129</bottom>
+  </region>
+  <region>_M2_Restore_Button_Highlighted
+    <left>202</left>
+    <top>108</top>
+    <right>404</right>
+    <bottom>129</bottom>
+  </region>
+  <region>_M2_Restore_Button_Selected
+    <left>0</left>
+    <top>129</top>
+    <right>202</right>
+    <bottom>150</bottom>
+  </region>
+  <region>_M2_Apply_Changes_Button_Enabled
+    <left>202</left>
+    <top>129</top>
+    <right>404</right>
+    <bottom>150</bottom>
+  </region>
+  <region>_M2_Apply_Chang_But_Highlighted
+    <left>202</left>
+    <top>255</top>
+    <right>404</right>
+    <bottom>276</bottom>
+  </region>
+  <region>_M2_Apply_Chang_But_Selected
+    <left>0</left>
+    <top>171</top>
+    <right>202</right>
+    <bottom>192</bottom>
+  </region>
+  <region>_M2_Blank_Button_Enabled
+    <left>202</left>
+    <top>171</top>
+    <right>404</right>
+    <bottom>192</bottom>
+  </region>
+  <region>_M2_Blank_Button_Highlighted
+    <left>0</left>
+    <top>192</top>
+    <right>202</right>
+    <bottom>213</bottom>
+  </region>
+  <region>_M2_Blank_Button_Selected
+    <left>0</left>
+    <top>234</top>
+    <right>202</right>
+    <bottom>255</bottom>
+  </region>
+  <region>_M2_Blank_Large_Button_Enabled
+    <left>0</left>
+    <top>66</top>
+    <right>317</right>
+    <bottom>87</bottom>
+  </region>
+  <region>_M2_Blank_Large_Button_HiLight
+    <left>0</left>
+    <top>87</top>
+    <right>317</right>
+    <bottom>108</bottom>
+  </region>
+  <region>_M2_Blank_Large_Button_Selected
+    <left>0</left>
+    <top>45</top>
+    <right>317</right>
+    <bottom>66</bottom>
+  </region>
+  <region>_M2_Blank_Small_Button_Enabled
+    <left>404</left>
+    <top>142</top>
+    <right>512</right>
+    <bottom>163</bottom>
+  </region>
+  <region>_M2_Blank_Small_Button_HiLight
+    <left>404</left>
+    <top>121</top>
+    <right>512</right>
+    <bottom>142</bottom>
+  </region>
+  <region>_M2_Blank_Small_Button_Selected
+    <left>404</left>
+    <top>100</top>
+    <right>512</right>
+    <bottom>121</bottom>
+  </region>
+  <region>_M2_Save_Button_Enabled
+    <left>202</left>
+    <top>213</top>
+    <right>404</right>
+    <bottom>234</bottom>
+  </region>
+  <region>_M2_Save_Button_Highlighted
+    <left>0</left>
+    <top>213</top>
+    <right>202</right>
+    <bottom>234</bottom>
+  </region>
+  <region>_M2_Save_Button_Selected
+    <left>202</left>
+    <top>192</top>
+    <right>404</right>
+    <bottom>213</bottom>
+  </region>
+  <region>AI_select_button_enabled
+    <left>365</left>
+    <top>480</top>
+    <right>395</right>
+    <bottom>510</bottom>
+  </region>
+  <region>AI_select_button_highlighted
+    <left>335</left>
+    <top>480</top>
+    <right>365</right>
+    <bottom>510</bottom>
+  </region>
+  <region>AI_select_button_selected
+    <left>395</left>
+    <top>480</top>
+    <right>425</right>
+    <bottom>510</bottom>
+  </region>
+  <region>Clear_button_enabled
+    <left>275</left>
+    <top>474</top>
+    <right>305</right>
+    <bottom>504</bottom>
+  </region>
+  <region>Clear_button_highlighted
+    <left>245</left>
+    <top>474</top>
+    <right>275</right>
+    <bottom>504</bottom>
+  </region>
+  <region>Clear_button_selected
+    <left>482</left>
+    <top>335</top>
+    <right>512</right>
+    <bottom>365</bottom>
+  </region>
+  <region>back_button_enabled
+    <left>317</left>
+    <top>71</top>
+    <right>453</right>
+    <bottom>100</bottom>
+  </region>
+  <region>back_button_highlighted
+    <left>202</left>
+    <top>276</top>
+    <right>338</right>
+    <bottom>305</bottom>
+  </region>
+  <region>back_button_selected
+    <left>338</left>
+    <top>276</top>
+    <right>474</right>
+    <bottom>305</bottom>
+  </region>
+  <region>next_button_enabled
+    <left>0</left>
+    <top>297</top>
+    <right>136</right>
+    <bottom>326</bottom>
+  </region>
+  <region>next_button_highlighted
+    <left>136</left>
+    <top>305</top>
+    <right>272</right>
+    <bottom>334</bottom>
+  </region>
+  <region>next_button_selected
+    <left>272</left>
+    <top>305</top>
+    <right>408</right>
+    <bottom>334</bottom>
+  </region>
+  <region>back_button_enabled2
+    <left>0</left>
+    <top>326</top>
+    <right>136</right>
+    <bottom>355</bottom>
+  </region>
+  <region>back_button_highlighted2
+    <left>317</left>
+    <top>42</top>
+    <right>453</right>
+    <bottom>71</bottom>
+  </region>
+  <region>back_button_selected2
+    <left>136</left>
+    <top>334</top>
+    <right>272</right>
+    <bottom>363</bottom>
+  </region>
+  <region>_M2_Status_red
+    <left>478</left>
+    <top>74</top>
+    <right>503</right>
+    <bottom>99</bottom>
+  </region>
+  <region>M2_Status_green
+    <left>453</left>
+    <top>74</top>
+    <right>478</right>
+    <bottom>99</bottom>
+  </region>
+  <region>M2_Siege_Ladder_Off
+    <left>440</left>
+    <top>163</top>
+    <right>476</right>
+    <bottom>200</bottom>
+  </region>
+  <region>M2_Siege_Ladder_On
+    <left>404</left>
+    <top>163</top>
+    <right>440</right>
+    <bottom>200</bottom>
+  </region>
+  <region>M2_Siege_Ram_Off
+    <left>424</left>
+    <top>0</top>
+    <right>460</right>
+    <bottom>37</bottom>
+  </region>
+  <region>M2_Siege_Ram_On
+    <left>460</left>
+    <top>0</top>
+    <right>496</right>
+    <bottom>37</bottom>
+  </region>
+  <region>M2_Siege_Tower_Off
+    <left>453</left>
+    <top>37</top>
+    <right>489</right>
+    <bottom>74</bottom>
+  </region>
+  <region>M2_Siege_Tower_On
+    <left>476</left>
+    <top>163</top>
+    <right>512</right>
+    <bottom>200</bottom>
+  </region>
+  <region>WND_MAXIMIZE_CHECK
+    <left>175</left>
+    <top>468</top>
+    <right>210</right>
+    <bottom>503</bottom>
+  </region>
+  <region>WND_MAXIMIZE
+    <left>210</left>
+    <top>468</top>
+    <right>245</right>
+    <bottom>503</bottom>
+  </region>
+  <region>WND_MAXIMIZE_DISABLED
+    <left>420</left>
+    <top>445</top>
+    <right>455</right>
+    <bottom>480</bottom>
+  </region>
+  <region>WND_MAXIMIZE_HIGHLIGHT
+    <left>385</left>
+    <top>445</top>
+    <right>420</right>
+    <bottom>480</bottom>
+  </region>
+  <region>WND_MAXIMIZE_DOWN
+    <left>35</left>
+    <top>425</top>
+    <right>70</right>
+    <bottom>460</bottom>
+  </region>
+  <region>WND_RESTORE
+    <left>0</left>
+    <top>425</top>
+    <right>35</right>
+    <bottom>460</bottom>
+  </region>
+  <region>WND_RESTORE_CHECK
+    <left>455</left>
+    <top>410</top>
+    <right>490</right>
+    <bottom>445</bottom>
+  </region>
+  <region>WND_RESTORE_DISABLED
+    <left>420</left>
+    <top>410</top>
+    <right>455</right>
+    <bottom>445</bottom>
+  </region>
+  <region>WND_RESTORE_HIGHLIGHT
+    <left>385</left>
+    <top>410</top>
+    <right>420</right>
+    <bottom>445</bottom>
+  </region>
+  <region>WND_RESTORE_DOWN
+    <left>350</left>
+    <top>410</top>
+    <right>385</right>
+    <bottom>445</bottom>
+  </region>
+  <region>AI_select_button_grey
+    <left>478</left>
+    <top>305</top>
+    <right>508</right>
+    <bottom>335</bottom>
+  </region>
+  <region>Clear_button_grey
+    <left>305</left>
+    <top>474</top>
+    <right>335</right>
+    <bottom>504</bottom>
+  </region>
+</texture>
+<texture>_M2_Demo_Options_PANELS.tga
+  <path>textures</path>
+  <region>_M2_Demo_Options_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>404</right>
+    <bottom>220</bottom>
+  </region>
+</texture>
+<texture>_M2_Historical_Battle_Armies_PANELS_V2.tga
+  <path>textures</path>
+  <region>_M2_Hist_Bat_Armies_PANELS_V2
+    <left>0</left>
+    <top>0</top>
+    <right>831</right>
+    <bottom>322</bottom>
+  </region>
+</texture>
+<texture>_M2_Load&Save_Keys_PANELS.tga
+  <path>textures</path>
+  <region>_M2_Load_Save_Keys_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>498</right>
+    <bottom>388</bottom>
+  </region>
+</texture>
+<texture>_M2_Load_Game_PANELS.tga
+  <path>textures</path>
+  <region>_M2_Load_Game_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>393</right>
+    <bottom>160</bottom>
+  </region>
+</texture>
+<texture>_M2_Load_PANELS.tga
+  <path>textures</path>
+  <region>_M2_Load_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>498</right>
+    <bottom>388</bottom>
+  </region>
+</texture>
+<texture>_M2_Options_Audio_PANELS.tga
+  <path>textures</path>
+  <region>_M2_Options_Audio_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>592</right>
+    <bottom>430</bottom>
+  </region>
+</texture>
+<texture>_M2_Options_Camera_PANELS.tga
+  <path>textures</path>
+  <region>_M2_Options_Camera_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>568</right>
+    <bottom>459</bottom>
+  </region>
+</texture>
+<texture>_M2_Options_Controls_PANELS.tga
+  <path>textures</path>
+  <region>_M2_Options_Controls_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>655</right>
+    <bottom>522</bottom>
+  </region>
+</texture>
+<texture>_M2_Options_Video_PANEL.tga
+  <path>textures</path>
+  <region>_M2_Options_Video_Demo_PANEL
+    <left>0</left>
+    <top>0</top>
+    <right>694</right>
+    <bottom>374</bottom>
+  </region>
+</texture>
+<texture>_M2_Options_Video_PANELS.tga
+  <path>textures</path>
+  <region>_M2_Options_Video_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>569</right>
+    <bottom>430</bottom>
+  </region>
+</texture>
+<texture>textures\FE_texture1.tga
+  <path>textures</path>
+  <region>gold_bar
+    <left>0</left>
+    <top>205</top>
+    <right>348</right>
+    <bottom>210</bottom>
+  </region>
+  <region>arrow_continue
+    <left>174</left>
+    <top>210</top>
+    <right>231</right>
+    <bottom>243</bottom>
+  </region>
+  <region>arrow_continue_rollover
+    <left>117</left>
+    <top>210</top>
+    <right>174</right>
+    <bottom>243</bottom>
+  </region>
+  <region>arrow_continue_select
+    <left>60</left>
+    <top>210</top>
+    <right>117</right>
+    <bottom>243</bottom>
+  </region>
+  <region>arrow_return
+    <left>125</left>
+    <top>336</top>
+    <right>166</right>
+    <bottom>382</bottom>
+  </region>
+  <region>arrow_return_roll
+    <left>468</left>
+    <top>205</top>
+    <right>509</right>
+    <bottom>251</bottom>
+  </region>
+  <region>arrow_return_select
+    <left>84</left>
+    <top>336</top>
+    <right>125</right>
+    <bottom>382</bottom>
+  </region>
+  <region>save
+    <left>473</left>
+    <top>363</top>
+    <right>506</right>
+    <bottom>412</bottom>
+  </region>
+  <region>save_roll
+    <left>316</left>
+    <top>367</top>
+    <right>349</right>
+    <bottom>416</bottom>
+  </region>
+  <region>save_selected
+    <left>349</left>
+    <top>367</top>
+    <right>382</right>
+    <bottom>416</bottom>
+  </region>
+  <region>progress_bar
+    <left>0</left>
+    <top>0</top>
+    <right>505</right>
+    <bottom>34</bottom>
+  </region>
+  <region>arrow_large_left
+    <left>439</left>
+    <top>451</top>
+    <right>453</right>
+    <bottom>481</bottom>
+  </region>
+  <region>arrow_large_left_roll
+    <left>255</left>
+    <top>387</top>
+    <right>269</right>
+    <bottom>417</bottom>
+  </region>
+  <region>arrow_large_left_select
+    <left>316</left>
+    <top>335</top>
+    <right>330</right>
+    <bottom>365</bottom>
+  </region>
+  <region>arrow_large_right
+    <left>495</left>
+    <top>281</top>
+    <right>509</right>
+    <bottom>311</bottom>
+  </region>
+  <region>arrow_large_right_roll
+    <left>495</left>
+    <top>251</top>
+    <right>509</right>
+    <bottom>281</bottom>
+  </region>
+  <region>arrow_large_right_select
+    <left>167</left>
+    <top>451</top>
+    <right>181</right>
+    <bottom>481</bottom>
+  </region>
+  <region>arrow_small_left
+    <left>223</left>
+    <top>271</top>
+    <right>230</right>
+    <bottom>285</bottom>
+  </region>
+  <region>arrow_small_left_roll
+    <left>51</left>
+    <top>269</top>
+    <right>58</right>
+    <bottom>283</bottom>
+  </region>
+  <region>arrow_small_left_select
+    <left>505</left>
+    <top>14</top>
+    <right>512</right>
+    <bottom>28</bottom>
+  </region>
+  <region>arrow_small_right
+    <left>223</left>
+    <top>243</top>
+    <right>230</right>
+    <bottom>257</bottom>
+  </region>
+  <region>arrow_small_right_roll
+    <left>223</left>
+    <top>257</top>
+    <right>230</right>
+    <bottom>271</bottom>
+  </region>
+  <region>arrow_small_right_select
+    <left>505</left>
+    <top>0</top>
+    <right>512</right>
+    <bottom>14</bottom>
+  </region>
+  <region>attacker_ally_not_selected
+    <left>370</left>
+    <top>450</top>
+    <right>393</right>
+    <bottom>491</bottom>
+  </region>
+  <region>attacker_ally_not_selected_roll
+    <left>269</left>
+    <top>446</top>
+    <right>292</right>
+    <bottom>487</bottom>
+  </region>
+  <region>attacker_ally_not_selected_sel
+    <left>292</left>
+    <top>446</top>
+    <right>315</right>
+    <bottom>487</bottom>
+  </region>
+  <region>defender_enemy_selected
+    <left>393</left>
+    <top>450</top>
+    <right>416</right>
+    <bottom>482</bottom>
+  </region>
+  <region>defender_enemy_selected_roll
+    <left>416</left>
+    <top>450</top>
+    <right>439</right>
+    <bottom>482</bottom>
+  </region>
+  <region>defender_enemy_selected_select
+    <left>465</left>
+    <top>450</top>
+    <right>488</right>
+    <bottom>482</bottom>
+  </region>
+  <region>unit_artillery
+    <left>236</left>
+    <top>346</top>
+    <right>271</right>
+    <bottom>387</bottom>
+  </region>
+  <region>unit_attacker_greyed
+    <left>25</left>
+    <top>447</top>
+    <right>48</right>
+    <bottom>488</bottom>
+  </region>
+  <region>unit_cavalry
+    <left>84</left>
+    <top>382</top>
+    <right>115</right>
+    <bottom>427</bottom>
+  </region>
+  <region>unit_cost
+    <left>115</left>
+    <top>382</top>
+    <right>146</right>
+    <bottom>412</bottom>
+  </region>
+  <region>unit_defender_greyed
+    <left>144</left>
+    <top>451</top>
+    <right>167</right>
+    <bottom>483</bottom>
+  </region>
+  <region>unit_infantry
+    <left>490</left>
+    <top>72</top>
+    <right>510</right>
+    <bottom>110</bottom>
+  </region>
+  <region>unit_legio
+    <left>0</left>
+    <top>301</top>
+    <right>51</right>
+    <bottom>333</bottom>
+  </region>
+  <region>unit_legio_greyed
+    <left>223</left>
+    <top>314</top>
+    <right>274</right>
+    <bottom>346</bottom>
+  </region>
+  <region>unit_legio_roll
+    <left>0</left>
+    <top>269</top>
+    <right>51</right>
+    <bottom>301</bottom>
+  </region>
+  <region>unit_legio_select
+    <left>287</left>
+    <top>303</top>
+    <right>338</right>
+    <bottom>335</bottom>
+  </region>
+  <region>unit_missile
+    <left>382</left>
+    <top>412</top>
+    <right>411</right>
+    <bottom>450</bottom>
+  </region>
+  <region>unit_total
+    <left>115</left>
+    <top>412</top>
+    <right>144</right>
+    <bottom>471</bottom>
+  </region>
+  <region>unit_infantry_greyed
+    <left>490</left>
+    <top>110</top>
+    <right>510</right>
+    <bottom>148</bottom>
+  </region>
+  <region>unit_artillery_greyed
+    <left>473</left>
+    <top>322</top>
+    <right>508</right>
+    <bottom>363</bottom>
+  </region>
+  <region>unit_artillery_roll
+    <left>201</left>
+    <top>346</top>
+    <right>236</right>
+    <bottom>387</bottom>
+  </region>
+  <region>unit_artillery_select
+    <left>166</left>
+    <top>340</top>
+    <right>201</right>
+    <bottom>381</bottom>
+  </region>
+  <region>unit_cavalry_greyed
+    <left>382</left>
+    <top>367</top>
+    <right>413</right>
+    <bottom>412</bottom>
+  </region>
+  <region>unit_cavalry_roll
+    <left>166</left>
+    <top>381</top>
+    <right>197</right>
+    <bottom>426</bottom>
+  </region>
+  <region>unit_cavalry_select
+    <left>413</left>
+    <top>367</top>
+    <right>444</right>
+    <bottom>412</bottom>
+  </region>
+  <region>unit_infantry_roll
+    <left>490</left>
+    <top>148</top>
+    <right>510</right>
+    <bottom>186</bottom>
+  </region>
+  <region>unit_infantry_select
+    <left>146</left>
+    <top>382</top>
+    <right>166</right>
+    <bottom>420</bottom>
+  </region>
+  <region>unit_missile_greyed
+    <left>473</left>
+    <top>412</top>
+    <right>502</right>
+    <bottom>450</bottom>
+  </region>
+  <region>unit_missile_roll
+    <left>411</left>
+    <top>412</top>
+    <right>440</right>
+    <bottom>450</bottom>
+  </region>
+  <region>unit_missile_select
+    <left>316</left>
+    <top>416</top>
+    <right>345</right>
+    <bottom>454</bottom>
+  </region>
+  <region>unit_total_greyed
+    <left>197</left>
+    <top>387</top>
+    <right>226</right>
+    <bottom>446</bottom>
+  </region>
+  <region>unit_total_roll
+    <left>444</left>
+    <top>367</top>
+    <right>473</right>
+    <bottom>426</bottom>
+  </region>
+  <region>unit_total_select
+    <left>226</left>
+    <top>387</top>
+    <right>255</right>
+    <bottom>446</bottom>
+  </region>
+  <region>dread
+    <left>274</left>
+    <top>314</top>
+    <right>287</right>
+    <bottom>331</bottom>
+  </region>
+  <region>dignitas
+    <left>490</left>
+    <top>56</top>
+    <right>511</right>
+    <bottom>72</bottom>
+  </region>
+  <region>leder_capital
+    <left>490</left>
+    <top>186</top>
+    <right>507</right>
+    <bottom>204</bottom>
+  </region>
+  <region>armour
+    <left>453</left>
+    <top>451</top>
+    <right>464</right>
+    <bottom>467</bottom>
+  </region>
+  <region>border_bottom
+    <left>507</left>
+    <top>198</top>
+    <right>511</right>
+    <bottom>202</bottom>
+  </region>
+  <region>border_bottom_left
+    <left>507</left>
+    <top>190</top>
+    <right>511</right>
+    <bottom>194</bottom>
+  </region>
+  <region>border_right
+    <left>507</left>
+    <top>194</top>
+    <right>511</right>
+    <bottom>198</bottom>
+  </region>
+  <region>border_top
+    <left>505</left>
+    <top>28</top>
+    <right>509</right>
+    <bottom>32</bottom>
+  </region>
+  <region>border_top_right
+    <left>507</left>
+    <top>186</top>
+    <right>511</right>
+    <bottom>190</bottom>
+  </region>
+  <region>money
+    <left>490</left>
+    <top>34</top>
+    <right>512</right>
+    <bottom>56</bottom>
+  </region>
+  <region>unit_box
+    <left>231</left>
+    <top>210</top>
+    <right>287</right>
+    <bottom>314</bottom>
+  </region>
+  <region>unit_receptacle
+    <left>170</left>
+    <top>243</top>
+    <right>223</right>
+    <bottom>340</bottom>
+  </region>
+  <region>unit_receptacle_bar
+    <left>508</left>
+    <top>311</top>
+    <right>512</right>
+    <bottom>408</bottom>
+  </region>
+  <region>weapon
+    <left>181</left>
+    <top>451</top>
+    <right>193</right>
+    <bottom>468</bottom>
+  </region>
+  <region>discipline
+    <left>71</left>
+    <top>452</top>
+    <right>85</right>
+    <bottom>467</bottom>
+  </region>
+  <region>x
+    <left>383</left>
+    <top>322</top>
+    <right>428</right>
+    <bottom>367</bottom>
+  </region>
+  <region>x_roll
+    <left>338</left>
+    <top>322</top>
+    <right>383</right>
+    <bottom>367</bottom>
+  </region>
+  <region>x_select
+    <left>428</left>
+    <top>322</top>
+    <right>473</right>
+    <bottom>367</bottom>
+  </region>
+  <region>check
+    <left>348</left>
+    <top>205</top>
+    <right>408</right>
+    <bottom>264</bottom>
+  </region>
+  <region>check_roll
+    <left>0</left>
+    <top>210</top>
+    <right>60</right>
+    <bottom>269</bottom>
+  </region>
+  <region>check_select
+    <left>408</left>
+    <top>205</top>
+    <right>468</right>
+    <bottom>264</bottom>
+  </region>
+  <region>defender_enemy_not_selected
+    <left>488</left>
+    <top>450</top>
+    <right>511</right>
+    <bottom>482</bottom>
+  </region>
+  <region>server_create
+    <left>115</left>
+    <top>243</top>
+    <right>170</right>
+    <bottom>336</bottom>
+  </region>
+  <region>server_create_roll
+    <left>60</left>
+    <top>243</top>
+    <right>115</right>
+    <bottom>336</bottom>
+  </region>
+  <region>server_create_select
+    <left>287</left>
+    <top>210</top>
+    <right>342</right>
+    <bottom>303</bottom>
+  </region>
+  <region>server_join
+    <left>42</left>
+    <top>336</top>
+    <right>84</right>
+    <bottom>420</bottom>
+  </region>
+  <region>server_join_roll
+    <left>0</left>
+    <top>333</top>
+    <right>42</right>
+    <bottom>417</bottom>
+  </region>
+  <region>server_join_select
+    <left>274</left>
+    <top>335</top>
+    <right>316</right>
+    <bottom>419</bottom>
+  </region>
+  <region>server_refresh
+    <left>342</left>
+    <top>264</top>
+    <right>393</right>
+    <bottom>322</bottom>
+  </region>
+  <region>server_refresh_roll
+    <left>393</left>
+    <top>264</top>
+    <right>444</right>
+    <bottom>322</bottom>
+  </region>
+  <region>server_refresh_select
+    <left>444</left>
+    <top>264</top>
+    <right>495</right>
+    <bottom>322</bottom>
+  </region>
+  <region>player_boot
+    <left>144</left>
+    <top>426</top>
+    <right>169</right>
+    <bottom>451</bottom>
+  </region>
+  <region>player_boot_roll
+    <left>219</left>
+    <top>446</top>
+    <right>244</right>
+    <bottom>471</bottom>
+  </region>
+  <region>player_boot_select
+    <left>169</left>
+    <top>426</top>
+    <right>194</right>
+    <bottom>451</bottom>
+  </region>
+  <region>player_chat
+    <left>244</left>
+    <top>446</top>
+    <right>269</right>
+    <bottom>471</bottom>
+  </region>
+  <region>player_chat_roll
+    <left>194</left>
+    <top>446</top>
+    <right>219</right>
+    <bottom>471</bottom>
+  </region>
+  <region>player_chat_select
+    <left>0</left>
+    <top>444</top>
+    <right>25</right>
+    <bottom>469</bottom>
+  </region>
+  <region>player_remove_chat
+    <left>345</left>
+    <top>443</top>
+    <right>370</right>
+    <bottom>468</bottom>
+  </region>
+  <region>player_remove_chat_roll
+    <left>81</left>
+    <top>427</top>
+    <right>106</right>
+    <bottom>452</bottom>
+  </region>
+  <region>player_remove_chat_select
+    <left>440</left>
+    <top>426</top>
+    <right>465</right>
+    <bottom>451</bottom>
+  </region>
+  <region>attacker_ally_selected
+    <left>48</left>
+    <top>447</top>
+    <right>71</right>
+    <bottom>488</bottom>
+  </region>
+  <region>BI_main_menu
+    <left>0</left>
+    <top>34</top>
+    <right>490</right>
+    <bottom>205</bottom>
+  </region>
+  <region>Defend
+    <left>282</left>
+    <top>419</top>
+    <right>309</right>
+    <bottom>446</bottom>
+  </region>
+  <region>Defend_Roll
+    <left>27</left>
+    <top>420</top>
+    <right>54</right>
+    <bottom>447</bottom>
+  </region>
+  <region>Defend_Grey
+    <left>255</left>
+    <top>419</top>
+    <right>282</right>
+    <bottom>446</bottom>
+  </region>
+  <region>Defend_Selected
+    <left>0</left>
+    <top>417</top>
+    <right>27</right>
+    <bottom>444</bottom>
+  </region>
+  <region>Attack_Enabled
+    <left>345</left>
+    <top>416</top>
+    <right>372</right>
+    <bottom>443</bottom>
+  </region>
+  <region>Attack_Highlight
+    <left>54</left>
+    <top>420</top>
+    <right>81</right>
+    <bottom>447</bottom>
+  </region>
+</texture>
+<texture>textures\FE_texture2.tga
+  <path>textures</path>
+  <region>lock_closed
+    <left>122</left>
+    <top>70</top>
+    <right>144</right>
+    <bottom>111</bottom>
+  </region>
+  <region>lock_open
+    <left>100</left>
+    <top>70</top>
+    <right>122</right>
+    <bottom>111</bottom>
+  </region>
+  <region>check_small
+    <left>144</left>
+    <top>70</top>
+    <right>171</right>
+    <bottom>97</bottom>
+  </region>
+  <region>chat_private
+    <left>222</left>
+    <top>99</top>
+    <right>247</right>
+    <bottom>124</bottom>
+  </region>
+  <region>chat_public
+    <left>197</left>
+    <top>99</top>
+    <right>222</right>
+    <bottom>124</bottom>
+  </region>
+  <region>sword
+    <left>0</left>
+    <top>70</top>
+    <right>67</right>
+    <bottom>135</bottom>
+  </region>
+  <region>box_back_black
+    <left>235</left>
+    <top>0</top>
+    <right>243</right>
+    <bottom>8</bottom>
+  </region>
+  <region>lock_game_unlocked_roll
+    <left>202</left>
+    <top>66</top>
+    <right>235</right>
+    <bottom>99</bottom>
+  </region>
+  <region>lock_game_locked_roll
+    <left>202</left>
+    <top>0</top>
+    <right>235</right>
+    <bottom>33</bottom>
+  </region>
+  <region>lock_game_unlocked
+    <left>202</left>
+    <top>33</top>
+    <right>235</right>
+    <bottom>66</bottom>
+  </region>
+  <region>lock_game_locked
+    <left>67</left>
+    <top>70</top>
+    <right>100</right>
+    <bottom>103</bottom>
+  </region>
+  <region>settlement_allowed
+    <left>171</left>
+    <top>70</top>
+    <right>197</right>
+    <bottom>96</bottom>
+  </region>
+  <region>settlement_not_allowed
+    <left>144</left>
+    <top>97</top>
+    <right>170</right>
+    <bottom>123</bottom>
+  </region>
+  <region>settlement_present
+    <left>171</left>
+    <top>96</top>
+    <right>197</right>
+    <bottom>122</bottom>
+  </region>
+  <region>_M2_Cust_Bat_Choose_Siege_PANELS
+    <left>0</left>
+    <top>0</top>
+    <right>202</right>
+    <bottom>70</bottom>
+  </region>
+  <region>_M2_Button_Grey
+    <left>0</left>
+    <top>156</top>
+    <right>202</right>
+    <bottom>177</bottom>
+  </region>
+  <region>_M2_Refresh_Button_Enabled
+    <left>0</left>
+    <top>135</top>
+    <right>202</right>
+    <bottom>156</bottom>
+  </region>
+  <region>_M2_Refresh_Button_Highlight
+    <left>0</left>
+    <top>198</top>
+    <right>202</right>
+    <bottom>219</bottom>
+  </region>
+  <region>_M2_Refresh_Button_Selected
+    <left>0</left>
+    <top>219</top>
+    <right>202</right>
+    <bottom>240</bottom>
+  </region>
+  <region>_M2_Refresh_Button_Grey
+    <left>0</left>
+    <top>177</top>
+    <right>202</right>
+    <bottom>198</bottom>
+  </region>
+</texture>
+<texture>textures\FE_texture4.tga
+  <path>textures</path>
+  <region>ca_box_left
+    <left>496</left>
+    <top>0</top>
+    <right>510</right>
+    <bottom>156</bottom>
+  </region>
+  <region>ca_box_mid2
+    <left>193</left>
+    <top>0</top>
+    <right>290</right>
+    <bottom>155</bottom>
+  </region>
+  <region>ca_box_mid4
+    <left>0</left>
+    <top>0</top>
+    <right>193</right>
+    <bottom>155</bottom>
+  </region>
+  <region>ca_box_right
+    <left>500</left>
+    <top>156</top>
+    <right>511</right>
+    <bottom>310</bottom>
+  </region>
+  <region>ca_defense_template
+    <left>473</left>
+    <top>310</top>
+    <right>507</right>
+    <bottom>351</bottom>
+  </region>
+  <region>ca_experience_template
+    <left>198</left>
+    <top>330</top>
+    <right>226</right>
+    <bottom>368</bottom>
+  </region>
+  <region>ca_attack_template
+    <left>434</left>
+    <top>305</top>
+    <right>473</right>
+    <bottom>345</bottom>
+  </region>
+  <region>game_list_button4_roll
+    <left>250</left>
+    <top>305</top>
+    <right>342</right>
+    <bottom>330</bottom>
+  </region>
+  <region>game_list_button1_press
+    <left>250</left>
+    <top>230</top>
+    <right>500</right>
+    <bottom>255</bottom>
+  </region>
+  <region>game_list_button1_roll
+    <left>0</left>
+    <top>230</top>
+    <right>250</right>
+    <bottom>255</bottom>
+  </region>
+  <region>game_list_button2
+    <left>0</left>
+    <top>155</top>
+    <right>284</right>
+    <bottom>180</bottom>
+  </region>
+  <region>game_list_button2_press
+    <left>0</left>
+    <top>180</top>
+    <right>284</right>
+    <bottom>205</bottom>
+  </region>
+  <region>game_list_button2_roll
+    <left>0</left>
+    <top>205</top>
+    <right>284</right>
+    <bottom>230</bottom>
+  </region>
+  <region>game_list_button3
+    <left>290</left>
+    <top>146</top>
+    <right>445</right>
+    <bottom>171</bottom>
+  </region>
+  <region>game_list_button3_press
+    <left>284</left>
+    <top>171</top>
+    <right>439</right>
+    <bottom>196</bottom>
+  </region>
+  <region>game_list_button3_roll
+    <left>290</left>
+    <top>121</top>
+    <right>445</right>
+    <bottom>146</bottom>
+  </region>
+  <region>game_list_button4
+    <left>284</left>
+    <top>196</top>
+    <right>376</right>
+    <bottom>221</bottom>
+  </region>
+  <region>game_list_button4_press
+    <left>342</left>
+    <top>305</top>
+    <right>434</right>
+    <bottom>330</bottom>
+  </region>
+  <region>game_list_button1
+    <left>0</left>
+    <top>255</top>
+    <right>250</right>
+    <bottom>280</bottom>
+  </region>
+  <region>clear_army_list
+    <left>300</left>
+    <top>255</top>
+    <right>350</right>
+    <bottom>305</bottom>
+  </region>
+  <region>clear_army_list_roll
+    <left>350</left>
+    <top>255</top>
+    <right>400</right>
+    <bottom>305</bottom>
+  </region>
+  <region>clear_army_list_select
+    <left>400</left>
+    <top>255</top>
+    <right>450</right>
+    <bottom>305</bottom>
+  </region>
+  <region>random_army
+    <left>0</left>
+    <top>280</top>
+    <right>50</right>
+    <bottom>330</bottom>
+  </region>
+  <region>random_army_roll
+    <left>50</left>
+    <top>280</top>
+    <right>100</right>
+    <bottom>330</bottom>
+  </region>
+  <region>random_army_select
+    <left>100</left>
+    <top>280</top>
+    <right>150</right>
+    <bottom>330</bottom>
+  </region>
+  <region>a1way_marker_incoming
+    <left>149</left>
+    <top>363</top>
+    <right>169</right>
+    <bottom>383</bottom>
+  </region>
+  <region>a1way_marker_outgoing
+    <left>69</left>
+    <top>363</top>
+    <right>89</right>
+    <bottom>383</bottom>
+  </region>
+  <region>a2way_marker
+    <left>89</left>
+    <top>363</top>
+    <right>109</right>
+    <bottom>383</bottom>
+  </region>
+  <region>marker_empty
+    <left>109</left>
+    <top>363</top>
+    <right>129</right>
+    <bottom>383</bottom>
+  </region>
+  <region>marker_friend
+    <left>129</left>
+    <top>363</top>
+    <right>149</right>
+    <bottom>383</bottom>
+  </region>
+  <region>chevron_rank9
+    <left>394</left>
+    <top>357</top>
+    <right>420</right>
+    <bottom>383</bottom>
+  </region>
+  <region>chevron_rank2
+    <left>278</left>
+    <top>359</top>
+    <right>304</right>
+    <bottom>385</bottom>
+  </region>
+  <region>chevron_rank3
+    <left>252</left>
+    <top>359</top>
+    <right>278</right>
+    <bottom>385</bottom>
+  </region>
+  <region>chevron_rank4
+    <left>226</left>
+    <top>359</top>
+    <right>252</right>
+    <bottom>385</bottom>
+  </region>
+  <region>chevron_rank5
+    <left>423</left>
+    <top>345</top>
+    <right>449</right>
+    <bottom>371</bottom>
+  </region>
+  <region>chevron_rank6
+    <left>342</left>
+    <top>357</top>
+    <right>368</right>
+    <bottom>383</bottom>
+  </region>
+  <region>chevron_rank7
+    <left>475</left>
+    <top>351</top>
+    <right>501</right>
+    <bottom>377</bottom>
+  </region>
+  <region>chevron_rank8
+    <left>449</left>
+    <top>351</top>
+    <right>475</right>
+    <bottom>377</bottom>
+  </region>
+  <region>chevron_rank1
+    <left>368</left>
+    <top>357</top>
+    <right>394</right>
+    <bottom>383</bottom>
+  </region>
+  <region>accept_changes_select
+    <left>450</left>
+    <top>255</top>
+    <right>500</right>
+    <bottom>305</bottom>
+  </region>
+  <region>accept_changes_roll
+    <left>445</left>
+    <top>121</top>
+    <right>495</right>
+    <bottom>171</bottom>
+  </region>
+  <region>accept_changes
+    <left>439</left>
+    <top>171</top>
+    <right>489</right>
+    <bottom>221</bottom>
+  </region>
+  <region>reset_defaults_select
+    <left>200</left>
+    <top>280</top>
+    <right>250</right>
+    <bottom>330</bottom>
+  </region>
+  <region>reset_defaults_roll
+    <left>150</left>
+    <top>280</top>
+    <right>200</right>
+    <bottom>330</bottom>
+  </region>
+  <region>reset_defaults
+    <left>250</left>
+    <top>255</top>
+    <right>300</right>
+    <bottom>305</bottom>
+  </region>
+  <region>powered_by_gamespy_web
+    <left>290</left>
+    <top>0</top>
+    <right>490</right>
+    <bottom>46</bottom>
+  </region>
+  <region>TM
+    <left>376</left>
+    <top>196</top>
+    <right>419</right>
+    <bottom>225</bottom>
+  </region>
+  <region>AI_player_select
+    <left>0</left>
+    <top>330</top>
+    <right>33</right>
+    <bottom>363</bottom>
+  </region>
+  <region>AI_player_roll
+    <left>165</left>
+    <top>330</top>
+    <right>198</right>
+    <bottom>363</bottom>
+  </region>
+  <region>AI_player
+    <left>66</left>
+    <top>330</top>
+    <right>99</right>
+    <bottom>363</bottom>
+  </region>
+  <region>kick_depress_roll
+    <left>46</left>
+    <top>363</top>
+    <right>69</right>
+    <bottom>386</bottom>
+  </region>
+  <region>kick_depress
+    <left>0</left>
+    <top>363</top>
+    <right>23</right>
+    <bottom>386</bottom>
+  </region>
+  <region>kick
+    <left>304</left>
+    <top>359</top>
+    <right>327</right>
+    <bottom>382</bottom>
+  </region>
+  <region>kick_roll
+    <left>23</left>
+    <top>363</top>
+    <right>46</right>
+    <bottom>386</bottom>
+  </region>
+  <region>siege_equip_tower
+    <left>313</left>
+    <top>330</top>
+    <right>342</right>
+    <bottom>359</bottom>
+  </region>
+  <region>siege_equip_ram
+    <left>284</left>
+    <top>330</top>
+    <right>313</right>
+    <bottom>359</bottom>
+  </region>
+  <region>siege_equip_sapping
+    <left>226</left>
+    <top>330</top>
+    <right>255</right>
+    <bottom>359</bottom>
+  </region>
+  <region>siege_equip_ladder
+    <left>255</left>
+    <top>330</top>
+    <right>284</right>
+    <bottom>359</bottom>
+  </region>
+  <region>test_vidres
+    <left>99</left>
+    <top>330</top>
+    <right>132</right>
+    <bottom>363</bottom>
+  </region>
+  <region>test_vidres_roll
+    <left>132</left>
+    <top>330</top>
+    <right>165</right>
+    <bottom>363</bottom>
+  </region>
+  <region>test_vidres_select
+    <left>33</left>
+    <top>330</top>
+    <right>66</right>
+    <bottom>363</bottom>
+  </region>
+  <region>a1way_marker_ignoring
+    <left>419</left>
+    <top>196</top>
+    <right>439</right>
+    <bottom>216</bottom>
+  </region>
+  <region>filter_out_incoming_ICON
+    <left>169</left>
+    <top>363</top>
+    <right>189</right>
+    <bottom>383</bottom>
+  </region>
+  <region>Kick_Selected
+    <left>396</left>
+    <top>330</top>
+    <right>423</right>
+    <bottom>357</bottom>
+  </region>
+  <region>Kick_M2
+    <left>342</left>
+    <top>330</top>
+    <right>369</right>
+    <bottom>357</bottom>
+  </region>
+  <region>Kick_Roll_M2
+    <left>369</left>
+    <top>330</top>
+    <right>396</right>
+    <bottom>357</bottom>
+  </region>
+  <region>_M2_Autodetect_Button_Enabled
+    <left>290</left>
+    <top>46</top>
+    <right>496</right>
+    <bottom>71</bottom>
+  </region>
+  <region>_M2_Autodetect_Button_Highlight
+    <left>290</left>
+    <top>71</top>
+    <right>496</right>
+    <bottom>96</bottom>
+  </region>
+  <region>_M2_Autodetect_Button_Selected
+    <left>290</left>
+    <top>96</top>
+    <right>496</right>
+    <bottom>121</bottom>
+  </region>
+</texture>
+<texture>textures\backdrop.tga
+  <path>textures</path>
+  <region>backdrop
+    <left>0</left>
+    <top>0</top>
+    <right>1024</right>
+    <bottom>768</bottom>
+  </region>
+</texture>
+<font>fonts\KPL_60.cuf
+  <identifier>kpl_60</identifier>
+  <lf_height>18</lf_height>
+</font>
+<font>fonts\font_18.cuf
+  <identifier>tnr</identifier>
+  <lf_height>18</lf_height>
+</font>
+<font>fonts\font_14.cuf
+  <identifier>tnr_med</identifier>
+  <lf_height>14</lf_height>
+</font>
+<font>fonts\font_10.cuf
+  <identifier>tnr_sml</identifier>
+  <lf_height>10</lf_height>
+</font>
+<font>fonts\KP_18.cuf
+  <identifier>verdana</identifier>
+  <lf_height>18</lf_height>
+</font>
+<font>fonts\KP_14.cuf
+  <identifier>verdana_med</identifier>
+  <lf_height>14</lf_height>
+</font>
+<font>fonts\sml_font_10.cuf
+  <identifier>verdana_sml</identifier>
+  <lf_height>10</lf_height>
+</font>
+<fmv>Dump0000.bik
+  <identifier>fmv_backdrop</identifier>
+  <left>0</left>
+  <top>0</top>
+  <right>1024</right>
+  <bottom>768</bottom>
+</fmv>
+<UI object>gold_bar
+  <type>art</type>
+  <UI region>art
+    <page>textures\FE_texture1.tga</page>
+    <region>gold_bar</region>
+  </UI region>
+</UI object>
+<UI object>backdrop
+  <type>art</type>
+  <UI region>art
+    <page>textures\backdrop.tga</page>
+    <region>backdrop</region>
+  </UI region>
+</UI object>
+<UI object>fmv_backdrop
+  <type>art</type>
+  <UI region>art
+    <page>4will_hi.bik</page>
+    <region>fmv_backdrop</region>
+  </UI region>
+</UI object>
+<UI object>arrow_large_left
+  <type>push_button</type>
+  <UI region>enabled
+    <page>textures\FE_texture1.tga</page>
+    <region>arrow_large_left</region>
+  </UI region>
+  <UI region>highlighted
+    <page>textures\FE_texture1.tga</page>
+    <region>arrow_large_left_roll</region>
+  </UI region>
+  <UI region>selected
+    <page>textures\FE_texture1.tga</page>
+    <region>arrow_large_left_select</region>
+  </UI region>
+</UI object>
+<UI object>arrow_large_right
+  <type>push_button</type>
+  <UI region>enabled
+    <page>textures\FE_texture1.tga</page>
+    <region>arrow_large_right</region>
+  </UI region>
+  <UI region>highlighted
+    <page>textures\FE_texture1.tga</page>
+    <region>arrow_large_right_roll</region>
+  </UI region>
+  <UI region>selected
+    <page>textures\FE_texture1.tga</page>
+    <region>arrow_large_right_select</region>
+  </UI region>
+</UI object>
+<UI object>check
+  <type>push_button</type>
+  <UI region>enabled
+    <page>textures\FE_texture1.tga</page>
+    <region>check</region>
+  </UI region>
+  <UI region>highlighted
+    <page>textures\FE_texture1.tga</page>
+    <region>check_roll</region>
+  </UI region>
+  <UI region>selected
+    <page>textures\FE_texture1.tga</page>
+    <region>check_select</region>
+  </UI region>
+</UI object>
+<UI object>x
+  <type>push_button</type>
+  <UI region>enabled
+    <page>textures\FE_texture1.tga</page>
+    <region>x</region>
+  </UI region>
+  <UI region>highlighted
+    <page>textures\FE_texture1.tga</page>
+    <region>x_roll</region>
+  </UI region>
+  <UI region>selected
+    <page>textures\FE_texture1.tga</page>
+    <region>x_select</region>
+  </UI region>
+</UI object>
+<UI object>sword
+  <type>art</type>
+  <UI region>art
+    <page>textures\FE_texture2.tga</page>
+    <region>sword</region>
+  </UI region>
+</UI object>
+<UI object>ca_box_left
+  <type>art</type>
+  <UI region>art
+    <page>textures\FE_texture4.tga</page>
+    <region>ca_box_left</region>
+  </UI region>
+</UI object>
+<UI object>TM
+  <type>art</type>
+  <UI region>art
+    <page>textures\FE_texture4.tga</page>
+    <region>TM</region>
+  </UI region>
+</UI object>
+<UI object>BI_main_menu
+  <type>art</type>
+  <UI region>art
+    <page>textures\FE_texture1.tga</page>
+    <region>BI_main_menu</region>
+  </UI region>
+</UI object>
+<UI object>reset_defaults
+  <type>push_button</type>
+  <UI region>enabled
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Restore_Button_Enabled</region>
+  </UI region>
+  <UI region>highlighted
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Restore_Button_Highlighted</region>
+  </UI region>
+  <UI region>selected
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Restore_Button_Selected</region>
+  </UI region>
+</UI object>
+<UI object>test_vidres
+  <type>push_button</type>
+  <UI region>enabled
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Apply_Changes_Button_Enabled</region>
+  </UI region>
+  <UI region>highlighted
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Apply_Chang_But_Highlighted</region>
+  </UI region>
+  <UI region>selected
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Apply_Chang_But_Selected</region>
+  </UI region>
+</UI object>
+<UI object>Lobby_Sort_Mid
+  <type>push_button</type>
+  <UI region>enabled
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Blank_Button_Enabled</region>
+  </UI region>
+  <UI region>highlighted
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Blank_Button_Highlighted</region>
+  </UI region>
+  <UI region>selected
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Blank_Button_Selected</region>
+  </UI region>
+</UI object>
+<UI object>Lobby_Sort_Small
+  <type>push_button</type>
+  <UI region>enabled
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Blank_Small_Button_Enabled</region>
+  </UI region>
+  <UI region>highlighted
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Blank_Small_Button_HiLight</region>
+  </UI region>
+  <UI region>selected
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Blank_Small_Button_Selected</region>
+  </UI region>
+</UI object>
+<UI object>save
+  <type>push_button</type>
+  <UI region>enabled
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Save_Button_Enabled</region>
+  </UI region>
+  <UI region>highlighted
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Save_Button_Highlighted</region>
+  </UI region>
+  <UI region>selected
+    <page>_M2_Buttons1.tga</page>
+    <region>_M2_Save_Button_Selected</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Border
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Border.tga</page>
+    <region>_M2_Border</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Options_Controls_PANELS
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Options_Controls_PANELS.tga</page>
+    <region>_M2_Options_Controls_PANELS</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Options_Audio_PANELS
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Options_Audio_PANELS.tga</page>
+    <region>_M2_Options_Audio_PANELS</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Options_Camera_PANELS
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Options_Camera_PANELS.tga</page>
+    <region>_M2_Options_Camera_PANELS</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Load_PANELS
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Load_PANELS.tga</page>
+    <region>_M2_Load_PANELS</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Load_Game_PANELS
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Load_Game_PANELS.tga</page>
+    <region>_M2_Load_Game_PANELS</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Options_Video_PANELS
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Options_Video_PANELS.tga</page>
+    <region>_M2_Options_Video_PANELS</region>
+  </UI region>
+</UI object>
+<UI object>arrow_return
+  <type>push_button</type>
+  <UI region>enabled
+    <page>_M2_Buttons1.tga</page>
+    <region>back_button_enabled2</region>
+  </UI region>
+  <UI region>highlighted
+    <page>_M2_Buttons1.tga</page>
+    <region>back_button_highlighted2</region>
+  </UI region>
+  <UI region>selected
+    <page>_M2_Buttons1.tga</page>
+    <region>back_button_selected2</region>
+  </UI region>
+</UI object>
+<UI object>arrow_continue
+  <type>push_button</type>
+  <UI region>enabled
+    <page>_M2_Buttons1.tga</page>
+    <region>next_button_enabled</region>
+  </UI region>
+  <UI region>highlighted
+    <page>_M2_Buttons1.tga</page>
+    <region>next_button_highlighted</region>
+  </UI region>
+  <UI region>selected
+    <page>_M2_Buttons1.tga</page>
+    <region>next_button_selected</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Hist_Bat_Armies_PANELS_V2
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Historical_Battle_Armies_PANELS_V2.tga</page>
+    <region>_M2_Hist_Bat_Armies_PANELS_V2</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Load_Save_Keys_PANELS
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Load&Save_Keys_PANELS.tga</page>
+    <region>_M2_Load_Save_Keys_PANELS</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Demo_Options_PANELS
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Demo_Options_PANELS.tga</page>
+    <region>_M2_Demo_Options_PANELS</region>
+  </UI region>
+</UI object>
+<UI object>M2_Autodeted_settings
+  <type>push_button</type>
+  <UI region>enabled
+    <page>textures\FE_texture4.tga</page>
+    <region>_M2_Autodetect_Button_Enabled</region>
+  </UI region>
+  <UI region>highlighted
+    <page>textures\FE_texture4.tga</page>
+    <region>_M2_Autodetect_Button_Highlight</region>
+  </UI region>
+  <UI region>selected
+    <page>textures\FE_texture4.tga</page>
+    <region>_M2_Autodetect_Button_Selected</region>
+  </UI region>
+</UI object>
+<UI object>_M2_Options_Video_Demo_PANEL
+  <type>art</type>
+  <UI region>art
+    <page>_M2_Options_Video_PANEL.tga</page>
+    <region>_M2_Options_Video_Demo_PANEL</region>
+  </UI region>
+</UI object>
+<layout>
+  <layout_width>1024</layout_width>
+  <layout_height>768</layout_height>
+  <piece_types_fname>mtw2_pieces.txt</piece_types_fname>
+  <piece_texts_fname>menu_text_descr.txt</piece_texts_fname>
+  <texture_path>guides</texture_path>
+  <texture_path>textures</texture_path>
+  <lpage>main_menu
+    <UI piece>_M2_main_menu_Border
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Main_Menu_PANELS
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>43</x>
+        <y>202</y>
+        <width>393</width>
+        <height>160</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Load_Game_PANELS</object_id>
+    </UI piece>
+    <UI piece>_M2_Main_Menu_PANELS2
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>43</x>
+        <y>364</y>
+        <width>393</width>
+        <height>160</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Load_Game_PANELS</object_id>
+    </UI piece>
+    <UI piece>main_menu_singleplayer
+      <identifier>UIP_START_TUTORIAL_BATTLE</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>214</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>new_game</menu_id>
+        <UI text>UI_DEMO_TUTORIAL
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_DEMO_TUTORIAL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>demo_pavia
+      <identifier>UIP_DEMO_PAVIA</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>268</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>historical_battle_details_M2</menu_id>
+        <UI text>UI_DEMO_PAVIA
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_DEMO_PAVIA_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>demo_agincourt
+      <identifier>UIP_DEMO_AGINCOURT</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>322</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>historical_battle_details_M2</menu_id>
+        <UI text>UI_DEMO_AGINCOURT
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_DEMO_AGINCOURT_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>main_menu_load_game
+      <identifier>UIP_DEMO_MOVIE</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>376</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>load_game</menu_id>
+        <UI text>UI_DEMO_MOVIE
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_DEMO_MOVIE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>Main_menu_options2
+      <identifier>UIP_MENU_BUTTON</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>430</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>options_demo</menu_id>
+        <UI text>UI_MAIN_MENU_OPTIONS
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_MAIN_MENU_OPTIONS_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>main_menu_quit2
+      <identifier>UIP_QUIT_DIALOG</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>484</y>
+        <width>320</width>
+        <height>38</height>
+        <UI text>UI_MAIN_MENU_QUIT
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_MAIN_MENU_QUIT_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>main_menu_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>128</x>
+        <y>741</y>
+        <width>768</width>
+        <height>26</height>
+        <UI text>EMPTY_TEXT
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>TM
+      <identifier>UIP_UNDEF</identifier>
+      <Parameters>
+        <x>758</x>
+        <y>31</y>
+        <width>43</width>
+        <height>29</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>TM</object_id>
+    </UI piece>
+    <UI piece>Medieval_II
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>264</x>
+        <y>0</y>
+        <width>490</width>
+        <height>171</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>BI_main_menu</object_id>
+    </UI piece>
+    <UI piece>demo_text
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>424</x>
+        <y>149</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_DEMO_TEXT
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>background
+    <UI piece>backdrop
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>backdrop</object_id>
+    </UI piece>
+    <UI piece>fmv_backdrop
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>fmv_backdrop</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>loading
+  </lpage>
+  <lpage>assign_keys
+    <UI piece>_M2_Border_assign_keys
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Options_Controls_PANELS
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>183</x>
+        <y>138</y>
+        <width>655</width>
+        <height>522</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Options_Controls_PANELS</object_id>
+    </UI piece>
+    <UI piece>assign_keys_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>44</y>
+        <width>1023</width>
+        <height>90</height>
+        <UI text>UI_ASSIGN_KEYS_TITLE
+          <font_id>kpl_60</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>options_arrow_return
+      <identifier>UIP_EXIT_OPTIONS_BUTTON</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>assign_keys_box
+      <identifier>UIP_KEY_ASSIGN_LIST</identifier>
+      <Parameters>
+        <x>213</x>
+        <y>242</y>
+        <width>595</width>
+        <height>318</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>assign_keys_save
+      <identifier>UIP_MENU_BUTTON</identifier>
+      <Parameters>
+        <x>410</x>
+        <y>608</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>save_assign_keys</menu_id>
+        <tool_tip_id>UI_ASSIGN_KEYS_LOAD</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>save</object_id>
+    </UI piece>
+    <UI piece>reset_defaults_3
+      <identifier>UIP_KEY_RESTORE_DEFAULT</identifier>
+      <Parameters>
+        <x>410</x>
+        <y>637</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_ASSIGN_KEYS_RESTORE</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>reset_defaults</object_id>
+    </UI piece>
+    <UI piece>prev_keyset
+      <identifier>UIP_PREV_KEYSET</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>200</y>
+        <width>14</width>
+        <height>30</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_ASSIGN_PREV_KEYSET_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_large_left</object_id>
+    </UI piece>
+    <UI piece>next_keyset
+      <identifier>UIP_NEXT_KEYSET</identifier>
+      <Parameters>
+        <x>678</x>
+        <y>200</y>
+        <width>14</width>
+        <height>30</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_ASSIGN_NEXT_KEYSET_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_large_right</object_id>
+    </UI piece>
+    <UI piece>keyset_indicator
+      <identifier>UIP_KEYSET_INDICATOR</identifier>
+      <Parameters>
+        <x>359</x>
+        <y>202</y>
+        <width>303</width>
+        <height>26</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>restore_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>438</x>
+        <y>637</y>
+        <width>167</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_RESTORE_DEFAULT
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>load_save_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>438</x>
+        <y>608</y>
+        <width>167</width>
+        <height>21</height>
+        <UI text>UI_KEYBOARD_SETTINGS_LOAD_SAVE
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Camera_keys
+      <identifier>UIP_KEY_CATEGORY</identifier>
+      <Parameters>
+        <x>267</x>
+        <y>144</y>
+        <width>108</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_KEYBOARD_SETTINGS_CAMERA_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data>CAMERA</object_data>
+      <object_id>Lobby_Sort_Small</object_id>
+    </UI piece>
+    <UI piece>Battle_keys
+      <identifier>UIP_KEY_CATEGORY</identifier>
+      <Parameters>
+        <x>393</x>
+        <y>144</y>
+        <width>108</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_KEYBOARD_SETTINGS_BATTLE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data>BATTLE</object_data>
+      <object_id>Lobby_Sort_Small</object_id>
+    </UI piece>
+    <UI piece>Campaign_keys
+      <identifier>UIP_KEY_CATEGORY</identifier>
+      <Parameters>
+        <x>519</x>
+        <y>144</y>
+        <width>108</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_KEYBOARD_SETTINGS_CAMPAIGN_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data>CAMPAIGN</object_data>
+      <object_id>Lobby_Sort_Small</object_id>
+    </UI piece>
+    <UI piece>Misc_keys
+      <identifier>UIP_KEY_CATEGORY</identifier>
+      <Parameters>
+        <x>645</x>
+        <y>144</y>
+        <width>108</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_KEYBOARD_SETTINGS_MISC_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data>MISC</object_data>
+      <object_id>Lobby_Sort_Small</object_id>
+    </UI piece>
+    <UI piece>camera_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>274</x>
+        <y>143</y>
+        <width>94</width>
+        <height>21</height>
+        <UI text>UI_KEYBOARD_SETTINGS_CAMERA
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>battle_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>400</x>
+        <y>143</y>
+        <width>94</width>
+        <height>21</height>
+        <UI text>UI_KEYBOARD_SETTINGS_BATTLE
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>campaign_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>526</x>
+        <y>143</y>
+        <width>94</width>
+        <height>21</height>
+        <UI text>UI_KEYBOARD_SETTINGS_CAMPAIGN
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>misc_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>652</x>
+        <y>143</y>
+        <width>94</width>
+        <height>21</height>
+        <UI text>UI_KEYBOARD_SETTINGS_MISC
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>back_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>43</x>
+        <y>741</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_BACK
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>apply_changes
+      <identifier>UIP_APPLY_CHANGES_KEYBOARD</identifier>
+      <Parameters>
+        <x>410</x>
+        <y>666</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_APPLY_CHANGES_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>test_vidres</object_id>
+    </UI piece>
+    <UI piece>apply_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>438</x>
+        <y>666</y>
+        <width>167</width>
+        <height>21</height>
+        <UI text>UI_APPLE_CHANGES
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>audio_options
+    <UI piece>_M2_Border_audio_options
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Options_Audio_PANELS
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>46</x>
+        <y>201</y>
+        <width>592</width>
+        <height>430</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Options_Audio_PANELS</object_id>
+    </UI piece>
+    <UI piece>audio_options_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>43</y>
+        <width>1023</width>
+        <height>90</height>
+        <UI text>UI_AUDIO_TITLE
+          <font_id>kpl_60</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_arrow_return
+      <identifier>UIP_EXIT_OPTIONS_BUTTON</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>audio_options_subtitles_check
+      <identifier>UIP_AUDIO_MUTE_CHECK</identifier>
+      <Parameters>
+        <x>284</x>
+        <y>206</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_AUDIO_MUTE_SOUND_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>audio_options_subtitles
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>312</x>
+        <y>212</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_AUDIO_MUTE_SOUND
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_english
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>312</x>
+        <y>241</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_AUDIO_SUBTITLES
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_english_check
+      <identifier>UIP_AUDIO_SUBTITLES_CHECK</identifier>
+      <Parameters>
+        <x>284</x>
+        <y>235</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_AUDIO_SUBTITLES_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>audio_options_master_volume
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>61</x>
+        <y>254</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_AUDIO_MASTER_VOLUME
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_speech_volume
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>61</x>
+        <y>316</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_AUDIO_SPEECH_VOLUME
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_sfx_volume
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>61</x>
+        <y>378</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_AUDIO_SFX_VOLUME
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_music_volume
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>61</x>
+        <y>440</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_AUDIO_MUSIC_VOLUME
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_music_volume_slider
+      <identifier>UIP_AUDIO_MUSIC_VOL_SLIDER</identifier>
+      <Parameters>
+        <x>56</x>
+        <y>467</y>
+        <width>197</width>
+        <height>17</height>
+        <tool_tip_id>UI_AUDIO_MUSIC_VOL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_sfx_volume_slider
+      <identifier>UIP_AUDIO_EFFECTS_VOL_SLIDER</identifier>
+      <Parameters>
+        <x>56</x>
+        <y>405</y>
+        <width>198</width>
+        <height>17</height>
+        <tool_tip_id>UI_AUDIO_FX_VOL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_speech_volume_slider
+      <identifier>UIP_AUDIO_SPEECH_VOL_SLIDER</identifier>
+      <Parameters>
+        <x>56</x>
+        <y>343</y>
+        <width>198</width>
+        <height>17</height>
+        <tool_tip_id>UI_AUDIO_SPEECH_VOL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_master_volume_slider
+      <identifier>UIP_AUDIO_MASTER_VOL_SLIDER</identifier>
+      <Parameters>
+        <x>56</x>
+        <y>281</y>
+        <width>198</width>
+        <height>17</height>
+        <tool_tip_id>UI_AUDIO_MASTER_VOL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_mute234
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>293</x>
+        <y>272</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_AUDIO_PROVIDER
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>empty_artdfb
+      <identifier>UIP_AUDIO_PROVIDER_DROPDOWN</identifier>
+      <Parameters>
+        <x>292</x>
+        <y>292</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_AUDIO_PROVIDER_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Volume_Text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>60</x>
+        <y>210</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_AUDIO_VOLUME
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Apply_change_audio
+      <identifier>UIP_APPLY_CHANGES_AUDIO</identifier>
+      <Parameters>
+        <x>434</x>
+        <y>608</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_VIDEO_APPLY_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>test_vidres</object_id>
+    </UI piece>
+    <UI piece>apply_changes_audio_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>458</x>
+        <y>607</y>
+        <width>159</width>
+        <height>21</height>
+        <UI text>UI_APPLE_CHANGES
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>back_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>43</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_BACK
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>video_options
+    <UI piece>_M2_options_video_Border
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Options_Video_PANELS
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>46</x>
+        <y>201</y>
+        <width>569</width>
+        <height>430</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Options_Video_PANELS</object_id>
+    </UI piece>
+    <UI piece>_M2_Options_Video_Demo_PANEL
+      <identifier>UIP_VIDEO_OPTIONS_DYNAMIC_PANEL</identifier>
+      <Parameters>
+        <x>284</x>
+        <y>201</y>
+        <width>694</width>
+        <height>374</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Options_Video_Demo_PANEL</object_id>
+    </UI piece>
+    <UI piece>_RES_TEXT_BUTTON
+      <identifier>UIP_BATTLE_RESOLUTION_DROPDOWN</identifier>
+      <Parameters>
+        <x>298</x>
+        <y>292</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_BATTLE_RESOLUTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>cHANGE_RES_TEXT_BUTTON
+      <identifier>UIP_VIDEO_RESOLUTION_DROPDOWN</identifier>
+      <Parameters>
+        <x>298</x>
+        <y>354</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_INFO_RESOLUTION</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Battle_res_dropdown
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>299</x>
+        <y>272</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_BATTLE_RESOLUTION
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_anti_aliasing
+      <identifier>UIP_VIDEO_ANTIALIAS_DROPDOWN</identifier>
+      <Parameters>
+        <x>298</x>
+        <y>416</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_OVERSAMPLING_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_unit_level_detail
+      <identifier>UIP_VIDEO_UNIT_DETAIL_DROPDOWN</identifier>
+      <Parameters>
+        <x>536</x>
+        <y>230</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_UNIT_DETAIL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_options_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>45</y>
+        <width>1023</width>
+        <height>90</height>
+        <UI text>UI_VIDEO_OPTIONS_TITLE
+          <font_id>kpl_60</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>128</x>
+        <y>741</y>
+        <width>769</width>
+        <height>26</height>
+        <UI text>EMPTY_TEXT
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_arrow_return
+      <identifier>UIP_EXIT_OPTIONS_BUTTON</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>video_antialias_text
+      <identifier>UIP_PERFORANCE_DROPDOWN</identifier>
+      <Parameters>
+        <x>60</x>
+        <y>230</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_PERFORMANCE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Unit_Detail
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>537</x>
+        <y>210</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_UNIT_DETAIL
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Video_Graphical_Quality
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>61</x>
+        <y>210</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_PERFORMANCE
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_reflections_check
+      <identifier>UIP_VIDEO_REFLECTIONS</identifier>
+      <Parameters>
+        <x>765</x>
+        <y>415</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_VIDEO_REFLECTIONS_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>Bloom_text
+      <identifier>UIP_SHADER2_DEPENDANT</identifier>
+      <Parameters>
+        <x>794</x>
+        <y>392</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_BLOOM
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_reflections_text
+      <identifier>UIP_SHADER2_DEPENDANT</identifier>
+      <Parameters>
+        <x>794</x>
+        <y>421</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_REFLECTIONS
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Strategy_res_dropdown
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>299</x>
+        <y>334</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_RESOLUTION
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>empty_toggle_buttonhlkh
+      <identifier>UIP_VIDEO_ADVANCED_OPTIONS_CHECK</identifier>
+      <Parameters>
+        <x>51</x>
+        <y>262</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_VIDEO_ADVANCED_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>audio_options_speech_volume_slidersdf
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>80</x>
+        <y>268</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_ADVANCED
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>audio_options_sfx_volume_sliders
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>299</x>
+        <y>396</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_OVERSAMPLING
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_widescreen_check
+      <identifier>UIP_VIDEO_WIDESCREEN</identifier>
+      <Parameters>
+        <x>289</x>
+        <y>539</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_VIDEO_WIDESCREEN_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>video_widescreen_text
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>318</x>
+        <y>545</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_WIDESCREEN
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Vsync_check
+      <identifier>UIP_VIDEO_VSYNC</identifier>
+      <Parameters>
+        <x>289</x>
+        <y>510</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_VIDEO_VSYNC_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>video_desync_text
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>318</x>
+        <y>516</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_VSYNC
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>test_battle_vidres
+      <identifier>UIP_VIDEO_APPLY_CHANGES</identifier>
+      <Parameters>
+        <x>410</x>
+        <y>608</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>test_battle_res</menu_id>
+        <tool_tip_id>UI_VIDEO_APPLY_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>test_vidres</object_id>
+    </UI piece>
+    <UI piece>Grass_Detail
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>537</x>
+        <y>458</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_GRASS_DETAIL
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_anti_aliasing2
+      <identifier>UIP_VIDEO_GRASS_DETAIL_DROPDOWN</identifier>
+      <Parameters>
+        <x>536</x>
+        <y>478</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_GRASS_DETAIL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Effects_Detail
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>537</x>
+        <y>396</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_EFFECTS_DETAIL
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_unit_scale2
+      <identifier>UIP_VIDEO_EFFECTS_DETAIL_DROPDOWN</identifier>
+      <Parameters>
+        <x>536</x>
+        <y>416</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_EFFECTS_DETAIL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Building_Detail
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>537</x>
+        <y>272</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_BUILDING_DETAIL
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_building_level_detail_text2
+      <identifier>UIP_VIDEO_BUILDING_DETAIL_DROPDOWN</identifier>
+      <Parameters>
+        <x>536</x>
+        <y>292</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_INFO_BUILDING</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Vegetation_Detail
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>537</x>
+        <y>334</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_VEGETATION_DETAIL
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_unit_level_detail2
+      <identifier>UIP_VIDEO_VEGETATION_DETAIL_DROPDOWN</identifier>
+      <Parameters>
+        <x>536</x>
+        <y>354</y>
+        <width>189</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_VEGETATION_DETAIL_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Bloom_Test
+      <identifier>UIP_VIDEO_BLOOM</identifier>
+      <Parameters>
+        <x>765</x>
+        <y>386</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_VIDEO_BLOOM_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>Texture_Quality_Text
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>775</x>
+        <y>210</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_TEXTURE_QUALITY
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Texture_Quality_Dropdown
+      <identifier>UIP_VIDEO_TEXTURE_QUALITY_DROPDOWN</identifier>
+      <Parameters>
+        <x>774</x>
+        <y>230</y>
+        <width>189</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_TEXTURE_QUALITY_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Shadow_Quality_Dropdown
+      <identifier>UIP_VIDEO_SHADOW_QUALITY_DROPDOWN</identifier>
+      <Parameters>
+        <x>774</x>
+        <y>292</y>
+        <width>189</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_SHADOW_QUALITY_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Shadow_Quality_Text
+      <identifier>UIP_SHADER2_DEPENDANT</identifier>
+      <Parameters>
+        <x>775</x>
+        <y>272</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_SHADOW_QUALITY
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Brightness_Text
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>775</x>
+        <y>334</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_BRIGHTNESS
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Texture_Filtering_Text
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>299</x>
+        <y>458</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_TEXTURE_FILTERING
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Shader_Version_Dropdown
+      <identifier>UIP_VIDEO_SHADER_VERSION_DROPDOWN</identifier>
+      <Parameters>
+        <x>298</x>
+        <y>230</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_SHADER_VERSION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Texture_Filtering_Dropdown
+      <identifier>UIP_VIDEO_TEXTURE_FILTERING_DROPDOWN</identifier>
+      <Parameters>
+        <x>298</x>
+        <y>479</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_VIDEO_TEXTURE_FILTERING_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Apply_Changes_Text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>434</x>
+        <y>607</y>
+        <width>170</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_APPLY_CHANGES
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Shader_Version_Text
+      <identifier>UIP_ADVANCED_OPTIONS_TEXT</identifier>
+      <Parameters>
+        <x>299</x>
+        <y>210</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_SHADER_VERSION
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>brightness_slider
+      <identifier>UIP_BRIGHTNESS_SLIDER</identifier>
+      <Parameters>
+        <x>770</x>
+        <y>362</y>
+        <width>198</width>
+        <height>17</height>
+        <tool_tip_id>UI_VIDEO_BRIGHTNESS_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>back_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>43</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_BACK
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>M2_Autodeted_settings
+      <identifier>UIP_VIDEO_AUTODETECT</identifier>
+      <Parameters>
+        <x>408</x>
+        <y>635</y>
+        <width>206</width>
+        <height>25</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_VIDEO_AUTODETECT_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>M2_Autodeted_settings</object_id>
+    </UI piece>
+    <UI piece>Autodetect_Text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>434</x>
+        <y>637</y>
+        <width>170</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_AUTODETECT
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>game_options
+    <UI piece>_M2_Border_game_options
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Options_Camera_PANELS
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>46</x>
+        <y>201</y>
+        <width>568</width>
+        <height>459</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Options_Camera_PANELS</object_id>
+    </UI piece>
+    <UI piece>game_options_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>44</y>
+        <width>1023</width>
+        <height>90</height>
+        <UI text>UI_GAME_OPTIONS_TITLE
+          <font_id>kpl_60</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>game_options_arrow_return
+      <identifier>UIP_EXIT_OPTIONS_BUTTON</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>camera_rotate
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>61</x>
+        <y>316</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_GAME_OPTIONS_ROTATE_CAMERA
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>camera_speed_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>61</x>
+        <y>378</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_GAME_OPTIONS_MOVE_CAMERA
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>camera_speed_slider
+      <identifier>UIP_GAME_CAMERA_MOVE_SLIDER</identifier>
+      <Parameters>
+        <x>56</x>
+        <y>404</y>
+        <width>198</width>
+        <height>17</height>
+        <tool_tip_id>UI_CAMERA_SPEED_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>camera_rotate_slider
+      <identifier>UIP_GAME_CAMERA_ROTATE_SLIDER</identifier>
+      <Parameters>
+        <x>56</x>
+        <y>343</y>
+        <width>198</width>
+        <height>17</height>
+        <tool_tip_id>UI_CAMERA_ROTATE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>supply_check
+      <identifier>UIP_GAME_RESTRICT_CAMERA_CHECK</identifier>
+      <Parameters>
+        <x>52</x>
+        <y>432</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_GAME_INFO_RESTRICT_CAMERA</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>supply_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>80</x>
+        <y>438</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_GAME_OPTIONS_RESTRICT
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>reset_defaults_2
+      <identifier>UIP_RESTORE_CAMERA_SETTINGS</identifier>
+      <Parameters>
+        <x>410</x>
+        <y>608</y>
+        <width>202</width>
+        <height>21</height>
+        <tool_tip_id>UI_CAMERA_RESTORE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>reset_defaults</object_id>
+    </UI piece>
+    <UI piece>camera_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>60</x>
+        <y>210</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_GAME_OPTIONS_CAMERA
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>minimal_ui_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>314</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_GAME_OPTIONS_MINIMAL_UI
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>minimal_ui_toggle
+      <identifier>UIP_MINIMAL_UI</identifier>
+      <Parameters>
+        <x>302</x>
+        <y>308</y>
+        <width>32</width>
+        <height>32</height>
+        <tool_tip_id>UI_GAME_INFO_MINIMAL_UI</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>restore_default_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>434</x>
+        <y>607</y>
+        <width>170</width>
+        <height>21</height>
+        <UI text>UI_VIDEO_RESTORE_DEFAULT
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>apply_changes_camera
+      <identifier>UIP_APPLY_CHANGES_GAME</identifier>
+      <Parameters>
+        <x>410</x>
+        <y>637</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_VIDEO_APPLY_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>test_vidres</object_id>
+    </UI piece>
+    <UI piece>apply_changes_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>434</x>
+        <y>636</y>
+        <width>170</width>
+        <height>21</height>
+        <UI text>UI_APPLE_CHANGES
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>back_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>43</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_BACK
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Unit_scale_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>311</x>
+        <y>254</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_UNIT_SCALE
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>unit_scale
+      <identifier>UIP_UNIT_SCALE_DROPDOWN</identifier>
+      <Parameters>
+        <x>310</x>
+        <y>274</y>
+        <width>190</width>
+        <height>21</height>
+        <UI text>UI__DUMMY_TEXT
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <tool_tip_id>UI_VIDEO_UNIT_SCALE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>misc_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>310</x>
+        <y>210</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_GAME_OPTIONS_MISC
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>camera_style
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>61</x>
+        <y>254</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_CAMERA_STYLE
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>camera_style_dropdown
+      <identifier>UIP_CAMERA_STYLE_DROPDOWN</identifier>
+      <Parameters>
+        <x>60</x>
+        <y>274</y>
+        <width>190</width>
+        <height>21</height>
+        <UI text>UI__DUMMY_TEXT
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <tool_tip_id>UI_CAMERA_STYLE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>error_dialog
+    <UI piece>quit_box
+      <identifier>UIP_ERROR_DIALOG</identifier>
+      <Parameters>
+        <x>288</x>
+        <y>182</y>
+        <width>448</width>
+        <height>288</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>quit_check
+      <identifier>UIP_RETREAT_BUTTON</identifier>
+      <Parameters>
+        <x>489</x>
+        <y>402</y>
+        <width>60</width>
+        <height>59</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>check</object_id>
+    </UI piece>
+    <UI piece>empty_artkl
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>129</x>
+        <y>727</y>
+        <width>767</width>
+        <height>14</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>reverse_menu
+    <UI piece>quit_box
+      <identifier>UIP_ERROR_DIALOG</identifier>
+      <Parameters>
+        <x>288</x>
+        <y>182</y>
+        <width>448</width>
+        <height>288</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>quit_check
+      <identifier>UIP_REVERSE_MENU_BUTTON</identifier>
+      <Parameters>
+        <x>489</x>
+        <y>402</y>
+        <width>60</width>
+        <height>59</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>check</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>empty_screen
+    <UI piece>mp_h_lan_arrow_return
+      <identifier>UIP_BACK_BUTTON</identifier>
+      <Parameters>
+        <x>10</x>
+        <y>715</y>
+        <width>136</width>
+        <height>29</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>mp_h_lan_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>128</x>
+        <y>715</y>
+        <width>768</width>
+        <height>26</height>
+        <UI text>EMPTY_TEXT
+          <font_id>tnr_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mp_h_lan_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>320</x>
+        <y>45</y>
+        <width>383</width>
+        <height>38</height>
+        <UI text>UI_MP_H_LAN_TITLE
+          <font_id>tnr_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>cb_gold_bar
+      <identifier>UIP_UNDEF</identifier>
+      <Parameters>
+        <x>336</x>
+        <y>96</y>
+        <width>348</width>
+        <height>5</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>gold_bar</object_id>
+    </UI piece>
+    <UI piece>mp_h_lan_arrow_continue
+      <identifier>UIP_LAN_GAME_HOST</identifier>
+      <Parameters>
+        <x>956</x>
+        <y>722</y>
+        <width>136</width>
+        <height>29</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_CUSTOM_BATTLE_START_BATTLE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_continue</object_id>
+    </UI piece>
+    <UI piece>mp_h_lan_gold_bar
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>335</x>
+        <y>95</y>
+        <width>348</width>
+        <height>6</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>gold_bar</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>save_assign_keys
+    <UI piece>_M2_save_keys_Border
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Load_Save_Keys_PANELS
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>263</x>
+        <y>194</y>
+        <width>498</width>
+        <height>388</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Load_Save_Keys_PANELS</object_id>
+    </UI piece>
+    <UI piece>load_game_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>45</y>
+        <width>1023</width>
+        <height>90</height>
+        <UI text>UI_SAVE_ASSIGN_KEYS_TITLE
+          <font_id>kpl_60</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>load_game_list_box
+      <identifier>UIP_SAVE_KEYS_LIST</identifier>
+      <Parameters>
+        <x>299</x>
+        <y>243</y>
+        <width>426</width>
+        <height>260</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>load_game_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>128</x>
+        <y>741</y>
+        <width>769</width>
+        <height>26</height>
+        <UI text>EMPTY_TEXT
+          <font_id>tnr_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>load_game_arrow_return
+      <identifier>UIP_BACK_BUTTON</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>load_arrow_continue
+      <identifier>UIP_SAVE_KEYS_SAVE</identifier>
+      <Parameters>
+        <x>887</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <tool_tip_id>UI_SAVE_ASSIGN_KEYS_SAVE_TOOLTIP</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_continue</object_id>
+    </UI piece>
+    <UI piece>save_keys_textbox
+      <identifier>UIP_SAVE_KEYS_TEXTBOX</identifier>
+      <Parameters>
+        <x>525</x>
+        <y>550</y>
+        <width>194</width>
+        <height>13</height>
+        <UI text>UI__DUMMY_TEXT
+          <font_id>verdana_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <tool_tip_id>UI_SAVE_ASSIGN_KEYS_TEXTBOX_TOOLTIP</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Delete_button
+      <identifier>UIP_CONFIRM_DIALOG</identifier>
+      <Parameters>
+        <x>521</x>
+        <y>516</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_SAVE_ASSIGN_KEYS_DELETE_TOOLTIP</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>load_button
+      <identifier>UIP_SAVE_KEYS_LOAD</identifier>
+      <Parameters>
+        <x>301</x>
+        <y>516</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_SAVE_ASSIGN_KEYS_LOAD_TOOLTIP</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>Save_button
+      <identifier>UIP_SAVE_KEYS_SAVE</identifier>
+      <Parameters>
+        <x>301</x>
+        <y>546</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_SAVE_ASSIGN_KEYS_SAVE_TOOLTIP</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>load_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>307</x>
+        <y>515</y>
+        <width>190</width>
+        <height>21</height>
+        <UI text>UI_SAVE_ASSIGN_KEYS_LOAD
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>delete_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>527</x>
+        <y>515</y>
+        <width>190</width>
+        <height>21</height>
+        <UI text>UI_SAVE_ASSIGN_KEYS_DELETE
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>save_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>307</x>
+        <y>545</y>
+        <width>190</width>
+        <height>21</height>
+        <UI text>UI_SAVE_ASSIGN_KEYS_SAVE
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>sort_by_name
+      <identifier>UIP_LOAD_SORT_BY_NAME</identifier>
+      <Parameters>
+        <x>303</x>
+        <y>217</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_LOAD_GAME_DATE_NAME</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>sort_by_name_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>309</x>
+        <y>216</y>
+        <width>190</width>
+        <height>21</height>
+        <UI text>UI_LOAD_GAME_NAME
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>sort_by_date
+      <identifier>UIP_LOAD_SORT_BY_DATE</identifier>
+      <Parameters>
+        <x>519</x>
+        <y>217</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_LOAD_GAME_DATE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>sort_by_date_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>525</x>
+        <y>216</y>
+        <width>190</width>
+        <height>21</height>
+        <UI text>UI_LOAD_GAME_DATE
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>back_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>43</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_BACK
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>next_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>899</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_NEXT
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>confirm_yes_no
+    <UI piece>quit_box
+      <identifier>UIP_ERROR_DIALOG</identifier>
+      <Parameters>
+        <x>288</x>
+        <y>192</y>
+        <width>448</width>
+        <height>288</height>
+        <UI text>UI__DUMMY_TEXT
+          <font_id>verdana</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>quit_x
+      <identifier>UIP_BACK_BUTTON</identifier>
+      <Parameters>
+        <x>522</x>
+        <y>416</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>x</object_id>
+    </UI piece>
+    <UI piece>confirm_check
+      <identifier>UIP_CONFIRM_BUTTON</identifier>
+      <Parameters>
+        <x>455</x>
+        <y>402</y>
+        <width>60</width>
+        <height>59</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>check</object_id>
+    </UI piece>
+    <UI piece>empty_artuio
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>129</x>
+        <y>727</y>
+        <width>768</width>
+        <height>13</height>
+        <UI text>EMPTY_TEXT
+          <font_id>tnr_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>terrain_load_custom_M2
+    <UI piece>_M2_Setup_Border
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Load_setup_PANELS
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>263</x>
+        <y>194</y>
+        <width>498</width>
+        <height>388</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Load_PANELS</object_id>
+    </UI piece>
+    <UI piece>load_game_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>43</y>
+        <width>1023</width>
+        <height>90</height>
+        <UI text>UI_LOAD_CUSTOM_BATTLE
+          <font_id>kpl_60</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>load_custom_battle_list_box
+      <identifier>UIP_SAVE_BATTLE_LIST</identifier>
+      <Parameters>
+        <x>299</x>
+        <y>245</y>
+        <width>426</width>
+        <height>288</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>load_game_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>127</x>
+        <y>741</y>
+        <width>769</width>
+        <height>26</height>
+        <UI text>EMPTY_TEXT
+          <font_id>tnr_sml</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>load_game_arrow_return
+      <identifier>UIP_BACK_BUTTON</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>load_arrow_continue
+      <identifier>UIP_SAVE_BATTLE_LOAD_AND_START</identifier>
+      <Parameters>
+        <x>887</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_SAVE_BATTLE_SETUP_LOAD_AND_START_TOOLTIP</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_continue</object_id>
+    </UI piece>
+    <UI piece>Delete_Custom_Battle_Game
+      <identifier>UIP_CONFIRM_DIALOG</identifier>
+      <Parameters>
+        <x>521</x>
+        <y>546</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_LOAD_GAME_DELETE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>Delete_Text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>534</x>
+        <y>545</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_LOAD_GAME_DELETE
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Load_Campaign_Game
+      <identifier>UIP_SAVE_BATTLE_LOAD_AND_START</identifier>
+      <Parameters>
+        <x>301</x>
+        <y>546</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_SAVE_BATTLE_SETUP_LOAD_TOOLTIP</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>Load_Text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>315</x>
+        <y>545</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_LOAD_GAME_LOAD
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Sort_By_Name_Custom_Battle
+      <identifier>UIP_LOAD_SORT_BY_NAME</identifier>
+      <Parameters>
+        <x>303</x>
+        <y>217</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_LOAD_GAME_DATE_NAME</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>Sort_By_Name_Text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>318</x>
+        <y>216</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_LOAD_GAME_NAME
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Sort_By_Date_Custom_Battle
+      <identifier>UIP_LOAD_SORT_BY_DATE</identifier>
+      <Parameters>
+        <x>519</x>
+        <y>217</y>
+        <width>202</width>
+        <height>21</height>
+        <menu_id>assign_keys</menu_id>
+        <tool_tip_id>UI_LOAD_GAME_DATE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>Lobby_Sort_Mid</object_id>
+    </UI piece>
+    <UI piece>Sort_By_Date_Text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>533</x>
+        <y>216</y>
+        <width>173</width>
+        <height>21</height>
+        <UI text>UI_LOAD_GAME_DATE
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>back_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>44</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_BACK
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>next_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>900</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_START
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>historical_battle_details_M2
+    <UI piece>_M2_Border_HB_Armies
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Hist_Bat_Armies_PANELS_V2
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>19</x>
+        <y>201</y>
+        <width>831</width>
+        <height>322</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Hist_Bat_Armies_PANELS_V2</object_id>
+    </UI piece>
+    <UI piece>advisor_piece
+      <identifier>UIP_ADVISOR_LEVEL</identifier>
+      <Parameters>
+        <x>33</x>
+        <y>274</y>
+        <width>190</width>
+        <height>21</height>
+        <tool_tip_id>UI_FACTION_SELECT_ADVICE_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>HB_select_your_army
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>44</y>
+        <width>1023</width>
+        <height>90</height>
+        <UI text>UI_HISTORICAL_BATTLE_AVAILABLE_ARMIES
+          <font_id>kpl_60</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>customize_army_arrow_continue
+      <identifier>UIP_START_HISTORICAL_BATTLE</identifier>
+      <Parameters>
+        <x>887</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <tool_tip_id>UI_HISTORICAL_START</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_continue</object_id>
+    </UI piece>
+    <UI piece>customize_army_arrow_return
+      <identifier>UIP_BACK_BUTTON</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>unit_cost
+      <identifier>UIP_ARMY_UNIT_NAME</identifier>
+      <Parameters>
+        <x>276</x>
+        <y>332</y>
+        <width>470</width>
+        <height>21</height>
+        <UI text>UI__DUMMY_TEXT
+          <font_id>verdana_med</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data>0</object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>hb_box_left
+      <identifier>UIP_UNDEF</identifier>
+      <Parameters>
+        <x>255</x>
+        <y>305</y>
+        <width>14</width>
+        <height>156</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>ca_box_left</object_id>
+    </UI piece>
+    <UI piece>unit_list
+      <identifier>UIP_SELECT_FACTION_AVAILABLE_UNITS</identifier>
+      <Parameters>
+        <x>271</x>
+        <y>373</y>
+        <width>480</width>
+        <height>128</height>
+        <tool_tip_id>UI_SELECT_AVAILABLUE_UNITS_TOOLTIP</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data>0</object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>Advice_Level
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>34</x>
+        <y>254</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_FACTION_SELECT_ADVISOR_LEVEL
+          <font_id>verdana_med</font_id>
+          <align>left</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>back_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>44</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_BACK
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>next_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>900</x>
+        <y>743</y>
+        <width>81</width>
+        <height>20</height>
+        <UI text>UI_START
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>options_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>33</x>
+        <y>210</y>
+        <width>190</width>
+        <height>26</height>
+        <UI text>UI_HISTORICAL_BATTLE_OPTIONS
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>armies_text
+      <identifier>UIP_CAMPAIGN_NAME_TITLE</identifier>
+      <Parameters>
+        <x>280</x>
+        <y>219</y>
+        <width>462</width>
+        <height>26</height>
+        <UI text>UI_HISTORICAL_BATTLE_CHOOSE_ARMY
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>_sword
+      <identifier>UIP_HISTORICAL_BATTLE_ARMY_SELECT</identifier>
+      <Parameters>
+        <x>473</x>
+        <y>260</y>
+        <width>67</width>
+        <height>65</height>
+        <locked>false</locked>
+      </Parameters>
+      <object_data>interactive</object_data>
+      <object_id>sword</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>options_demo
+    <UI piece>_M2_options_Border
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Border</object_id>
+    </UI piece>
+    <UI piece>_M2_Demo_Options_PANELS
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>37</x>
+        <y>197</y>
+        <width>404</width>
+        <height>220</height>
+        <locked>true</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>_M2_Demo_Options_PANELS</object_id>
+    </UI piece>
+    <UI piece>options_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>43</y>
+        <width>1023</width>
+        <height>90</height>
+        <UI text>UI_OPTIONS_TITLE
+          <font_id>kpl_60</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>options_video
+      <identifier>UIP_MENU_BUTTON</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>214</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>video_options</menu_id>
+        <UI text>UI_OPTIONS_VIDEO
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_OPTIONS_INFO_VIDEO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>options_audio
+      <identifier>UIP_AUDIO_OPTIONS</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>266</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>audio_options</menu_id>
+        <UI text>UI_OPTIONS_AUDIO
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_OPTIONS_INFO_AUDIO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>options_assign_keys
+      <identifier>UIP_MENU_BUTTON</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>321</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>assign_keys</menu_id>
+        <UI text>UI_OPTIONS_ASSIGN_KEYS
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_OPTIONS_INFO_ASSIGN</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>options_game_settings
+      <identifier>UIP_MENU_BUTTON</identifier>
+      <Parameters>
+        <x>79</x>
+        <y>375</y>
+        <width>320</width>
+        <height>38</height>
+        <menu_id>game_options</menu_id>
+        <UI text>UI_OPTIONS_GAME
+          <font_id>verdana</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_OPTIONS_INFO_GAME</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>options_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>128</x>
+        <y>741</y>
+        <width>769</width>
+        <height>26</height>
+        <UI text>EMPTY_TEXT
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>options_arrow_return
+      <identifier>UIP_BACK_BUTTON</identifier>
+      <Parameters>
+        <x>0</x>
+        <y>738</y>
+        <width>136</width>
+        <height>29</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+    <UI piece>back_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>43</x>
+        <y>742</y>
+        <width>81</width>
+        <height>21</height>
+        <UI text>UI_BACK
+          <font_id>verdana_sml</font_id>
+          <align>centre</align>
+        </UI text>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+    </UI piece>
+  </lpage>
+</layout>

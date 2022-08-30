@@ -1,0 +1,216 @@
+england
+hold_regions Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive france scotland
+
+france
+hold_regions Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive england
+
+hre
+hold_regions Roman_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive denmark poland
+
+spain
+hold_regions Jerusalem_Province Granada_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive moors portugal
+
+scotland
+hold_regions Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive england
+
+byzantium
+hold_regions Roman_Province Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive turks hre
+
+russia
+hold_regions Constantinople_Province Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive poland hungary
+
+moors
+hold_regions Jerusalem_Province Toledo_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive spain portugal
+
+turks
+hold_regions Constantinople_Province Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive byzantium
+
+egypt
+hold_regions Constantinople_Province Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive turks moors
+
+mali
+hold_regions Jedda_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive moors
+
+zimbabwe
+hold_regions Oman_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive egypt
+
+denmark
+hold_regions Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive hre
+
+portugal
+hold_regions Jerusalem_Province Granada_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive moors spain
+
+poland
+hold_regions Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive russia hungary
+
+hungary
+hold_regions Jerusalem_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive poland hre
+
+papal_states
+hold_regions Jerusalem_Province Constantinople_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive hre byzantium
+
+aztecs
+hold_regions Cuzco_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive mayans incans
+
+mayans
+hold_regions Cuzco_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive aztecs incans
+
+saxons
+hold_regions Shanghai_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive china mongols
+
+sicily
+hold_regions Tamilnadu_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive venice timurids
+
+incans
+hold_regions Tenochtitlan_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive mayans aztecs
+
+china
+hold_regions Kyoto_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive normans mongols
+
+apachean
+hold_regions Tenochtitlan_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive aztecs mayans
+
+timurids
+hold_regions Deccan_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive milan sicily
+
+normans
+hold_regions Shanghai_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive china ryukyu
+
+milan
+hold_regions Tamilnadu_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive sicily timurids
+
+mongols
+hold_regions Shanghai_Province Ryazan_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive china saxons
+
+venice
+hold_regions Khmer_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive sicily timurids
+
+ryukyu
+hold_regions Kyoto_Province 
+take_regions 100
+short_campaign hold_regions
+take_regions 30
+outlive normans
+
+slave
+hold_regions Roman_Province Tenochtitlan_Province 
+take_regions 180
+short_campaign hold_regions
+take_regions 180
+

@@ -1,0 +1,13 @@
+      22   ....pad value 22
+serialization::archive   ....serialisation
+   3    4    4    4    8    ...bytes 
+       1   ....value 1
+       0   ....value 0
+  0.7160  -0.4092  -0.5656    ...3 floats
+       0   ....pad value 0
+  0.3533   0.3231   0.2737   1.0000   0.6176   0.5392   0.5392   1.0000   0.2294   0.1784   0.1784   1.0000    ...3 floats
+       0   ....pad value 0
+ 56 globallighting/env_maps/environment_sunset_storm.texture
+       0   ....pad value 0
+ 191  160  142  255    ...endvals 
+  0.0000 1000.0000   0.0010   0.0000    ...4 floats
