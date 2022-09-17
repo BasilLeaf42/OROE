@@ -1642,16 +1642,17 @@ music_type roman
 				Age_of_Empires_Gurjaras.mp3
                 Age_of_Empires_Hindustanis.mp3
 				Fiechter_The_Himalayas.mp3
+				Homeworld_The_Eye_of_Aarran.mp3
+				Homeworld_The_Movers_Attack_Tension.mp3
+				Homeworld_Pride_of_Hiigara.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
 				(Hindu_Mobilize_2).mp3
-				Fiechter_Arjuna.mp3
-				Fiechter_Golden_Age_of_India.mp3
-				Fiechter_Guardians_of_Sunvine_Grove.mp3
-				Fiechter_Naga_Maiden.mp3
+				Homeworld_The_Bentusi_Arrive.mp3
+				Homeworld_The_Movers_Attack_Mobilize.mp3
 			end
 			
 		state MUSIC_BATTLE_BATTLE
@@ -1659,8 +1660,7 @@ music_type roman
 				folder data/sounds/music
 				(Hindu_Battle_1).mp3
 				(Hindu_Battle_2).mp3
-				Fiechter_Palace_of_the_Snake_King.mp3
-				Fiechter_Serpentine_Warriors.mp3
+				Homeworld_Battle_for_Sajuuk.mp3
 			end
 
 

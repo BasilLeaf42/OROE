@@ -5741,7 +5741,59 @@ anim		kill_mount						data/animations/elephant_cavalry/elephant_rider/HR_elephan
 anim		pre_battle_general_gesture		data/animations/elephant_cavalry/elephant_rider/HR_elephant_rider_stand_a_idle.cas			-fr	-evt:data/animations/elephant_cavalry/elephant_rider/HR_elephant_rider_stand_a_idle.evt
 anim		pre_battle_general_finish		data/animations/elephant_cavalry/elephant_rider/HR_elephant_rider_stand_a_idle.cas			-fr		
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+type		fs_chariot		;chariots with 2 horses
+parent		MTW2_Bowman
+scale		1.12
+
+anim		default				data/animations/fs_chariot/med_elephant_default.CAS						-fr	-evt:data/animations/fs_chariot/med_elephant_default.evt
+anim		stand_a_idle			data/animations/fs_chariot/med_elephant_stand_a_idle.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_stand_a_idle.evt
+anim		stand_a_to_walk			data/animations/fs_chariot/med_elephant_stand_a_to_walk.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_stand_a_to_walk.evt
+anim		stand_a_to_run			data/animations/fs_chariot/med_elephant_stand_a_to_run.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_stand_a_to_run.evt
+anim		stand_a_to_charge		data/animations/fs_chariot/med_elephant_stand_a_to_charge.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_stand_a_to_charge.evt
+
+anim		stand_a_lf_idle_1		data/animations/fs_chariot/med_elephant_stand_a_hf_idle_1.CAS					-fr
+anim		stand_a_lf_idle_2		data/animations/fs_chariot/med_elephant_stand_a_hf_idle_2.CAS					-fr		
+anim		stand_a_lf_idle_3		data/animations/fs_chariot/med_elephant_stand_a_hf_idle_1.CAS					-fr		
+
+anim		stand_a_lf_idle_1		data/animations/fs_chariot/med_elephant_stand_a_hf_idle_3.CAS					-fr		
+
+
+anim		stand_a_turn_45_cw_1		data/animations/fs_chariot/med_elephant_stand_a_turn_45_cw_1.CAS		-mintd:10	-maxtd:68	-evt:data/animations/fs_chariot/med_elephant_stand_a_turn_45_ccw_1.evt
+anim		stand_a_turn_45_ccw_1		data/animations/fs_chariot/med_elephant_stand_a_turn_45_ccw_1.CAS		-mintd:10	-maxtd:68	-evt:data/animations/fs_chariot/med_elephant_stand_a_turn_45_ccw_1.evt
+anim		stand_a_turn_90_cw_1		data/animations/fs_chariot/med_elephant_stand_a_turn_45_cw_1.CAS		-mintd:67	-maxtd:115	-evt:data/animations/fs_chariot/med_elephant_stand_a_turn_45_cw_1.evt
+anim		stand_a_turn_90_ccw_1		data/animations/fs_chariot/med_elephant_stand_a_turn_45_ccw_1.CAS		-mintd:67	-maxtd:115	-evt:data/animations/fs_chariot/med_elephant_stand_a_turn_45_ccw_1.evt
+
+anim		walk				data/animations/fs_chariot/med_elephant_walk.CAS						-fr	-evt:data/animations/fs_chariot/med_elephant_walk.evt
+anim		walk_to_run			data/animations/fs_chariot/med_elephant_walk_to_run.CAS						-fr	-evt:data/animations/fs_chariot/med_elephant_walk_to_run.evt
+anim		walk_to_stand_a			data/animations/fs_chariot/med_elephant_walk_to_stand_a.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_walk_to_stand_a.evt
+
+anim		run				data/animations/fs_chariot/med_elephant_run.CAS							-fr	-evt:data/animations/fs_chariot/med_elephant_run.evt
+anim		run_to_walk			data/animations/fs_chariot/med_elephant_run_to_charge.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_run_to_charge.evt
+anim		run_to_stand_a			data/animations/fs_chariot/med_elephant_run_to_stand_a.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_run_to_stand_a.evt
+anim		run_to_charge			data/animations/fs_chariot/med_elephant_run_to_walk.CAS						-fr	-evt:data/animations/fs_chariot/med_elephant_run_to_walk.evt
+
+anim		charge				data/animations/fs_chariot/med_elephant_charge.CAS							-evt:data/animations/fs_chariot/med_elephant_charge.evt
+anim		charge_attack			data/animations/fs_chariot/med_elephant_charge.CAS					-fr	-if:7	-evt:data/animations/fs_chariot/med_elephant_charge_attack.evt
+
+
+anim		attack_mid_low_1		data/animations/fs_chariot/med_elephant_attack_mid_centre_1.CAS					-fr	-if:34, -evt:data/animations/fs_chariot/med_elephant_attack_mid_low_1.evt
+anim		attack_mid_centre_1		data/animations/fs_chariot/med_elephant_attack_mid_centre_1.CAS					-fr	-if:13	-evt:data/animations/fs_chariot/med_elephant_attack_mid_centre_1.evt
+anim		attack_mid_high_1		data/animations/fs_chariot/med_elephant_attack_mid_high_1.CAS					-fr	-if:21, -evt:data/animations/fs_chariot/med_elephant_attack_mid_high_1.evt
+
+anim		die_forward_1			data/animations/fs_chariot/med_elephant_die_forward_1.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_die_forward_1.evt
+anim		die_backward_1			data/animations/fs_chariot/med_elephant_die_forward_1.CAS					-fr	-evt:data/animations/fs_chariot/med_elephant_die_forward_1.evt
+
+
+anim		idle_to_swim			data/animations/fs_chariot/med_elephant_stand_a_to_walk.CAS					-fr	-id -0.1, 4.75, 4.84	-if:15
+anim		swim_to_idle			data/animations/fs_chariot/med_elephant_walk_to_stand_a.CAS					-fr
+anim		swim_idle			data/animations/fs_chariot/med_elephant_stand_a_idle.CAS						-fr
+anim		swim				data/animations/fs_chariot/med_elephant_walk.CAS						-fr
+anim		swim_attack			data/animations/fs_chariot/med_elephant_attack_mid_centre_1.CAS						-fr	-id 0.0, 4.17, 5.21		-if:13
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

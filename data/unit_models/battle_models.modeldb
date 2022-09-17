@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1738 0 0 
+22 serialization::archive 3 0 0 0 0 1739 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -938,6 +938,23 @@
 40 unit_sprites/merc_Mount_Camel_sprite.spr 0 1 
 5 Horse 
 8 fs_camel 0  
+0 0 -1 0 0 0 0 0 0 
+13 mount_chariot 
+1.12 3 
+55 unit_models/Mounts/Medium_Horse/mount_chariot_lod0.mesh 121 
+55 unit_models/Mounts/Medium_Horse/mount_chariot_lod0.mesh 1225 
+55 unit_models/Mounts/Medium_Horse/mount_chariot_lod0.mesh 10000 
+2
+5 slave 
+56 unit_models/Mounts/Medium_Horse/textures/chariot.texture 
+63 unit_models/Mounts/Medium_Horse/textures/chariot_normal.texture  
+41 unit_sprites/russia_Mount_Pony_sprite.spr 
+4 merc 
+56 unit_models/Mounts/Medium_Horse/textures/chariot.texture 
+63 unit_models/Mounts/Medium_Horse/textures/chariot_normal.texture 
+40 unit_sprites/egypt_Mount_Pony_sprite.spr 0 1 
+8 Elephant 
+10 fs_chariot 0  
 0 0 -1 0 0 0 0 0 0 
 14 mailed_knights 
 1 4 
@@ -19754,9 +19771,9 @@
 65 unit_models/AttachmentSets/Final Middle Eastern_merc_norm.texture 0  
 1 
 8 Elephant 
-18 MTW2_Elephant_Crew 0  
+20 MTW2_Elephant_Archer 0  
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Bowman_Primary 1
 0 -1 0 0 0 0 0 0 
 23 elephant_artillery_crew 
 1 3 

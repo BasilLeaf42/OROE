@@ -305,3 +305,28 @@ rider_offset		0.05, 1.05, 0.9
 rider_offset		0.0, 1.18, 0.0		;y was 1.54
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; chariots
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				chariot
+class				elephant
+model				Mount_chariot
+radius				3                    ; was 5.5
+x_radius			1.3
+y_offset			0
+height				2.5
+mass				40
+banner_height			1
+bouyancy_offset			3
+water_trail_effect		elephant_water_trail
+root_node_height		1.0	;was 2.84
+attack_delay			1
+dead_radius			2.5
+tusk_z				3.0
+tusk_radius			2.0
+riders				3
+rider_offset			0.0, 0.0, 0.05	
+rider_offset			-0.3, -1.0, -0.45
+rider_offset			0.3, -1.0, -.45	

@@ -1915,7 +1915,7 @@ voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
 soldier          English_Guard, 48, 0, 1.2
-mount_effect     horse +3, camel +3, elephant +2
+mount_effect     horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -2209,7 +2209,6 @@ voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
 soldier          Javelinmen, 16, 0, 0.9
-mount_effect     horse +2, camel +2, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 2, square
@@ -2460,7 +2459,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 100, 0, 0.8
-mount_effect     horse +1, camel +1
+mount_effect     horse +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 6, square
@@ -2495,7 +2494,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Sergeant_Spearmen, 72, 0, 0.9
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -2530,7 +2529,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Sergeant_Spearmen, 72, 0, 0.9
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -2641,7 +2640,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 72, 0, 0.9
-mount_effect     horse +1, camel +1
+mount_effect     horse +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name, no_custom
 move_speed_mod   1.025
 formation        1.2, 1.2, 2.4, 2.4, 5, square
@@ -2676,7 +2675,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -2715,7 +2714,7 @@ accent         Mediterranean
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, mercenary_unit, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -2753,7 +2752,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -2791,7 +2790,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.1
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -2828,7 +2827,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Papal_Guard, 48, 0, 1.2
-mount_effect     horse +3, camel +3, elephant +2
+mount_effect     horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -3199,7 +3198,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 72, 0, 1.50
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing, free_upkeep_unit, no_custom
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 5, square, phalanx
@@ -3236,7 +3235,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 64, 0, 1.70
-mount_effect     horse +4, camel +4, elephant +3
+mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -3273,7 +3272,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 64, 0, 1.70
-mount_effect     horse +4, camel +4, elephant +3
+mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -3310,7 +3309,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 64, 0, 1.70
-mount_effect     horse +4, camel +4, elephant +3
+mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -3347,7 +3346,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 64, 0, 1.70
-mount_effect     horse +4, camel +4, elephant +3
+mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -3385,7 +3384,7 @@ accent         German
 banner faction   main_infantry
 banner holy      crusade
 soldier          New_Swiss_Guard_ug3, 48, 0, 2.0
-mount_effect     horse +8, camel +8, elephant +4
+mount_effect     horse +8, camel +6, elephant +4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, command, legionary_name, can_swim, pike, start_phalanxing
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 3, square, phalanx
@@ -3421,7 +3420,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          New_Serjeant_Pikemen, 64, 0, 1.65
-mount_effect	 horse +8, camel +8, elephant +1
+mount_effect	 horse +8, camel +6, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -3458,7 +3457,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          New_Serjeant_Pikemen, 64, 0, 1.65
-mount_effect	 horse +8, camel +8, elephant +1
+mount_effect	 horse +8, camel +6, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, mercenary_unit, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -3496,7 +3495,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          New_Serjeant_Pikemen, 64, 0, 1.65
-mount_effect	 horse +8, camel +8, elephant +1
+mount_effect	 horse +8, camel +6, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -3533,7 +3532,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          New_Serjeant_Pikemen, 48, 0, 1.85
-mount_effect	 horse +12, camel +12, elephant +2
+mount_effect	 horse +12, camel +8, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, very_hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
 formation        1.2, 1.2, 2.4, 2.4, 3, square, phalanx
@@ -3571,7 +3570,7 @@ accent         German
 banner faction   main_spear
 banner holy      crusade
 soldier          New_Serjeant_Pikemen, 56, 0, 1.75
-mount_effect	 horse +10, camel +10, elephant +2
+mount_effect	 horse +10, camel +8, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, frighten_foot, very_hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -3608,7 +3607,7 @@ accent         Mediterranean
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 100, 0, 0.8
-mount_effect	 horse +1, camel +1, elephant +1
+mount_effect	 horse +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 6, square
@@ -3646,7 +3645,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.0
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3683,7 +3682,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.0
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3721,7 +3720,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.0
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3759,7 +3758,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.1
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3798,7 +3797,7 @@ accent         Scottish
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.2
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, mercenary_unit, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3836,7 +3835,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.2
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3874,7 +3873,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.2
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3912,7 +3911,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.2
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3950,7 +3949,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.2
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -3992,7 +3991,7 @@ banner faction   main_spear
 banner holy      crusade
 soldier          Great_Cross, 24, 1, 1.2
 engine           great_cross
-mount_effect     horse +3, camel +3, elephant +3
+mount_effect     horse +3, camel +2, elephant +3
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, standard, mercenary_unit, legionary_name, can_swim
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -4884,7 +4883,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.1
-mount_effect     horse +3, camel +3, elephant +2
+mount_effect     horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -5033,7 +5032,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 40, 0, 1.25
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted, legionary_name, can_swim
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -5071,7 +5070,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          Pikemen, 64, 0, 1.65
-mount_effect	 horse +8, camel +8, elephant +1
+mount_effect	 horse +8, camel +6, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -5577,7 +5576,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -5615,7 +5614,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 64, 0, 1.70
-mount_effect     horse +4, camel +4, elephant +3
+mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -5726,7 +5725,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.0
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -5764,7 +5763,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.2
-mount_effect	 horse +3, camel +3, elephant +2
+mount_effect	 horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -6277,7 +6276,7 @@ banner holy      crusade_cavalry
 soldier          Tuareg_Camel_Spearmens, 32, 0, 1
 mount            camel
 mount_effect     elephant -4, horse +4
-attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_mounted, can_formed_charge, mercenary_unit, legionary_name
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_mounted, can_formed_charge, mercenary_unit, legionary_name
 move_speed_mod	 1.0
 formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
@@ -6358,7 +6357,7 @@ banner holy      crusade_cavalry
 soldier          Jinetes, 32, 0, 1
 mount            camel
 mount_effect     elephant -4, horse +4
-attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, hardy, frighten_mounted, mercenary_unit, legionary_name
+attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, very_hardy, frighten_mounted, mercenary_unit, legionary_name
 move_speed_mod	 1.0
 formation        2, 4.4, 3, 6, 4, square
 stat_health      1, 0
@@ -6708,7 +6707,7 @@ banner holy      crusade_cavalry
 soldier          Magyar_Cavalry, 32, 0, 1
 mount            camel
 mount_effect     elephant -4, horse +3
-attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_mounted, can_formed_charge, mercenary_unit, cantabrian_circle, legionary_name
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_mounted, can_formed_charge, mercenary_unit, cantabrian_circle, legionary_name
 move_speed_mod	 1.0
 formation        2, 4.4, 3, 6, 4, square
 stat_health      1, 0
@@ -7190,6 +7189,44 @@ armour_ug_models Jazayerchi, Jazayerchi, Jazayerchi, Jazayerchi
 ownership        milan, slave
 era 2            milan
 ;unit_info        13, 0, 17
+
+
+type             India Rathas
+dictionary       India_Rathas      ; Indian Rathas / Sinhala Rathas / Sinhalese Rathas / Indian Chariots / Sinhala Chariots / Sinhalese Chariots
+category         cavalry
+class            missile
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Viet_Elephant_Archers, 18, 6, 1
+mount            chariot
+mount_effect     horse +4, camel +2
+attributes       sea_faring, hardy, can_withdraw, can_formed_charge, can_run_amok, frighten_foot, frighten_mounted, cantabrian_circle, no_custom
+formation        7, 11, 13, 16, 2, square
+stat_health      1, 6
+stat_pri         4, 1, cav_bodkin_arrow, 120, 40, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    area
+stat_sec         2, 12, no, 0, 0, melee, melee_simple, piercing, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    area, launching
+stat_pri_armour  1, 6, 0, metal
+;stat_armour_ex   5, 0, 0, 0, 7, 0, 0, metal
+stat_sec_armour  6, 4, flesh
+stat_heat        1
+stat_ground      0, 1, -6, -1
+stat_mental      7, disciplined, untrained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 540, 150, 100, 75, 540, 4, 130
+armour_ug_levels 0, 1
+armour_ug_models Indian_Levy_Archers
+ownership        denmark
+era 0            denmark
+era 1            denmark
+era 2            denmark
+;unit_info        8, 8, 8 
 
 
 ;====================================================== MISSILE INFANTRY ======================================================
@@ -8227,7 +8264,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          ME_Spear_Militia, 80, 0, 0.8
-mount_effect     horse +1, camel +1
+mount_effect     horse +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, hardy, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -8265,7 +8302,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          ME_Spear_Militia, 80, 0, 0.8
-mount_effect     horse +1, camel +1
+mount_effect     horse +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, hardy, is_peasant, legionary_name
 move_speed_mod	 1.1
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -8303,7 +8340,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -8341,7 +8378,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.1
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.94
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -8379,7 +8416,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.1
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -8417,7 +8454,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 1.0
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -8455,7 +8492,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.075
-mount_effect     horse +3, camel +3, elephant +3
+mount_effect     horse +3, camel +2, elephant +3
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 1.0
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -8493,7 +8530,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 64, 0, 1.675
-mount_effect     horse +4, camel +4, elephant +3
+mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -8530,7 +8567,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.1
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -8568,7 +8605,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.0
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -8606,7 +8643,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.2
-mount_effect	 horse +3, camel +3, elephant +2
+mount_effect	 horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, command, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -8644,7 +8681,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.2
-mount_effect	 horse +3, camel +3, elephant +3
+mount_effect	 horse +3, camel +2, elephant +3
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -9019,7 +9056,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Papal_Guard, 48, 0, 1.2
-mount_effect     horse +3, camel +3, elephant +2
+mount_effect     horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -10182,7 +10219,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          African_Warband, 88, 0, 0.8
-mount_effect     horse +1, camel +1, elephant +1
+mount_effect     horse +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, start_not_skirmishing, legionary_name
 move_speed_mod	 1.15
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -10220,7 +10257,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          African_Warband, 80, 0, 0.9
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, start_not_skirmishing, legionary_name, no_custom
 move_speed_mod	 1.15
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -10258,7 +10295,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          African_Warband, 72, 0, 0.95
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, hardy, is_peasant, legionary_name
 move_speed_mod	 1.125
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -10296,7 +10333,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          African_Warband, 56, 0, 1.15
-mount_effect     horse +4, camel +4, elephant +3
+mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, very_hardy, is_peasant, legionary_name
 move_speed_mod	 1.125
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -10334,7 +10371,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          African_Warband, 72, 0, 0.95
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, hardy, is_peasant, legionary_name
 move_speed_mod	 1.10
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -10557,7 +10594,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Sefari, 72, 0, 0.95
-mount_effect	 horse +1, camel +1, elephant +1
+mount_effect	 horse +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, is_peasant, legionary_name
 move_speed_mod	 1.125
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -10595,7 +10632,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Sefari, 72, 0, 0.95
-mount_effect	 horse +1, camel +1, elephant +1
+mount_effect	 horse +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, hardy, is_peasant, legionary_name
 move_speed_mod	 1.125
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -10633,7 +10670,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Sefari, 72, 0, 0.95
-mount_effect	 horse +1, camel +1, elephant +1
+mount_effect	 horse +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, hardy, is_peasant, legionary_name
 move_speed_mod	 1.125
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -10671,7 +10708,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Sefari, 72, 0, 1.05
-mount_effect	 horse +1, camel +1, elephant +1
+mount_effect	 horse +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, hardy, is_peasant, legionary_name
 move_speed_mod	 1.125
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -10709,7 +10746,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Sefari, 56, 0, 1.15
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, very_hardy, is_peasant, legionary_name
 move_speed_mod	 1.125
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -10747,7 +10784,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Sefari, 56, 0, 1.15
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, very_hardy, is_peasant, legionary_name
 move_speed_mod	 1.125
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -10872,7 +10909,7 @@ banner holy      crusade_cavalry
 soldier          Mounted_Sergeants, 32, 0, 1.0
 mount            camel
 mount_effect     elephant -4, horse +4
-attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, can_formed_charge, legionary_name
+attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, can_formed_charge, legionary_name, very_hardy
 move_speed_mod	 1.0
 formation        2, 4.4, 3, 6, 4, square, wedge
 stat_health      1, 0
@@ -11323,7 +11360,7 @@ voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
 soldier          Shinaoyou, 16, 0, 0.9
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, incendiary, gunpowder_unit, start_not_skirmishing, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 2, square
@@ -11363,7 +11400,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 100, 0, 0.8
-mount_effect     horse +1, camel +1
+mount_effect     horse +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 6, square
@@ -11398,7 +11435,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Sergeant_Spearmen, 72, 0, 0.9
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -11507,7 +11544,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 80, 0, 0.8
-mount_effect	 horse +1, camel +1
+mount_effect	 horse +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, free_upkeep_unit, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -11542,7 +11579,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Sergeant_Spearmen, 72, 0, 0.9
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, hardy, legionary_name, mercenary_unit
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -12054,7 +12091,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -12092,7 +12129,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          Pikemen, 64, 0, 1.60
-mount_effect	 horse +8, camel +8, elephant +1
+mount_effect	 horse +8, camel +6, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -12130,7 +12167,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          Pikemen, 48, 0, 1.80
-mount_effect	 horse +10, camel +10, elephant +2
+mount_effect	 horse +10, camel +8, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, very_hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -12241,7 +12278,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.0
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -12593,7 +12630,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusades
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -12627,7 +12664,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 64, 0, 1.65
-mount_effect	 horse +4, camel +4, elephant +3
+mount_effect	 horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -12903,7 +12940,7 @@ banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          Viet_Elephant_Archers, 18, 6, 1
 mount            elephant
-mount_effect     horse +4, camel +3
+mount_effect     horse +4, camel +2
 attributes       sea_faring, can_withdraw, can_run_amok, frighten_foot, frighten_mounted, can_formed_charge, legionary_name
 move_speed_mod	 0.85
 formation        5.5, 5.5, 8.5, 8.5, 3, square
@@ -12943,7 +12980,7 @@ banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          Elephant_Javlin, 12, 4, 1
 mount            elephant
-mount_effect     horse +4, camel +3
+mount_effect     horse +4, camel +2
 attributes       sea_faring, can_withdraw, can_run_amok, frighten_foot, frighten_mounted, gunpowder_unit, can_formed_charge, legionary_name
 move_speed_mod	 0.845
 formation        5.5, 5.5, 8.5, 8.5, 2, square
@@ -13169,7 +13206,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 72, 0, 0.975
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 1.0
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -13207,7 +13244,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.075
-mount_effect     horse +3, camel +3, elephant +3
+mount_effect     horse +3, camel +2, elephant +3
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 1.0
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -13245,7 +13282,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          New_Serjeant_Pikemen, 64, 0, 1.55
-mount_effect	 horse +8, camel +8, elephant +2
+mount_effect	 horse +8, camel +6, elephant +2
 attributes       sea_faring, hide_improved_forest, can_withdraw, frighten_mounted, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -13318,7 +13355,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 48, 0, 1.175
-mount_effect	 horse +3, camel +3, elephant +3
+mount_effect	 horse +3, camel +2, elephant +3
 attributes       sea_faring, hide_improved_forest, can_withdraw, very_hardy, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -13556,7 +13593,7 @@ voice_type       Light
 banner faction   main_missile
 banner holy      crusade
 soldier          Ainu, 64, 0, 0.975
-mount_effect     horse +3, camel +3, elephant +2
+mount_effect     horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_improved_forest, hide_anywhere, can_withdraw, hardy, mercenary_unit, is_peasant, legionary_name, stakes, stakes
 move_speed_mod	 1.10
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -13842,7 +13879,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 40, 0, 1.25
-mount_effect	 horse +3, camel +3, elephant +2
+mount_effect	 horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, frighten_foot, frighten_mounted, is_peasant, legionary_name, can_swim
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -13879,7 +13916,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Swiss_Guard, 64, 0, 1.0
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -13916,7 +13953,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Swiss_Guard, 48, 0, 1.0
-mount_effect     horse +3, camel +3, elephant +3
+mount_effect     horse +3, camel +2, elephant +3
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -13953,7 +13990,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusades
 soldier          Swiss_Guard, 48, 0, 1.0
-mount_effect     horse +3, camel +3, elephant +3
+mount_effect     horse +3, camel +2, elephant +3
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, command, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -13987,7 +14024,7 @@ voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Pikemen, 64, 0, 1.60
-mount_effect	 horse +8, camel +8, elephant +1
+mount_effect	 horse +8, camel +6, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -14023,7 +14060,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Pikemen, 48, 0, 1.80
-mount_effect	 horse +10, camel +10, elephant +2
+mount_effect	 horse +10, camel +8, elephant +2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_mounted, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square, phalanx
@@ -14517,7 +14554,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1
-mount_effect     horse +2, camel +2, elephant +2
+mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -14555,7 +14592,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 48, 0, 1.80
-mount_effect     horse +6, camel +6, elephant +3
+mount_effect     horse +6, camel +4, elephant +3
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 3, square, phalanx
@@ -14592,7 +14629,7 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 64, 0, 1.1
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -15053,7 +15090,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 soldier          Sergeant_Spearmen, 100, 0, 0.8
-mount_effect	 horse +1, camel +1
+mount_effect	 horse +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name, no_custom
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 6, square
@@ -15091,7 +15128,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Swiss_Guard, 100, 0, 0.825
-mount_effect     horse +2, camel +2, elephant +1
+mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_improved_forest, hide_anywhere, hardy, can_withdraw, free_upkeep_unit, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 1.25
 formation        1.2, 1.2, 2.4, 2.4, 5, square
@@ -15125,7 +15162,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 soldier          Sergeant_Spearmen, 100, 0, 0.825
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, is_peasant, free_upkeep_unit, legionary_name
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 7, square, schiltrom
@@ -15162,7 +15199,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 soldier          Sergeant_Spearmen, 80, 0, 0.90
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -15199,7 +15236,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_infantry
 soldier          Sergeant_Spearmen, 64, 0, 1.10
-mount_effect     horse +3, camel +3, elephant +2
+mount_effect     horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -15238,7 +15275,7 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          New_Serjeant_Pikemen, 80, 0, 1.55
-mount_effect	 horse +7, camel +7, elephant +1
+mount_effect	 horse +7, camel +5, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing, mercenary_unit
 move_speed_mod	 1.15
 formation        1.2, 1.2, 2.4, 2.4, 5, square, phalanx
@@ -15275,7 +15312,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 soldier          Sergeant_Spearmen, 88, 0, 0.85
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -15312,7 +15349,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_infantry
 soldier          Sergeant_Spearmen, 72, 0, 0.9
-mount_effect	 horse +3, camel +3, elephant +2
+mount_effect	 horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
@@ -15528,7 +15565,7 @@ voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
 soldier          Janissary_Heavy_Inf, 100, 0, 0.8
-mount_effect	 horse +1, camel +1, elephant +1
+mount_effect	 horse +1, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, is_peasant, legionary_name, free_upkeep_unit
 move_speed_mod	 1.2
 formation        1.2, 1.2, 2.4, 2.4, 7, square
@@ -15565,7 +15602,7 @@ class            light
 voice_type       Light
 banner faction   main_infantry
 soldier          Janissary_Heavy_Inf, 88, 0, 0.975
-mount_effect     horse +1, camel +1
+mount_effect     horse +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 6, square
@@ -15601,7 +15638,7 @@ class            light
 voice_type       Light
 banner faction   main_spear
 soldier          Janissary_Heavy_Inf, 64, 0, 0.9
-mount_effect	 horse +2, camel +2, elephant +1
+mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, very_hardy, frighten_foot, frighten_mounted, is_peasant, legionary_name, can_swim
 move_speed_mod   1.2
 formation        1.2, 1.2, 2.4, 2.4, 5, square
@@ -15717,7 +15754,7 @@ banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          Elephant_Crew, 12, 4, 1
 mount            elephant
-mount_effect     horse +4, camel +2
+mount_effect     horse +4, camel +1
 attributes       sea_faring, can_withdraw, frighten_foot, frighten_mounted, gunpowder_unit, very_hardy
 formation        7, 11, 13,16, 2, square
 stat_health      1, 6
