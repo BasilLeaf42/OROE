@@ -11,3 +11,5 @@ sounds/
 *.psd
 custom/previous battle.cbx
 data/text/export_units.txt.strings.bin
+custom/previous battle.cbx
+*.cbx
