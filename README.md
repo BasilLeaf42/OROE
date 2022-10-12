@@ -9,5 +9,3 @@ This repository is meant to be an online backup in case of hardware failure, as 
 ModDB: https://www.moddb.com/mods/one-ruler-on-earth-total-war
 
 Discord server: https://discord.gg/9RYzq3K
-
-For developers: The sounds folder will be uploaded elsewhere due to GitHub file size limitations.
