@@ -1,6 +1,8 @@
 # Subfolders
 
-sounds/
+data/text/export_units.txt.strings.bin
+custom
+custom/previous battle.cbx
 
 # File extensions
 
@@ -9,7 +11,4 @@ sounds/
 *.ms3d
 *.mp3
 *.psd
-custom/previous battle.cbx
-data/text/export_units.txt.strings.bin
-custom/previous battle.cbx
 *.cbx

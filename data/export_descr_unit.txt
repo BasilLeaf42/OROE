@@ -6386,45 +6386,6 @@ era 2            egypt
 ;====================================================== MISSILE CAVALRY =======================================================
 
 
-type             Muslim Gazi
-dictionary       Muslim_Gazi      ; Middle-Eastern Gazi / Middle Eastern Gazi
-category         cavalry
-class            missile
-voice_type       Light
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Jinetes, 32, 0, 1
-mount            camel
-mount_effect     elephant -4, horse +4
-attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, very_hardy, frighten_mounted, mercenary_unit, legionary_name
-move_speed_mod	 1.0
-formation        2, 4.4, 3, 6, 4, square
-stat_health      1, 0
-stat_pri         6, 2, javelin, 55, 8, thrown, missile_mechanical, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    thrown, area
-stat_sec         1, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  1, 5, 4, flesh
-;stat_armour_ex   0, 4, 0, 0, 6, 4, 4, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 2, -1, -2
-stat_mental      5, normal, untrained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        2, 520, 130, 200, 160, 520, 6, 90
-armour_ug_levels 0, 1, 2, 3
-armour_ug_models Jav_Camelry
-ownership        moors, egypt, turks, mali, milan, scotland, zimbabwe, slave
-era 0            moors, egypt, mali, milan, scotland, zimbabwe
-era 1            moors, egypt, mali, milan, scotland, zimbabwe
-era 2            moors, egypt, mali, milan, scotland, zimbabwe
-;unit_info        13, 0, 17
-
-
 type             Indian Javelin Cavalry
 dictionary       Indian_Javelin_Cavalry      ; Middle-Eastern Zenati / Middle Eastern Zenati / Moorish Zenati
 category         cavalry
@@ -6733,46 +6694,6 @@ era 0            denmark
 era 1            denmark
 era 2            denmark
 ;unit_info        8, 8, 6
-
-
-type             Muslim Maghrebis
-dictionary       Muslim_Maghrebis      ; Middle-Eastern Maghrebis / Middle Eastern Maghrebis
-category         cavalry
-class            missile
-voice_type       Light
-accent         Arab
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Magyar_Cavalry, 32, 0, 1
-mount            camel
-mount_effect     elephant -4, horse +3
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_mounted, can_formed_charge, mercenary_unit, cantabrian_circle, legionary_name
-move_speed_mod	 1.0
-formation        2, 4.4, 3, 6, 4, square
-stat_health      1, 0
-stat_pri         4, 2, cav_bodkin_arrow, 120, 35, missile, missile_mechanical, piercing, none, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    area
-stat_sec         2, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  1, 6, 4, flesh
-;stat_armour_ex   0, 0, 0, 0, 7, 3, 3, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 2, -1, -2
-stat_mental      5, normal, untrained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 680, 180, 200, 160, 680, 4, 100
-armour_ug_levels 0, 1, 2, 3
-armour_ug_models Bow_Camelry
-ownership        moors, mali, egypt, scotland, zimbabwe, turks, slave
-era 0			 moors, mali, egypt, scotland, zimbabwe
-era 1			 moors, mali, egypt, scotland, zimbabwe
-era 2			 moors, mali, egypt, scotland, zimbabwe, turks
-;unit_info        9, 0, 9
 
 
 type             Moor Muwalladun
@@ -8304,7 +8225,7 @@ banner faction   main_spear
 banner holy      crusade
 soldier          ME_Spear_Militia, 80, 0, 0.8
 mount_effect     horse +1
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, hardy, is_peasant, legionary_name
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
@@ -8371,6 +8292,41 @@ era 2            denmark
 ;unit_info        5, 0, 7
 
 
+type             Muslim Saharan Tribesmen
+dictionary       Muslim_Saharan_Tribesmen      ; Middle Eastern Saharan Tribesmen / Middle-Eastern Saharan Tribesmen
+category         infantry
+class            spearmen
+voice_type       Heavy
+banner faction   main_spear
+banner holy      crusade
+soldier          Sergeant_Spearmen, 72, 0, 0.9
+mount_effect     horse +2, camel +1, elephant +1
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name, hardy, mercenary_unit
+move_speed_mod	 1.075
+formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
+stat_health      1, 0
+stat_pri         4, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri_attr    spear, light_spear
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 0.35
+stat_sec_attr    no
+stat_pri_armour  1, 7, 6, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      1, 2, -1, -2
+stat_mental      5, normal, untrained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 300, 115, 200, 160, 300, 6, 80
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models Saharan_Spearmen, Saharan_Spearmen, Saharan_Spearmen, Saharan_Spearmen
+ownership        all, slave
+era 0            egypt, moors, mali, scotland, zimbabwe
+era 1            egypt, moors, mali, scotland, zimbabwe
+era 2            egypt, moors, mali, scotland, zimbabwe
+;unit_info        5, 0, 7
+
+
 type             Muslim Rijal
 dictionary       Muslim_Rijal     ; Middle-Eastern Spearmen / Middle Eastern Spearmen / Middle-Eastern Rijal / Middle Eastern Rijal
 category         infantry
@@ -8390,7 +8346,7 @@ stat_pri_attr    spear, light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 3, 5, metal
+stat_pri_armour  6, 4, 5, metal
 ;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -15380,46 +15336,8 @@ era 2            mayans
 recruit_priority_offset    25
 
 
-type             Meso Kuskatan
-dictionary       Meso_Kuskatan      ; Mesoamerican Kuskatan Pikemen
-category         infantry
-class            spearmen
-voice_type       Heavy
-banner faction   main_spear
-banner holy      crusade
-soldier          New_Serjeant_Pikemen, 80, 0, 1.55
-mount_effect	 horse +7, camel +5, elephant +1
-attributes       sea_faring, hide_improved_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing, mercenary_unit
-move_speed_mod	 1.15
-formation        1.2, 1.2, 2.4, 2.4, 5, square, phalanx
-stat_health      1, 1
-stat_pri         2, 2, no, 0, 0, melee, melee_blade, piercing, spear, 460, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    spear, long_pike, spear_bonus_8
-stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  3, 6, 1, leather
-;stat_armour_ex   0, 4, 0, 0, 3, 0, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 3, -2
-stat_mental      6, normal, highly_trained
-stat_charge_dist 10
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        2, 800, 200, 200, 160, 800, 3, 120
-armour_ug_levels 0, 1
-armour_ug_models Meso_Kuskatan, Meso_Kuskatan
-ownership        mayans, slave
-era 0            mayans
-era 1            mayans
-era 2            mayans
-;unit_info        7, 0, 10
-
-
 type             Meso Chinantec
-dictionary       Meso_Chinantec      ; Mesoamerican Chinantec Pikemen
+dictionary       Meso_Chinantec      ; Mesoamerican Chinantec Pikemen / Mesoamerican Chinantecah Pikemen
 category         infantry
 class            spearmen
 voice_type       Heavy
@@ -15449,10 +15367,48 @@ stat_food        60, 300
 stat_cost        2, 640, 180, 200, 160, 640, 3, 120
 armour_ug_levels 0, 1
 armour_ug_models Meso_Chinantec, Meso_Chinantec
-ownership        aztecs, slave
-era 0            aztecs
-era 1            aztecs
-era 2            aztecs
+ownership        aztecs, mayans, slave
+era 0            aztecs, mayans
+era 1            aztecs, mayans
+era 2            aztecs, mayans
+;unit_info        7, 0, 10
+
+
+type             Meso Kuskatan
+dictionary       Meso_Kuskatan      ; Mesoamerican Kuskatan Pikemen / Mesoamerican Pipil Pikemen / Mesoamerican Pipiltin Pikemen
+category         infantry
+class            spearmen
+voice_type       Heavy
+banner faction   main_spear
+banner holy      crusade
+soldier          New_Serjeant_Pikemen, 80, 0, 1.55
+mount_effect	 horse +7, camel +5, elephant +1
+attributes       sea_faring, hide_improved_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing, mercenary_unit
+move_speed_mod	 1.15
+formation        1.2, 1.2, 2.4, 2.4, 5, square, phalanx
+stat_health      1, 1
+stat_pri         2, 2, no, 0, 0, melee, melee_blade, piercing, spear, 460, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    spear, long_pike, spear_bonus_8
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 6, 1, leather
+;stat_armour_ex   0, 4, 0, 0, 3, 0, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 1, 3, -2
+stat_mental      6, normal, highly_trained
+stat_charge_dist 10
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 780, 195, 200, 160, 780, 3, 120
+armour_ug_levels 0, 1
+armour_ug_models Meso_Kuskatan, Meso_Kuskatan
+ownership        aztecs, mayans, slave
+era 0            aztecs, mayans
+era 1            aztecs, mayans
+era 2            aztecs, mayans
 ;unit_info        7, 0, 10
 
 

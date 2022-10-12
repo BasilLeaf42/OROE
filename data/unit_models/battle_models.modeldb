@@ -24945,15 +24945,15 @@
 60 unit_models/_Units/americans/textures/bodyguard_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
 6 aztecs 
-62 unit_models/_Units/americans/textures/bodyguard_mayans.texture 
+62 unit_models/_Units/americans/textures/bodyguard_aztecs.texture 
 60 unit_models/_Units/americans/textures/bodyguard_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
 5 slave 
-62 unit_models/_Units/americans/textures/bodyguard_mayans.texture 
+60 unit_models/_Units/americans/textures/bodyguard_merc.texture 
 60 unit_models/_Units/americans/textures/bodyguard_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
 4 merc 
-62 unit_models/_Units/americans/textures/bodyguard_mayans.texture 
+60 unit_models/_Units/americans/textures/bodyguard_merc.texture 
 60 unit_models/_Units/americans/textures/bodyguard_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
 4 
@@ -24961,7 +24961,7 @@
 69 unit_models/_Units/americans/textures/maya_nobles_gear_mayans.texture 
 67 unit_models/_Units/americans/textures/maya_nobles_gear_norm.texture 0 
 6 aztecs 
-69 unit_models/_Units/americans/textures/maya_nobles_gear_mayans.texture 
+69 unit_models/_Units/americans/textures/maya_nobles_gear_aztecs.texture 
 67 unit_models/_Units/americans/textures/maya_nobles_gear_norm.texture 0 
 5 slave 
 69 unit_models/_Units/americans/textures/maya_nobles_gear_mayans.texture 
@@ -85037,9 +85037,9 @@
 18 MTW2_Sword_Primary 
 14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-11 jav_camelry 
+16 saharan_spearmen 
 1 1 
-45 unit_models/_Units/arab/jav_camelry_lod0.mesh 6400 
+50 unit_models/_Units/arab/saharan_spearmen_lod0.mesh 6400 
 2 
 4 merc 
 67 unit_models/_Units/abbasid/textures/abbasid_bedouin_warrior.texture 
@@ -85051,11 +85051,11 @@
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 2 
 4 merc 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+67 unit_models/_Units/ME_Nubian_Padded/textures/tribal_shields.texture 
+72 unit_models/_Units/ME_Nubian_Padded/textures/tribal_shields_norm.texture 0 
 5 slave 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+67 unit_models/_Units/ME_Nubian_Padded/textures/tribal_shields.texture 
+72 unit_models/_Units/ME_Nubian_Padded/textures/tribal_shields_norm.texture 0 
 1 
 4 None 
 14 MTW2_Swordsman 0  
