@@ -1,0 +1,62 @@
+====================================
+=========== Team Members ===========
+====================================
+-Metal.Pigeon: Mod leader and unit modeler
+-TheVarangian: Campaign mapper
+-Voxhales: Buildings/coding
+-BucketHell/Morgul: Campaign mapper & 2D artist
+-stevietheconqueror: 2D artist
+-Kim Yo-Juul: Buildings/coding
+
+====================================
+=========== Contributors ===========
+====================================
+-EL92/hyvemind92: Persian units
+-IGdood: Historical advisor
+-Jaguar Paw: Mesoamerican, Carib, & North American units
+
+====================================
+============== Assets ==============
+====================================
+-Asia Empires and Shaoding by againster and friends from DOMOD
+-Bellum Crucis and the Complete Sicilian Unit Roster by +Mr.Crow+ and friends on TWC
+-BETTER GRASS and BETTER WATER by DAVIDE on TWC
+-The Broken Crescent team
+-Byzantium Reskin by Arthalion on TWC
+-The Complete Byzantine Unit Roster team
+-Enhanced 2D Interface by cedric37 on TWC
+-High Quality Sky Textures 1.0 by Hereje on TWC
+-Lord Calidor's Weapon Pack by Lord_Calidor on TWC
+-Men-at-Arms Armour Pack by Narf_of_Picklestink on TaleWorlds
+-Middle Eastern city strat models by Aura on TWC
+-Real Shields 0.33 by nikossaiz on TWC
+-Resource works by paleologos on TWC
+-The Rusichi: Total War team
+-The Italian Wars team
+-Various models by Jukoman on TWC
+-Various models by Sumskilz on TWC
+-Vietnamese items by as0017 on TaleWorlds
+-Western Unit Overhaul by G|I|Sandy on TWC
+
+====================================
+============== Music ===============
+====================================
+-Age of Empires II: Definitive Edition
+-Age of Empires III: Definitive Edition
+-Civilization V
+-Civilization VI
+-Crusader Kings II
+-HappyDragonite
+-Homeworld
+-Homeworld 2
+-Kessen
+-Kevin MacLeod
+-Medieval: Total War + Viking Invasion
+-Medieval II: Total War + Kingdoms
+-Rome: Total War
+-Shogun: Total War + Mongol Invasion
+-Total War: Attila
+-Total War: Shogun 2 + Fall of the Samurai
+-Total War: Three Kingdoms
+
+And of course, thanks to falcom4ever for making Falcom Total War 3: The Total Conquest and letting us work on this submod.
