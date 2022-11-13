@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1745 0 0 
+22 serialization::archive 3 0 0 0 0 1746 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -26657,6 +26657,35 @@
 18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+18 meso_mixtec_nobles 
+1 4 
+52 unit_models/_Units/americans/mixtec_nobles_lod0.mesh 121 
+52 unit_models/_Units/americans/mixtec_nobles_lod0.mesh 900 
+52 unit_models/_Units/americans/mixtec_nobles_lod0.mesh 2500 
+52 unit_models/_Units/americans/mixtec_nobles_lod0.mesh 6400 
+2 
+5 slave 
+52 unit_models/_Units/americans/textures/mixtec.texture 
+57 unit_models/_Units/americans/textures/mixtec_norm.texture 
+31 unit_sprites/tmp_inf_sprite.spr 
+4 merc 
+52 unit_models/_Units/americans/textures/mixtec.texture 
+57 unit_models/_Units/americans/textures/mixtec_norm.texture 
+31 unit_sprites/tmp_inf_sprite.spr 
+2 
+5 slave 
+69 unit_models/_Units/americans/textures/maya_nobles_gear_aztecs.texture 
+67 unit_models/_Units/americans/textures/maya_nobles_gear_norm.texture 0 
+4 merc 
+69 unit_models/_Units/americans/textures/maya_nobles_gear_aztecs.texture 
+67 unit_models/_Units/americans/textures/maya_nobles_gear_norm.texture 0 
+1 
+4 None 
+15 MTW2_Fast_Spear 0  
+2 
+18 MTW2_Spear_primary 
+14 fs_test_shield 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 23 meso_tlaxcaltec_archers 
 1 4 
 57 unit_models/_Units/americans/tlaxcaltec_archers_lod0.mesh 121 
@@ -26694,11 +26723,11 @@
 48 unit_models/_Units/americans/chinantec_lod0.mesh 6400 
 2 
 5 slave 
-63 unit_models/_Units/americans/textures/warrior_chinantec.texture 
+58 unit_models/_Units/americans/textures/warrior_merc.texture 
 58 unit_models/_Units/americans/textures/warrior_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
 4 merc 
-63 unit_models/_Units/americans/textures/warrior_chinantec.texture 
+58 unit_models/_Units/americans/textures/warrior_merc.texture 
 58 unit_models/_Units/americans/textures/warrior_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
 2 
@@ -27541,18 +27570,18 @@
 85 unit_models/_Units/AZ_Body_suit/textures/mtw2_az_body_suit_Cuahchiqueh_normal.texture 
 42 unit_sprites/aztecs_Cuahchiqueh_sprite.spr 
 4 
-6 aztecs 
-61 unit_models/_Units/AZ_Light/textures/meso_gear_aztecs.texture 
-59 unit_models/_Units/AZ_Light/textures/meso_gear_norm.texture 0
 6 mayans 
-61 unit_models/_Units/AZ_Light/textures/meso_gear_aztecs.texture 
-59 unit_models/_Units/AZ_Light/textures/meso_gear_norm.texture 0
-4 merc 
-61 unit_models/_Units/AZ_Light/textures/meso_gear_aztecs.texture 
-59 unit_models/_Units/AZ_Light/textures/meso_gear_norm.texture 0
+69 unit_models/_Units/americans/textures/maya_nobles_gear_mayans.texture 
+67 unit_models/_Units/americans/textures/maya_nobles_gear_norm.texture 0 
+6 aztecs 
+69 unit_models/_Units/americans/textures/maya_nobles_gear_aztecs.texture 
+67 unit_models/_Units/americans/textures/maya_nobles_gear_norm.texture 0 
 5 slave 
-61 unit_models/_Units/AZ_Light/textures/meso_gear_aztecs.texture 
-59 unit_models/_Units/AZ_Light/textures/meso_gear_norm.texture 0
+69 unit_models/_Units/americans/textures/maya_nobles_gear_aztecs.texture 
+67 unit_models/_Units/americans/textures/maya_nobles_gear_norm.texture 0 
+4 merc 
+69 unit_models/_Units/americans/textures/maya_nobles_gear_aztecs.texture 
+67 unit_models/_Units/americans/textures/maya_nobles_gear_norm.texture 0 
 1 
 4 None 
 14 MTW2_Fast_Mace 0  
