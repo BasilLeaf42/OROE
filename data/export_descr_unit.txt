@@ -5845,7 +5845,7 @@ banner holy      crusade_cavalry
 soldier          Mounted_Sergeants, 8, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, can_formed_charge, command, knight
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, can_formed_charge, command, knight, no_custom
 move_speed_mod	 0.875
 formation        2, 4.4, 3, 6, 2, square
 stat_health      1, 0
@@ -11636,9 +11636,9 @@ stat_cost        2, 500, 180, 200, 160, 500, 2, 120
 armour_ug_levels 1
 armour_ug_models Asian_Arty_Crew
 ownership        mongols, china, saxons, ryukyu, venice, sicily, normans, slave
-era 0            mongols, china, ryukyu, venice, sicily, normans
-era 1            mongols, china, ryukyu, venice, sicily, normans
-era 2            mongols, china, ryukyu, venice, sicily, normans
+era 0            mongols, china, saxons, ryukyu, venice, sicily, normans
+era 1            mongols, china, saxons, ryukyu, venice, sicily, normans
+era 2            mongols, china, saxons, ryukyu, venice, sicily, normans
 ;unit_info        6, 0, 8
 
 
@@ -11676,9 +11676,9 @@ stat_cost        2, 620, 220, 200, 160, 620, 2, 140
 armour_ug_levels 1
 armour_ug_models Asian_Arty_Crew
 ownership        china, saxons, ryukyu, normans, venice, mongols, slave
-era 0            china
-era 1            china, ryukyu, normans, venice, mongols
-era 2            china, ryukyu, normans, venice, mongols
+era 0            china, saxons
+era 1            china, saxons, ryukyu, normans, venice, mongols
+era 2            china, saxons, ryukyu, normans, venice, mongols
 ;unit_info        6, 0, 8
 
 
@@ -11716,8 +11716,8 @@ stat_cost        2, 700, 245, 200, 160, 700, 2, 140
 armour_ug_levels 1
 armour_ug_models Asian_Arty_Crew
 ownership        mongols, china, saxons, ryukyu, normans, venice, slave
-era 1            mongols, china, ryukyu, normans, venice
-era 2            mongols, china, ryukyu, normans, venice
+era 1            mongols, china, saxons, ryukyu, normans, venice
+era 2            mongols, china, saxons, ryukyu, normans, venice
 ;unit_info        6, 0, 8
 
 
@@ -11755,7 +11755,7 @@ stat_cost        2, 860, 280, 200, 160, 860, 1, 160
 armour_ug_levels 1
 armour_ug_models Asian_Arty_Crew
 ownership        china, saxons, ryukyu, normans, mongols, venice, slave
-era 2            china, ryukyu, normans, mongols, venice
+era 2            china, saxons, ryukyu, normans, mongols, venice
 ;unit_info        6, 0, 8
 
 
@@ -12753,9 +12753,9 @@ stat_food        60, 300
 stat_cost        2, 600, 200, 200, 160, 600, 2, 140
 armour_ug_levels 1
 armour_ug_models Asian_Arty_Crew
-ownership        venice, slave
-era 1            venice
-era 2            venice
+ownership        venice, china, saxons, mongols, slave
+era 1            venice, china, saxons, mongols
+era 2            venice, china, saxons, mongols
 ;unit_info        6, 0, 8
 
 
