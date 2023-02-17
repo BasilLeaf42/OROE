@@ -84996,23 +84996,65 @@
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 new_fidaiyin 
 1 1 
-42 unit_models/_Units/arab/fidaiyin_lod0.mesh 6400 
-2 
+43 unit_models/_Units/arab/hashishin_lod0.mesh 6400 
+8 
+5 egypt 
+56 unit_models/_Units/arab/textures/hashishin_egypt.texture 
+55 unit_models/_Units/arab/textures/hashishin_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+56 unit_models/_Units/arab/textures/hashishin_turks.texture 
+55 unit_models/_Units/arab/textures/hashishin_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+56 unit_models/_Units/arab/textures/hashishin_moors.texture 
+55 unit_models/_Units/arab/textures/hashishin_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+57 unit_models/_Units/arab/textures/hashishin_persia.texture 
+55 unit_models/_Units/arab/textures/hashishin_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 mali 
+55 unit_models/_Units/arab/textures/hashishin_merc.texture 
+55 unit_models/_Units/arab/textures/hashishin_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 scotland 
+55 unit_models/_Units/arab/textures/hashishin_merc.texture 
+55 unit_models/_Units/arab/textures/hashishin_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 4 merc 
-52 unit_models/_Units/arab/textures/ghulam_merc.texture 
-54 unit_models/_Units/arab/textures/khassaki_norm.texture 
+55 unit_models/_Units/arab/textures/hashishin_merc.texture 
+55 unit_models/_Units/arab/textures/hashishin_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 5 slave 
-52 unit_models/_Units/arab/textures/ghulam_merc.texture 
-54 unit_models/_Units/arab/textures/khassaki_norm.texture 
+55 unit_models/_Units/arab/textures/hashishin_merc.texture 
+55 unit_models/_Units/arab/textures/hashishin_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
-2 
+8 
+5 egypt 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 turks 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 moors 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 milan 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+4 mali 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+8 scotland 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 5 slave 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 4 merc 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
 5 Horse 
 13 MTW2_HR_Lance 
@@ -86760,15 +86802,15 @@
 54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 4 mali 
-54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_mali.texture 
 54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 8 scotland 
-54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_mali.texture 
 54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 8 zimbabwe 
-54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_mali.texture 
 54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 6 ryukyu 
