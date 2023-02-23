@@ -8239,7 +8239,7 @@ stat_mental      5, normal, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 300, 115, 200, 160, 300, 6, 80
+stat_cost        1, 340, 115, 200, 160, 340, 6, 80
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Saharan_Spearmen, Saharan_Spearmen, Saharan_Spearmen, Saharan_Spearmen
 ownership        all, slave
@@ -8473,6 +8473,44 @@ ownership        denmark, slave
 era 0            denmark
 era 1            denmark
 era 2            denmark
+;unit_info        7, 0, 14
+
+
+type             Roman Anatolian Hillmen
+dictionary       Roman_Anatolian_Hillmen      ; Anatolian Hillmen / Armenian Hillmen / Georgian Hillmen
+category         infantry
+class            light
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Janissary_Heavy_Inf, 72, 0, 0.9
+mount_effect	 horse +1, camel +1
+attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name, free_upkeep_unit, mercenary_unit
+move_speed_mod   1.05
+formation        1.2, 1.2, 2.4, 2.4, 5, square
+stat_health      1, 0
+stat_pri         2, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 6, 0, leather
+;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      1, 2, -1, -2
+stat_mental      5, normal, untrained
+stat_charge_dist 9
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 340, 115, 200, 160, 340, 6, 100
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models Anatolian_Hillmen
+ownership        all, slave
+era 0            byzantium, turks
+era 1            byzantium, turks
+era 2            byzantium, turks
 ;unit_info        7, 0, 14
 
 
@@ -8992,7 +9030,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 800, 210, 200, 160, 800, 2, 200
+stat_cost        3, 780, 200, 200, 160, 780, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Foot_Ghulams
 ownership        turks, egypt, milan, moors, slave
@@ -9140,7 +9178,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 860, 220, 200, 160, 860, 2, 200
+stat_cost        3, 800, 215, 200, 160, 800, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Fidaiyin
 ownership        turks, milan, egypt, moors, mali, scotland, slave

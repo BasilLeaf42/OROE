@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1746 0 0 
+22 serialization::archive 3 0 0 0 0 1747 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -85179,15 +85179,56 @@
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 new_tabardariyya 
 1 1 
-46 unit_models/_Units/arab/tabardariyya_lod0.mesh 6400 
+47 unit_models/_Units/arab/tabardariyyah_lod0.mesh 6400 
 2 
 5 egypt 
-57 unit_models/_Units/arab/textures/arab_guard_egypt.texture 
-56 unit_models/_Units/arab/textures/arab_guard_norm.texture 
+59 unit_models/_Units/arab/textures/khassakiyyah_egypt.texture 
+58 unit_models/_Units/arab/textures/khassakiyyah_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 5 slave 
-56 unit_models/_Units/arab/textures/arab_guard_merc.texture 
-56 unit_models/_Units/arab/textures/arab_guard_norm.texture 
+59 unit_models/_Units/arab/textures/khassakiyyah_egypt.texture 
+58 unit_models/_Units/arab/textures/khassakiyyah_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 
+5 egypt 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 turks 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 moors 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+7 mongols 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 milan 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 slave 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+4 merc 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 anatolian_hillmen 
+1 1 
+51 unit_models/_Units/arab/anatolian_hillmen_lod0.mesh 6400 
+2 
+4 merc 
+50 unit_models/_Units/arab/textures/anatolian.texture 
+55 unit_models/_Units/arab/textures/anatolian_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+50 unit_models/_Units/arab/textures/anatolian.texture 
+55 unit_models/_Units/arab/textures/anatolian_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 7 
 5 egypt 
@@ -86074,15 +86115,15 @@
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 new_khassakiyya 
 1 1 
-45 unit_models/_Units/arab/khassakiyya_lod0.mesh 6400 
+46 unit_models/_Units/arab/khassakiyyah_lod0.mesh 6400 
 2 
 5 egypt 
-57 unit_models/_Units/arab/textures/arab_guard_egypt.texture 
-56 unit_models/_Units/arab/textures/arab_guard_norm.texture 
+59 unit_models/_Units/arab/textures/khassakiyyah_egypt.texture 
+58 unit_models/_Units/arab/textures/khassakiyyah_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 5 slave 
-56 unit_models/_Units/arab/textures/arab_guard_merc.texture 
-56 unit_models/_Units/arab/textures/arab_guard_norm.texture 
+59 unit_models/_Units/arab/textures/khassakiyyah_egypt.texture 
+58 unit_models/_Units/arab/textures/khassakiyyah_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 7 
 5 egypt 
