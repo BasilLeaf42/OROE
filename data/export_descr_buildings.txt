@@ -1034,7 +1034,7 @@ building smith
     convert_to castle_smith
     levels leather_tanner blacksmith armourer
     {
-        leather_tanner city requires factions { all } 
+        leather_tanner city requires factions { all, } 
         {
             convert_to 0
             capability
@@ -1050,7 +1050,7 @@ building smith
                 blacksmith
             }
         }
-        blacksmith city requires factions { all } 
+        blacksmith city requires factions { all, } 
         {
             convert_to 1
             capability
@@ -1066,7 +1066,7 @@ building smith
                 armourer
             }
         }
-        armourer city requires factions { all } 
+        armourer city requires factions { all, } 
         {
             convert_to 2
             capability
