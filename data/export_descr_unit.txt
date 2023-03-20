@@ -14724,7 +14724,7 @@ stat_food        60, 300
 stat_cost        3, 680, 0, 200, 160, 680, 1, 300
 armour_ug_levels 0, 1
 armour_ug_models Meso_Bodyguard, Meso_Bodyguard
-ownership        aztecs, mayans, slave
+ownership        aztecs, mayans, incans, slave
 era 0            aztecs, mayans
 era 1            aztecs, mayans
 era 2            aztecs, mayans

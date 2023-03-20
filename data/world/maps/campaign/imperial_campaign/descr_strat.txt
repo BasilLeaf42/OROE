@@ -1463,17 +1463,17 @@ settlement
 character	Tahar, named character, male, leader, age 60, x 173, y 170 
 traits Factionleader 1 , GoodCommander 2 , Energetic 1 , HaleAndHearty 3 , ReligionStarter 1 
 army
-unit		Muslim Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Euro Bodyguard				exp 1 armour 0 weapon_lvl 0
 
 character	Miswar, named character, male, heir, age 35, x 179, y 171 
 traits Factionheir 1 , LoyaltyStarter 1 , GoodCommander 2 , Energetic 1 , Intelligent 1 , ReligionStarter 1 
 army
-unit		Muslim Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Euro Bodyguard				exp 1 armour 0 weapon_lvl 0
 
 character	Qasim, named character, male, age 30, x 166, y 171 
 traits LoyaltyStarter 1 , NaturalMilitarySkill 1 , PublicFaith 3 , Intelligent 1 , ReligionStarter 1 
 army
-unit		Muslim Bodyguard				exp 1 armour 0 weapon_lvl 0
+unit		Euro Bodyguard				exp 1 armour 0 weapon_lvl 0
 
 character	Mohsen, general, male, age 20, x 170, y 152 
 army
@@ -2219,7 +2219,7 @@ unit		Meso Bodyguard				exp 0 armour 0 weapon_lvl 0
 
 character	Bydo of_Palenque, named character, male, age 31, x 16, y 146 
 army
-unit		Meso Levy Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia				exp 0 armour 0 weapon_lvl 0
 
 character_record		Xmucane, 	female, age 41, alive, never_a_leader
 
@@ -2539,7 +2539,7 @@ unit		Meso Bodyguard				exp 0 armour 0 weapon_lvl 0
 character	Chayton, named character, male, heir, age 21, x 7, y 200 
 traits Factionheir 1 , LoyaltyStarter 1 
 army
-unit		Meso Levy Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia				exp 0 armour 0 weapon_lvl 0
 
 character_record		Dyani, 	female, age 45, alive, never_a_leader
 
@@ -4716,7 +4716,7 @@ unit		Asian Levy Spearmen			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction aztecs, Coanacoch, general, male, age 22, x 1, y 155 
 army
-unit		Meso Levy Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction aztecs, Cocozca, named character, male, age 22, x 7, y 149 
 army
@@ -4949,11 +4949,11 @@ unit		Euro Bandits			exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction aztecs, Tzompantli, named character, male, age 45, x 1, y 163 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction incans, Yupanqui of_Cajamarca, named character, male, age 47, x 36, y 90 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction egypt, al_Muazzam Tamer, general, male, age 23, x 256, y 42 
 army
@@ -4961,79 +4961,79 @@ unit		Muslim Mutatawwia				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Cheveyo, named character, male, age 33, x 99, y 223 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Vipponah, named character, male, age 41, x 51, y 195 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Sucki of_Miccosoukee, named character, male, age 39, x 28, y 187 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Maska, named character, male, age 51, x 28, y 216 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Sakima, named character, male, age 23, x 53, y 218 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Neka, named character, male, age 27, x 53, y 230 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Ciqala, named character, male, age 35, x 40, y 160 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction aztecs, Tangaxoan, named character, male, age 35, x 3, y 177 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction mayans, Ah Puch of_Chichen Itza, named character, male, age 40, x 24, y 152 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction mayans, Buluk Kab, named character, male, age 27, x 20, y 142 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction mayans, Ahua, named character, male, age 51, x 31, y 135 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction incans, Huayna of_Quito, named character, male, age 34, x 37, y 105 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction incans, Punchau of_Nazca, named character, male, age 27, x 47, y 46 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Leyati, named character, male, age 26, x 50, y 125 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Wakiza, named character, male, age 33, x 79, y 107 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Patamon, named character, male, age 25, x 116, y 73 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Demothi, named character, male, age 22, x 97, y 42 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Yuma, named character, male, age 34, x 80, y 35 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction apachean, Elki, named character, male, age 22, x 69, y 87 
 army
-unit		Meso Levy Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Meso Town Militia			exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction denmark, Godfred Svendsen, named character, male, age 31, x 113, y 240 
 army
