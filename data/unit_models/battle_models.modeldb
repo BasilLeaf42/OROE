@@ -20664,28 +20664,28 @@
 42 unit_models/_Units/arab/naffatun_lod0.mesh 6400 
 6 
 5 egypt 
-55 unit_models/_Units/arab/textures/arab_pro_egypt.texture 
-54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+55 unit_models/_Units/arab/textures/engineer_egypt.texture 
+54 unit_models/_Units/arab/textures/engineer_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 5 turks 
-55 unit_models/_Units/arab/textures/arab_pro_turks.texture 
-54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+55 unit_models/_Units/arab/textures/engineer_turks.texture 
+54 unit_models/_Units/arab/textures/engineer_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 5 moors 
-55 unit_models/_Units/arab/textures/arab_pro_moors.texture 
-54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+55 unit_models/_Units/arab/textures/engineer_moors.texture 
+54 unit_models/_Units/arab/textures/engineer_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 5 milan 
-56 unit_models/_Units/arab/textures/arab_pro_persia.texture 
-54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+56 unit_models/_Units/arab/textures/engineer_persia.texture 
+54 unit_models/_Units/arab/textures/engineer_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 7 mongols 
-54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
-54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+54 unit_models/_Units/arab/textures/engineer_merc.texture 
+54 unit_models/_Units/arab/textures/engineer_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 5 slave 
-54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
-54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+54 unit_models/_Units/arab/textures/engineer_merc.texture 
+54 unit_models/_Units/arab/textures/engineer_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 6 
 5 egypt 
