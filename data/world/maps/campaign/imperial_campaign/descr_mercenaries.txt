@@ -79,6 +79,7 @@ pool Burgundy
 	unit Euro Bandits,					exp 0 cost 400 replenish 0.12 - 0.35 max 4 initial 1
 
 pool Switzerland
+	regions Bern_Province
 	unit Ship Transport,				exp 0 cost 200 replenish 0.36 - 1.0 max 2 initial 1 religions { catholic } crusading
 	unit Ship Transport,				exp 0 cost 1000 replenish 0.03 - 0.15 max 2 initial 1
 	unit Euro Bandits,					exp 0 cost 400 replenish 0.12 - 0.35 max 4 initial 1

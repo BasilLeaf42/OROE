@@ -85320,7 +85320,7 @@
 16 new_arab_cavalry 
 1 1 
 46 unit_models/_Units/arab/arab_cavalry_lod0.mesh 6400 
-15 
+31 
 5 egypt 
 55 unit_models/_Units/arab/textures/arab_pro_egypt.texture 
 54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
@@ -85381,52 +85381,164 @@
 56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
 54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
-15 
+6 russia 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 mali 
+54 unit_models/_Units/arab/textures/arab_pro_mali.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 scotland 
+54 unit_models/_Units/arab/textures/arab_pro_mali.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 zimbabwe 
+54 unit_models/_Units/arab/textures/arab_pro_mali.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 ryukyu 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 china 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 saxons 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 venice 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 normans 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 aztecs 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 mayans 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 incans 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 apachean 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 timurids 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 denmark 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 sicily 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+31 
 5 egypt 
-56 unit_models/_Units/arab/textures/arab_gear_egypt.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+59 unit_models/_Units/arab/textures/arab_buckler_egypt.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_egypt_norm.texture 0  
 5 turks 
-56 unit_models/_Units/arab/textures/arab_gear_turks.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+59 unit_models/_Units/arab/textures/arab_buckler_turks.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_turks_norm.texture 0  
 5 moors 
-56 unit_models/_Units/arab/textures/arab_gear_moors.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+59 unit_models/_Units/arab/textures/arab_buckler_moors.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_moors_norm.texture 0  
 5 milan 
-57 unit_models/_Units/arab/textures/arab_gear_persia.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 7 mongols 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 5 slave 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 france 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 7 england 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 3 hre 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 12 papal_states 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 5 spain 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 8 portugal 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 7 hungary 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 poland 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 9 byzantium 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 russia 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+4 mali 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 scotland 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 zimbabwe 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 ryukyu 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+5 china 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 saxons 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 venice 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+7 normans 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 aztecs 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 mayans 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 incans 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 apachean 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 timurids 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+7 denmark 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 sicily 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 1 
 4 None 
 14 MTW2_Swordsman 0  
@@ -86947,98 +87059,98 @@
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 31 
 5 egypt 
-56 unit_models/_Units/arab/textures/arab_gear_egypt.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+59 unit_models/_Units/arab/textures/arab_buckler_egypt.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_egypt_norm.texture 0  
 5 turks 
-56 unit_models/_Units/arab/textures/arab_gear_turks.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+59 unit_models/_Units/arab/textures/arab_buckler_turks.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_turks_norm.texture 0  
 5 moors 
-56 unit_models/_Units/arab/textures/arab_gear_moors.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+59 unit_models/_Units/arab/textures/arab_buckler_moors.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_moors_norm.texture 0  
 5 milan 
-57 unit_models/_Units/arab/textures/arab_gear_persia.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 7 mongols 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 5 slave 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 france 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 7 england 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 3 hre 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 12 papal_states 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 5 spain 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 8 portugal 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 7 hungary 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 poland 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 9 byzantium 
-57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 russia 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 4 mali 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 8 scotland 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 8 zimbabwe 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 ryukyu 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 5 china 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 saxons 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 venice 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 7 normans 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 aztecs 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 mayans 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 incans 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 8 apachean 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 8 timurids 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 7 denmark 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 6 sicily 
-55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
-55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 1 
 4 None 
 14 MTW2_Swordsman 0  
