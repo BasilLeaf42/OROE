@@ -8,9 +8,9 @@ This repository is meant to be an online backup in case of hardware failure, as 
 
 4GB Patch: https://ntcore.com/?page_id=371
 
-ModDB: https://www.moddb.com/mods/one-ruler-on-earth-total-war
-
 Discord server: https://discord.gg/9RYzq3K
+
+ModDB: https://www.moddb.com/mods/one-ruler-on-earth-total-war
 
 ## Credits:
 
