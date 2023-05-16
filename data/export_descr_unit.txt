@@ -6084,7 +6084,7 @@ attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, hardy
 move_speed_mod	 1.00
 formation        2, 4.4, 3, 6, 4, square, wedge
 stat_health      1, 0
-stat_pri         2, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri         3, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         2, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -6099,7 +6099,7 @@ stat_mental      7, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 720, 200, 200, 160, 720, 4, 100
+stat_cost        3, 840, 200, 200, 160, 840, 4, 100
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Tawashiyyah, Tawashiyyah, Tawashiyyah, Tawashiyyah
 ownership        egypt, moors, turks, milan, slave
@@ -8407,11 +8407,11 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Armored_Sergeants, 64, 0, 1.0
+soldier          Armored_Sergeants, 72, 0, 0.975
 mount_effect     horse +2, camel +1, elephant +2
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 1.0
-formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
+formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
 stat_pri         4, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 ;stat_pri_ex      0, 0, 0
@@ -8419,7 +8419,7 @@ stat_pri_attr    spear, light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 3, 6, metal
+stat_pri_armour  4, 4, 6, leather
 ;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -8430,7 +8430,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 480, 145, 200, 160, 480, 4, 100
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Indian_Pro_Spearmen
+armour_ug_models Kannada_Spearmen
 ownership        denmark, slave
 era 0            denmark
 era 1            denmark
