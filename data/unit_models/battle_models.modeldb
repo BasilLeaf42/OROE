@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1749 0 0 
+22 serialization::archive 3 0 0 0 0 1750 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -94217,4 +94217,37 @@
 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+7 garudas 
+1 1 
+42 unit_models/_Units/india/garudas_lod0.mesh 6400 
+3 
+7 denmark 
+54 unit_models/_Units/india/textures/garuda_india.texture 
+53 unit_models/_Units/india/textures/garuda_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+54 unit_models/_Units/india/textures/garuda_india.texture 
+53 unit_models/_Units/india/textures/garuda_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 merc 
+54 unit_models/_Units/india/textures/garuda_india.texture 
+53 unit_models/_Units/india/textures/garuda_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+3 
+7 denmark 
+54 unit_models/_Units/india/textures/round1_india.texture 
+53 unit_models/_Units/india/textures/round1_norm.texture 0  
+5 slave 
+54 unit_models/_Units/india/textures/round1_india.texture 
+53 unit_models/_Units/india/textures/round1_norm.texture 0  
+4 merc 
+54 unit_models/_Units/india/textures/round1_india.texture 
+53 unit_models/_Units/india/textures/round1_norm.texture 0  
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
