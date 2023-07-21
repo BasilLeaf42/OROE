@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1750 0 0 
+22 serialization::archive 3 0 0 0 0 1756 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -90428,6 +90428,954 @@
 18 MTW2_Sword_Primary 
 14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 kannada_swordsmen 
+1 1 
+52 unit_models/_Units/india/kannada_swordsmen_lod0.mesh 6400 
+32 
+5 egypt 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 mongols 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 merc 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 timurids 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 mali 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 scotland 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 apachean 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 france 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 england 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+3 hre 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 spain 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 portugal 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+12 papal_states 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 hungary 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 poland 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+9 byzantium 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 russia 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 zimbabwe 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 ryukyu 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 sicily 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 venice 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 normans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 china 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 saxons 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 denmark 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 aztecs 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 mayans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 incans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+32 
+5 egypt 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 turks 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 moors 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 milan 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 mongols 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 slave 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+4 merc 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 timurids 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+4 mali 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 scotland 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 apachean 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 denmark 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 france 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 england 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+3 hre 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+12 papal_states 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 spain 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 portugal 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 poland 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 hungary 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+9 byzantium 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 russia 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 zimbabwe 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 ryukyu 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 sicily 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 venice 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 china 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 normans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 saxons 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 aztecs 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 mayans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 incans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 kannada_archers 
+1 1 
+50 unit_models/_Units/india/kannada_archers_lod0.mesh 6400 
+32 
+5 egypt 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 mongols 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 merc 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 timurids 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 mali 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 scotland 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 apachean 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 france 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 england 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+3 hre 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 spain 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 portugal 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+12 papal_states 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 hungary 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 poland 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+9 byzantium 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 russia 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 zimbabwe 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 ryukyu 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 sicily 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 venice 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 normans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 china 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 saxons 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 denmark 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 aztecs 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 mayans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 incans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+32 
+5 egypt 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 turks 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 moors 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 milan 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 mongols 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 slave 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+4 merc 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 timurids 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+4 mali 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 scotland 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 apachean 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 denmark 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 france 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 england 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+3 hre 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+12 papal_states 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 spain 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 portugal 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 poland 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 hungary 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+9 byzantium 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 russia 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 zimbabwe 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 ryukyu 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 sicily 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 venice 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 china 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 normans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 saxons 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 aztecs 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 mayans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 incans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+24 kannada_elephant_archers 
+1 1 
+51 unit_models/_Units/india/elephant_archers_lod0.mesh 6400 
+32 
+5 egypt 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 mongols 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 merc 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 timurids 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 mali 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 scotland 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 apachean 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 france 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 england 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+3 hre 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 spain 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 portugal 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+12 papal_states 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 hungary 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 poland 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+9 byzantium 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 russia 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 zimbabwe 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 ryukyu 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 sicily 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 venice 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 normans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 china 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 saxons 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 denmark 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 aztecs 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 mayans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 incans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+32 
+5 egypt 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 turks 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 moors 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 milan 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 mongols 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 slave 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+4 merc 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 timurids 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+4 mali 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 scotland 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 apachean 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 denmark 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 france 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 england 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+3 hre 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+12 papal_states 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 spain 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 portugal 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 poland 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 hungary 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+9 byzantium 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 russia 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 zimbabwe 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 ryukyu 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 sicily 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 venice 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 china 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 normans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 saxons 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 aztecs 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 mayans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 incans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 kannada_cavalry 
+1 1 
+50 unit_models/_Units/india/kannada_cavalry_lod0.mesh 6400 
+32 
+5 egypt 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 mongols 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 merc 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 timurids 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 mali 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 scotland 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 apachean 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 france 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 england 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+3 hre 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 spain 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 portugal 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+12 papal_states 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 hungary 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 poland 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+9 byzantium 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 russia 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 zimbabwe 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 ryukyu 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 sicily 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 venice 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 normans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 china 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 saxons 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 denmark 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 aztecs 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 mayans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 incans 
+55 unit_models/_Units/india/textures/kannada_india.texture 
+54 unit_models/_Units/india/textures/kannada_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+32 
+5 egypt 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 turks 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 moors 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 milan 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 mongols 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 slave 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+4 merc 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 timurids 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+4 mali 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 scotland 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 apachean 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 denmark 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 france 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 england 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+3 hre 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+12 papal_states 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 spain 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 portugal 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 poland 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 hungary 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+9 byzantium 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 russia 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+8 zimbabwe 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 ryukyu 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 sicily 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 venice 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+5 china 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+7 normans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 saxons 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 aztecs 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 mayans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+6 incans 
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
+1 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 indian_pro_gunners 
 1 1 
 53 unit_models/_Units/india/indian_pro_gunners_lod0.mesh 6400 
@@ -93168,101 +94116,101 @@
 47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
 32 
 5 egypt 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 5 turks 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 5 moors 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 5 milan 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 7 mongols 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 5 slave 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 4 merc 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 8 timurids 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 4 mali 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 8 scotland 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 8 apachean 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 7 denmark 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 france 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 7 england 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 3 hre 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 12 papal_states 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 5 spain 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 8 portugal 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 poland 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 7 hungary 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 9 byzantium 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 russia 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 8 zimbabwe 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 ryukyu 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 sicily 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 venice 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 5 china 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 7 normans 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 saxons 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 aztecs 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 mayans 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 6 incans 
-54 unit_models/_Units/india/textures/round1_india.texture 
-53 unit_models/_Units/india/textures/round1_norm.texture 0  
+54 unit_models/_Units/india/textures/round2_india.texture 
+53 unit_models/_Units/india/textures/round2_norm.texture 0  
 1 
 4 None 
 14 MTW2_Swordsman 0  
@@ -94250,4 +95198,72 @@
 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 0
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 nagavarika 
+1 1 
+53 unit_models/_Units/india/nagavarika_archers_lod0.mesh 6400 
+3 
+7 denmark 
+54 unit_models/_Units/india/textures/garuda_india.texture 
+53 unit_models/_Units/india/textures/garuda_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+54 unit_models/_Units/india/textures/garuda_india.texture 
+53 unit_models/_Units/india/textures/garuda_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 merc 
+54 unit_models/_Units/india/textures/garuda_india.texture 
+53 unit_models/_Units/india/textures/garuda_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+3 
+7 denmark 
+54 unit_models/_Units/india/textures/round1_india.texture 
+53 unit_models/_Units/india/textures/round1_norm.texture 0  
+5 slave 
+54 unit_models/_Units/india/textures/round1_india.texture 
+53 unit_models/_Units/india/textures/round1_norm.texture 0  
+4 merc 
+54 unit_models/_Units/india/textures/round1_india.texture 
+53 unit_models/_Units/india/textures/round1_norm.texture 0  
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+7 test_uk 
+1 1 
+42 unit_models/_Units/india/test_uk_lod0.mesh 6400 
+3 
+7 denmark 
+50 unit_models/_Units/india/textures/brit_reg.texture 
+55 unit_models/_Units/india/textures/brig_reg_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 france 
+69 unit_models/_Units/EN_PPlate_Plate/textures/garde_france_diff.texture 
+63 unit_models/_Units/EN_PPlate_Plate/textures/yeomen_norm.texture 
+50 unit_sprites/england_Yeoman_Archers_ug2_sprite.spr 
+8 scotland 
+63 unit_models/_Units/EN_PPlate_Plate/textures/yeomen_diff.texture 
+63 unit_models/_Units/EN_PPlate_Plate/textures/yeomen_norm.texture 
+50 unit_sprites/england_Yeoman_Archers_ug2_sprite.spr 
+3 
+7 denmark 
+69 unit_models/AttachmentSets/Final European Archer_england_diff.texture 
+69 unit_models/AttachmentSets/Final European Archer_england_norm.texture 0  
+6 france 
+68 unit_models/AttachmentSets/Final European Archer_france_diff.texture 
+68 unit_models/AttachmentSets/Final European Archer_france_norm.texture 0  
+8 scotland 
+70 unit_models/AttachmentSets/Final European Archer_scotland_diff.texture 
+70 unit_models/AttachmentSets/Final European Archer_scotland_norm.texture 0  
+1 
+4 None 
+11 MTW2_Bowman 
+14 MTW2_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
