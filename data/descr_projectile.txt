@@ -238,6 +238,28 @@ velocity	20	48
 display		aimed
 effect_only
 
+projectile ele_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+;accuracy_vs_units		0.00001
+affected_by_rain
+min_angle	-75
+max_angle	65
+velocity	20 48
+display		aimed
+effect_only
+
 projectile cav_bodkin_arrow
 
 effect			arrows_new_set
