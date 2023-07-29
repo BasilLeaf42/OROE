@@ -1630,7 +1630,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 3, 2, metal
+stat_pri_armour  5, 2, 2, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -1664,10 +1664,10 @@ stat_health      1, 0
 stat_pri         3, 1, arrow, 120, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
-stat_sec         4, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
+stat_sec         3, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 3, 4, metal
+stat_pri_armour  6, 2, 4, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -1704,7 +1704,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 3, 2, metal
+stat_pri_armour  5, 2, 2, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -1740,7 +1740,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 3, 2, metal
+stat_pri_armour  5, 2, 2, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -1778,7 +1778,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1.8
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 4, 2, metal
+stat_pri_armour  5, 2, 2, metal
 ;stat_armour_ex   0, 0, 0, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
@@ -1815,7 +1815,7 @@ stat_pri_attr    area
 stat_sec         3, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 4, 3, metal
+stat_pri_armour  5, 2, 3, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        3
@@ -1852,7 +1852,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 3, 2, metal
+stat_pri_armour  5, 2, 2, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        3
@@ -1951,7 +1951,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 72, 0, 0.8
+soldier          Crossbowmen, 72, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -2108,7 +2108,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 1, 6, metal
+stat_pri_armour  5, 0, 6, metal
 ;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -2255,7 +2255,7 @@ stat_pri_attr    ap, bp
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 1, 6, metal
+stat_pri_armour  5, 1, 6, metal
 ;stat_armour_ex   7, 8, 0, 0, 6, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -2291,7 +2291,7 @@ stat_pri_attr    ap, bp
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 2, 6, metal
+stat_pri_armour  5, 2, 6, metal
 ;stat_armour_ex   7, 8, 0, 0, 6, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -2397,7 +2397,7 @@ stat_pri_attr    ap, bp
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 3, 2, metal
+stat_pri_armour  5, 2, 2, metal
 ;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -3071,7 +3071,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 940, 250, 200, 160, 940, 2, 200
+stat_cost        3, 940, 275, 200, 160, 940, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Foot_Knights, New_Foot_Knights, New_Foot_Knights_ug2, New_Foot_Knights_ug2
 ownership        england, hre, spain, portugal, papal_states, poland, hungary, france, slave
@@ -3108,7 +3108,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 980, 260, 200, 160, 980, 2, 200
+stat_cost        3, 980, 275, 200, 160, 980, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Bajorija, Bajorija, Bajorija, Bajorija
 ownership        all, slave
@@ -3145,7 +3145,7 @@ stat_mental      10, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 260, 200, 160, 1000, 2, 200
+stat_cost        3, 1000, 285, 200, 160, 1000, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Cliens, Cliens, Cliens_ug2, Cliens_ug2
 ownership        france, england, hre, papal_states, spain, poland, slave
@@ -4636,7 +4636,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 4, 3, metal
+stat_pri_armour  5, 2, 3, metal
 ;stat_armour_ex   0, 4, 0, 0, 1, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -4783,7 +4783,7 @@ stat_pri_attr    ap, bp
 stat_sec         3, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 3, 3, metal
+stat_pri_armour  5, 2, 3, metal
 ;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -5971,7 +5971,7 @@ attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, very_
 move_speed_mod	 1.00
 formation        2, 4.4, 3, 6, 4, square, wedge
 stat_health      1, 0
-stat_pri         3, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri         3, 9, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         3, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -6088,13 +6088,13 @@ attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, can_form
 move_speed_mod	 0.925
 formation        2, 4.4, 3, 6, 4, square, wedge
 stat_health      1, 0
-stat_pri         3, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri         3, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
-stat_sec         3, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 2, 4, leather
+stat_pri_armour  6, 2, 4, leather
 ;stat_armour_ex   5, 7, 0, 0, 5, 4, 4, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -6103,7 +6103,7 @@ stat_mental      7, normal, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 880, 225, 200, 160, 880, 3, 200
+stat_cost        4, 900, 245, 200, 160, 900, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Vanniyar_Cavalry, Vanniyar_Cavalry, Vanniyar_Cavalry, Vanniyar_Cavalry
 ownership        denmark, slave
@@ -6363,13 +6363,13 @@ attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_f
 move_speed_mod	 1.10
 formation        2, 4.4, 3, 6, 4, square
 stat_health      1, 0
-stat_pri         6, 2, javelin, 55, 8, thrown, missile_mechanical, piercing, spear, 25, 1
+stat_pri         4, 2, javelin, 55, 8, thrown, missile_mechanical, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    thrown, area
 stat_sec         1, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  0, 6, 3, flesh
+stat_pri_armour  2, 0, 4, flesh
 ;stat_armour_ex   0, 4, 0, 0, 6, 4, 4, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
@@ -6378,9 +6378,9 @@ stat_mental      3, normal, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 130, 200, 160, 500, 6, 90
+stat_cost        2, 480, 140, 200, 160, 480, 6, 90
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Indian_Levy_Javelinmen_Horse
+armour_ug_models Indian_Militia_Cavalry, Indian_Militia_Cavalry, Indian_Militia_Cavalry, Indian_Militia_Cavalry
 ownership        denmark, slave
 era 0            denmark
 era 1            denmark
@@ -7200,10 +7200,10 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Afghan_Javelinmen, 72, 0, 0.8
+soldier          Afghan_Javelinmen, 80, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
-formation        1.2, 1.2, 2.4, 2.4, 4, square
+formation        1.2, 1.2, 2.4, 2.4, 5, square
 stat_health      1, 0
 stat_pri         4, 1, javelin, 55, 4, thrown, missile_mechanical, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
@@ -7535,7 +7535,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 64, 0, 0.9
+soldier          Yeoman_Archers, 72, 0, 0.9
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, hardy, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7546,7 +7546,7 @@ stat_pri_attr    area
 stat_sec         1, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  2, 2, 0, leather
+stat_pri_armour  2, 1, 0, leather
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -7555,7 +7555,7 @@ stat_mental      5, normal, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 320, 110, 200, 160, 320, 6, 90
+stat_cost        1, 340, 120, 200, 160, 340, 8, 90
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Indian_Archer_Militia, Indian_Archer_Militia, Indian_Archer_Militia, Indian_Archer_Militia
 ownership        denmark, slave
@@ -7583,7 +7583,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 3, 4, metal
+stat_pri_armour  5, 2, 4, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -7683,7 +7683,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 64, 0, 1
+soldier          Yeoman_Archers, 64, 0, 0.95
 attributes       sea_faring, hide_forest, hardy, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 1.1
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7694,7 +7694,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  3, 3, 4, metal
+stat_pri_armour  3, 2, 4, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -8049,7 +8049,7 @@ stat_pri_attr    ap, bp
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  1, 5, 3, flesh
+stat_pri_armour  0, 4, 4, flesh
 ;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
@@ -8246,7 +8246,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 200, 105, 200, 200, 160, 8, 80
+stat_cost        1, 200, 105, 200, 160, 200, 8, 80
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Indian_Levy_Spearmen 
 ownership        denmark, slave
@@ -8751,7 +8751,7 @@ class            heavy
 voice_type       Light
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 72, 0, 0.9
+soldier          Dismounted_Conquistadores, 80, 0, 0.9
 attributes       sea_faring, hide_improved_forest, can_withdraw, is_peasant, free_upkeep_unit, hardy, legionary_name
 move_speed_mod   1.075
 formation        1.2, 1.2, 2.4, 2.4, 5, square
@@ -8762,17 +8762,17 @@ stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  2, 6, 3, leather
+stat_pri_armour  2, 2, 4, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        1
 stat_ground      1, 1, 2, -2
-stat_mental      5, normal, untrained
+stat_mental      3, normal, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 340, 110, 200, 160, 340, 6, 90
+stat_cost        1, 300, 120, 200, 160, 300, 8, 90
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Indian_Levy_Swordsmen, Indian_Levy_Swordsmen, Indian_Levy_Swordsmen, Indian_Levy_Swordsmen
+armour_ug_models Indian_Militia_Swordsmen, Indian_Militia_Swordsmen, Indian_Militia_Swordsmen, Indian_Militia_Swordsmen
 ownership        denmark, slave
 era 0            denmark
 era 1            denmark
@@ -9131,22 +9131,22 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, is_peasant, 
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         7, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         7, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  7, 5, 4, metal
+stat_pri_armour  7, 6, 4, metal
 ;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      1, 1, 2, -2
-stat_mental      9, impetuous, highly_trained
+stat_mental      10, impetuous, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1080, 275, 200, 160, 1080, 1, 240
+stat_cost        3, 1080, 295, 200, 160, 1080, 1, 240
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Rajputs, Rajputs, Rajputs, Rajputs
 ownership        denmark, slave
@@ -9541,7 +9541,7 @@ stat_mental      12, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 760, 0, 200, 160, 760, 1, 300
+stat_cost        4, 840, 0, 200, 160, 840, 1, 300
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models African_Bodyguard
 ownership        zimbabwe, slave
@@ -13063,7 +13063,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1.8
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  4, 3, 4, leather
+stat_pri_armour  3, 2, 4, leather
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
@@ -13099,7 +13099,7 @@ stat_pri_attr    area
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  4, 1, 6, leather
+stat_pri_armour  3, 1, 6, leather
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
@@ -13211,7 +13211,7 @@ stat_pri_attr    ap, bp
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  4, 2, 4, leather
+stat_pri_armour  3, 2, 4, leather
 ;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
