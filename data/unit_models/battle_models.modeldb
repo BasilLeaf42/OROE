@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1756 0 0 
+22 serialization::archive 3 0 0 0 0 1757 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -38544,6 +38544,39 @@
 5 slave
 58 unit_models/_Units/arab/textures/levy_buckler_merc.texture 
 58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
+1 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+7 siddhis
+1 4 
+45 unit_models/_Units/ethiopia/siddhis_lod0.mesh 121 
+45 unit_models/_Units/ethiopia/siddhis_lod0.mesh 900 
+45 unit_models/_Units/ethiopia/siddhis_lod0.mesh 2500 
+45 unit_models/_Units/ethiopia/siddhis_lod0.mesh 6400 
+2 
+4 merc
+51 unit_models/_Units/ethiopia/textures/siddhi.texture 
+56 unit_models/_Units/ethiopia/textures/siddhi_norm.texture 
+49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
+5 slave
+51 unit_models/_Units/ethiopia/textures/siddhi.texture 
+56 unit_models/_Units/ethiopia/textures/siddhi_norm.texture 
+49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
+2 
+4 merc
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+5 slave
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 1 
 5 Horse 
 13 MTW2_HR_Lance 
