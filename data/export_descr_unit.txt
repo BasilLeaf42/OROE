@@ -911,7 +911,7 @@ stat_pri_attr    no
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  20, 4, 5, metal
+stat_pri_armour  16, 4, 5, metal
 ;stat_armour_ex   11, 0, 0, 0, 4, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -920,9 +920,9 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        5, 2000, 520, 200, 160, 2400, 2, 280
-armour_ug_levels 2, 3
-armour_ug_models New_Chivalric_Knights_ug2, New_Chivalric_Knights_ug2
+stat_cost        5, 2000, 520, 200, 160, 2000, 2, 280
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models New_Chivalric_Knights_ug2, New_Chivalric_Knights_ug2, New_Chivalric_Knights_ug2, New_Chivalric_Knights_ug2
 ownership        spain, portugal, poland, england, papal_states, hungary, hre, france, slave
 era 1            spain, portugal, poland, england, papal_states, hungary, hre, france
 era 2            spain, portugal, poland, england, papal_states, hungary, hre, france
@@ -949,7 +949,7 @@ stat_pri_attr    no
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  21, 4, 5, metal
+stat_pri_armour  17, 4, 5, metal
 ;stat_armour_ex   11, 0, 0, 0, 4, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -958,9 +958,9 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        5, 2160, 540, 200, 160, 2560, 2, 280
-armour_ug_levels 2, 3
-armour_ug_models Reichsritter_ug2, Reichsritter_ug2
+stat_cost        5, 2160, 540, 200, 160, 2160, 2, 280
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models Reichsritter_ug2, Reichsritter_ug2, Reichsritter_ug2, Reichsritter_ug2
 ownership        hre, france, england, scotland, papal_states, spain, poland, slave
 era 1            hre
 era 2            hre
@@ -987,7 +987,7 @@ stat_pri_attr    no
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  21, 4, 5, metal
+stat_pri_armour  17, 4, 5, metal
 ;stat_armour_ex   11, 0, 0, 0, 4, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -996,7 +996,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        5, 2240, 545, 200, 160, 2640, 2, 280
+stat_cost        5, 2240, 545, 200, 160, 2240, 2, 280
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Chevaliers_ug2, New_Chevaliers_ug2, New_Chevaliers_ug2, New_Chevaliers_ug2
 ownership        france, slave
@@ -1025,7 +1025,7 @@ stat_pri_attr    no
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  21, 4, 5, metal
+stat_pri_armour  17, 4, 5, metal
 ;stat_armour_ex   11, 0, 0, 0, 5, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -1034,8 +1034,8 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        5, 2200, 545, 200, 160, 2600, 2, 280
-armour_ug_levels 2, 3
+stat_cost        5, 2200, 545, 200, 160, 2200, 2, 280
+armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Chevaliers_ug2, New_Chevaliers_ug2, New_Chevaliers_ug2, Winged_Hussars
 ownership        poland, slave
 era 1			 poland
@@ -1124,7 +1124,7 @@ era 2            spain
 
 
 type             Euro Cuirassiers
-dictionary       Euro_Cuirassiers      ; Western European Cuirassiers
+dictionary       Euro_Cuirassiers      ; Western European Cuirassiers / Western European Pistoliers
 category         cavalry
 class            missile
 voice_type       Heavy
@@ -1137,13 +1137,13 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
 move_speed_mod   0.925
 formation        2, 4.4, 3, 6, 4, square
 stat_health      1, 0
-stat_pri         6, 3, musket_bullet, 75, 18, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         9, 3, musket_bullet, 75, 18, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap, bp, area
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  16, 2, 3, metal
+stat_pri_armour  8, 3, 3, metal
 ;stat_armour_ex   7, 8, 0, 0, 6, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -1152,9 +1152,9 @@ stat_mental      6, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 1440, 370, 200, 160, 2040, 2, 200
-armour_ug_levels 3
-armour_ug_models Cuirassiers_ug3
+stat_cost        4, 1440, 370, 200, 160, 1440, 2, 200
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models Cuirassiers_ug3, Cuirassiers_ug3, Cuirassiers_ug3, Cuirassiers_ug3
 ownership        england, france, hre, papal_states, hungary, poland, spain, portugal, slave
 era 2            england, france, papal_states, hungary, poland, spain, portugal
 ;unit_info        14, 0, 10
@@ -1174,13 +1174,13 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
 move_speed_mod   0.925
 formation        2, 4.4, 3, 6, 4, square
 stat_health      1, 0
-stat_pri         7, 3, musket_bullet, 75, 18, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         10, 3, musket_bullet, 75, 18, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap, bp, area
 stat_sec         5, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  16, 3, 3, metal
+stat_pri_armour  9, 3, 3, metal
 ;stat_armour_ex   7, 8, 0, 0, 6, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -1189,9 +1189,9 @@ stat_mental      7, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 1580, 375, 200, 160, 2180, 2, 200
-armour_ug_levels 3
-armour_ug_models Reiters_ug3
+stat_cost        4, 1580, 375, 200, 160, 1580, 2, 200
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models Reiters_ug3, Reiters_ug3, Reiters_ug3, Reiters_ug3
 ownership        england, france, hre, papal_states, hungary, poland, spain, portugal, slave
 era 2            hre
 ;unit_info        11, 20, 13
@@ -1211,13 +1211,13 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
 move_speed_mod   0.825
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 0
-stat_pri         7, 3, musket_bullet, 75, 24, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         10, 3, musket_bullet, 75, 24, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap, bp, area
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  22, 3, 3, metal
+stat_pri_armour  16, 3, 3, metal
 ;stat_armour_ex   7, 8, 0, 0, 6, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -1226,8 +1226,8 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        5, 2760, 550, 200, 160, 2760, 2, 280
-armour_ug_levels 3
+stat_cost        5, 2160, 550, 200, 160, 2160, 2, 280
+armour_ug_levels 0, 1, 2, 3
 armour_ug_models Encubertados
 ownership        france, spain, portugal, poland, england, papal_states, hre, hungary, slave
 era 2            portugal
@@ -1618,7 +1618,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 1.0
+soldier          Yeoman_Archers, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1660,13 +1660,13 @@ attributes       sea_faring, hide_forest, can_withdraw, hardy, stakes, stakes, i
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         3, 1, arrow, 120, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         5, 1, arrow, 120, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
-stat_sec         3, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
+stat_sec         6, 2, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 2, 4, metal
+stat_pri_armour  8, 5, 5, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -1950,12 +1950,12 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 72, 0, 0.9
+soldier          Crossbowmen, 64, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         8, 1, steel_crossbow_bolt, 100, 18, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         9, 1, steel_crossbow_bolt, 100, 18, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         4, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
@@ -2059,7 +2059,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 56, 0, 1.0
+soldier          Pavise_Crossbowmen, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, hardy, stakes, stakes is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2096,12 +2096,12 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 56, 0, 1.0
+soldier          Pavise_Crossbowmen, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         11, 1, steel_crossbow_bolt, 120, 21, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         16, 1, steel_crossbow_bolt, 120, 21, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         5, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -2134,7 +2134,7 @@ voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
 soldier          Pavise_Crossbowmen, 56, 0, 1.0
-attributes       sea_faring, hide_forest, can_withdraw, crossbow, stakes, stakes, is_peasant, legionary_name, mercenary_unit
+attributes       sea_faring, hide_forest, can_withdraw, crossbow, stakes, stakes, is_peasant, legionary_name, mercenary_unit, no_custom
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
@@ -2243,7 +2243,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1.0
+soldier          Musketeers, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2279,14 +2279,14 @@ class            missile     		  ; Bohemian Hand Gunners / German Hand Gunners /
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1.0
+soldier          Musketeers, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         3, 2, hand_gun_bullet, 80, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         8, 2, hand_gun_bullet, 80, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap, bp
+stat_pri_attr    ap, area
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
@@ -2315,18 +2315,18 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1.0
+soldier          Musketeers, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         10, 1, musket_bullet, 120, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         12, 1, arquebus_bullet, 120, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
-stat_pri_attr    ap, bp, area
-stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri_attr    ap, area
+stat_sec         5, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 2, 2, metal
+stat_pri_armour  5, 2, 3, metal
 ;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -2350,14 +2350,14 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1.0
+soldier          Musketeers, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
 stat_pri         4, 1, musket_bullet, 140, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
-stat_pri_attr    ap, bp
+stat_pri_attr    ap, area
 stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
@@ -7572,13 +7572,13 @@ attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasa
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         4, 1, arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         6, 1, arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
-stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
+stat_sec         5, 2, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 2, 4, metal
+stat_pri_armour  7, 4, 5, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -7646,13 +7646,13 @@ attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasa
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         4, 1, arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         6, 1, arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
-stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
+stat_sec         5, 2, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 2, 4, metal
+stat_pri_armour  7, 4, 5, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -7661,7 +7661,7 @@ stat_mental      6, normal, trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 540, 150, 200, 160, 540, 4, 100
+stat_cost        2, 580, 150, 200, 160, 580, 4, 100
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Khalaj_Foot, Khalaj_Foot, Khalaj_Foot, Khalaj_Foot
 ownership        milan, timurids, egypt, turks, moors, slave
@@ -8299,13 +8299,13 @@ attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legio
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square, schiltrom
 stat_health      1, 0
-stat_pri         4, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri         7, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    spear, light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 5, 5, metal
+stat_pri_armour  7, 7, 7, metal
 ;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -8901,13 +8901,13 @@ attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legio
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         4, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         7, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 4, 4, metal
+stat_pri_armour  7, 7, 5, metal
 ;stat_armour_ex   0, 0, 0, 0, 1, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
@@ -8977,13 +8977,13 @@ attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legio
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         4, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         7, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 4, 5, metal
+stat_pri_armour  7, 6, 7, metal
 ;stat_armour_ex   0, 0, 0, 0, 1, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
@@ -9052,13 +9052,13 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legio
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square, shield_wall
 stat_health      1, 0
-stat_pri         5, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri         9, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    spear, light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  7, 7, 5, metal
+stat_pri_armour  10, 7, 6, metal
 ;stat_armour_ex   5, 7, 0, 0, 5, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        0
@@ -9067,7 +9067,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 820, 220, 200, 160, 820, 2, 200
+stat_cost        3, 820, 245, 200, 160, 820, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Foot_Ghulams
 ownership        turks, egypt, milan, moors, slave
@@ -9163,13 +9163,13 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, is_peasant, 
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         6, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 6, 4, metal
+stat_pri_armour  10, 8, 5, metal
 ;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -9178,7 +9178,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 1080, 245, 200, 160, 1080, 1, 300
+stat_cost        4, 960, 280, 200, 160, 960, 1, 300
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Mubarizun
 ownership        turks, egypt, moors, milan, apachean, mali, scotland, slave
@@ -9200,13 +9200,13 @@ attributes       sea_faring, hide_improved_forest, hide_anywhere, very_hardy, ca
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         9, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 5, 4, metal
+stat_pri_armour  10, 7, 5, metal
 ;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -9215,7 +9215,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 840, 215, 200, 160, 840, 2, 200
+stat_cost        3, 880, 265, 200, 160, 880, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Fidaiyin
 ownership        turks, milan, egypt, moors, mali, scotland, slave
