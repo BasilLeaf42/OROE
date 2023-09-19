@@ -7023,7 +7023,7 @@ stat_mental      10, disciplined, highly_trained
 stat_charge_dist 60
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 2200, 0, 200, 160, 2200, 1, 400
+stat_cost        4, 1420, 0, 200, 160, 1420, 1, 400
 armour_ug_levels 3
 armour_ug_models Nagavarika
 ownership        denmark, slave
@@ -7774,7 +7774,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 920, 265, 200, 160, 920, 2, 200
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Garudas, Garudas, Garudas, Garudas
+armour_ug_models Garudas, Garudas_ug1, Garudas_ug1, Garudas_ug1
 ownership        denmark, slave
 era 0            denmark
 era 1            denmark
