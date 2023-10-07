@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1759 0 0 
+22 serialization::archive 3 0 0 0 0 1762 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -53234,6 +53234,37 @@
 17 MTW2_Mace_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+9 gasmouloi 
+1 4 
+56 unit_models/_Units/byzantines_roster/gasmouloi_lod0.mesh 121 
+56 unit_models/_Units/byzantines_roster/gasmouloi_lod0.mesh 900 
+56 unit_models/_Units/byzantines_roster/gasmouloi_lod0.mesh 2500 
+56 unit_models/_Units/byzantines_roster/gasmouloi_lod0.mesh 6400 
+2 
+9 byzantium 
+68 unit_models/_Units/byzantines_roster/textures/gasmouloi_rome.texture 
+68 unit_models/_Units/byzantines_roster/textures/gasmouloi_norm.texture
+65 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_ug2_sprite.spr 
+5 slave 
+68 unit_models/_Units/byzantines_roster/textures/gasmouloi_rome.texture 
+68 unit_models/_Units/byzantines_roster/textures/gasmouloi_norm.texture
+65 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_ug2_sprite.spr 
+2 
+9 byzantium 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_rome.texture 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_norm.texture 0 
+5 slave 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_rome.texture 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_norm.texture 0 
+1 
+4 None 
+17 MTW2_Fast_Javelin 
+19 MTW2_Fast_Swordsman 2 
+20 MTW2_Javelin_primary 
+14 fs_test_shield 2 
+17 MTW2_Mace_Primary 
+14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Gasmuli_ug1 
 1 4 
 54 unit_models/_Units/byzantines_roster/gasmuli_lod0.mesh 121 
@@ -53470,6 +53501,62 @@
 5 slave 
 64 unit_models/_Units/byzantines_roster/textures/guard_rome.texture 
 62 unit_models/_Units/byzantines_roster/textures/pro_norm.texture
+61 unit_sprites/byzantium_sprites/slave_Scoutatoi_ug2_sprite.spr 
+2 
+9 byzantium 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
+5 slave 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
+1 5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+11 pronoiarioi 
+1 3 
+58 unit_models/_Units/byzantines_roster/pronoiarioi_lod0.mesh 121 
+58 unit_models/_Units/byzantines_roster/pronoiarioi_lod0.mesh 1225 
+58 unit_models/_Units/byzantines_roster/pronoiarioi_lod0.mesh 6400 
+2 
+9 byzantium 
+70 unit_models/_Units/byzantines_roster/textures/pronoiarioi_rome.texture 
+70 unit_models/_Units/byzantines_roster/textures/pronoiarioi_norm.texture
+65 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_ug2_sprite.spr 
+5 slave 
+70 unit_models/_Units/byzantines_roster/textures/pronoiarioi_rome.texture 
+70 unit_models/_Units/byzantines_roster/textures/pronoiarioi_norm.texture
+61 unit_sprites/byzantium_sprites/slave_Scoutatoi_ug2_sprite.spr 
+2 
+9 byzantium 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
+5 slave 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
+1 5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 pronoiarioi_ug1 
+1 3 
+62 unit_models/_Units/byzantines_roster/pronoiarioi_ug1_lod0.mesh 121 
+62 unit_models/_Units/byzantines_roster/pronoiarioi_ug1_lod0.mesh 1225 
+62 unit_models/_Units/byzantines_roster/pronoiarioi_ug1_lod0.mesh 6400 
+2 
+9 byzantium 
+74 unit_models/_Units/byzantines_roster/textures/pronoiarioi_ug1_rome.texture 
+74 unit_models/_Units/byzantines_roster/textures/pronoiarioi_ug1_norm.texture
+65 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_ug2_sprite.spr 
+5 slave 
+74 unit_models/_Units/byzantines_roster/textures/pronoiarioi_ug1_rome.texture 
+74 unit_models/_Units/byzantines_roster/textures/pronoiarioi_ug1_norm.texture
 61 unit_sprites/byzantium_sprites/slave_Scoutatoi_ug2_sprite.spr 
 2 
 9 byzantium 

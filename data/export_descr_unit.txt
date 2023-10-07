@@ -1475,7 +1475,7 @@ attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_uni
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         3, 1, arrow, 120, 26, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         2, 1, arrow, 120, 26, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         3, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
@@ -1623,7 +1623,7 @@ attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasa
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         5, 1, arrow, 120, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         6, 1, arrow, 120, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         6, 2, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
@@ -1697,7 +1697,7 @@ attributes       sea_faring, hide_improved_forest, can_withdraw, stakes, stakes,
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         6, 1, arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         7, 1, arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         5, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
@@ -1733,7 +1733,7 @@ attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, stakes, 
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         6, 1, arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         7, 1, arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         5, 2, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
@@ -1882,7 +1882,7 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, stakes, stak
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         8, 2, bodkin_arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         9, 2, bodkin_arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -1919,7 +1919,7 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, stakes, stak
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         9, 2, bodkin_arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         10, 2, bodkin_arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         6, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
@@ -2248,10 +2248,10 @@ attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, 
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         8, 2, hand_gun_bullet, 75, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         12, 2, hand_gun_bullet, 80, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap, area
-stat_sec         5, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         6, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
 stat_pri_armour  7, 2, 7, metal
@@ -2263,7 +2263,7 @@ stat_mental      6, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 160, 200, 160, 600, 4, 100
+stat_cost        2, 600, 155, 200, 160, 600, 4, 100
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Serjeant_Gunners, New_Serjeant_Gunners, New_Serjeant_Gunners_ug2, New_Serjeant_Gunners_ug3
 ownership        hre, spain, portugal, papal_states, france, england, poland, hungary, slave
@@ -2320,9 +2320,9 @@ attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_no
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         12, 1, arquebus_bullet, 120, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         18, 1, arquebus_bullet, 120, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
-stat_pri_attr    ap, area
+stat_pri_attr    ap, bp, area
 stat_sec         6, 2, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
@@ -2335,7 +2335,7 @@ stat_mental      6, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 800, 180, 200, 160, 800, 3, 120
+stat_cost        3, 760, 185, 200, 160, 760, 3, 120
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Serjeant_Arquebusiers, New_Serjeant_Arquebusiers, New_Serjeant_Arquebusiers_ug2, New_Serjeant_Arquebusiers_ug3
 ownership        france, england, papal_states, hre, poland, hungary, spain, portugal, slave
@@ -4427,24 +4427,24 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge
 move_speed_mod   0.875
 formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
-stat_pri         3, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri         7, 12, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
-stat_sec         3, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         6, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  10, 2, 4, metal
-;stat_armour_ex   5, 7, 8, 9, 4, 4, 4, metal
+stat_pri_armour  14, 4, 5, metal
+;stat_armour_ex   5, 7, 0, 0, 5, 4, 4, metal
 stat_sec_armour  0, 0, flesh
-stat_heat        4
-stat_ground      2, 0, 1, 2
+stat_heat        6
+stat_ground      0, -2, 1, 2
 stat_mental      8, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 1300, 360, 200, 160, 1300, 2, 200
+stat_cost        4, 1640, 370, 200, 160, 1640, 2, 200
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Pronoiarii
+armour_ug_models Pronoiarioi, Pronoiarioi_ug1, Pronoiarioi_ug1, Pronoiarioi_ug1
 ownership        byzantium, slave
 era 0            byzantium
 era 1            byzantium
@@ -4772,13 +4772,13 @@ attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_no
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         3, 1, musket_bullet, 120, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         18, 1, arquebus_bullet, 120, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
-stat_pri_attr    ap, bp
-stat_sec         3, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri_attr    ap, bp, area
+stat_sec         6, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  5, 2, 3, metal
+stat_pri_armour  3, 6, 0, metal
 ;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -4787,9 +4787,9 @@ stat_mental      6, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 920, 195, 200, 160, 920, 2, 120
+stat_cost        3, 740, 200, 200, 160, 740, 3, 120
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Gasmuli, Gasmuli, Gasmuli, Gasmuli
+armour_ug_models Gasmouloi, Gasmouloi, Gasmouloi, Gasmouloi
 ownership        byzantium, slave
 era 2            byzantium
 ;unit_info        2, 0, 1
@@ -4848,13 +4848,13 @@ attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant legion
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 0
-stat_pri         4, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri         8, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    spear, light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 4, 6, metal
+stat_pri_armour  8, 8, 8, metal
 ;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -4863,7 +4863,7 @@ stat_mental      7, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 660, 185, 200, 160, 660, 3, 120
+stat_cost        2, 600, 180, 200, 160, 600, 3, 120
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Scoutatoi, Scoutatoi, Scoutatoi, Scoutatoi
 ownership        byzantium, slave
@@ -4922,22 +4922,22 @@ attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legio
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 0
-stat_pri         4, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         8, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 4, 5, metal
+stat_pri_armour  8, 7, 5, metal
 ;stat_armour_ex   7, 8, 0, 0, 9, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      2, 0, 1, 2
-stat_mental      7, disciplined, highly_trained
+stat_mental      6, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 680, 185, 200, 160, 680, 3, 120
+stat_cost        2, 640, 180, 200, 160, 640, 4, 100
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Spathatoi, Spathatoi, Spathatoi, Spathatoi
 ownership        byzantium, slave
@@ -7572,7 +7572,7 @@ attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasa
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         6, 1, arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         6, 1, arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
 stat_sec         5, 2, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
@@ -7831,13 +7831,13 @@ attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, very_har
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         7, 1, arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         10, 1, arrow, 160, 35, missile, missile_mechanical, piercing, none, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    area
-stat_sec         5, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
+stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 5, 4, metal
+stat_pri_armour  7, 6, 5, metal
 ;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -7846,7 +7846,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 940, 220, 200, 160, 940, 2, 200
+stat_cost        3, 1000, 280, 200, 160, 1000, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Janissary_Archers, New_Janissary_Archers, New_Janissary_Archers, New_Janissary_Archers
 ownership        turks, slave
@@ -8073,13 +8073,13 @@ attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_no
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         5, 1, musket_bullet, 140, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         22, 1, arquebus_bullet, 120, 16, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
-stat_pri_attr    ap, bp
-stat_sec         5, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri_attr    ap, bp, area
+stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 6, 3, metal
+stat_pri_armour  7, 6, 5, metal
 ;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        1
@@ -8088,7 +8088,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1080, 230, 200, 160, 1080, 2, 200
+stat_cost        3, 1040, 285, 200, 160, 1040, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Janissary_Musketeers, New_Janissary_Musketeers, New_Janissary_Musketeers, New_Janissary_Musketeers
 ownership        turks, slave
