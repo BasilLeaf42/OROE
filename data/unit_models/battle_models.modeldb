@@ -54460,12 +54460,12 @@
 18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-9 Scoutatoi 
+9 Skoutatoi 
 1 4 
-55 unit_models/_Units/byzantines_roster/skutatoi_lod0.mesh 121 
-55 unit_models/_Units/byzantines_roster/skutatoi_lod0.mesh 900 
-55 unit_models/_Units/byzantines_roster/skutatoi_lod0.mesh 2500 
-55 unit_models/_Units/byzantines_roster/skutatoi_lod0.mesh 6400 
+56 unit_models/_Units/byzantines_roster/skoutatoi_lod0.mesh 121 
+56 unit_models/_Units/byzantines_roster/skoutatoi_lod0.mesh 900 
+56 unit_models/_Units/byzantines_roster/skoutatoi_lod0.mesh 2500 
+56 unit_models/_Units/byzantines_roster/skoutatoi_lod0.mesh 6400 
 2 
 9 byzantium 
 62 unit_models/_Units/byzantines_roster/textures/pro_rome.texture 
@@ -54489,57 +54489,28 @@
 18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-13 Scoutatoi_ug1 
+13 Skoutatoi_ug1 
 1 4 
-60 unit_models/_Units/byzantines_roster/Scoutatoi_ug1_lod0.mesh 121 
-60 unit_models/_Units/byzantines_roster/Scoutatoi_ug1_lod0.mesh 900 
-60 unit_models/_Units/byzantines_roster/Scoutatoi_ug1_lod0.mesh 2500 
-60 unit_models/_Units/byzantines_roster/Scoutatoi_ug1_lod0.mesh 6400 
+60 unit_models/_Units/byzantines_roster/skoutatoi_ug1_lod0.mesh 121 
+60 unit_models/_Units/byzantines_roster/skoutatoi_ug1_lod0.mesh 900 
+60 unit_models/_Units/byzantines_roster/skoutatoi_ug1_lod0.mesh 2500 
+60 unit_models/_Units/byzantines_roster/skoutatoi_ug1_lod0.mesh 6400 
 2 
 9 byzantium 
-64 unit_models/_Units/byzantines_roster/textures/byz_mail_1.texture 
-69 unit_models/_Units/byzantines_roster/textures/byz_mail_1_norm.texture
-61 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_sprite.spr 
-5 slave 
-64 unit_models/_Units/byzantines_roster/textures/byz_mail_1.texture 
-69 unit_models/_Units/byzantines_roster/textures/byz_mail_1_norm.texture
-57 unit_sprites/byzantium_sprites/slave_Scoutatoi_sprite.spr 
-2 
-9 byzantium 
-72 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3.texture 
-77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3_norm.texture 0 
-5 slave 
-72 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3.texture 
-77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3_norm.texture 0 
-1 
-4 None 
-10 MTW2_Spear 0  
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 0 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-13 Scoutatoi_ug2 
-1 4 
-60 unit_models/_Units/byzantines_roster/Scoutatoi_ug2_lod0.mesh 121 
-60 unit_models/_Units/byzantines_roster/Scoutatoi_ug2_lod0.mesh 900 
-60 unit_models/_Units/byzantines_roster/Scoutatoi_ug2_lod0.mesh 2500 
-60 unit_models/_Units/byzantines_roster/Scoutatoi_ug2_lod0.mesh 6400 
-2 
-9 byzantium 
-64 unit_models/_Units/byzantines_roster/textures/byz_mail_2.texture 
-69 unit_models/_Units/byzantines_roster/textures/byz_mail_2_norm.texture
+62 unit_models/_Units/byzantines_roster/textures/pro_rome.texture 
+62 unit_models/_Units/byzantines_roster/textures/pro_norm.texture
 65 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_ug2_sprite.spr 
 5 slave 
-64 unit_models/_Units/byzantines_roster/textures/byz_mail_2.texture 
-69 unit_models/_Units/byzantines_roster/textures/byz_mail_2_norm.texture
+62 unit_models/_Units/byzantines_roster/textures/pro_rome.texture 
+62 unit_models/_Units/byzantines_roster/textures/pro_norm.texture
 61 unit_sprites/byzantium_sprites/slave_Scoutatoi_ug2_sprite.spr 
 2 
 9 byzantium 
-72 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3.texture 
-77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3_norm.texture 0 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
 5 slave 
-72 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3.texture 
-77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3_norm.texture 0 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
+69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
 1 
 4 None 
 10 MTW2_Spear 0  
@@ -54547,7 +54518,36 @@
 18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-9 spathatoi 
+13 Skoutatoi_ug2 
+1 4 
+60 unit_models/_Units/byzantines_roster/skoutatoi_ug2_lod0.mesh 121 
+60 unit_models/_Units/byzantines_roster/skoutatoi_ug2_lod0.mesh 900 
+60 unit_models/_Units/byzantines_roster/skoutatoi_ug2_lod0.mesh 2500 
+60 unit_models/_Units/byzantines_roster/skoutatoi_ug2_lod0.mesh 6400 
+2 
+9 byzantium 
+63 unit_models/_Units/byzantines_roster/textures/brig_rome.texture 
+63 unit_models/_Units/byzantines_roster/textures/brig_norm.texture
+65 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_ug2_sprite.spr 
+5 slave 
+63 unit_models/_Units/byzantines_roster/textures/brig_rome.texture 
+63 unit_models/_Units/byzantines_roster/textures/brig_norm.texture
+61 unit_sprites/byzantium_sprites/slave_Scoutatoi_ug2_sprite.spr 
+2 
+9 byzantium 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_rome.texture 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_norm.texture 0 
+5 slave 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_rome.texture 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_norm.texture 0 
+1 
+4 None 
+10 MTW2_Spear 0  
+2 
+18 MTW2_Spear_primary 
+14 fs_test_shield 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+9 Spathatoi 
 1 4 
 56 unit_models/_Units/byzantines_roster/spathatoi_lod0.mesh 121 
 56 unit_models/_Units/byzantines_roster/spathatoi_lod0.mesh 900 
@@ -54576,41 +54576,12 @@
 18 MTW2_Sword_Primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-19 Scoutatoi_sword_ug1 
+13 Spathatoi_ug1 
 1 4 
-66 unit_models/_Units/byzantines_roster/Scoutatoi_sword_ug1_lod0.mesh 121 
-66 unit_models/_Units/byzantines_roster/Scoutatoi_sword_ug1_lod0.mesh 900 
-66 unit_models/_Units/byzantines_roster/Scoutatoi_sword_ug1_lod0.mesh 2500 
-66 unit_models/_Units/byzantines_roster/Scoutatoi_sword_ug1_lod0.mesh 6400 
-2 
-9 byzantium 
-64 unit_models/_Units/byzantines_roster/textures/byz_mail_1.texture 
-69 unit_models/_Units/byzantines_roster/textures/byz_mail_1_norm.texture
-61 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_sprite.spr 
-5 slave 
-64 unit_models/_Units/byzantines_roster/textures/byz_mail_1.texture 
-69 unit_models/_Units/byzantines_roster/textures/byz_mail_1_norm.texture
-57 unit_sprites/byzantium_sprites/slave_Scoutatoi_sprite.spr 
-2 
-9 byzantium 
-72 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3.texture 
-77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3_norm.texture 0 
-5 slave 
-72 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3.texture 
-77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3_norm.texture 0 
-1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-19 Scoutatoi_sword_ug2 
-1 4 
-55 unit_models/_Units/byzantines_roster/skutatoi_lod0.mesh 121 
-55 unit_models/_Units/byzantines_roster/skutatoi_lod0.mesh 900 
-55 unit_models/_Units/byzantines_roster/skutatoi_lod0.mesh 2500 
-55 unit_models/_Units/byzantines_roster/skutatoi_lod0.mesh 6400 
+60 unit_models/_Units/byzantines_roster/spathatoi_ug1_lod0.mesh 121 
+60 unit_models/_Units/byzantines_roster/spathatoi_ug1_lod0.mesh 900 
+60 unit_models/_Units/byzantines_roster/spathatoi_ug1_lod0.mesh 2500 
+60 unit_models/_Units/byzantines_roster/spathatoi_ug1_lod0.mesh 6400 
 2 
 9 byzantium 
 62 unit_models/_Units/byzantines_roster/textures/pro_rome.texture 
@@ -54627,6 +54598,35 @@
 5 slave 
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+13 Spathatoi_ug2 
+1 4 
+60 unit_models/_Units/byzantines_roster/spathatoi_ug2_lod0.mesh 121 
+60 unit_models/_Units/byzantines_roster/spathatoi_ug2_lod0.mesh 900 
+60 unit_models/_Units/byzantines_roster/spathatoi_ug2_lod0.mesh 2500 
+60 unit_models/_Units/byzantines_roster/spathatoi_ug2_lod0.mesh 6400 
+2 
+9 byzantium 
+63 unit_models/_Units/byzantines_roster/textures/brig_rome.texture 
+63 unit_models/_Units/byzantines_roster/textures/brig_norm.texture
+65 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_ug2_sprite.spr 
+5 slave 
+63 unit_models/_Units/byzantines_roster/textures/brig_rome.texture 
+63 unit_models/_Units/byzantines_roster/textures/brig_norm.texture
+61 unit_sprites/byzantium_sprites/slave_Scoutatoi_ug2_sprite.spr 
+2 
+9 byzantium 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_rome.texture 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_norm.texture 0 
+5 slave 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_rome.texture 
+68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_norm.texture 0 
 1 
 4 None 
 14 MTW2_Swordsman 0  

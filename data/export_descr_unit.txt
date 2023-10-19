@@ -2462,8 +2462,8 @@ attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_uni
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 6, square
 stat_health      1, 0
-stat_pri         3, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
-stat_pri_attr    spear, light_spear
+stat_pri         3, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri_attr    light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 0.35
 stat_sec_attr    no
 stat_pri_armour  2, 5, 0, flesh
@@ -2492,15 +2492,16 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Sergeant_Spearmen, 80, 0, 0.9
+mount_effect     horse +2, camel +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
-stat_pri         6, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
-stat_pri_attr    spear, light_spear
+stat_pri         5, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri_attr    light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 0.35
 stat_sec_attr    no
-stat_pri_armour  5, 8, 4, leather
+stat_pri_armour  5, 5, 4, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      0, -2, 1, 2
@@ -2636,17 +2637,18 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
+mount_effect     horse +3, camel +2, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 0
 stat_pri         7, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    spear, light_spear
+stat_pri_attr    light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 7, 8, metal
+stat_pri_armour  8, 6, 6, metal
 ;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -2675,7 +2677,7 @@ banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
 mount_effect     horse +2, camel +1, elephant +1
-attributes       sea_faring, hide_forest, can_withdraw, hardy, mercenary_unit, is_peasant, legionary_name
+attributes       sea_faring, hide_forest, can_withdraw, hardy, mercenary_unit, is_peasant, legionary_name, no_custom
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 0
@@ -2712,18 +2714,18 @@ voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
 soldier          Armored_Sergeants, 64, 0, 1.0
-mount_effect     horse +2, camel +1, elephant +1
+mount_effect     horse +3, camel +2, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 0
-stat_pri         5, 1, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri         7, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    spear, light_spear
+stat_pri_attr    light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 3, 6, metal
+stat_pri_armour  8, 7, 6, metal
 ;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -2872,7 +2874,7 @@ stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 6, 5, metal
+stat_pri_armour  8, 6, 4, metal
 ;stat_armour_ex   7, 8, 0, 0, 9, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
@@ -3051,7 +3053,7 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legio
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         11, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
@@ -3723,13 +3725,13 @@ attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legio
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         8, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
+stat_pri_attr    ap
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 6, 1, metal
+stat_pri_armour  8, 5, 1, metal
 ;stat_armour_ex   7, 8, 0, 0, 9, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        3
@@ -4850,11 +4852,11 @@ formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
 stat_health      1, 0
 stat_pri         8, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    spear, light_spear
+stat_pri_attr    light_spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 8, 8, metal
+stat_pri_armour  8, 7, 6, metal
 ;stat_armour_ex   5, 7, 0, 0, 3, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -4863,9 +4865,9 @@ stat_mental      7, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 180, 200, 160, 600, 3, 120
+stat_cost        2, 640, 180, 200, 160, 640, 3, 120
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Scoutatoi, Scoutatoi, Scoutatoi, Scoutatoi
+armour_ug_models Skoutatoi, Skoutatoi_ug1, Skoutatoi_ug2, Skoutatoi_ug2
 ownership        byzantium, slave
 era 0            byzantium
 era 1            byzantium
@@ -4928,7 +4930,7 @@ stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 7, 5, metal
+stat_pri_armour  8, 4, 8, metal
 ;stat_armour_ex   7, 8, 0, 0, 9, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -4937,9 +4939,9 @@ stat_mental      6, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 640, 180, 200, 160, 640, 4, 100
+stat_cost        2, 660, 180, 200, 160, 660, 4, 100
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Spathatoi, Spathatoi, Spathatoi, Spathatoi
+armour_ug_models Spathatoi, Spathatoi_ug1, Spathatoi_ug2, Spathatoi_ug2
 ownership        byzantium, slave
 era 0            byzantium
 era 1            byzantium
@@ -4997,13 +4999,13 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foo
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         5, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         12, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
+stat_pri_attr    ap
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 7, 1, metal
+stat_pri_armour  11, 6, 2, metal
 ;stat_armour_ex   8, 9, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
