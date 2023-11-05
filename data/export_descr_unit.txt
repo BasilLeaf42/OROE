@@ -3053,13 +3053,13 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legio
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         11, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         10, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  11, 7, 5, metal
+stat_pri_armour  10, 6, 4, metal
 ;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -3090,13 +3090,13 @@ attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, is_peasa
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         10, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  11, 6, 7, metal
+stat_pri_armour  10, 5, 6, metal
 ;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -3127,13 +3127,13 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, is_peasant, 
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         10, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  11, 8, 5, metal
+stat_pri_armour  10, 6, 4, metal
 ;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -3725,7 +3725,7 @@ attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legio
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         8, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         7, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
@@ -3802,13 +3802,13 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legio
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         4, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         9, 7, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
+stat_pri_attr    ap
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 7, 1, metal
+stat_pri_armour  10, 5, 1, metal
 ;stat_armour_ex   8, 9, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -3817,7 +3817,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 9
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 960, 250, 200, 160, 960, 2, 200
+stat_cost        3, 1000, 280, 200, 160, 1000, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Axe_Knights, Axe_Knights, New_Axe_Knights_ug2, New_Axe_Knights_ug2
 ownership        england, france, spain, poland, papal_states, hungary, hre, portugal, slave
@@ -3840,13 +3840,13 @@ attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legio
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         4, 9, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         9, 7, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
+stat_pri_attr    ap
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 7, 1, metal
+stat_pri_armour  10, 6, 1, metal
 ;stat_armour_ex   8, 9, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -3855,7 +3855,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 9
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 255, 200, 160, 1000, 2, 200
+stat_cost        3, 1040, 285, 200, 160, 1040, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Earls, Earls, Earls_ug2, Earls_ug2
 ownership        england, france, spain, poland, papal_states, hungary, hre, portugal, slave
@@ -3878,13 +3878,13 @@ attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, 
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         5, 7, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         9, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    no
+stat_pri_attr    ap
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 7, 1, metal
+stat_pri_armour  11, 5, 1, metal
 ;stat_armour_ex   7, 8, 0, 0, 9, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -3893,7 +3893,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 9
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1080, 260, 200, 160, 1080, 2, 200
+stat_cost        3, 1080, 285, 200, 160, 1080, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Foot_Reichsritter, Foot_Reichsritter, Foot_Reichsritter_ug2, Foot_Reichsritter_ug2
 ownership        hre, france, england, scotland, spain, poland, papal_states, slave
@@ -3916,13 +3916,13 @@ attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, 
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         4, 9, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         9, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 7, 1, metal
+stat_pri_armour  10, 5, 1, metal
 ;stat_armour_ex   8, 9, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        6
@@ -3931,7 +3931,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 9
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 1100, 275, 200, 160, 1100, 1, 300
+stat_cost        4, 1200, 300, 200, 160, 1200, 1, 300
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Canons, Canons, Canons, Canons
 ownership        england, hre, france, spain, portugal, papal_states, poland, hungary, slave
@@ -4930,7 +4930,7 @@ stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 4, 8, metal
+stat_pri_armour  8, 6, 6, metal
 ;stat_armour_ex   7, 8, 0, 0, 9, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -4961,13 +4961,13 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, legionary_na
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square, shield_wall
 stat_health      1, 0
-stat_pri         5, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         9, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  8, 5, 5, metal
+stat_pri_armour  10, 5, 6, metal
 ;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -4976,7 +4976,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 255, 200, 160, 1000, 2, 200
+stat_cost        3, 1000, 280, 200, 160, 1000, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Paramonai, Paramonai, Paramonai, Paramonai
 ownership        byzantium, slave
@@ -4999,13 +4999,13 @@ attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foo
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
-stat_pri         12, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri         10, 9, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  11, 6, 2, metal
+stat_pri_armour  10, 6, 2, metal
 ;stat_armour_ex   8, 9, 0, 0, 8, 6, 6, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -5014,7 +5014,7 @@ stat_mental      10, disciplined, highly_trained
 stat_charge_dist 9
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1160, 275, 200, 160, 1160, 2, 200
+stat_cost        3, 1240, 295, 200, 160, 1240, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Varangoi, Varangoi, Varangoi, Varangoi
 ownership        byzantium, slave

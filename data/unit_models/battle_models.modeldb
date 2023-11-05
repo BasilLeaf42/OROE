@@ -53611,12 +53611,12 @@
 56 unit_models/_Units/byzantines_roster/paramonai_lod0.mesh 6400 
 2 
 9 byzantium 
-64 unit_models/_Units/byzantines_roster/textures/elite_rome.texture 
-64 unit_models/_Units/byzantines_roster/textures/elite_norm.texture
+73 unit_models/_Units/byzantines_roster/textures/paramonai_gold_rome.texture 
+68 unit_models/_Units/byzantines_roster/textures/paramonai_norm.texture
 65 unit_sprites/byzantium_sprites/byzantium_Scoutatoi_ug2_sprite.spr 
 5 slave 
-64 unit_models/_Units/byzantines_roster/textures/elite_rome.texture 
-64 unit_models/_Units/byzantines_roster/textures/elite_norm.texture
+68 unit_models/_Units/byzantines_roster/textures/paramonai_rome.texture 
+68 unit_models/_Units/byzantines_roster/textures/paramonai_norm.texture
 61 unit_sprites/byzantium_sprites/slave_Scoutatoi_ug2_sprite.spr 
 2 
 9 byzantium 
