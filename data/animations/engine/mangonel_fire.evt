@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND MANGONEL_FIRE 2 2
+event SOUND MANGONEL_WIND 91 91
+event SOUND MANGONEL_WIND 146 146
+event SOUND MANGONEL_WIND 200 200
+event SOUND MANGONEL_WIND 253 253
+event SOUND MANGONEL_BARREL_APPEAR 311 311
