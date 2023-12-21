@@ -8,6 +8,8 @@ This repository is meant to be an online backup in case of hardware failure, as 
 
 4GB Patch: https://ntcore.com/?page_id=371
 
+Animation & Sound File Backup: https://www.mediafire.com/file/sb7urmyo29zlf2y/animsounds.7z/file
+
 Discord server: https://discord.gg/9RYzq3K
 
 ModDB: https://www.moddb.com/mods/one-ruler-on-earth-total-war
