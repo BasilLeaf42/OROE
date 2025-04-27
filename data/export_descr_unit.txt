@@ -3068,7 +3068,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 940, 275, 200, 160, 940, 2, 200
+stat_cost        3, 940, 250, 200, 160, 940, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Foot_Knights, New_Foot_Knights, New_Foot_Knights_ug2, New_Foot_Knights_ug2
 ownership        england, hre, spain, portugal, papal_states, poland, hungary, france, slave
@@ -3817,7 +3817,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 9
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 280, 200, 160, 1000, 2, 200
+stat_cost        3, 1000, 250, 200, 160, 1000, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Axe_Knights, Axe_Knights, New_Axe_Knights_ug2, New_Axe_Knights_ug2
 ownership        england, france, spain, poland, papal_states, hungary, hre, portugal, slave
@@ -4865,7 +4865,7 @@ stat_mental      7, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 640, 180, 200, 160, 640, 3, 120
+stat_cost        2, 680, 195, 200, 160, 680, 3, 120
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Skoutatoi, Skoutatoi_ug1, Skoutatoi_ug2, Skoutatoi_ug2
 ownership        byzantium, slave
@@ -4939,7 +4939,7 @@ stat_mental      6, disciplined, highly_trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 660, 180, 200, 160, 660, 4, 100
+stat_cost        2, 720, 195, 200, 160, 720, 4, 100
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Spathatoi, Spathatoi_ug1, Spathatoi_ug2, Spathatoi_ug2
 ownership        byzantium, slave
@@ -12409,6 +12409,85 @@ era 0            china
 era 1            china
 era 2            china
 
+;###############################################################################################################################
+;######################################################## JURCHEN UNITS ########################################################
+;###############################################################################################################################
+
+;======================================================= MELEE CAVALRY ========================================================
+
+type             Jurchen Iron Pagoda
+dictionary       Jurchen_Iron_Pagoda      ; Korean Heavy Cavalry / Korean Yonghogun
+category         cavalry
+class            heavy
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Mounted_Sergeants, 24, 0, 1
+mount            eastern armoured horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name, frighten_foot
+move_speed_mod	 0.825
+formation        2, 4.4, 3, 6, 3, square, wedge
+stat_health      1, 0
+stat_pri         6, 13, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  14, 5, 4, metal
+;stat_armour_ex   8, 9, 0, 0, 5, 4, 4, metal
+stat_sec_armour  0, 0, leather
+stat_heat        2
+stat_ground      2, -1, 3, 1
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 2000, 400, 200, 160, 2000, 2, 200
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models Iron_Pagoda, Iron_Pagoda, Iron_Pagoda, Iron_Pagoda
+ownership        saxons, slave
+era 0			 saxons
+era 1			 saxons
+era 2			 saxons
+;unit_info        6, 0, 14
+
+type             Jurchen Iron Pagoda Foot
+dictionary       Jurchen_Iron_Pagoda_Foot      ; Kannadiga Rajputs / Hoysala Rajputs
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Dismounted_Feudal_Knights, 48, 0, 1.2
+attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
+move_speed_mod	 0.9
+formation        1.2, 1.2, 2.4, 2.4, 3, square
+stat_health      1, 0
+stat_pri         8, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  12, 7, 4, metal
+;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, metal
+stat_sec_armour  0, 0, leather
+stat_heat        6
+stat_ground      0, -2, 1, 2
+stat_mental      9, disciplined, highly_trained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1160, 300, 200, 160, 1160, 2, 240
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models Iron_Pagoda_Foot, Iron_Pagoda_Foot, Iron_Pagoda_Foot, Iron_Pagoda_Foot
+ownership        saxons, slave
+era 0			 saxons
+era 1			 saxons
+era 2			 saxons
+;unit_info        21, 0, 13
 
 ;##############################################################################################################################
 ;######################################################## KOREAN UNITS ########################################################
@@ -13446,6 +13525,42 @@ ownership        ryukyu, slave
 era 0            ryukyu
 era 1            ryukyu
 era 2            ryukyu
+;unit_info        15, 0, 3
+
+
+type             Bai Infantry
+dictionary       Bai_Infantry      ; Bai Infantry / Dali Infantry
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_missile
+banner holy      crusade
+soldier          Javelinmen, 64, 0, 0.975
+attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, is_peasant, legionary_name, mercenary_unit
+move_speed_mod	 1.05
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         6, 1, javelin, 55, 6, thrown, missile_mechanical, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    thrown, prec
+stat_sec         6, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  4, 5, 4, leather
+;stat_armour_ex   4, 0, 0, 0, 5, 3, 3, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      2, -1, 4, 1
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 520, 140, 200, 160, 520, 4, 100
+armour_ug_models Bai_Infantry
+ownership        ryukyu, china, mongols, slave
+era 0            ryukyu, china, mongols
+era 1            ryukyu, china, mongols
+era 2            ryukyu, china, mongols
 ;unit_info        15, 0, 3
 
 

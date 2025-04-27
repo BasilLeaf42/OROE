@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1762 0 0 
+22 serialization::archive 3 0 0 0 0 1766 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -41118,6 +41118,90 @@
 1 
 17 MTW2_Pike_primary 
 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+11 iron_pagoda 
+1 1 
+45 unit_models/_Units/song/iron_pagoda_lod0.mesh 6400 
+4 
+6 saxons 
+52 unit_models/_Units/song/textures/iron_pagoda.texture 
+57 unit_models/_Units/song/textures/iron_pagoda_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+7 mongols 
+52 unit_models/_Units/song/textures/iron_pagoda.texture 
+57 unit_models/_Units/song/textures/iron_pagoda_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+5 slave 
+52 unit_models/_Units/song/textures/iron_pagoda.texture 
+57 unit_models/_Units/song/textures/iron_pagoda_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+4 merc 
+52 unit_models/_Units/song/textures/iron_pagoda.texture 
+57 unit_models/_Units/song/textures/iron_pagoda_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+4 
+6 saxons 
+63 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear.texture 
+68 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear_norm.texture 0 
+7 mongols 
+63 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear.texture 
+68 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear_norm.texture 0 
+5 slave 
+63 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear.texture 
+68 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear_norm.texture 0 
+4 merc 
+63 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear.texture 
+68 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear_norm.texture 0 
+1 
+5 Horse 
+13 MTW2_HR_Spear 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_spear_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 iron_pagoda_foot 
+1 1 
+50 unit_models/_Units/song/iron_pagoda_foot_lod0.mesh 6400 
+4 
+6 saxons 
+52 unit_models/_Units/song/textures/iron_pagoda.texture 
+57 unit_models/_Units/song/textures/iron_pagoda_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+7 mongols 
+52 unit_models/_Units/song/textures/iron_pagoda.texture 
+57 unit_models/_Units/song/textures/iron_pagoda_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+5 slave 
+52 unit_models/_Units/song/textures/iron_pagoda.texture 
+57 unit_models/_Units/song/textures/iron_pagoda_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+4 merc 
+52 unit_models/_Units/song/textures/iron_pagoda.texture 
+57 unit_models/_Units/song/textures/iron_pagoda_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+4 
+6 saxons 
+63 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear.texture 
+68 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear_norm.texture 0 
+7 mongols 
+63 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear.texture 
+68 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear_norm.texture 0 
+5 slave 
+63 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear.texture 
+68 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear_norm.texture 0 
+4 merc 
+63 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear.texture 
+68 unit_models/_Units/song/AttachmentSets/iron_pagoda_gear_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 asian_scout_cavalry 
 1 1 
@@ -95497,6 +95581,38 @@
 21 MTW2_Crossbow_Primary 
 1 
 18 MTW2_Spear_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+12 bai_infantry 
+1 1 
+46 unit_models/_Units/song/bai_infantry_lod0.mesh 6400 
+3 
+4 merc 
+45 unit_models/_Units/song/textures/dali.texture 
+50 unit_models/_Units/song/textures/dali_norm.texture 
+50 unit_sprites/england_Yeoman_Archers_ug2_sprite.spr 
+5 mercs 
+45 unit_models/_Units/song/textures/dali.texture 
+50 unit_models/_Units/song/textures/dali_norm.texture 
+50 unit_sprites/england_Yeoman_Archers_ug2_sprite.spr 
+5 slave 
+45 unit_models/_Units/song/textures/dali.texture 
+50 unit_models/_Units/song/textures/dali_norm.texture 
+50 unit_sprites/england_Yeoman_Archers_ug2_sprite.spr 
+3 
+4 merc 
+68 unit_models/_Units/song/AttachmentSets/daliminbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/songminbin_attachment_n.texture 0 
+5 mercs 
+68 unit_models/_Units/song/AttachmentSets/daliminbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/songminbin_attachment_n.texture 0 
+5 slave 
+68 unit_models/_Units/song/AttachmentSets/daliminbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/songminbin_attachment_n.texture 0 
+1 
+4 None 
+13 MTW2_Knifeman 0  
+1 
+18 MTW2_Knife_Primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 7 test_uk 
 1 1 
