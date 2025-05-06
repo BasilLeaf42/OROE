@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Configuring the EOP launcher and settings &#8212; M2TWEOP 2.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/prism.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/prism.js"></script>
+    <link rel="shortcut icon" href="_static/EOPIcon.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="mainInfo.html" />
+    <link rel="prev" title="How to play hotseat battles online" href="BATTLE_RESULT_TUTORIAL.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <!-- Meta stuff -->
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  <meta property="og:title" content="M2TWEOP: Medieval 2 Engine Overhaul Project">
+  <meta property="og:description" content="M2TW Engine Overhaul Project is designed to expand the capabilities of the game Medieval 2: Total War. It uses C++ and Assembly to modify the game's code in-memory and exposes this to the end user via a Lua API and the EOP Lua Plugin.">
+  <meta property="og:image" content="https://i.imgur.com/Bgq1qPT.png">
+
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">M2TWEOP</a></h1>
+
+
+
+<p class="blurb">Designed to expand the capabilities of the game Medieval 2: Total War</p>
+
+
+<a target="_blank" href="https://discord.gg/Epqjm8u2WK">
+  <img class="discordImage" src="https://img.shields.io/discord/713369537948549191?color=ffffff&label=DISCORD&style=for-the-badge"/>
+</a>
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="faq.html">M2TWEOP FAQ</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="articles.html">M2TWEOP’s Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="UPGRADING_TO_EOP_V3.html">Upgrading to EOP V3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BATTLE_RESULT_TUTORIAL.html">How to play hotseat battles online</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Configuring the EOP launcher and settings</a></li>
+<li class="toctree-l2"><a class="reference external" href="_static/Introduction_to_ImGui_v4.pdf#http://">Gui scripting basics by Erken, PDF file</a></li>
+<li class="toctree-l2"><a class="reference external" href="_static/Introduction_to_ImGui_v4.odt#http://">Gui scripting basics by Erken, ODT file</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html">About M2TWEOP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#releases">Releases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#contributors">Contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#compatibility">Compatibility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#usage">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#license">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#build">Build</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#support-the-project">Support the project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#disclaimer">Disclaimer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#acknowledgments">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="M2TWEOP.html#version-history">Version History</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="_static/LuaLib/index.html">M2TWEOP LUA plugin</a></li>
+    
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="articles.html">M2TWEOP’s Tutorials</a><ul>
+      <li>Previous: <a href="BATTLE_RESULT_TUTORIAL.html" title="previous chapter">How to play hotseat battles online</a></li>
+      <li>Next: <a href="mainInfo.html" title="next chapter">&lt;no title&gt;</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+<h3 class="donation">Donate/support</h3>
+
+
+
+<p>
+<a class="badge" href="https://ko-fi.com/D1D4DZTHG">
+<img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Donate">
+</a>
+</p>
+<p>
+    <iframe src="https://ghbtns.com/github-btn.html?user=youneuoy&repo=M2TWEOP-library&type=star&count=true&size=large&v=2"
+      allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="configuring-the-eop-launcher-and-settings">
+<h1>Configuring the EOP launcher and settings<a class="headerlink" href="#configuring-the-eop-launcher-and-settings" title="Permalink to this headline">¶</a></h1>
+<section id="configure-the-ui">
+<h2>Configure the UI<a class="headerlink" href="#configure-the-ui" title="Permalink to this headline">¶</a></h2>
+<section id="note-remember-that-json-does-not-allow-comments-so-do-not-copy-these-examples-directly">
+<h3>Note: Remember that JSON does not allow comments so do not copy these examples directly<a class="headerlink" href="#note-remember-that-json-does-not-allow-comments-so-do-not-copy-these-examples-directly" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="eopdata-uicfg-json">
+<h3><code class="docutils literal notranslate"><span class="pre">eopData/uiCfg.json</span></code><a class="headerlink" href="#eopdata-uicfg-json" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;hideLauncher&quot;</span><span class="p">:</span> <span class="n">false</span><span class="p">,</span> <span class="o">//</span> <span class="n">Hide</span> <span class="n">the</span> <span class="n">launcher</span> <span class="n">completely</span> <span class="ow">and</span> <span class="n">just</span> <span class="n">load</span> <span class="n">the</span> <span class="n">mod</span> <span class="n">directly</span>
+    <span class="s2">&quot;modCfgFile&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="o">//</span> <span class="n">The</span> <span class="n">default</span> <span class="n">config</span> <span class="n">file</span> <span class="n">to</span> <span class="n">use</span> <span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">g</span> <span class="n">TATW</span><span class="o">.</span><span class="n">cfg</span><span class="p">)</span>
+    <span class="s2">&quot;musicVolume&quot;</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span> <span class="o">//</span> <span class="n">The</span> <span class="n">volume</span> <span class="n">level</span> <span class="n">of</span> <span class="n">the</span> <span class="n">background</span> <span class="n">music</span>
+    <span class="s2">&quot;playBackgroundMusic&quot;</span><span class="p">:</span> <span class="n">false</span><span class="p">,</span> <span class="o">//</span> <span class="n">Whether</span> <span class="n">music</span> <span class="n">should</span> <span class="n">play</span> <span class="n">automatically</span> <span class="n">when</span> <span class="n">starting</span> <span class="n">the</span> <span class="n">launcher</span>
+    <span class="s2">&quot;useM2TWEOP&quot;</span><span class="p">:</span> <span class="n">true</span><span class="p">,</span> <span class="o">//</span> <span class="n">Whether</span> <span class="n">EOP</span> <span class="n">should</span> <span class="n">be</span> <span class="n">enabled</span> <span class="n">when</span> <span class="n">running</span> <span class="n">the</span> <span class="n">mod</span>
+    <span class="s2">&quot;useVanillaCfg&quot;</span><span class="p">:</span> <span class="n">true</span><span class="p">,</span> <span class="o">//</span> <span class="n">Don</span><span class="s1">&#39;t read the modCfgFile but just read medieval2.preference.cfg</span>
+    <span class="s2">&quot;modTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;Divide and Conquer: AGO&quot;</span><span class="p">,</span> <span class="o">//</span> <span class="n">Sets</span> <span class="n">the</span> <span class="n">title</span> <span class="n">of</span> <span class="n">the</span> <span class="n">launcher</span> <span class="n">window</span> <span class="ow">and</span> <span class="n">the</span> <span class="s2">&quot;Run&quot;</span> <span class="n">button</span> <span class="ow">and</span> <span class="n">helps</span> <span class="n">aid</span> <span class="n">detection</span> <span class="n">of</span> <span class="n">your</span> <span class="n">mod</span> <span class="k">for</span> <span class="n">the</span> <span class="n">Discord</span> <span class="n">Rich</span> <span class="n">Presence</span> <span class="n">features</span>
+    <span class="s2">&quot;runButtonColor&quot;</span><span class="p">:</span> <span class="s2">&quot;123,40,145,185&quot;</span><span class="p">,</span> <span class="o">//</span> <span class="n">Color</span> <span class="n">of</span> <span class="n">the</span> <span class="n">run</span> <span class="n">button</span> <span class="ow">in</span> <span class="n">this</span> <span class="nb">format</span> <span class="p">(</span><span class="n">red</span><span class="p">(</span><span class="mi">0</span><span class="o">-</span><span class="mi">255</span><span class="p">),</span> <span class="n">green</span><span class="p">(</span><span class="mi">0</span><span class="o">-</span><span class="mi">255</span><span class="p">),</span> <span class="n">blue</span><span class="p">(</span><span class="mi">0</span><span class="o">-</span><span class="mi">255</span><span class="p">),</span> <span class="n">alpha</span><span class="p">(</span><span class="mi">0</span><span class="o">-</span><span class="mi">255</span><span class="p">))</span>
+    <span class="s2">&quot;runButtonHoverColor&quot;</span><span class="p">:</span> <span class="s2">&quot;145,40,145,175&quot;</span> <span class="o">//</span> <span class="n">Hover</span><span class="o">/</span><span class="n">highlight</span> <span class="n">color</span> <span class="n">of</span> <span class="n">the</span> <span class="n">run</span> <span class="n">button</span> <span class="ow">in</span> <span class="n">this</span> <span class="nb">format</span> <span class="p">(</span><span class="n">red</span><span class="p">(</span><span class="mi">0</span><span class="o">-</span><span class="mi">255</span><span class="p">),</span> <span class="n">green</span><span class="p">(</span><span class="mi">0</span><span class="o">-</span><span class="mi">255</span><span class="p">),</span> <span class="n">blue</span><span class="p">(</span><span class="mi">0</span><span class="o">-</span><span class="mi">255</span><span class="p">),</span> <span class="n">alpha</span><span class="p">(</span><span class="mi">0</span><span class="o">-</span><span class="mi">255</span><span class="p">))</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="configure-the-battles">
+<h2>Configure the Battles<a class="headerlink" href="#configure-the-battles" title="Permalink to this headline">¶</a></h2>
+<section id="eopbattles-battlescfg-json">
+<h3><code class="docutils literal notranslate"><span class="pre">eopBattles/battlesCfg.json</span></code><a class="headerlink" href="#eopbattles-battlescfg-json" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;enableAutoGeneration&quot;</span><span class="p">:</span> <span class="n">false</span><span class="p">,</span> <span class="o">//</span> <span class="n">Whether</span> <span class="n">we</span> <span class="n">should</span> <span class="n">automatically</span> <span class="n">generate</span> <span class="n">the</span> <span class="n">details</span> <span class="n">of</span> <span class="n">a</span> <span class="n">battle</span> <span class="n">to</span> <span class="n">play</span> <span class="n">online</span> <span class="n">when</span> <span class="n">we</span> <span class="n">load</span> <span class="n">into</span> <span class="n">a</span> <span class="n">battle</span>
+    <span class="s2">&quot;enableResultsTransfer&quot;</span><span class="p">:</span> <span class="n">false</span> <span class="o">//</span> <span class="n">Whether</span> <span class="n">we</span> <span class="n">should</span> <span class="n">automatically</span> <span class="n">prompt</span> <span class="n">the</span> <span class="n">player</span> <span class="n">to</span> <span class="n">transfer</span> <span class="n">the</span> <span class="n">results</span> <span class="n">of</span> <span class="n">a</span> <span class="n">battle</span> <span class="n">to</span> <span class="n">the</span> <span class="n">campaign</span> <span class="nb">map</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="configure-the-game">
+<h2>Configure the Game<a class="headerlink" href="#configure-the-game" title="Permalink to this headline">¶</a></h2>
+<section id="eopdata-gamecfg-json">
+<h3><code class="docutils literal notranslate"><span class="pre">eopData/gameCfg.json</span></code><a class="headerlink" href="#eopdata-gamecfg-json" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;isBlockLaunchWithoutEop&quot;</span><span class="p">:</span> <span class="n">false</span><span class="p">,</span> <span class="o">//</span> <span class="n">Should</span> <span class="n">we</span> <span class="n">stop</span> <span class="n">the</span> <span class="n">mod</span> <span class="n">running</span> <span class="k">if</span> <span class="n">EOP</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">enabled</span> <span class="p">(</span><span class="n">Read</span> <span class="n">more</span> <span class="n">about</span> <span class="n">this</span> <span class="n">option</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">FAQ</span><span class="p">)</span>
+    <span class="s2">&quot;isDiscordRichPresenceEnabled&quot;</span><span class="p">:</span> <span class="n">true</span> <span class="o">//</span> <span class="n">Should</span> <span class="n">we</span> <span class="n">enable</span> <span class="n">Discord</span> <span class="n">Rich</span> <span class="n">Presence</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="id1">
+<h2>Configure the Game<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<section id="eopdata-discordrichpresencecfg-json">
+<h3><code class="docutils literal notranslate"><span class="pre">eopData/discordRichPresenceCfg.json</span></code><a class="headerlink" href="#eopdata-discordrichpresencecfg-json" title="Permalink to this headline">¶</a></h3>
+<p>If Discord Rich Presence is enabled, EOP will write information about your campaign to this file which is then read and used to update your Discord Rich Presence status.
+It is recommended not to write manually to this file.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;factionName&quot;</span><span class="p">:</span> <span class="s2">&quot;Kingdom of Gondor&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;turnNum&quot;</span><span class="p">:</span> <span class="s2">&quot;55&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;status&quot;</span><span class="p">:</span> <span class="s2">&quot;On the campaign map 🗺️&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2022, youneuoy.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/M2TWEOP_LAUNCHER_SETTINGS.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

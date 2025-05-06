@@ -1,0 +1,12 @@
+{
+    "hideLauncher": false,
+    "launcherTheme": "default",
+    "modCfgFile": "Configuration.cfg",
+    "modTitle": "",
+    "musicVolume": 15,
+    "playBackgroundMusic": false,
+    "runButtonColor": "201, 169, 64, 150",
+    "runButtonHoverColor": "201, 169, 64, 250",
+    "useM2TWEOP": true,
+    "useVanillaCfg": false
+}

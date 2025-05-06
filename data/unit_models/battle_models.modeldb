@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1766 0 0 
+22 serialization::archive 3 0 0 0 0 1768 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -40588,6 +40588,47 @@
 14 fs_test_shield 
 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+12 jin_spearmen 
+1 1 
+46 unit_models/_Units/song/jin_spearmen_lod0.mesh 6400 
+4 
+6 saxons 
+51 unit_models/_Units/song/textures/jin_hanren.texture 
+56 unit_models/_Units/song/textures/jin_hanren_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+7 mongols 
+51 unit_models/_Units/song/textures/jin_hanren.texture 
+56 unit_models/_Units/song/textures/jin_hanren_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+5 slave 
+51 unit_models/_Units/song/textures/jin_hanren.texture 
+56 unit_models/_Units/song/textures/jin_hanren_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+4 merc 
+51 unit_models/_Units/song/textures/jin_hanren.texture 
+56 unit_models/_Units/song/textures/jin_hanren_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+4 
+6 saxons 
+68 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment_n.texture 0 
+7 mongols 
+68 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment_n.texture 0 
+5 slave 
+68 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment_n.texture 0 
+4 merc 
+68 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment_n.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
+0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 song_pikemen 
 1 1 
 46 unit_models/_Units/song/song_pikemen_lod0.mesh 6400 
@@ -40703,6 +40744,47 @@
 4 merc 
 68 unit_models/_Units/song/AttachmentSets/songminbin_attachment.texture 
 70 unit_models/_Units/song/AttachmentSets/songminbin_attachment_n.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
+0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+12 jin_infantry 
+1 1 
+46 unit_models/_Units/song/jin_infantry_lod0.mesh 6400 
+4 
+6 saxons 
+51 unit_models/_Units/song/textures/jin_hanren.texture 
+56 unit_models/_Units/song/textures/jin_hanren_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+7 mongols 
+51 unit_models/_Units/song/textures/jin_hanren.texture 
+56 unit_models/_Units/song/textures/jin_hanren_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+5 slave 
+51 unit_models/_Units/song/textures/jin_hanren.texture 
+56 unit_models/_Units/song/textures/jin_hanren_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+4 merc 
+51 unit_models/_Units/song/textures/jin_hanren.texture 
+56 unit_models/_Units/song/textures/jin_hanren_norm.texture 
+47 unit_sprites/hre_xichuan_heavy_infan_sprite.spr 
+4 
+6 saxons 
+68 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment_n.texture 0 
+7 mongols 
+68 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment_n.texture 0 
+5 slave 
+68 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment_n.texture 0 
+4 merc 
+68 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment.texture 
+70 unit_models/_Units/song/AttachmentSets/jurchenbin_attachment_n.texture 0 
 1 
 4 None 
 14 MTW2_Swordsman 0 
@@ -62904,31 +62986,31 @@
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 New_Levy_Spearmen 
 1 1 
-51 unit_models/_Units/CSUR/new_levy_spearmen_lod0.mesh 6400 
+54 unit_models/_Units/euro_peasant/levied_serfs_lod0.mesh 6400 
 32 
 6 france 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_france.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+64 unit_models/_Units/euro_peasant/textures/peasants_france.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 7 hungary 
-63 unit_models/_Units/CSUR/textures/gs_cloth_cloth_hungary.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 8 portugal 
-64 unit_models/_Units/CSUR/textures/gs_cloth_cloth_portugal.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+66 unit_models/_Units/euro_peasant/textures/peasants_portugal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 5 spain 
-61 unit_models/_Units/CSUR/textures/gs_cloth_cloth_spain.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+63 unit_models/_Units/euro_peasant/textures/peasants_spain.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 3 hre 
-59 unit_models/_Units/CSUR/textures/gs_cloth_cloth_hre.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+61 unit_models/_Units/euro_peasant/textures/peasants_hre.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 45 unit_sprites/hre_Dummy_EN_Spearmen_sprite.spr 
 7 england 
-63 unit_models/_Units/CSUR/textures/gs_cloth_cloth_england.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_england.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 49 unit_sprites/england_Dummy_EN_Spearmen_sprite.spr 
 7 denmark 
 60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
@@ -62939,100 +63021,100 @@
 62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
 50 unit_sprites/scotland_Dummy_EN_Spearmen_sprite.spr 
 12 papal_states 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_pope.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_papal_states.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 50 unit_sprites/scotland_Dummy_EN_Spearmen_sprite.spr 
 5 slave 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 turks 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 egypt 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 milan 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 8 timurids 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 4 mali 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 8 scotland 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 8 zimbabwe 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 sicily 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 ryukyu 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 8 apachean 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 venice 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 china 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 7 mongols 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 7 normans 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 saxons 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 aztecs 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 mayans 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 incans 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 4 merc 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 moors 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 russia 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_russia.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 poland 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_poland.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 32 
 6 france 
@@ -64796,31 +64878,31 @@
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 New_Levy_Archers 
 1 1 
-50 unit_models/_Units/CSUR/new_levy_archers_lod0.mesh 6400 
+56 unit_models/_Units/euro_peasant/levied_hunters_lod0.mesh 6400 
 32 
 6 france 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_france.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+64 unit_models/_Units/euro_peasant/textures/peasants_france.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 7 hungary 
-63 unit_models/_Units/CSUR/textures/gs_cloth_cloth_hungary.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 8 portugal 
-64 unit_models/_Units/CSUR/textures/gs_cloth_cloth_portugal.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+66 unit_models/_Units/euro_peasant/textures/peasants_portugal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 5 spain 
-61 unit_models/_Units/CSUR/textures/gs_cloth_cloth_spain.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+63 unit_models/_Units/euro_peasant/textures/peasants_spain.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 3 hre 
-59 unit_models/_Units/CSUR/textures/gs_cloth_cloth_hre.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+61 unit_models/_Units/euro_peasant/textures/peasants_hre.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 45 unit_sprites/hre_Dummy_EN_Spearmen_sprite.spr 
 7 england 
-63 unit_models/_Units/CSUR/textures/gs_cloth_cloth_england.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_england.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 49 unit_sprites/england_Dummy_EN_Spearmen_sprite.spr 
 7 denmark 
 60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
@@ -64831,100 +64913,100 @@
 62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
 50 unit_sprites/scotland_Dummy_EN_Spearmen_sprite.spr 
 12 papal_states 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_pope.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_papal_states.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 50 unit_sprites/scotland_Dummy_EN_Spearmen_sprite.spr 
 5 slave 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 turks 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 egypt 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 milan 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 8 timurids 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 4 mali 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 8 scotland 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 8 zimbabwe 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 sicily 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 ryukyu 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 8 apachean 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 venice 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 china 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 7 mongols 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 7 normans 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 saxons 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 aztecs 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 mayans 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 incans 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 4 merc 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 5 moors 
-60 unit_models/_Units/CSUR/textures/gs_cloth_cloth_merc.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 russia 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_russia.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 6 poland 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_poland.texture 
-62 unit_models/_Units/CSUR/textures/gs_cloth_cloth_normal.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_merc.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
 47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 32 
 6 france 

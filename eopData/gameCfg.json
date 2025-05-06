@@ -1,0 +1,9 @@
+{
+    "IsOverrideBattleCamera": false,
+    "isBlockLaunchWithoutEop": true,
+    "isContextMenuNeeded": true,
+    "isDXVKEnabled": false,
+    "isDeveloperModeNeeded": true,
+    "isDiscordRichPresenceEnabled": false,
+    "isTacticalMapViewerNeeded": true
+}

@@ -423,7 +423,7 @@ has_family_tree					yes
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; KINGDOM OF KRUNG TAI
+; KINGDOM OF KRUNG TAI / THAILAND
 
 faction						sicily
 culture						asian
@@ -437,7 +437,7 @@ standard_index					1
 logo_index					FACTION_LOGO_SICILY
 small_logo_index				SMALL_FACTION_LOGO_SICILY
 triumph_value					5
-custom_battle_availability			no
+custom_battle_availability			yes
 can_sap						yes
 prefers_naval_invasions				no
 can_have_princess				no
@@ -659,7 +659,7 @@ has_family_tree					yes
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; KINGDOM OF QUSQU
+; KINGDOM OF QUSQU / KINGDOM OF CUZCO
 
 faction						incans
 culture						mesoamerican
@@ -673,7 +673,7 @@ standard_index					30
 logo_index					FACTION_LOGO_INCANS
 small_logo_index				SMALL_FACTION_LOGO_INCANS
 triumph_value					5
-custom_battle_availability			no
+custom_battle_availability			yes
 can_sap						yes
 prefers_naval_invasions				no
 can_have_princess				no
