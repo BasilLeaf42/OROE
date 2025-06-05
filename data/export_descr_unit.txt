@@ -314,7 +314,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          NE_Bodyguard, 8, 0, 1
+soldier          New_Chevaliers, 8, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, command, can_formed_charge, knight
@@ -353,7 +353,7 @@ class            light
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          Hobelars, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, free_upkeep_unit, legionary_name
@@ -392,7 +392,7 @@ class            light
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          Alforrats, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, free_upkeep_unit, legionary_name
@@ -431,7 +431,7 @@ class            light
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          New_Hussars, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, legionary_name
@@ -469,7 +469,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 32, 0, 1
+soldier          New_Serjeant_Cavalry, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, legionary_name
@@ -508,7 +508,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 32, 0, 1
+soldier          New_French_Cavalry, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, hardy, legionary_name
@@ -547,7 +547,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 32, 0, 1
+soldier          New_Polish_Cavalry, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, hardy, legionary_name
@@ -586,7 +586,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chivalric_Knights, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, mercenary_unit, legionary_name
@@ -625,7 +625,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chivalric_Knights, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -664,7 +664,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          Reichsritter, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -703,7 +703,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chevaliers, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -742,7 +742,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chevaliers, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -781,7 +781,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chevaliers, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -820,7 +820,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          Lazarists, 24, 0, 1
 mount            lazarus horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name, mercenary_unit
@@ -859,7 +859,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chevaliers, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name, mercenary_unit
@@ -884,9 +884,9 @@ stat_food        60, 300
 stat_cost        4, 1700, 345, 200, 200, 1700, 1, 240
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Chevaliers, New_Chevaliers, Chevaliers_ug2, Chevaliers_ug3
-ownership        france, england, slave
+ownership        france, slave
 era 0			 france
-era 1			 france, england
+era 1			 france
 era 2            france
 ;unit_info        10, 0, 16
 
@@ -898,7 +898,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chivalric_Knights_ug2, 24, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -923,9 +923,9 @@ stat_food        60, 300
 stat_cost        5, 2000, 520, 200, 160, 2000, 2, 280
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Chivalric_Knights_ug2, New_Chivalric_Knights_ug2, New_Chivalric_Knights_ug2, New_Chivalric_Knights_ug2
-ownership        spain, portugal, poland, england, papal_states, hungary, hre, france, slave
-era 1            spain, portugal, poland, england, papal_states, hungary, hre, france
-era 2            spain, portugal, poland, england, papal_states, hungary, hre, france
+ownership        france, slave
+era 1            france
+era 2            france
 ;unit_info        10, 0, 15
 
 
@@ -936,7 +936,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          Reichsritter_ug2, 24, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -961,7 +961,7 @@ stat_food        60, 300
 stat_cost        5, 2160, 540, 200, 160, 2160, 2, 280
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Reichsritter_ug2, Reichsritter_ug2, Reichsritter_ug2, Reichsritter_ug2
-ownership        hre, france, england, scotland, papal_states, spain, poland, slave
+ownership        hre, slave
 era 1            hre
 era 2            hre
 ;unit_info        13, 0, 15
@@ -974,7 +974,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Lancers, 24, 0, 1
+soldier          New_Chevaliers_ug2, 24, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, frighten_foot, legionary_name
@@ -1012,7 +1012,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Lancers, 24, 0, 1
+soldier          New_Chevaliers_ug2, 24, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, frighten_foot, legionary_name
@@ -1052,7 +1052,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Jinetes, 32, 0, 1
+soldier          New_Jinetes, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -2, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, legionary_name, free_upkeep_unit
@@ -1084,43 +1084,43 @@ era 2            spain, portugal
 ;unit_info        9, 8, 15
 
 
-type             Euro Exploradores
-dictionary       Euro_Exploradores      ; Western European Exploradores / Castilian Exploradores / Spanish Exploradores
-category         cavalry
-class            missile
-voice_type       Light
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Jinetes, 32, 0, 1
-mount            pony
-mount_effect     elephant -2, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, hardy, legionary_name
-move_speed_mod	 1.1
-formation        2, 4.4, 3, 6, 3, square
-stat_health      1, 0
-stat_pri         9, 2, javelin, 55, 8, thrown, missile_mechanical, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    thrown, area
-stat_sec         2, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  6, 3, 4, metal
-;stat_armour_ex   0, 4, 0, 0, 6, 4, 4, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 2, -1, -2
-stat_mental      6, normal, highly_trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 820, 200, 200, 160, 820, 4, 100
-armour_ug_levels 0, 1, 2, 3
-armour_ug_models Exploradores, Exploradores, Exploradores_ug2, Exploradores_ug2
-ownership        all, slave
-era 0            spain
-era 1            spain
-era 2            spain
-;unit_info        9, 8, 15
+;type             Euro Exploradores
+;dictionary       Euro_Exploradores      ; Western European Exploradores / Castilian Exploradores / Spanish Exploradores
+;category         cavalry
+;class            missile
+;voice_type       Light
+;banner faction   main_cavalry
+;banner holy      crusade_cavalry
+;soldier          Exploradores, 32, 0, 1
+;mount            pony
+;mount_effect     elephant -2, camel -4
+;attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, hardy, legionary_name, no_custom
+;move_speed_mod	 1.1
+;formation        2, 4.4, 3, 6, 3, square
+;stat_health      1, 0
+;stat_pri         9, 2, javelin, 55, 8, thrown, missile_mechanical, piercing, spear, 25, 1
+;;stat_pri_ex      0, 0, 0
+;stat_pri_attr    thrown, area
+;stat_sec         2, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;;stat_sec_ex      0, 0, 0
+;stat_sec_attr    no
+;stat_pri_armour  6, 3, 4, metal
+;;stat_armour_ex   0, 4, 0, 0, 6, 4, 4, flesh
+;stat_sec_armour  0, 0, flesh
+;stat_heat        0
+;stat_ground      1, 2, -1, -2
+;stat_mental      6, normal, highly_trained
+;stat_charge_dist 30
+;stat_fire_delay  0
+;stat_food        60, 300
+;stat_cost        3, 820, 200, 200, 160, 820, 4, 100
+;armour_ug_levels 0, 1, 2, 3
+;armour_ug_models Exploradores, Exploradores, Exploradores_ug2, Exploradores_ug2
+;ownership        spain, slave
+;era 0            spain
+;era 1            spain
+;era 2            spain
+;;unit_info        9, 8, 15
 
 
 type             Euro Cuirassiers
@@ -1130,7 +1130,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Reiters, 32, 0, 1
+soldier          Cuirassiers_ug3, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, cantabrian_circle, gunpowder_unit, start_not_skirmishing, guncavalry, legionary_name
@@ -1155,7 +1155,7 @@ stat_food        60, 300
 stat_cost        4, 1440, 370, 200, 160, 1440, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Cuirassiers_ug3, Cuirassiers_ug3, Cuirassiers_ug3, Cuirassiers_ug3
-ownership        england, france, hre, papal_states, hungary, poland, spain, portugal, slave
+ownership        england, france, papal_states, hungary, poland, spain, portugal, slave
 era 2            england, france, papal_states, hungary, poland, spain, portugal
 ;unit_info        14, 0, 10
 
@@ -1167,7 +1167,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Reiters, 32, 0, 1
+soldier          Reiters_ug3, 32, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, cantabrian_circle, gunpowder_unit, start_not_skirmishing, guncavalry, legionary_name
@@ -1192,7 +1192,7 @@ stat_food        60, 300
 stat_cost        4, 1580, 375, 200, 160, 1580, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Reiters_ug3, Reiters_ug3, Reiters_ug3, Reiters_ug3
-ownership        england, france, hre, papal_states, hungary, poland, spain, portugal, slave
+ownership        hre, slave
 era 2            hre
 ;unit_info        11, 20, 13
 
@@ -1204,7 +1204,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Reiters, 24, 0, 1
+soldier          Encubertados, 24, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, cantabrian_circle, gunpowder_unit, start_not_skirmishing, guncavalry, legionary_name
@@ -1229,7 +1229,7 @@ stat_food        60, 300
 stat_cost        5, 2160, 550, 200, 160, 2160, 2, 280
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Encubertados
-ownership        france, spain, portugal, poland, england, papal_states, hre, hungary, slave
+ownership        portugal, slave
 era 2            portugal
 ;unit_info        10, 0, 15
 
@@ -1241,7 +1241,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Crossbowman, 32, 0, 1
+soldier          New_Mounted_Crossbowmen, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, crossbow, can_formed_charge, legionary_name
@@ -1279,10 +1279,10 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Crossbowman, 32, 0, 1
+soldier          Strzelcy, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, crossbow, can_formed_charge, legionary_name
+attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, crossbow, can_formed_charge, legionary_name, no_custom
 move_speed_mod	 0.925
 formation        2, 4.4, 3, 6, 4, square
 stat_health      1, 0
@@ -1317,7 +1317,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 32, 0, 1
+soldier          New_Mounted_Longbowmen, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, legionary_name
@@ -1341,7 +1341,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 800, 205, 200, 160, 800, 4, 100
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Francs_Archers, Francs_Archers, Francs_Archers_ug2, Francs_Archers_ug2
+armour_ug_models New_Mounted_Longbowmen, New_Mounted_Longbowmen, New_Mounted_Longbowmen_ug2, New_Mounted_Longbowmen_ug2
 ownership        england, france, poland, spain, portugal, papal_states, hre, byzantium, hungary, denmark, slave
 era 1			 england, france
 era 2			 england, france
@@ -1355,7 +1355,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 32, 0, 1
+soldier          Lithuanian_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, cantabrian_circle, can_formed_charge, legionary_name, mercenary_unit
@@ -1397,7 +1397,7 @@ banner holy      crusade_cavalry
 soldier          Camel_Gunners, 24, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, cantabrian_circle, gunpowder_unit, guncavalry, start_not_skirmishing, legionary_name
+attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, cantabrian_circle, gunpowder_unit, guncavalry, start_not_skirmishing, legionary_name, no_custom
 move_speed_mod	 0.925
 formation        2, 4.4, 3, 6, 3, square
 stat_health      1, 0
@@ -1418,8 +1418,8 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1420, 360, 200, 160, 1420, 2, 200
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Arcabuceros, Arcabuceros, Arcabuceros_ug2, Arcabuceros_ug3
-ownership        england, france, hre, papal_states, hungary, poland, spain, portugal, slave
+armour_ug_models Arcabuceros_ug3
+ownership        spain, portugal, slave
 era 2            spain, portugal
 ;unit_info        13, 0, 17
 
@@ -1431,7 +1431,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Camel_Gunners, 24, 0, 1
+soldier          Bande_Nere, 24, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, cantabrian_circle, gunpowder_unit, guncavalry, legionary_name
@@ -1456,7 +1456,7 @@ stat_food        60, 300
 stat_cost        3, 1600, 425, 200, 160, 1600, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Bande_Nere, Bande_Nere, Bande_Nere, Bande_Nere
-ownership        england, france, hre, papal_states, hungary, poland, spain, portugal, slave
+ownership        papal_states, slave
 era 2			 papal_states
 ;unit_info        7, 0, 11
  
@@ -1470,7 +1470,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 80, 0, 0.8
+soldier          New_Levy_Archers, 80, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -1508,7 +1508,7 @@ voice_type       Light
 banner faction   main_missile
 banner holy      crusade
 soldier          Yeoman_Archers, 56, 0, 0.9
-attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
+attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name, no_custom
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -1544,7 +1544,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 0.9
+soldier          Magyar_Levy, 56, 0, 0.9
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -1581,7 +1581,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 0.9
+soldier          Shire_Levy, 56, 0, 0.9
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -1618,7 +1618,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.0
+soldier          New_Serjeant_Archers, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1655,7 +1655,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.1
+soldier          Basque_Archers, 48, 0, 1.1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, stakes, stakes, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1692,7 +1692,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.0
+soldier          Francs_Archers, 48, 0, 1.0
 attributes       sea_faring, hide_improved_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1728,7 +1728,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.0
+soldier          Francs_Archers, 48, 0, 1.0
 attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1766,7 +1766,7 @@ voice_type       Light
 accent         Scottish
 banner faction   main_missile
 banner holy      crusade
-soldier          Welsh_Longbowmen, 56, 0, 1.0
+soldier          New_Saethwyr, 56, 0, 1.0
 attributes       sea_faring, hide_improved_forest, can_withdraw, hide_anywhere, is_peasant, mercenary_unit, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1803,7 +1803,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 1.0
+soldier          Lithuanian_Archers, 56, 0, 1.0
 attributes       sea_faring, hide_improved_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1840,7 +1840,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 1.0
+soldier          Tegzesek, 56, 0, 1.0
 attributes       sea_faring, hide_improved_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1877,7 +1877,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.2
+soldier          Scots_Guard, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, stakes, stakes, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -1950,7 +1950,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 64, 0, 0.9
+soldier          New_Xbow_Militia, 64, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -1987,7 +1987,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 56, 0, 1.0
+soldier          New_Aventuriers, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, hardy, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2023,7 +2023,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 56, 0, 1.0
+soldier          New_Aventuriers, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, hardy, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2059,7 +2059,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 48, 0, 1.0
+soldier          Balestrieri, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, hardy, stakes, stakes is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2096,7 +2096,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 48, 0, 1.0
+soldier          New_Serjeant_Crossbowmen, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2133,7 +2133,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 56, 0, 1.0
+soldier          New_Serjeant_Crossbowmen, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, stakes, stakes, is_peasant, legionary_name, mercenary_unit, no_custom
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2170,7 +2170,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Javelinmen, 80, 0, 0.8
+soldier          New_Levy_Javelinmen, 80, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, is_peasant, legionary_name, free_upkeep_unit
 move_speed_mod   1.05
 formation        1.2, 1.2, 2.4, 2.4, 5, square
@@ -2207,7 +2207,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Javelinmen, 16, 0, 0.9
+soldier          Petardiers, 16, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 2, square
@@ -2229,7 +2229,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 700, 185, 200, 160, 700, 2, 200
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Petardiers, Petardiers, Petardiers_ug2, Petardiers_ug3
+armour_ug_models Petardiers, Petardiers, Petardiers_ug2, Petardiers_ug2
 ownership        france, england, papal_states, hre, poland, hungary, spain, portugal, slave
 era 1            france, england, papal_states, hre, poland, hungary, spain, portugal
 era 2            france, england, papal_states, hre, poland, hungary, spain, portugal
@@ -2243,7 +2243,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 48, 0, 1.0
+soldier          New_Serjeant_Gunners, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2265,7 +2265,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 600, 155, 200, 160, 600, 4, 100
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models New_Serjeant_Gunners, New_Serjeant_Gunners, New_Serjeant_Gunners_ug2, New_Serjeant_Gunners_ug3
+armour_ug_models New_Serjeant_Gunners_ug2, New_Serjeant_Gunners_ug3
 ownership        hre, spain, portugal, papal_states, france, england, poland, hungary, slave
 era 1            spain, portugal, papal_states, france, england, poland
 era 2            spain, portugal, papal_states, france, england, poland
@@ -2279,7 +2279,7 @@ class            missile     		  ; Bohemian Hand Gunners / German Hand Gunners /
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 48, 0, 1.0
+soldier          New_Bohemian_Gunners, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2315,7 +2315,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 48, 0, 1.0
+soldier          New_Serjeant_Arquebusiers, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2337,8 +2337,8 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 760, 185, 200, 160, 760, 3, 120
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models New_Serjeant_Arquebusiers, New_Serjeant_Arquebusiers, New_Serjeant_Arquebusiers_ug2, New_Serjeant_Arquebusiers_ug3
-ownership        france, england, papal_states, hre, poland, hungary, spain, portugal, slave
+armour_ug_models New_Serjeant_Arquebusiers_ug2, New_Serjeant_Arquebusiers_ug3
+ownership        france, england, papal_states, hre, poland, slave
 era 2            france, england, papal_states, hre, poland
 ;unit_info        6, 14, 3
 
@@ -2350,7 +2350,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 48, 0, 1.0
+soldier          New_Serjeant_Arquebusiers, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2372,7 +2372,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 940, 195, 200, 160, 940, 3, 120
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models New_Serjeant_Arquebusiers, New_Serjeant_Arquebusiers, New_Serjeant_Arquebusiers_ug2, New_Serjeant_Arquebusiers_ug3
+armour_ug_models New_Serjeant_Arquebusiers_ug2, New_Serjeant_Arquebusiers_ug3
 ownership        france, england, papal_states, hre, poland, hungary, spain, portugal, slave
 era 2            france, england, papal_states, hre, poland, hungary, spain, portugal
 ;unit_info        6, 14, 3
@@ -2385,7 +2385,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1.0
+soldier          Arcabuceros, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2420,7 +2420,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1.0
+soldier          Arcabuceros, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -2457,7 +2457,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Guard, 100, 0, 0.8
+soldier          New_Levy_Spearmen, 100, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 6, square
@@ -2477,10 +2477,48 @@ stat_food        60, 300
 stat_cost        1, 100, 90, 200, 160, 100, 20, 80
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Levy_Spearmen, New_Levy_Spearmen, New_Levy_Spearmen, New_Levy_Spearmen
-ownership        all, slave
-era 0            england, france, hre, spain, portugal, papal_states, poland, hungary, byzantium, russia
-era 1            england, france, hre, spain, portugal, papal_states, poland, hungary, byzantium, russia
-era 2            england, france, hre, spain, portugal, papal_states, poland, hungary, byzantium, russia
+ownership        england, france, hre, spain, portugal, papal_states, slave
+era 0            england, france, hre, spain, portugal, papal_states
+era 1            england, france, hre, spain, portugal, papal_states
+era 2            england, france, hre, spain, portugal, papal_states
+;unit_info        5, 0, 7
+
+
+type             East Woodsmen
+dictionary       East_Woodsmen      ; Eastern European Woodsmen
+category         infantry
+class            spearmen
+voice_type       Heavy
+banner faction   main_spear
+banner holy      crusade
+soldier          New_Woodsmen, 100, 0, 0.8
+mount_effect	 horse +1, elephant +1
+attributes       sea_faring, hide_improved_forest, can_withdraw, is_peasant, legionary_name, hardy, stakes, stakes
+move_speed_mod	 1.05
+formation        1.2, 1.2, 2.4, 2.4, 6, square
+stat_health      1, 0
+stat_pri         4, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 2, 0, flesh
+;stat_armour_ex   0, 0, 0, 0, 1, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      0, -2, 1, 2
+stat_mental      2, low, untrained
+stat_charge_dist 9
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 120, 90, 200, 160, 120, 20, 80
+armour_ug_levels 0, 1, 2, 3
+armour_ug_models New_Woodsmen, New_Woodsmen, New_Woodsmen, New_Woodsmen
+ownership        poland, hungary, russia, slave
+era 0            poland, hungary, russia
+era 1            poland, hungary, russia
+era 2            poland, hungary, russia
 ;unit_info        5, 0, 7
 
 
@@ -2491,7 +2529,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Sergeant_Spearmen, 80, 0, 0.9
+soldier          New_Spear_Militia, 80, 0, 0.9
 mount_effect     horse +2, camel +1
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 0.975
@@ -2526,7 +2564,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Sergeant_Spearmen, 72, 0, 0.9
+soldier          East_Urban_Militia, 72, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
@@ -2560,7 +2598,7 @@ class            heavy
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 80, 0, 0.8
+soldier          Ecorcheurs, 80, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, mercenary_unit, is_peasant, legionary_name
 move_speed_mod   1.05
 formation        1.2, 1.2, 2.4, 2.4, 5, square
@@ -2598,8 +2636,8 @@ class            heavy
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 80, 0, 0.9
-attributes       sea_faring, hide_forest, can_withdraw, is_peasant, free_upkeep_unit, legionary_name
+soldier          New_Ribauds, 80, 0, 0.9
+attributes       sea_faring, hide_forest, can_withdraw, is_peasant, free_upkeep_unit, legionary_name, no_custom
 move_speed_mod   1.025
 formation        1.2, 1.2, 2.4, 2.4, 5, square
 stat_health      1, 0
@@ -2636,7 +2674,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Armored_Sergeants, 64, 0, 1.0
+soldier          New_Serjeant_Spearmen, 64, 0, 1.0
 mount_effect     horse +3, camel +2, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
@@ -2675,7 +2713,7 @@ voice_type       Light
 accent         Mediterranean
 banner faction   main_spear
 banner holy      crusade
-soldier          Armored_Sergeants, 64, 0, 1.0
+soldier          Crusaders, 64, 0, 1.0
 mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, mercenary_unit, is_peasant, legionary_name, no_custom
 move_speed_mod	 0.925
@@ -2713,7 +2751,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Armored_Sergeants, 64, 0, 1.0
+soldier          Lancieri, 64, 0, 1.0
 mount_effect     horse +3, camel +2, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
@@ -2751,7 +2789,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Armored_Sergeants, 64, 0, 1.1
+soldier          Clipeati, 64, 0, 1.1
 mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
@@ -2788,7 +2826,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Papal_Guard, 48, 0, 1.2
+soldier          Signori, 48, 0, 1.2
 mount_effect     horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.925
@@ -2826,7 +2864,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 64, 0, 1.05
+soldier          Espadachines, 64, 0, 1.05
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -2863,7 +2901,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 64, 0, 1.05
+soldier          New_Serjeant_Swordsmen, 64, 0, 1.05
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -2900,7 +2938,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 64, 0, 1.0
+soldier          New_Serjeant_Swordsmen, 64, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, hardy, mercenary_unit, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -2937,8 +2975,8 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 64, 0, 1.1
-attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
+soldier          Fussknechte, 64, 0, 1.1
+attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name, no_custom
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -2974,8 +3012,8 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 64, 0, 1.1
-attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
+soldier          Fanti, 64, 0, 1.1
+attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name, no_custom
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -3011,7 +3049,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Javelinmen, 48, 0, 1.05
+soldier          New_Almogavares, 48, 0, 1.05
 attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, mercenary_unit, is_peasant, legionary_name
 move_speed_mod   1.05
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -3048,7 +3086,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Feudal_Knights, 48, 0, 1.2
+soldier          New_Foot_Knights, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -3085,7 +3123,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Feudal_Knights, 48, 0, 1.2
+soldier          Bajorija, 48, 0, 1.2
 attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -3122,7 +3160,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Feudal_Knights, 48, 0, 1.2
+soldier          Cliens, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -3159,7 +3197,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Guard, 80, 0, 1.50
+soldier          Guisarmiers, 80, 0, 1.50
 mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing, free_upkeep_unit
 move_speed_mod	 0.925
@@ -3196,7 +3234,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Guard, 64, 0, 1.70
+soldier          New_Serjeant_Halberdiers, 64, 0, 1.70
 mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
@@ -3233,7 +3271,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Guard, 64, 0, 1.70
+soldier          New_Serjeant_Voulgier, 64, 0, 1.70
 mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
@@ -3257,7 +3295,7 @@ stat_food        60, 300
 stat_cost        2, 640, 165, 200, 160, 1040, 4, 100
 armour_ug_levels 2, 3
 armour_ug_models New_Serjeant_Voulgier_ug2, New_Serjeant_Voulgier_ug3
-ownership        france, england, hre, papal_states, poland, spain, portugal, hungary, slave
+ownership        france, slave
 era 1            france
 era 2            france
 ;unit_info        7, 0, 10
@@ -3270,7 +3308,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Guard, 64, 0, 1.70
+soldier          New_Serjeant_Billmen, 64, 0, 1.70
 mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
@@ -3294,7 +3332,7 @@ stat_food        60, 300
 stat_cost        2, 620, 160, 200, 160, 1020, 4, 100
 armour_ug_levels 2, 3
 armour_ug_models New_Serjeant_Billmen_ug2, New_Serjeant_Billmen_ug3
-ownership        france, england, hre, papal_states, poland, spain, portugal, hungary, slave
+ownership        england, slave
 era 1            england
 era 2            england
 ;unit_info        7, 0, 10
@@ -3307,7 +3345,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Guard, 64, 0, 1.70
+soldier          Armati, 64, 0, 1.70
 mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.925
@@ -3418,7 +3456,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          New_Serjeant_Pikemen, 64, 0, 1.65
+soldier          New_Highland_Pikemen, 64, 0, 1.65
 mount_effect	 horse +8, camel +6, elephant +3
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, mercenary_unit, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
@@ -3442,7 +3480,7 @@ stat_food        60, 300
 stat_cost        2, 900, 200, 200, 160, 900, 2, 200
 armour_ug_levels 2, 3, 4
 armour_ug_models New_Highland_Pikemen, New_Highland_Pikemen, New_Highland_Pikemen, New_Highland_Pikemen
-ownership        all, slave
+ownership        england, france, poland, slave
 era 0            england
 era 1            england, france
 era 2            england, france, poland
@@ -3456,7 +3494,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          New_Serjeant_Pikemen, 64, 0, 1.65
+soldier          Piquieros, 64, 0, 1.65
 mount_effect	 horse +8, camel +6, elephant +3
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
@@ -3479,7 +3517,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 760, 190, 200, 160, 760, 4, 100
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Piquieros, Piquieros, Piquieros_ug2, Piquieros_ug3
+armour_ug_models Piquieros_ug2, Piquieros_ug3
 ownership        spain, portugal, slave
 era 1            spain, portugal
 era 2            spain, portugal
@@ -3493,7 +3531,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          New_Serjeant_Pikemen, 48, 0, 1.85
+soldier          Aventureiros, 48, 0, 1.85
 mount_effect	 horse +12, camel +8, elephant +4
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, very_hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
@@ -3517,8 +3555,7 @@ stat_food        60, 300
 stat_cost        3, 1040, 230, 200, 160, 1040, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Aventureiros_ug2, Aventureiros_ug2, Aventureiros_ug2, Aventureiros_ug3
-ownership        england, hre, france, spain, portugal, papal_states, byzantium, poland, hungary, slave
-era 1            portugal
+ownership        portugal, slave
 era 2            portugal
 ;unit_info        6, 0, 8
 
@@ -3531,7 +3568,7 @@ voice_type       Heavy
 accent         German
 banner faction   main_spear
 banner holy      crusade
-soldier          New_Serjeant_Pikemen, 56, 0, 1.75
+soldier          Landsknechte, 56, 0, 1.75
 mount_effect	 horse +12, camel +8, elephant +4
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, frighten_foot, very_hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
@@ -3553,9 +3590,9 @@ stat_charge_dist 10
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1080, 240, 200, 160, 1080, 2, 200
-armour_ug_levels 0, 1, 2, 3
-armour_ug_models Landsknechte, Landsknechte, Landsknechte_ug2, Landsknechte_ug3
-ownership        papal_states, france, england, spain, portugal, hre, poland, hungary, slave
+armour_ug_levels 2, 3
+armour_ug_models Landsknechte_ug2, Landsknechte_ug3
+ownership        hre, slave
 era 2            hre
 ;unit_info        11, 0, 4
 
@@ -3568,7 +3605,7 @@ voice_type       Light
 accent         Mediterranean
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 100, 0, 0.8
+soldier          Fanatics, 100, 0, 0.8
 mount_effect	 horse +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, mercenary_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
@@ -3606,7 +3643,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 64, 0, 1.0
+soldier          Montanteiros, 64, 0, 1.0
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
@@ -3643,7 +3680,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 64, 0, 1.0
+soldier          Goedendagers, 64, 0, 1.0
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.95
@@ -3681,7 +3718,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 64, 0, 1.0
+soldier          Lithuanian_Axemen, 64, 0, 1.0
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.95
@@ -3719,7 +3756,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 64, 0, 1.1
+soldier          New_Verlorene_Haufen, 64, 0, 1.1
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
@@ -3758,7 +3795,7 @@ voice_type       Heavy
 accent         Scottish
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 48, 0, 1.2
+soldier          New_Galloglaich, 48, 0, 1.2
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, mercenary_unit, is_peasant, legionary_name
 move_speed_mod	 0.95
@@ -3782,7 +3819,7 @@ stat_food        60, 300
 stat_cost        3, 1040, 260, 200, 160, 1040, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models New_Galloglaich, New_Galloglaich, New_Galloglaich, New_Galloglaich
-ownership        all, slave
+ownership        england, france, slave
 era 0            england
 era 1            england, france
 era 2            england, france
@@ -3796,7 +3833,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 48, 0, 1.2
+soldier          Axe_Knights, 48, 0, 1.2
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.95
@@ -3834,7 +3871,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 48, 0, 1.2
+soldier          Earls, 48, 0, 1.2
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.95
@@ -3858,7 +3895,7 @@ stat_food        60, 300
 stat_cost        3, 1040, 285, 200, 160, 1040, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Earls, Earls, Earls_ug2, Earls_ug2
-ownership        england, france, spain, poland, papal_states, hungary, hre, portugal, slave
+ownership        england, slave
 era 0            england
 era 1            england
 era 2            england
@@ -3872,7 +3909,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 48, 0, 1.2
+soldier          Foot_Reichsritter, 48, 0, 1.2
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
@@ -3896,7 +3933,7 @@ stat_food        60, 300
 stat_cost        3, 1080, 285, 200, 160, 1080, 2, 200
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Foot_Reichsritter, Foot_Reichsritter, Foot_Reichsritter_ug2, Foot_Reichsritter_ug2
-ownership        hre, france, england, scotland, spain, poland, papal_states, slave
+ownership        hre, slave
 era 0            hre
 era 1            hre
 era 2            hre
@@ -3910,7 +3947,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 48, 0, 1.2
+soldier          Canons, 48, 0, 1.2
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 0.95
@@ -4306,7 +4343,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Greek_Bodyguard, 8, 0, 1.4
+soldier          Hetaireia, 8, 0, 1.4
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, can_formed_charge, knight, command
@@ -4345,7 +4382,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 32, 0, 1
+soldier          Kavallarioi, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, hardy, can_formed_charge, legionary_name
@@ -4384,7 +4421,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          Latinikon, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, no_custom
@@ -4422,7 +4459,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          Pronoiarioi, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -4461,7 +4498,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Feudal_Knights, 24, 0, 1
+soldier          Skholarii, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -4502,7 +4539,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Jinetes, 32, 0, 1
+soldier          Akritae, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, legionary_name, free_upkeep_unit
@@ -4534,84 +4571,6 @@ era 2            byzantium
 ;unit_info        7, 0, 10
 
 
-type             Roman Tzakones
-dictionary       Roman_Tzakones      ; Roman Expilatores / Byzantine Expilatores / Roman Tzakones / Byzantine Tzakones
-category         cavalry
-class            missile
-voice_type       Heavy
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Byzantine_Cavalry, 32, 0, 1
-mount            fast pony
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, cantabrian_circle, legionary_name
-move_speed_mod	 1.075
-formation        2, 4.4, 3, 6, 4, square
-stat_health      1, 0
-stat_pri         4, 2, cav_composite_arrow, 120, 35, missile, missile_mechanical, piercing, none, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    area
-stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  5, 2, 3, metal
-;stat_armour_ex   4, 5, 7, 0, 5, 3, 3, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        4
-stat_ground      2, 0, 1, 2
-stat_mental      7, normal, highly_trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 820, 205, 200, 160, 820, 4, 100
-armour_ug_levels 0, 1, 2, 3
-armour_ug_models Toxotae, Toxotae_ug1, Toxotae_ug2
-ownership        byzantium, slave
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
-;unit_info        7, 6, 12
-
-
-type             Roman Vardariotai
-dictionary       Roman_Vardariotai      ; Roman Vardariotai / Byzantine Vardariotai
-category         cavalry
-class            missile
-voice_type       Light
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Vardariotai, 24, 0, 1
-mount            mailed horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, cantabrian_circle, can_formed_charge, legionary_name
-move_speed_mod	 0.85
-formation        2, 4.4, 3, 6, 3, square
-stat_health      1, 0
-stat_pri         6, 3, cav_composite_arrow, 120, 35, missile, missile_mechanical, piercing, none, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    area
-stat_sec         3, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  8, 4, 3, metal
-;stat_armour_ex   5, 6, 0, 0, 9, 3, 3, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        4
-stat_ground      2, 0, 1, 2
-stat_mental      8, disciplined, highly_trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        4, 1300, 330, 200, 160, 1300, 2, 200
-armour_ug_levels 0, 1, 2, 3
-armour_ug_models Mourtatoi, Mourtatoi, Mourtatoi, Mourtatoi
-ownership        byzantium, slave
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
-;unit_info        10, 9, 17
-
-
 ;====================================================== MISSILE INFANTRY ======================================================
  
 
@@ -4622,7 +4581,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          S_Peasant_Archers, 56, 0, 1.0
+soldier          Toxotae, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -4659,7 +4618,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.1
+soldier          Mourtatoi, 48, 0, 1.1
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -4696,7 +4655,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 56, 0, 1.0
+soldier          Tzangratores, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -4733,7 +4692,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1.0
+soldier          Pyrovolites, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -4769,7 +4728,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 48, 0, 1.0
+soldier          Gasmouloi, 48, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -4804,7 +4763,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 12, 0, 1.1
+soldier          Siphonatores, 12, 0, 1.1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing, stakes, stakes, legionary_name
 move_speed_mod	 0.925
 formation        1.2, 1.2, 2.4, 2.4, 3, square, schiltrom
@@ -4844,7 +4803,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Armored_Sergeants, 64, 0, 1.1
+soldier          Skoutatoi, 64, 0, 1.1
 mount_effect     horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant legionary_name
 move_speed_mod	 0.925
@@ -4882,7 +4841,7 @@ class            heavy
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 72, 0, 0.9
+soldier          Kastrophylakes, 72, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, is_peasant, free_upkeep_unit, legionary_name
 move_speed_mod   1.025
 formation        1.2, 1.2, 2.4, 2.4, 5, square
@@ -4919,7 +4878,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 64, 0, 1.1
+soldier          Spathatoi, 64, 0, 1.1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square, shield_wall
@@ -4956,7 +4915,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Feudal_Knights, 48, 0, 1.2
+soldier          Paramonai, 48, 0, 1.2
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square, shield_wall
@@ -4993,7 +4952,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 48, 0, 1.25
+soldier          Varangoi, 48, 0, 1.25
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted, legionary_name
 move_speed_mod	 0.95
@@ -5031,7 +4990,7 @@ class            spearmen
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          Pikemen, 64, 0, 1.65
+soldier          Menaulatoi, 64, 0, 1.65
 mount_effect	 horse +8, camel +6, elephant +3
 attributes       sea_faring, hide_forest, can_withdraw, frighten_mounted, hardy, is_peasant, legionary_name, pike, start_phalanxing
 move_speed_mod	 0.90
@@ -5063,7 +5022,7 @@ era 2            byzantium
 
 
 ;##############################################################################################################################
-;################################################# REPUBLIC OF NOVGOROD UNITS #################################################
+;################################# THE RUS KNYAZATES / THE RUS' KNYAZATES / KIEVAN RUS' UNITS #################################
 ;##############################################################################################################################
 
 type             Rus Bodyguard
@@ -5073,7 +5032,7 @@ class            heavy
 voice_type       General
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 8, 0, 1
+soldier          Rus_Vitjaz_Cav_Sp_Sw_ug0, 8, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, can_formed_charge, knight, command
@@ -5114,7 +5073,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          Russian_Cavalry, 32, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, legionary_name
@@ -5153,7 +5112,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 24, 0, 1
+soldier          Boyar_Cavalry, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -5192,7 +5151,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 24, 0, 1
+soldier          Rus_Vitjaz_Cav_Sp_Sw_ug0, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -5233,7 +5192,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 32, 0, 1.0
+soldier          Russian_Cavalry_Archers, 32, 0, 1.0
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, legionary_name
@@ -5272,7 +5231,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 24, 0, 1
+soldier          Boyar_Cavalry_Archers, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, legionary_name, hardy
@@ -5314,7 +5273,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 1.0
+soldier          Russian_Archers, 56, 0, 1.0
 attributes       sea_faring, hide_improved_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -5351,7 +5310,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.1
+soldier          Boyar_Archers, 48, 0, 1.1
 attributes       sea_faring, hide_improved_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name, hardy
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -5388,7 +5347,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Pavise_Crossbowmen, 56, 0, 1.0
+soldier          Russian_Crossbowmen, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -5425,7 +5384,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1.0
+soldier          Russian_Gunners, 56, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -5461,7 +5420,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 0.9
+soldier          Promyshlenniki, 56, 0, 0.9
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 0.975
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -5489,44 +5448,6 @@ era 2            russia
 ;unit_info        6, 14, 3
 
 
-type             Rus Promyshlenniki
-dictionary       Rus_Promyshlenniki      ; Cossack Promyshlenniki
-category         cavalry
-class            missile
-voice_type       Light
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Camel_Gunners, 24, 0, 1
-mount            pony
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw, can_formed_charge, cantabrian_circle, gunpowder_unit, guncavalry, mercenary_unit, legionary_name
-move_speed_mod   1.10
-formation        2, 4.4, 3, 6, 3, square
-stat_health      1, 0
-stat_pri         6, 3, musket_bullet, 100, 18, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap, bp
-stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  1, 7, 3, metal
-;stat_armour_ex   7, 8, 0, 0, 6, 0, 0, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        4
-stat_ground      0, -2, 1, 2
-stat_mental      7, disciplined, highly_trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 1220, 385, 200, 160, 1220, 2, 200
-armour_ug_levels 0, 1, 2, 3
-armour_ug_models Promyshlenniki
-ownership        russia, mongols, saxons, slave
-era 1            russia
-era 2            russia, mongols, saxons
-;unit_info        11, 0, 18
-
-
 ;======================================================= MELEE INFANTRY =======================================================
 
 
@@ -5537,7 +5458,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Armored_Sergeants, 64, 0, 1.0
+soldier          Russian_Spearmen, 64, 0, 1.0
 mount_effect     horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.925
@@ -5575,7 +5496,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_spear
 banner holy      crusade
-soldier          Swiss_Guard, 64, 0, 1.70
+soldier          Russian_Halberdiers, 64, 0, 1.70
 mount_effect     horse +4, camel +3, elephant +3
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.925
@@ -5612,7 +5533,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Conquistadores, 64, 0, 1.0
+soldier          Russian_Swordsmen, 64, 0, 1.0
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -5642,43 +5563,6 @@ era 2			 russia
 ;unit_info        5, 0, 7
 
 
-type             Rus Ushkuiniki
-dictionary       Rus_Ushkuiniki      ; Russian Ushkuyniki / Novgorodian Ushkuyniki / Russian Pirates / Novgorodian Pirates
-category         infantry
-class            missile
-voice_type       Light
-banner faction   main_missile
-banner holy      crusade
-soldier          Javelinmen, 56, 0, 0.9
-attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, mercenary_unit, legionary_name
-move_speed_mod	 1.05
-formation        1.2, 1.2, 2.4, 2.4, 4, square
-stat_health      1, 0
-stat_pri         6, 1, javelin, 55, 6, thrown, missile_mechanical, piercing, spear, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    thrown, area
-stat_sec         2, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    no
-stat_pri_armour  1, 5, 4, flesh
-;stat_armour_ex   0, 4, 5, 0, 3, 3, 3, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        4
-stat_ground      0, -2, 1, 2
-stat_mental      5, normal, untrained
-stat_charge_dist 6
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 380, 125, 200, 160, 380, 6, 90
-armour_ug_levels 0, 1, 2, 3
-armour_ug_models New_Woodsmen
-ownership        russia, slave
-era 0			 russia
-era 1			 russia
-era 2			 russia
-;unit_info        5, 0, 7
-
-
 type             Rus Ratniki
 dictionary       Rus_Ratniki      ; Russian Ratniki / Novgorodian Ratniki / Russian Axemen / Novgorodian Axemen
 category         infantry
@@ -5686,7 +5570,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 64, 0, 1.0
+soldier          Russian_Axemen, 64, 0, 1.0
 mount_effect	 horse +2, camel +1, elephant +1
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
@@ -5724,7 +5608,7 @@ class            light
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Janissary_Heavy_Inf, 48, 0, 1.2
+soldier          Boyar_Axemen, 48, 0, 1.2
 mount_effect	 horse +3, camel +2, elephant +2
 attributes       sea_faring, hide_forest, can_withdraw, very_hardy, is_peasant, legionary_name
 move_speed_mod	 0.95
@@ -5762,7 +5646,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
-soldier          Dismounted_Feudal_Knights, 48, 0, 1.2
+soldier          Boyar_Swordsmen, 48, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -5804,7 +5688,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Horoshu_ug2, 8, 0, 1.2
+soldier          Muslim_Bodyguard, 8, 0, 1.2
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, start_not_skirmishing, can_formed_charge, knight, legionary_name, general_unit, command
@@ -5844,7 +5728,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          New_Arab_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, hardy, legionary_name
@@ -5883,7 +5767,7 @@ class            light
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          Kannada_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, legionary_name
@@ -5922,7 +5806,7 @@ class            heavy
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          Sarbaazan, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -5961,7 +5845,7 @@ class            heavy
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          Abid_al_Makhzan, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, very_hardy, legionary_name
@@ -6000,7 +5884,7 @@ class            heavy
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          New_Sipahis, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, hardy, legionary_name
@@ -6039,7 +5923,7 @@ class            heavy
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          Tawashiyyah, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, can_formed_charge, hardy, legionary_name
@@ -6078,7 +5962,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 32, 0, 1
+soldier          Vanniyar_Cavalry, 32, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -6117,7 +6001,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 24, 0, 1
+soldier          Rajput_Cavalry, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -6156,7 +6040,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 24, 0, 1
+soldier          New_Ghulam_Cavalry, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -6195,7 +6079,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chevaliers, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -6234,7 +6118,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mailed_Knights, 24, 0, 1
+soldier          New_Chevaliers_ug2, 24, 0, 1
 mount            armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, legionary_name
@@ -6272,7 +6156,7 @@ class            light
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Tuareg_Camel_Spearmens, 32, 0, 1
+soldier          Camelry, 32, 0, 1
 mount            camel
 mount_effect     elephant -4, horse +4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_mounted, can_formed_charge, mercenary_unit, legionary_name
@@ -6311,7 +6195,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Sergeants, 24, 0, 1
+soldier          New_Khassakiyya, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, can_formed_charge, knight, command, legionary_name
@@ -6353,7 +6237,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Jinetes, 32, 0, 1
+soldier          Indian_Militia_Cavalry, 32, 0, 1
 mount            pony
 mount_effect     elephant -2, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, free_upkeep_unit, legionary_name
@@ -6392,7 +6276,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Jinetes, 32, 0, 1
+soldier          Moroccan_Javelinmen_Horse, 32, 0, 1
 mount            pony
 mount_effect     elephant -2, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, hardy, free_upkeep_unit, legionary_name
@@ -6431,7 +6315,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 32, 0, 1
+soldier          New_Akinjis, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, free_upkeep_unit, legionary_name, hardy
@@ -6470,7 +6354,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 32, 0, 1
+soldier          Moroccan_Archers_Camel, 32, 0, 1
 mount            camel
 mount_effect     elephant -4, horse +4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, free_upkeep_unit, legionary_name, hardy, frighten_mounted
@@ -6494,7 +6378,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 540, 140, 200, 160, 540, 6, 90
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models Moroccan_Archers
+armour_ug_models Moroccan_Archers_Camel
 ownership        egypt, mali, scotland, zimbabwe, moors, milan, slave
 era 0            egypt, mali, scotland, zimbabwe, moors
 era 1            egypt, mali, scotland, zimbabwe, moors
@@ -6509,7 +6393,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 32, 0, 1
+soldier          New_Arab_Archers_Horse, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, hardy, legionary_name
@@ -6533,7 +6417,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 720, 185, 200, 160, 720, 4, 100
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models New_Arab_Archers
+armour_ug_models New_Arab_Archers_Horse
 ownership        egypt, turks, moors, slave
 era 0            egypt, turks
 era 1            egypt, turks
@@ -6548,7 +6432,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 32, 0, 1
+soldier          Khalaj, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, cantabrian_circle, can_formed_charge, knight, legionary_name
@@ -6585,7 +6469,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 32, 0, 1
+soldier          Indian_Guard_Cavalry, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, knight, legionary_name
@@ -6623,7 +6507,7 @@ category         cavalry
 class            missile
 voice_type       Heavy
 banner faction   main_cavalry
-banner holy      crusade_cavalry
+banner holy      Moor_Xbow_Cavalry
 soldier          Mounted_Crossbowman, 32, 0, 1
 mount            fast pony
 mount_effect     elephant -4, camel -4
@@ -6663,7 +6547,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 24, 0, 1
+soldier          New_Mamluks, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, very_hardy, knight, legionary_name
@@ -6702,7 +6586,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Horoshu_ug2, 24, 0, 1
+soldier          Dhiquan, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, start_not_skirmishing, can_formed_charge, knight, legionary_name
@@ -6739,7 +6623,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Horoshu_ug2, 24, 0, 1
+soldier          Iqtadar, 24, 0, 1
 mount            mailed horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, start_not_skirmishing, can_formed_charge, knight, legionary_name
@@ -6776,7 +6660,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Horoshu_ug2, 24, 0, 1
+soldier          Aswaran, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, start_not_skirmishing, can_formed_charge, knight, legionary_name
@@ -6812,7 +6696,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Horoshu_ug2, 24, 0, 1
+soldier          Qapakulu, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, start_not_skirmishing, can_formed_charge, knight, legionary_name
@@ -6848,7 +6732,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Mounted_Longbowmen, 24, 0, 1
+soldier          New_Bahriyya, 24, 0, 1
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, can_formed_charge, very_hardy, knight, legionary_name
@@ -6886,7 +6770,7 @@ class            heavy
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Horoshu_ug2, 8, 0, 1.2
+soldier          Persia_Bodyguard, 8, 0, 1.2
 mount            eastern armoured horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, start_not_skirmishing, can_formed_charge, knight, legionary_name, general_unit, command, no_custom
@@ -7003,7 +6887,7 @@ voice_type       Heavy
 accent         Mongolian
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Viet_Elephant_Archers, 12, 4, 1
+soldier          Nagavarika, 12, 4, 1
 mount            elephant
 mount_effect     horse +1, camel +1, elephant +2
 attributes       sea_faring, can_withdraw, can_run_amok, frighten_foot, frighten_mounted, can_formed_charge, legionary_name, general_unit
@@ -7043,7 +6927,7 @@ voice_type       Heavy
 accent         Mongolian
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Elephant_Rocket_Crew, 8, 4, 1
+soldier          Rocket_Elephant_Crew, 8, 4, 1
 mounted_engine   elephant_rocket_launcher
 mount            elephant_rocket
 mount_effect     horse +1, camel +1, elephant +2
@@ -7082,7 +6966,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Camel_Gunners, 24, 0, 1
+soldier          Jazayerchi, 24, 0, 1
 mount            pony
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, cantabrian_circle, gunpowder_unit, guncavalry, legionary_name
@@ -7112,44 +6996,6 @@ era 2            milan
 ;unit_info        13, 0, 17
 
 
-type             India Rathas
-dictionary       India_Rathas      ; Indian Rathas / Sinhala Rathas / Sinhalese Rathas / Indian Chariots / Sinhala Chariots / Sinhalese Chariots
-category         cavalry
-class            missile
-voice_type       Heavy
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          Viet_Elephant_Archers, 18, 6, 1
-mount            chariot
-mount_effect     horse +4, camel +2
-attributes       sea_faring, hardy, can_withdraw, can_formed_charge, can_run_amok, frighten_foot, frighten_mounted, cantabrian_circle, no_custom
-formation        7, 11, 13, 16, 2, square
-stat_health      1, 6
-stat_pri         4, 1, cav_bodkin_arrow, 120, 40, missile, missile_mechanical, piercing, none, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    area
-stat_sec         2, 12, no, 0, 0, melee, melee_simple, piercing, none, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    area, launching
-stat_pri_armour  1, 6, 0, metal
-;stat_armour_ex   5, 0, 0, 0, 7, 0, 0, metal
-stat_sec_armour  6, 4, flesh
-stat_heat        1
-stat_ground      0, 1, -6, -1
-stat_mental      7, disciplined, untrained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 540, 150, 100, 75, 540, 4, 130
-armour_ug_levels 0, 1
-armour_ug_models Indian_Levy_Archers
-ownership        denmark
-era 0            denmark
-era 1            denmark
-era 2            denmark
-;unit_info        8, 8, 8 
-
-
 ;====================================================== MISSILE INFANTRY ======================================================
 
 
@@ -7160,7 +7006,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Afghan_Javelinmen, 72, 0, 0.8
+soldier          Arab_Levy_Javelinmen, 72, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7197,7 +7043,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Afghan_Javelinmen, 80, 0, 0.8
+soldier          Indian_Levy_Javelinmen, 80, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 5, square
@@ -7235,7 +7081,7 @@ voice_type       Light
 accent         Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 64, 0, 0.8
+soldier          Mujahideen, 64, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, mercenary_unit, hardy, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7273,7 +7119,7 @@ voice_type       Light
 accent         Arabic
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 64, 0, 0.8
+soldier          Mujahideen, 64, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, crossbow, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7310,7 +7156,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 56, 0, 1
+soldier          Arab_Xbowmen, 56, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, hardy, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7347,7 +7193,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 56, 0, 1
+soldier          Charkh, 56, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, hardy, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7384,7 +7230,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Crossbowmen, 56, 0, 1
+soldier          Moor_Xbowmen, 56, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, crossbow, hardy, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7421,7 +7267,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 80, 0, 0.8
+soldier          Indian_Levy_Archers, 80, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7458,7 +7304,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 72, 0, 0.9
+soldier          Moroccan_Archers, 72, 0, 0.9
 attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, free_upkeep_unit, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7495,7 +7341,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 72, 0, 0.9
+soldier          New_Akinjis_Foot, 72, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, hardy, is_peasant, free_upkeep_unit, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7517,7 +7363,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 340, 120, 200, 160, 340, 6, 90
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models New_Akinjis
+armour_ug_models New_Akinjis_Foot
 ownership        turks, milan, timurids, moors, egypt, mali, scotland, zimbabwe, mongols, slave
 era 0            turks, milan, timurids
 era 1            turks, milan, timurids
@@ -7532,7 +7378,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 72, 0, 0.9
+soldier          Indian_Archer_Militia, 72, 0, 0.9
 attributes       sea_faring, hide_improved_forest, can_withdraw, free_upkeep_unit, is_peasant, hardy, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7569,7 +7415,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 1
+soldier          New_Arab_Archers, 56, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7606,7 +7452,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 1
+soldier          New_Arab_Archers, 56, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name, mercenary_unit
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7643,7 +7489,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 1
+soldier          Khalaj_Foot, 56, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7680,7 +7526,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 64, 0, 0.95
+soldier          Kannada_Archers, 64, 0, 0.95
 attributes       sea_faring, hide_forest, hardy, can_withdraw, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 1.1
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7717,7 +7563,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 56, 0, 1.1
+soldier          New_Turkish_Archers, 56, 0, 1.1
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -7754,7 +7600,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.1
+soldier          Garudas, 48, 0, 1.1
 attributes       sea_faring, hide_improved_forest, can_withdraw, stakes, stakes, is_peasant, very_hardy, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -7791,7 +7637,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.1
+soldier          New_Mamluks_Foot, 48, 0, 1.1
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, is_peasant, hardy, legionary_name
 move_speed_mod	 1.0
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -7813,7 +7659,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 920, 215, 200, 160, 920, 2, 200
 armour_ug_levels 0, 1, 2, 3
-armour_ug_models New_Mamluks
+armour_ug_models New_Mamluks_Foot
 ownership        egypt, turks, milan, moors, slave
 era 0            egypt, turks, milan
 era 1            egypt, turks, milan
@@ -7828,7 +7674,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Yeoman_Archers, 48, 0, 1.1
+soldier          New_Janissary_Archers, 48, 0, 1.1
 attributes       sea_faring, hide_forest, can_withdraw, stakes, stakes, very_hardy, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -7864,7 +7710,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1
+soldier          Arab_Gunner, 56, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing, stakes, stakes, gunpowder_unit, is_peasant, legionary_name
 move_speed_mod	 1.0
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -7898,7 +7744,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1
+soldier          Moor_Gunners, 56, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing, stakes, stakes, gunpowder_unit, is_peasant, legionary_name
 move_speed_mod	 0.95
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -7932,7 +7778,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1
+soldier          Indian_Pro_Gunners, 56, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing, stakes, stakes, gunpowder_unit, is_peasant, legionary_name
 move_speed_mod	 1.0
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -7966,7 +7812,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 56, 0, 1
+soldier          Tofangchiyan, 56, 0, 1
 attributes       sea_faring, hide_forest, hardy, can_withdraw, start_not_skirmishing, stakes, stakes, gunpowder_unit, is_peasant, legionary_name
 move_speed_mod	 1.0
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -8000,7 +7846,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 48, 0, 1
+soldier          Moroccan_Gunner, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, hardy, is_peasant, legionary_name
 move_speed_mod	 1.05
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -8035,7 +7881,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          Musketeers, 48, 0, 1
+soldier          Sepoy, 48, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, stakes, is_peasant, legionary_name
 move_speed_mod	 1.025
 formation        1.2, 1.2, 2.4, 2.4, 3, square
@@ -13557,6 +13403,7 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 520, 140, 200, 160, 520, 4, 100
+armour_ug_levels 0, 1, 2, 3
 armour_ug_models Viet_Swordsmen
 ownership        ryukyu, slave
 era 0            ryukyu
@@ -13593,6 +13440,7 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 520, 140, 200, 160, 520, 4, 100
+armour_ug_levels 0, 1, 2, 3
 armour_ug_models Bai_Infantry
 ownership        ryukyu, china, mongols, slave
 era 0            ryukyu, china, mongols
@@ -14992,8 +14840,8 @@ stat_food        60, 300
 stat_cost        3, 940, 260, 200, 160, 940, 4, 100
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Meso_Pro_Cavalry
-ownership        aztecs, mayans, incans, slave
-era 2            aztecs, mayans, incans
+ownership        aztecs, mayans, slave
+era 2            aztecs, mayans
 ;unit_info        13, 0, 17
 
 
@@ -15068,10 +14916,10 @@ stat_food        60, 300
 stat_cost        1, 400, 125, 200, 160, 400, 6, 80
 armour_ug_levels 0
 armour_ug_models Carib_Archers
-ownership        all, slave
+ownership        incans, mayans, spain, portugal, slave
 era 0			 incans, mayans
 era 1			 incans, mayans
-era 2			 incans, mayans
+era 2			 incans, mayans, spain, portugal
 ;unit_info        7, 7, 4
 
 
@@ -15105,7 +14953,7 @@ stat_food        60, 300
 stat_cost        2, 460, 140, 200, 160, 460, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models Aztec_Archers, Aztec_Archers
-ownership        aztecs, mayans, incans, slave
+ownership        aztecs, mayans, slave
 era 0            aztecs
 era 1            aztecs
 era 2            aztecs
@@ -15142,7 +14990,7 @@ stat_food        60, 300
 stat_cost        2, 480, 140, 200, 160, 480, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models Maya_Archers, Maya_Archers, Maya_Archers, Maya_Archers
-ownership        mayans, aztecs, incans, slave
+ownership        mayans, aztecs, slave
 era 0			 mayans
 era 1            mayans
 era 2            mayans
@@ -15180,7 +15028,7 @@ stat_food        60, 300
 stat_cost        2, 660, 185, 200, 160, 660, 3, 120
 armour_ug_levels 0, 1
 armour_ug_models Meso_Tlaxcaltec_Archers, Meso_Tlaxcaltec_Archers, Meso_Tlaxcaltec_Archers, Meso_Tlaxcaltec_Archers
-ownership        aztecs, mayans, incans, slave
+ownership        aztecs, mayans, slave
 era 0			 aztecs
 era 1            aztecs
 era 2            aztecs
@@ -15218,7 +15066,7 @@ stat_food        60, 300
 stat_cost        3, 940, 255, 200, 160, 940, 2, 200
 armour_ug_levels 0, 1
 armour_ug_models Maya_Noble_Archers, Maya_Noble_Archers
-ownership        mayans, aztecs, incans, slave
+ownership        mayans, aztecs, slave
 era 0			 mayans
 era 1            mayans
 era 2            mayans
@@ -15330,8 +15178,8 @@ stat_food        60, 300
 stat_cost        3, 960, 215, 200, 160, 960, 3, 120
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Meso_Pro_Gunners
-ownership        aztecs, mayans, incans, slave
-era 2            aztecs, mayans, incans
+ownership        aztecs, mayans, slave
+era 2            aztecs, mayans
 ;unit_info        9, 16, 7
 
 
@@ -15366,10 +15214,10 @@ stat_food        60, 300
 stat_cost        1, 380, 130, 200, 160, 380, 6, 80
 armour_ug_levels 0
 armour_ug_models Carib_Spearmen
-ownership        all, slave
+ownership        incans, mayans, spain, portugal, slave
 era 0			 incans, mayans
 era 1            incans, mayans
-era 2            incans, mayans
+era 2            incans, mayans, spain, portugal
 ;unit_info        9, 0, 11
 
 
@@ -15403,10 +15251,10 @@ stat_food        60, 300
 stat_cost        1, 240, 110, 200, 160, 240, 6, 80
 armour_ug_levels 0, 1
 armour_ug_models Meso_Spear_Militia, Meso_Spear_Militia
-ownership        mayans, aztecs, incans, slave
-era 0			 mayans, aztecs, incans
-era 1			 mayans, aztecs, incans
-era 2			 mayans, aztecs, incans
+ownership        mayans, aztecs, slave
+era 0			 mayans, aztecs
+era 1			 mayans, aztecs
+era 2			 mayans, aztecs
 ;unit_info        8, 0, 6
 
 
@@ -15440,7 +15288,7 @@ stat_food        60, 300
 stat_cost        2, 500, 140, 200, 160, 500, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models Aztec_Spearmen, Aztec_Spearmen
-ownership        aztecs, mayans, incans, slave
+ownership        aztecs, mayans, slave
 era 0			 aztecs
 era 1			 aztecs
 era 2			 aztecs
@@ -15627,10 +15475,10 @@ stat_food        60, 300
 stat_cost        1, 300, 110, 200, 160, 300, 6, 90
 armour_ug_levels 0, 1
 armour_ug_models Meso_Urban_Militia, Meso_Urban_Militia
-ownership        mayans, incans, aztecs, slave
-era 0			 mayans, incans, aztecs
-era 1			 mayans, incans, aztecs
-era 2			 mayans, incans, aztecs
+ownership        mayans, aztecs, slave
+era 0			 mayans, aztecs
+era 1			 mayans, aztecs
+era 2			 mayans, aztecs
 ;unit_info        9, 0, 6
 
 
@@ -15699,7 +15547,7 @@ stat_food        60, 300
 stat_cost        2, 580, 155, 200, 160, 580, 4, 100
 armour_ug_levels 0, 1
 armour_ug_models Cuextecatl, Cuextecatl
-ownership        aztecs, mayans, incans, slave
+ownership        aztecs, mayans, slave
 era 0            aztecs
 era 1            aztecs
 era 2            aztecs
@@ -16038,8 +15886,235 @@ recruit_priority_offset    31
 
 
 ;##############################################################################################################################
-;################################################## THE ANGKOR EMPIRE UNITS ###################################################
+;################################################## KINGDOM OF QUSQU UNITS ###################################################
 ;##############################################################################################################################
+
+
+type             Inca Spearmen
+dictionary       Inca_Spearmen      ; Mesoamerican Spearmen / Mesoamerican Tlamanih
+category         infantry
+class            spearmen
+voice_type       Light
+banner faction   main_spear
+soldier          Inca_Spearmen, 80, 0, 0.90
+mount_effect	 horse +2, camel +1, elephant +1
+attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name
+move_speed_mod   1.2
+formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
+stat_health      1, 0
+stat_pri         5, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    spear, light_spear
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 8, 3, leather
+;stat_armour_ex   0, 0, 0, 0, 3, 3, 3, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 1, 3, -2
+stat_mental      7, normal, trained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 500, 140, 200, 160, 500, 4, 100
+armour_ug_levels 0, 1
+armour_ug_models Inca_Spearmen, Inca_Spearmen
+ownership        incans, slave
+era 0			 incans
+era 1			 incans
+era 2			 incans
+;unit_info        8, 0, 6
+
+
+type             Inca Canari Spearmen
+dictionary       Inca_Canari_Spearmen      ; Mesoamerican Chinantec Pikemen / Mesoamerican Chinantecah Pikemen
+category         infantry
+class            spearmen
+voice_type       Heavy
+banner faction   main_spear
+banner holy      crusade
+soldier          Swiss_Guard, 80, 0, 1.60
+mount_effect     horse +4, camel +3, elephant +3
+attributes       sea_faring, hide_improved_forest, hardy, can_withdraw, is_peasant, legionary_name, pike, start_phalanxing, mercenary_unit
+move_speed_mod	 1.175
+formation        1.2, 1.2, 2.4, 2.4, 5, square, phalanx
+stat_health      1, 1
+stat_pri         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 500, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    spear, spear_bonus_4
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 11, 2, leather
+;stat_armour_ex   0, 4, 0, 0, 3, 0, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 1, 3, -2
+stat_mental      8, normal, trained
+stat_charge_dist 10
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 640, 180, 200, 160, 640, 3, 120
+armour_ug_levels 0, 1
+armour_ug_models Canari_Spearmen, Canari_Spearmen
+ownership        incans, slave
+era 0            incans
+era 1            incans
+era 2            incans
+;unit_info        7, 0, 10
+
+
+type             Inca Urban Militia
+dictionary       Inca_Urban_Militia      ; Mesoamerican Urban Militia
+category         infantry
+class            heavy
+voice_type       Light
+banner faction   main_infantry
+soldier          Inca_Militia, 100, 0, 0.8
+attributes       sea_faring, hide_improved_forest, can_withdraw, is_peasant, free_upkeep_unit, legionary_name
+move_speed_mod   1.2
+formation        1.2, 1.2, 2.4, 2.4, 7, square
+stat_health      1, 0
+stat_pri         4, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  0, 2, 3, leather
+;stat_armour_ex   4, 0, 0, 0, 3, 3, 3, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 1, 3, -2
+stat_mental      5, normal, untrained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 300, 110, 200, 160, 300, 6, 90
+armour_ug_levels 0, 1
+armour_ug_models Inca_Militia, Inca_Militia
+ownership        incans, slave
+era 0			 incans
+era 1			 incans
+era 2			 incans
+;unit_info        9, 0, 6
+
+
+type             Inca Warriors
+dictionary       Inca_Warriors      ; Mesoamerican Cuextecatli / Aztec Cuextecatli
+category         infantry
+class            heavy
+voice_type       Light
+banner faction   main_infantry
+soldier          Inca_Warriors, 80, 0, 0.8
+attributes       sea_faring, hide_improved_forest, can_withdraw, is_peasant, legionary_name, hardy
+move_speed_mod   1.2
+formation        1.2, 1.2, 2.4, 2.4, 5, square
+stat_health      1, 0
+stat_pri         5, 3, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 4, 3, leather
+;stat_armour_ex   4, 0, 0, 0, 3, 3, 3, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 1, 3, -2
+stat_mental      7, normal, highly_trained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 580, 155, 200, 160, 580, 4, 100
+armour_ug_levels 0, 1
+armour_ug_models Inca_Warriors, Inca_Warriors
+ownership        incans, slave
+era 0            incans
+era 1            incans
+era 2            incans
+;unit_info        7, 0, 4
+
+
+type             Inca Mapuche Warriors
+dictionary       Inca_Mapuche_Warriors      ; Mesoamerican Cuauhmeh / Mesoamerican Eagle Warriors / Aztec Cuauhmeh / Aztec Eagle Warriors
+category         infantry
+class            light
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Mapuche_Warriors, 80, 0, 0.8
+mount_effect	 horse +1, camel +1
+attributes       sea_faring, hide_improved_forest, can_withdraw, hardy, is_peasant, legionary_name, mercenary_unit
+move_speed_mod   1.2
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         3, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 7, 0, leather
+;stat_armour_ex   7, 8, 0, 0, 9, 6, 6, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 1, 3, -2
+stat_mental      7, impetuous, untrained
+stat_charge_dist 9
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 560, 185, 200, 160, 560, 4, 200
+armour_ug_levels 0, 1
+armour_ug_models Mapuche_Warriors, Mapuche_Warriors
+ownership        incans, slave
+era 0            incans
+era 1            incans
+era 2            incans
+;unit_info        17, 0, 12
+
+
+type             Inca Antisuyu Archers
+dictionary       Inca_Antisuyu_Archers      ; Mesoamerican Ajch'ab / Maya Ajch'ab / Mayan Ajch'ab
+category         infantry
+class            missile
+voice_type       Light
+banner faction   main_missile
+banner holy      crusade
+soldier          Antisuyu_Archers, 72, 0, 0.9
+attributes       sea_faring, hide_improved_forest, can_withdraw, stakes, stakes, is_peasant, legionary_name
+move_speed_mod	 1.2
+formation        1.2, 1.2, 2.4, 2.4, 5, square
+stat_health      1, 0
+stat_pri         3, 1, arrow, 120, 26, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    area
+stat_sec         2, 1, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 4, 3, flesh
+;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        5
+stat_ground      0, -2, 1, 2
+stat_mental      6, normal, trained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 480, 140, 200, 160, 480, 4, 100
+armour_ug_levels 0, 1
+armour_ug_models Antisuyu_Archers, Antisuyu_Archers, Antisuyu_Archers, Antisuyu_Archers
+ownership        incans, slave
+era 0			 incans
+era 1            incans
+era 2            incans
+;unit_info        5, 5, 8
+recruit_priority_offset    20
+
+
+
+
 
 type             Khmer Bodyguard
 dictionary       Khmer_Bodyguard     ; Angkor General's Bodyguard / Khmer General's Bodyguard

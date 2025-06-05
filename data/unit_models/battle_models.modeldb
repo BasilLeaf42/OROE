@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1768 0 0 
+22 serialization::archive 3 0 0 0 0 1776 0 0 
 10 mount_pony 
 1.12 0 0 3 0 0 
 65 unit_models/Mounts/medium_horse_marka/mount_horse_marka_lod0.mesh 121 
@@ -1088,7 +1088,7 @@
 71 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_milan.texture 
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 51 unit_sprites/milan_Dummy_EN_Mail_Knights_sprite.spr 
-9 byzantium 
+8 portugal 
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_venice.texture 
 72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
 52 unit_sprites/venice_Dummy_EN_Mail_Knights_sprite.spr 
@@ -1631,25 +1631,25 @@
 7 england 
 60 unit_models/AttachmentSets/Final Heater_england_diff.texture 
 60 unit_models/AttachmentSets/Final Heater_england_norm.texture 0  
-8 scotland 
+6 france 
 61 unit_models/AttachmentSets/Final Heater_scotland_diff.texture 
 61 unit_models/AttachmentSets/Final Heater_scotland_norm.texture 0  
-6 france 
+6 poland 
 59 unit_models/AttachmentSets/Final Heater_france_diff.texture 
 59 unit_models/AttachmentSets/Final Heater_france_norm.texture 0  
-3 hre 
+8 scotland 
 56 unit_models/AttachmentSets/Final Heater_hre_diff.texture 
 56 unit_models/AttachmentSets/Final Heater_hre_norm.texture 0  
 5 spain 
 58 unit_models/AttachmentSets/Final Heater_spain_diff.texture 
 58 unit_models/AttachmentSets/Final Heater_spain_norm.texture 0  
-12 papal_states 
+3 hre 
 65 unit_models/AttachmentSets/Final beater_papal_states_diff.texture 
 59 unit_models/AttachmentSets/Final beater_normal_diff.texture 0 
-5 slave 
+12 papal_states 
 58 unit_models/AttachmentSets/Final Heater_slave_diff.texture 
 58 unit_models/AttachmentSets/Final Heater_slave_norm.texture 0  
-4 merc 
+5 slave 
 57 unit_models/AttachmentSets/Final Heater_merc_diff.texture 
 57 unit_models/AttachmentSets/Final Heater_merc_norm.texture 0  
 1 
@@ -1726,7 +1726,7 @@
 5 slave 
 64 unit_models/_Units/CSUR/textures/buckler_attachment_merc.texture 
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
-4 merc 
+6 poland 
 64 unit_models/_Units/CSUR/textures/buckler_attachment_merc.texture 
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
@@ -1796,7 +1796,7 @@
 5 slave 
 58 unit_models/AttachmentSets/Final Heater_slave_diff.texture 
 58 unit_models/AttachmentSets/Final Heater_slave_norm.texture 0  
-4 merc 
+6 poland 
 57 unit_models/AttachmentSets/Final Heater_merc_diff.texture 
 57 unit_models/AttachmentSets/Final Heater_merc_norm.texture 0  
 1 
@@ -7044,60 +7044,6 @@
 19 MTW2_Bowman_Primary 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-14 new_longbowmen 
-1 1 
-44 unit_models/_Units/CSUR/longbowmen_lod0.mesh 6400 
-7 
-6 france 
-62 unit_models/_Units/CSUR/textures/serjeants_france_diff.texture 
-57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
-51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
-7 england 
-63 unit_models/_Units/CSUR/textures/serjeants_england_diff.texture 
-57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
-51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
-8 scotland 
-64 unit_models/_Units/CSUR/textures/serjeants_scotland_diff.texture 
-57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
-51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
-5 spain 
-57 unit_models/_Units/CSUR/textures/an_army_fig_diff.texture 
-57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
-51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
-3 hre 
-57 unit_models/_Units/CSUR/textures/an_army_fig_diff.texture 
-57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
-51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
-12 papal_states 
-57 unit_models/_Units/CSUR/textures/an_army_fig_diff.texture 
-57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
-51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
-5 slave 
-57 unit_models/_Units/CSUR/textures/an_army_fig_diff.texture 
-57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
-51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
-4 
-6 france 
-69 unit_models/AttachmentSets/Final European Archer_england_diff.texture 
-69 unit_models/AttachmentSets/Final European Archer_england_norm.texture 0  
-7 england 
-69 unit_models/AttachmentSets/Final European Archer_england_diff.texture 
-69 unit_models/AttachmentSets/Final European Archer_england_norm.texture 0  
-8 scotland 
-69 unit_models/AttachmentSets/Final European Archer_england_diff.texture 
-69 unit_models/AttachmentSets/Final European Archer_england_norm.texture 0  
-5 slave 
-69 unit_models/AttachmentSets/Final European Archer_england_diff.texture 
-69 unit_models/AttachmentSets/Final European Archer_england_norm.texture 0  
-1 
-4 None 
-16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
-19 MTW2_Bowman_Primary 
-14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
-14 fs_test_shield 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 longbowmen_ug1 
 1 4 
 61 unit_models/_Units/EN_Peasant_Padded/longbowmen_ug1_lod0.mesh 121 
@@ -9154,12 +9100,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-11 MTW2_Bowman 
-16 MTW2_2HSwordsman 
-1 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
-1 
-24 MTW2_2HSwordsman_Primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 english_guard 
 1 1 
@@ -10239,9 +10185,11 @@
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
 1 
 4 None 
-12 MTW2_Handgun 
-15 MTW2_Non_Shield 1 
-20 MTW2_Handgun_Primary 1 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 pyrovolites_ug1 
@@ -10265,9 +10213,11 @@
 69 unit_models/AttachmentSets/Final European CB Gun_antioch_norm.texture 0  
 1 
 4 None 
-12 MTW2_Handgun 
-15 MTW2_Non_Shield 1 
-20 MTW2_Handgun_Primary 1 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 23 portuguese_arquebusiers 
@@ -11174,51 +11124,6 @@
 9 byzantium 
 70 unit_models/AttachmentSets/Final European Light_byzantium_diff.texture 
 70 unit_models/AttachmentSets/Final European Light_byzantium_norm.texture 0  
-5 slave 
-66 unit_models/AttachmentSets/Final European Light_slave_diff.texture 
-66 unit_models/AttachmentSets/Final European Light_slave_norm.texture 0  
-1 
-4 None 
-17 MTW2_Fast_Javelin 
-19 MTW2_Fast_Swordsman 2 
-20 MTW2_Javelin_primary 
-14 fs_test_shield 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-14 javelinmen_ug2 
-1 4 
-58 unit_models/_Units/EN_Lmail_Hmail/javelinmen_ug2_lod0.mesh 121 
-58 unit_models/_Units/EN_Lmail_Hmail/javelinmen_ug2_lod1.mesh 900 
-58 unit_models/_Units/EN_Lmail_Hmail/javelinmen_ug2_lod2.mesh 2500 
-58 unit_models/_Units/EN_Lmail_Hmail/javelinmen_ug2_lod3.mesh 6400 
-4 
-5 spain 
-71 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_spain.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-44 unit_sprites/spain_Javelinmen_ug2_sprite.spr 
-9 byzantium 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_venice.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-44 unit_sprites/spain_Javelinmen_ug2_sprite.spr 
-8 scotland 
-74 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_scotland.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-48 unit_sprites/portugal_Almughavars_ug2_sprite.spr 
-5 slave 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_rebels.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-44 unit_sprites/slave_Javelinmen_ug2_sprite.spr 
-4 
-5 spain 
-66 unit_models/AttachmentSets/Final European Light_spain_diff.texture 
-66 unit_models/AttachmentSets/Final European Light_spain_norm.texture 0  
-9 byzantium 
-70 unit_models/AttachmentSets/Final European Light_byzantium_diff.texture 
-70 unit_models/AttachmentSets/Final European Light_byzantium_norm.texture 0  
-8 scotland 
-70 unit_models/AttachmentSets/Final European Light_scotland_diff.texture 
-70 unit_models/AttachmentSets/Final European Light_scotland_norm.texture 0  
 5 slave 
 66 unit_models/AttachmentSets/Final European Light_slave_diff.texture 
 66 unit_models/AttachmentSets/Final European Light_slave_norm.texture 0  
@@ -13004,432 +12909,6 @@
 7 normans 
 68 unit_models/AttachmentSets/Final European Light_normans_diff.texture 
 68 unit_models/AttachmentSets/Final European Light_normans_norm.texture 0  
-1 
-4 None 
-10 MTW2_Spear 0  
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 0 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-13 spear_militia 
-1 
-4 
-71 unit_models/Zunits/EN_Peasant_Padded/_en_peasant_Spearmen_ug0_lod0.mesh 180
-71 unit_models/Zunits/EN_Peasant_Padded/_en_peasant_Spearmen_ug0_lod1.mesh 1600
-71 unit_models/Zunits/EN_Peasant_Padded/_en_peasant_Spearmen_ug0_lod2.mesh 3000
-71 unit_models/Zunits/EN_Peasant_Padded/_en_peasant_Spearmen_ug0_lod3.mesh 7000
-17
-6 aragon
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-70 unit_sprites/EN_Peasant_Padded_Sprites/aragon_spear_militia_sprite.spr
-7 denmark
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-71 unit_sprites/EN_Peasant_Padded_Sprites/denmark_spear_militia_sprite.spr
-7 england
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-71 unit_sprites/EN_Peasant_Padded_Sprites/england_spear_militia_sprite.spr
-6 france
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-71 unit_sprites/EN_Peasant_Padded_Sprites/france_spear_militia_sprite.spr
-3 hre
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-67 unit_sprites/EN_Peasant_Padded_Sprites/hre_spear_militia_sprite.spr
-9 jerusalem
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-73 unit_sprites/EN_Peasant_Padded_Sprites/jerusalem_spear_militia_sprite.spr
-4 merc
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-68 unit_sprites/EN_Peasant_Padded_Sprites/merc_spear_militia_sprite.spr
-5 milan
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-69 unit_sprites/EN_Peasant_Padded_Sprites/milan_spear_militia_sprite.spr
-9 byzantium
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-70 unit_sprites/EN_Peasant_Padded_Sprites/norway_spear_militia_sprite.spr
-12 papal_states
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-76 unit_sprites/EN_Peasant_Padded_Sprites/papal_states_spear_militia_sprite.spr
-8 portugal
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-72 unit_sprites/EN_Peasant_Padded_Sprites/portugal_spear_militia_sprite.spr
-8 scotland
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-72 unit_sprites/EN_Peasant_Padded_Sprites/scotland_spear_militia_sprite.spr
-6 sicily
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-70 unit_sprites/EN_Peasant_Padded_Sprites/sicily_spear_militia_sprite.spr
-5 slave
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-69 unit_sprites/EN_Peasant_Padded_Sprites/slave_spear_militia_sprite.spr
-5 spain
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-69 unit_sprites/EN_Peasant_Padded_Sprites/spain_spear_militia_sprite.spr
-14 teutonic_order
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-78 unit_sprites/EN_Peasant_Padded_Sprites/teutonic_order_spear_militia_sprite.spr
-6 venice
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PeasTun_NM.texture
-70 unit_sprites/EN_Peasant_Padded_Sprites/venice_spear_militia_sprite.spr
-17
-6 aragon
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Aragon_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-7 denmark
-62 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Denmark_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-7 england
-62 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_England_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-6 france
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_France_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-3 hre
-58 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_HRE_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-9 jerusalem
-58 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_KoJ_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-4 merc
-59 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Merc_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-5 milan
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Genoa_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-9 byzantium
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Norway_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-12 papal_states
-57 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_PS_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-8 portugal
-63 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Portugal_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-8 scotland
-63 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Scotland_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-6 sicily
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Norway_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-5 slave
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Rebels_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-5 spain
-63 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Cst-&-Ln_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-14 teutonic_order
-57 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_TO_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-6 venice
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Venice_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-1 
-4 None 
-10 MTW2_Spear 0  
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 0 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-17 spear_militia_ug1
-1
-4
-71 unit_models/Zunits/EN_Peasant_Padded/_en_peasant_Spearmen_ug1_lod0.mesh 130
-71 unit_models/Zunits/EN_Peasant_Padded/_en_peasant_Spearmen_ug1_lod1.mesh 1600
-71 unit_models/Zunits/EN_Peasant_Padded/_en_peasant_Spearmen_ug1_lod2.mesh 3000
-71 unit_models/Zunits/EN_Peasant_Padded/_en_peasant_Spearmen_ug1_lod3.mesh 7000
-17
-6 aragon
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-74 unit_sprites/EN_Peasant_Padded_Sprites/aragon_spear_militia_ug1_sprite.spr
-7 denmark
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-75 unit_sprites/EN_Peasant_Padded_Sprites/denmark_spear_militia_ug1_sprite.spr
-7 england
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-75 unit_sprites/EN_Peasant_Padded_Sprites/england_spear_militia_ug1_sprite.spr
-6 france
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-74 unit_sprites/EN_Peasant_Padded_Sprites/france_spear_militia_ug1_sprite.spr
-3 hre
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-71 unit_sprites/EN_Peasant_Padded_Sprites/hre_spear_militia_ug1_sprite.spr
-9 jerusalem
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-77 unit_sprites/EN_Peasant_Padded_Sprites/jerusalem_spear_militia_ug1_sprite.spr
-4 merc
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-72 unit_sprites/EN_Peasant_Padded_Sprites/merc_spear_militia_ug1_sprite.spr
-5 milan
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-73 unit_sprites/EN_Peasant_Padded_Sprites/milan_spear_militia_ug1_sprite.spr
-9 byzantium
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-74 unit_sprites/EN_Peasant_Padded_Sprites/norway_spear_militia_ug1_sprite.spr
-12 papal_states
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-80 unit_sprites/EN_Peasant_Padded_Sprites/papal_states_spear_militia_ug1_sprite.spr
-8 portugal
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-76 unit_sprites/EN_Peasant_Padded_Sprites/portugal_spear_militia_ug1_sprite.spr
-8 scotland
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-76 unit_sprites/EN_Peasant_Padded_Sprites/scotland_spear_militia_ug1_sprite.spr
-6 sicily
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-74 unit_sprites/EN_Peasant_Padded_Sprites/sicily_spear_militia_ug1_sprite.spr
-5 slave
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-73 unit_sprites/EN_Peasant_Padded_Sprites/slave_spear_militia_ug1_sprite.spr
-5 spain
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-73 unit_sprites/EN_Peasant_Padded_Sprites/spain_spear_militia_ug1_sprite.spr
-14 teutonic_order
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-82 unit_sprites/EN_Peasant_Padded_Sprites/teutonic_order_spear_militia_ug1_sprite.spr
-6 venice
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_DF.texture
-58 unit_models/Zunits/EN_Peasant_Padded/EN_PsSpPad_NM.texture
-74 unit_sprites/EN_Peasant_Padded_Sprites/venice_spear_militia_ug1_sprite.spr
-17
-6 aragon
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Aragon_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-7 denmark
-62 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Denmark_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-7 england
-62 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_England_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-6 france
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_France_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-3 hre
-58 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_HRE_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-9 jerusalem
-58 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_KoJ_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-4 merc
-59 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Merc_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-5 milan
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Genoa_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-9 byzantium
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Norway_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-12 papal_states
-57 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_PS_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-8 portugal
-63 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Portugal_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-8 scotland
-63 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Scotland_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-6 sicily
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Norway_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-5 slave
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Rebels_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-5 spain
-63 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Cst-&-Ln_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-14 teutonic_order
-57 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_TO_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-6 venice
-61 unit_models/Zunits/EN_Peasant_Padded/EQ_RS1_Venice_DF.texture
-60 unit_models/Zunits/EN_Peasant_Padded/EQ_RS_All_en_NM.texture 0
-1 
-4 None 
-10 MTW2_Spear 0  
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 0 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-17 spear_militia_ug2 
-1 4 
-61 unit_models/_Units/EN_Lmail_Hmail/spear_militia_ug2_lod0.mesh 121 
-61 unit_models/_Units/EN_Lmail_Hmail/spear_militia_ug2_lod1.mesh 900 
-61 unit_models/_Units/EN_Lmail_Hmail/spear_militia_ug2_lod2.mesh 2500 
-61 unit_models/_Units/EN_Lmail_Hmail/spear_militia_ug2_lod3.mesh 6400 
-9 
-7 england 
-73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_england.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-53 unit_sprites/england_Dummy_EN_Spearmen_ug2_sprite.spr 
-8 scotland 
-74 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_scotland.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-54 unit_sprites/scotland_Dummy_EN_Spearmen_ug2_sprite.spr 
-6 france 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_france.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-52 unit_sprites/france_Dummy_EN_Spearmen_ug2_sprite.spr 
-3 hre 
-69 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_hre.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-49 unit_sprites/hre_Dummy_EN_Spearmen_ug2_sprite.spr 
-7 denmark 
-73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_denmark.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-53 unit_sprites/denmark_Dummy_EN_Spearmen_ug2_sprite.spr 
-5 spain 
-71 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_spain.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-51 unit_sprites/spain_Dummy_EN_Spearmen_ug2_sprite.spr 
-8 portugal 
-74 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_portugal.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-54 unit_sprites/portugal_Dummy_EN_Spearmen_ug2_sprite.spr 
-5 slave 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_rebels.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-51 unit_sprites/slave_Dummy_EN_Spearmen_ug2_sprite.spr 
-12 papal_states 
-73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_england.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-53 unit_sprites/normans_Dummy_EN_Spearmen_ug2_sprite.spr 
-9 
-7 england 
-58 unit_models/AttachmentSets/Final Kite_england_diff.texture 
-58 unit_models/AttachmentSets/Final Kite_england_norm.texture 0  
-8 scotland 
-59 unit_models/AttachmentSets/Final Kite_scotland_diff.texture 
-59 unit_models/AttachmentSets/Final Kite_scotland_norm.texture 0  
-6 france 
-57 unit_models/AttachmentSets/Final Kite_france_diff.texture 
-57 unit_models/AttachmentSets/Final Kite_france_norm.texture 0  
-3 hre 
-54 unit_models/AttachmentSets/Final Kite_hre_diff.texture 
-54 unit_models/AttachmentSets/Final Kite_hre_norm.texture 0  
-7 denmark 
-58 unit_models/AttachmentSets/Final Kite_denmark_diff.texture 
-58 unit_models/AttachmentSets/Final Kite_denmark_norm.texture 0  
-5 spain 
-56 unit_models/AttachmentSets/Final Kite_spain_diff.texture 
-56 unit_models/AttachmentSets/Final Kite_spain_norm.texture 0  
-8 portugal 
-59 unit_models/AttachmentSets/Final Kite_portugal_diff.texture 
-59 unit_models/AttachmentSets/Final Kite_portugal_norm.texture 0  
-12 papal_states 
-63 unit_models/AttachmentSets/Final Kite_papal_states_diff.texture 
-63 unit_models/AttachmentSets/Final Kite_papal_states_norm.texture 0  
-5 slave 
-56 unit_models/AttachmentSets/Final Kite_slave_diff.texture 
-56 unit_models/AttachmentSets/Final Kite_slave_norm.texture 0  
-1 
-4 None 
-10 MTW2_Spear 0  
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 0 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-17 spear_militia_ug3 
-1 4 
-61 unit_models/_Units/EN_Lmail_Hmail/spear_militia_ug3_lod0.mesh 121 
-61 unit_models/_Units/EN_Lmail_Hmail/spear_militia_ug3_lod1.mesh 900 
-61 unit_models/_Units/EN_Lmail_Hmail/spear_militia_ug3_lod2.mesh 2500 
-61 unit_models/_Units/EN_Lmail_Hmail/spear_militia_ug3_lod3.mesh 6400 
-9 
-7 england 
-73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_england.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-53 unit_sprites/england_Dummy_EN_Spearmen_ug3_sprite.spr 
-8 scotland 
-74 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_scotland.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-54 unit_sprites/scotland_Dummy_EN_Spearmen_ug3_sprite.spr 
-6 france 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_france.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-52 unit_sprites/france_Dummy_EN_Spearmen_ug3_sprite.spr 
-3 hre 
-69 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_hre.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-49 unit_sprites/hre_Dummy_EN_Spearmen_ug3_sprite.spr 
-4 merc 
-71 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_mercs.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-50 unit_sprites/merc_Dummy_EN_Spearmen_ug2_sprite.spr 
-5 spain 
-71 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_spain.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-51 unit_sprites/spain_Dummy_EN_Spearmen_ug3_sprite.spr 
-8 portugal 
-74 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_portugal.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-54 unit_sprites/portugal_Dummy_EN_Spearmen_ug3_sprite.spr 
-5 slave 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_rebels.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-51 unit_sprites/slave_Dummy_EN_Spearmen_ug3_sprite.spr 
-12 papal_states 
-73 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_england.texture 
-72 unit_models/_Units/EN_Lmail_Hmail/textures/EN_Lmail_Hmail_normal.texture 
-53 unit_sprites/normans_Dummy_EN_Spearmen_ug3_sprite.spr 
-9 
-7 england 
-58 unit_models/AttachmentSets/Final Kite_england_diff.texture 
-58 unit_models/AttachmentSets/Final Kite_england_norm.texture 0  
-8 scotland 
-59 unit_models/AttachmentSets/Final Kite_scotland_diff.texture 
-59 unit_models/AttachmentSets/Final Kite_scotland_norm.texture 0  
-6 france 
-57 unit_models/AttachmentSets/Final Kite_france_diff.texture 
-57 unit_models/AttachmentSets/Final Kite_france_norm.texture 0  
-3 hre 
-54 unit_models/AttachmentSets/Final Kite_hre_diff.texture 
-54 unit_models/AttachmentSets/Final Kite_hre_norm.texture 0  
-4 merc 
-57 unit_models/AttachmentSets/Final Kite_venice_diff.texture 
-57 unit_models/AttachmentSets/Final Kite_venice_norm.texture 0  
-5 spain 
-56 unit_models/AttachmentSets/Final Kite_spain_diff.texture 
-56 unit_models/AttachmentSets/Final Kite_spain_norm.texture 0  
-8 portugal 
-59 unit_models/AttachmentSets/Final Kite_portugal_diff.texture 
-59 unit_models/AttachmentSets/Final Kite_portugal_norm.texture 0  
-12 papal_states 
-63 unit_models/AttachmentSets/Final Kite_papal_states_diff.texture 
-63 unit_models/AttachmentSets/Final Kite_papal_states_norm.texture 0  
-5 slave 
-56 unit_models/AttachmentSets/Final Kite_slave_diff.texture 
-56 unit_models/AttachmentSets/Final Kite_slave_norm.texture 0  
 1 
 4 None 
 10 MTW2_Spear 0  
@@ -15342,7 +14821,7 @@
 5 slave 
 58 unit_models/AttachmentSets/Final Heater_slave_diff.texture 
 58 unit_models/AttachmentSets/Final Heater_slave_norm.texture 0  
-4 merc 
+6 poland 
 57 unit_models/AttachmentSets/Final Heater_merc_diff.texture 
 57 unit_models/AttachmentSets/Final Heater_merc_norm.texture 0  
 1 
@@ -25001,7 +24480,7 @@
 58 unit_models/_Units/americans/textures/militia_norm.texture 
 45 unit_sprites/aztecs_Arrow_Warriors_sprite.spr 
 6 incans 
-58 unit_models/_Units/americans/textures/militia_merc.texture 
+60 unit_models/_Units/americans/textures/militia_incans.texture 
 58 unit_models/_Units/americans/textures/militia_norm.texture 
 45 unit_sprites/aztecs_Arrow_Warriors_sprite.spr 
 6 france 
@@ -25126,7 +24605,7 @@
 65 unit_models/_Units/americans/textures/militia_gear_mayans.texture 
 63 unit_models/_Units/americans/textures/militia_gear_norm.texture 0 
 6 incans 
-63 unit_models/_Units/americans/textures/militia_gear_merc.texture 
+65 unit_models/_Units/americans/textures/militia_gear_incans.texture 
 63 unit_models/_Units/americans/textures/militia_gear_norm.texture 0 
 6 france 
 63 unit_models/_Units/americans/textures/militia_gear_merc.texture 
@@ -25479,7 +24958,7 @@
 58 unit_models/_Units/americans/textures/militia_norm.texture 
 45 unit_sprites/aztecs_Arrow_Warriors_sprite.spr 
 6 incans 
-58 unit_models/_Units/americans/textures/militia_merc.texture 
+60 unit_models/_Units/americans/textures/militia_incans.texture 
 58 unit_models/_Units/americans/textures/militia_norm.texture 
 45 unit_sprites/aztecs_Arrow_Warriors_sprite.spr 
 6 france 
@@ -25604,7 +25083,7 @@
 65 unit_models/_Units/americans/textures/militia_gear_mayans.texture 
 63 unit_models/_Units/americans/textures/militia_gear_norm.texture 0 
 6 incans 
-63 unit_models/_Units/americans/textures/militia_gear_merc.texture 
+65 unit_models/_Units/americans/textures/militia_gear_incans.texture 
 63 unit_models/_Units/americans/textures/militia_gear_norm.texture 0 
 6 france 
 63 unit_models/_Units/americans/textures/militia_gear_merc.texture 
@@ -27487,7 +26966,7 @@
 57 unit_models/_Units/AZ_Body_suit/jaguar_warriors_lod0.mesh 121 
 57 unit_models/_Units/AZ_Body_suit/jaguar_warriors_lod1.mesh 1225 
 57 unit_models/_Units/AZ_Body_suit/jaguar_warriors_lod2.mesh 6400 
-3 
+4 
 6 aztecs 
 61 unit_models/_Units/AZ_Body_suit/textures/jaguar_aztec.texture 
 80 unit_models/_Units/AZ_Body_suit/textures/mtw2_az_body_suit_jaguar_normal.texture 
@@ -27497,6 +26976,10 @@
 80 unit_models/_Units/AZ_Body_suit/textures/mtw2_az_body_suit_jaguar_normal.texture 
 46 unit_sprites/aztecs_Jaguar_Warriors_sprite.spr 
 5 slave 
+61 unit_models/_Units/AZ_Body_suit/textures/jaguar_aztec.texture 
+80 unit_models/_Units/AZ_Body_suit/textures/mtw2_az_body_suit_jaguar_normal.texture 
+45 unit_sprites/slave_Jaguar_Warriors_sprite.spr 
+4 merc 
 61 unit_models/_Units/AZ_Body_suit/textures/jaguar_aztec.texture 
 80 unit_models/_Units/AZ_Body_suit/textures/mtw2_az_body_suit_jaguar_normal.texture 
 45 unit_sprites/slave_Jaguar_Warriors_sprite.spr 
@@ -33975,19 +33458,19 @@
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_mayans.texture 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_normal.texture 
 45 unit_sprites/mayans_Mexican_Priest_sprite.spr 
-6 incans 
+5 slave 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_mayans.texture 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_normal.texture 
 45 unit_sprites/mayans_Mexican_Priest_sprite.spr 
-10 chichimeca 
+8 zimbabwe 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_mayans.texture 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_normal.texture 
 49 unit_sprites/chichimeca_Mexican_Priest_sprite.spr 
-10 tlaxcalans 
+6 sicily 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_mayans.texture 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_normal.texture 
 49 unit_sprites/tlaxcalans_Mexican_Priest_sprite.spr 
-9 tarascans 
+6 venice 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_mayans.texture 
 62 unit_models/_Units/AZ_Priest/textures/AZ_Priest_normal.texture 
 48 unit_sprites/tarascans_Mexican_Priest_sprite.spr 
@@ -34394,11 +33877,11 @@
 60 unit_models/AttachmentSets/Final ME Heavy_egypt_norm.texture 0
 1 
 4 None 
-20 MTW2_Non_Shield_Fast 1
+14 MTW2_Swordsman 0  
 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 0 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 chinese_gunner 
 1 4 
 61 unit_models/_Units/AS_Lamellar_Heavy/chinese_gunner_lod0.mesh 121 
@@ -34852,8 +34335,12 @@
 12 yari_cavalry 
 1 1 
 49 unit_models/samurai/models/yari_cavalry_lod0.mesh 6400 
-2 
+3 
 7 normans 
+48 unit_models/samurai/textures/samurai_ug0.texture 
+53 unit_models/samurai/textures/samurai_ug0_norm.texture 
+31 unit_sprites/tmp_inf_sprite.spr 
+4 merc 
 48 unit_models/samurai/textures/samurai_ug0.texture 
 53 unit_models/samurai/textures/samurai_ug0_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
@@ -34883,8 +34370,12 @@
 16 yari_cavalry_ug2 
 1 1 
 53 unit_models/samurai/models/yari_cavalry_ug2_lod0.mesh 6400 
-2 
+3 
 7 normans 
+43 unit_models/samurai/textures/wushi1.texture 
+44 unit_models/samurai/textures/wushi_n.texture 
+31 unit_sprites/tmp_inf_sprite.spr 
+4 merc 
 43 unit_models/samurai/textures/wushi1.texture 
 44 unit_models/samurai/textures/wushi_n.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
@@ -35044,8 +34535,12 @@
 12 yari_samurai 
 1 1 
 49 unit_models/samurai/models/yari_samurai_lod0.mesh 6400 
-2 
+3 
 7 normans 
+48 unit_models/samurai/textures/samurai_ug0.texture 
+53 unit_models/samurai/textures/samurai_ug0_norm.texture 
+31 unit_sprites/tmp_inf_sprite.spr 
+4 merc 
 48 unit_models/samurai/textures/samurai_ug0.texture 
 53 unit_models/samurai/textures/samurai_ug0_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
@@ -35073,8 +34568,12 @@
 16 yari_samurai_ug1 
 1 1 
 49 unit_models/_Units/samurai/yari_samurai_lod0.mesh 10000 
-2 
+3 
 7 normans 
+48 unit_models/samurai/textures/samurai_ug0.texture 
+53 unit_models/samurai/textures/samurai_ug0_norm.texture 
+31 unit_sprites/tmp_inf_sprite.spr 
+4 merc 
 48 unit_models/samurai/textures/samurai_ug0.texture 
 53 unit_models/samurai/textures/samurai_ug0_norm.texture 
 31 unit_sprites/tmp_inf_sprite.spr 
@@ -36762,46 +36261,6 @@
 20 MTW2_Non_Shield_Fast 1 
 21 MTW2_Crossbow_Primary 1 
 18 MTW2_Sword_Primary 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
-14 Incans_Cavalry 
-1 1
-65 unit_models/_Units/RN_Half_3Q_Plate/native_conquistador_lod0.mesh 6400 
-4
-6 incans
-71 unit_models/_Units/AZ_Light/textures/mtw2_AZ_Light_padded_incan.texture 
-72 unit_models/_Units/AZ_Light/textures/mtw2_AZ_Light_padded_normal.texture 
-47 unit_sprites/portugal_Conquistadores_sprite.spr 
-6 aztecs
-72 unit_models/_Units/AZ_Light/textures/mtw2_AZ_Light_padded_aztecs.texture 
-77 unit_models/_Units/AZ_Light/textures/mtw2_az_light_padded_aztecs_norm.texture
-47 unit_sprites/portugal_Conquistadores_sprite.spr 
-6 mayans
-72 unit_models/_Units/AZ_Light/textures/mtw2_AZ_Light_padded_mayans.texture 
-77 unit_models/_Units/AZ_Light/textures/mtw2_az_light_padded_mayans_norm.texture
-47 unit_sprites/portugal_Conquistadores_sprite.spr 
-5 slave
-72 unit_models/_Units/AZ_Light/textures/mtw2_AZ_Light_padded_sicily.texture 
-77 unit_models/_Units/AZ_Light/textures/mtw2_az_light_padded_sicily_norm.texture
-47 unit_sprites/portugal_Conquistadores_sprite.spr 
-4
-6 incans
-59 unit_models/AttachmentSets/Final Iberian_spain_diff.texture 
-59 unit_models/AttachmentSets/Final Iberian_spain_norm.texture 0   
-6 aztecs
-59 unit_models/AttachmentSets/Final Iberian_spain_diff.texture 
-59 unit_models/AttachmentSets/Final Iberian_spain_norm.texture 0   
-6 mayans
-59 unit_models/AttachmentSets/Final Iberian_spain_diff.texture 
-59 unit_models/AttachmentSets/Final Iberian_spain_norm.texture 0   
-5 slave
-59 unit_models/AttachmentSets/Final Iberian_spain_diff.texture 
-59 unit_models/AttachmentSets/Final Iberian_spain_norm.texture 0   
-1 
-5 Horse 
-13 MTW2_HR_Sword 2  
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Incans_Sowrdsmen
 1 1
@@ -37744,12 +37203,20 @@
 53 unit_models/_Units/ME_Nubian_Padded/archers_lod0.mesh 900 
 53 unit_models/_Units/ME_Nubian_Padded/archers_lod0.mesh 2500 
 53 unit_models/_Units/ME_Nubian_Padded/archers_lod0.mesh 6400 
-3 
+5 
+8 zimbabwe
+59 unit_models/_Units/ethiopia/textures/padded_songhai.texture 
+56 unit_models/_Units/ethiopia/textures/padded_norm.texture 
+49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
 8 scotland
 59 unit_models/_Units/ethiopia/textures/padded_songhai.texture 
 56 unit_models/_Units/ethiopia/textures/padded_norm.texture 
 49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
 4 mali
+56 unit_models/_Units/ethiopia/textures/padded_mali.texture 
+56 unit_models/_Units/ethiopia/textures/padded_norm.texture 
+49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
+5 egypt
 56 unit_models/_Units/ethiopia/textures/padded_mali.texture 
 56 unit_models/_Units/ethiopia/textures/padded_norm.texture 
 49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
@@ -37790,12 +37257,20 @@
 55 unit_models/_Units/ME_Nubian_Padded/ton_tigui_lod0.mesh 900 
 55 unit_models/_Units/ME_Nubian_Padded/ton_tigui_lod0.mesh 2500 
 55 unit_models/_Units/ME_Nubian_Padded/ton_tigui_lod0.mesh 6400 
-3 
+5 
+8 zimbabwe
+59 unit_models/_Units/ethiopia/textures/padded_songhai.texture 
+56 unit_models/_Units/ethiopia/textures/padded_norm.texture 
+49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
 8 scotland
 59 unit_models/_Units/ethiopia/textures/padded_songhai.texture 
 56 unit_models/_Units/ethiopia/textures/padded_norm.texture 
 49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
 4 mali
+56 unit_models/_Units/ethiopia/textures/padded_mali.texture 
+56 unit_models/_Units/ethiopia/textures/padded_norm.texture 
+49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
+5 egypt
 56 unit_models/_Units/ethiopia/textures/padded_mali.texture 
 56 unit_models/_Units/ethiopia/textures/padded_norm.texture 
 49 unit_sprites/moors_Sudanese_Javelinmen_sprite.spr 
@@ -48563,12 +48038,12 @@
 51 unit_models/samurai/attachments/bushi_bow_n.texture 0 
 1 
 4 None 
-16 MTW2_Fast_Bowman
-20 MTW2_Non_Shield_Fast 
+11 MTW2_Bowman 
+16 MTW2_2HSwordsman 
 1 
 19 MTW2_Bowman_Primary 
 1 
-18 MTW2_Sword_Primary 
+24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 Yumi_Ashigaru_ug1 
 1 1 
@@ -48594,11 +48069,12 @@
 51 unit_models/samurai/attachments/bushi_bow_n.texture 0 
 1 
 4 None 
-16 MTW2_Fast_Bowman 20 MTW2_Non_Shield_Fast 
+11 MTW2_Bowman 
+16 MTW2_2HSwordsman 
 1 
 19 MTW2_Bowman_Primary 
 1 
-18 MTW2_Sword_Primary 
+24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 Yumi_Ashigaru_ug2 
 1 1 
@@ -48624,11 +48100,12 @@
 51 unit_models/samurai/attachments/bushi_bow_n.texture 0 
 1 
 4 None 
-16 MTW2_Fast_Bowman 20 MTW2_Non_Shield_Fast 
+11 MTW2_Bowman 
+16 MTW2_2HSwordsman 
 1 
 19 MTW2_Bowman_Primary 
 1 
-18 MTW2_Sword_Primary 
+24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 Yumi_Ashigaru_ug3 
 1 1 
@@ -48654,11 +48131,12 @@
 51 unit_models/samurai/attachments/bushi_bow_n.texture 0 
 1 
 4 None 
-16 MTW2_Fast_Bowman 20 MTW2_Non_Shield_Fast 
+11 MTW2_Bowman 
+16 MTW2_2HSwordsman 
 1 
 19 MTW2_Bowman_Primary 
 1 
-18 MTW2_Sword_Primary 
+24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Yumi_Samurai_ug2 
 1 1 
@@ -48684,11 +48162,12 @@
 51 unit_models/samurai/attachments/bushi_bow_n.texture 0 
 1 
 4 None 
-16 MTW2_Fast_Bowman 20 MTW2_Non_Shield_Fast 
+11 MTW2_Bowman 
+16 MTW2_2HSwordsman 
 1 
 19 MTW2_Bowman_Primary 
 1 
-18 MTW2_Sword_Primary 
+24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 5 Ronin 
 1 1 
@@ -53393,12 +52872,12 @@
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
 1 
 4 None 
-17 MTW2_Fast_Javelin 
-19 MTW2_Fast_Swordsman 2 
-20 MTW2_Javelin_primary 
-14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
-14 fs_test_shield 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 9 gasmouloi 
 1 4 
@@ -53424,12 +52903,12 @@
 68 unit_models/_Units/byzantines_roster/AttachmentSets/gun_norm.texture 0 
 1 
 4 None 
-17 MTW2_Fast_Javelin 
-19 MTW2_Fast_Swordsman 2 
-20 MTW2_Javelin_primary 
-14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
-14 fs_test_shield 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Gasmuli_ug1 
 1 4 
@@ -53455,12 +52934,12 @@
 68 unit_models/_Units/neu/textures/attachment_italian_wars_norm.texture 0 
 1 
 4 None 
-17 MTW2_Fast_Javelin 
-19 MTW2_Fast_Swordsman 2 
-20 MTW2_Javelin_primary 
-14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
-14 fs_test_shield 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Gasmuli_ug2
 1 4 
@@ -53486,12 +52965,12 @@
 68 unit_models/_Units/neu/textures/attachment_italian_wars_norm.texture 0 
 1 
 4 None 
-17 MTW2_Fast_Javelin 
-19 MTW2_Fast_Swordsman 2 
-20 MTW2_Javelin_primary 
-14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
-14 fs_test_shield 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 Mounted_Acritae 
 1 4 
@@ -54316,7 +53795,7 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Swordsman 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
@@ -54464,14 +53943,12 @@
 5 slave 
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
-1
+1 
 4 None 
-14 MTW2_Slow_Pike 
-14 MTW2_Swordsman 2 
-17 MTW2_Pike_primary 
-14 fs_test_shield 2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 menaulatoi_ug1
 1 4 
@@ -54495,14 +53972,12 @@
 5 slave 
 72 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_2.texture 
 77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_2_norm.texture 0 
-1
+1 
 4 None 
-14 MTW2_Slow_Pike 
-14 MTW2_Swordsman 2 
-17 MTW2_Pike_primary 
-14 fs_test_shield 2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 menaulatoi_ug2
 1 4 
@@ -54526,14 +54001,12 @@
 5 slave 
 72 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_2.texture 
 77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_2_norm.texture 0 
-1
+1 
 4 None 
-14 MTW2_Slow_Pike 
-14 MTW2_Swordsman 2 
-17 MTW2_Pike_primary 
-14 fs_test_shield 2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Kavallarioi 
 1 4 
@@ -54819,10 +54292,13 @@
 5 slave 
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_rome.texture 
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
-1 4 None 
-17 MTW2_Flamethrower 
-14 MTW2_Swordsman 1 
-21 MTW2_Arquebus_Primary 1 
+1 
+4 None 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 siphonatores_ug1 
@@ -54847,10 +54323,13 @@
 5 slave 
 81 unit_models/_Units/byzantines_roster/AttachmentSets/Final Greek_merc_diff.texture 
 81 unit_models/_Units/byzantines_roster/AttachmentSets/Final Greek_merc_norm.texture 0  
-1 4 None 
-17 MTW2_Flamethrower 
-14 MTW2_Swordsman 1 
-21 MTW2_Arquebus_Primary 1 
+1 
+4 None 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 23 spartharii_tou_vasileos 
@@ -55008,11 +54487,11 @@
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
 1 
 4 None 
-11 MTW2_Bowman 
-9 MTW2_Mace 2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 toxotae_ug1 
@@ -55039,13 +54518,13 @@
 77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_2_norm.texture 0 
 1 
 4 None 
-11 MTW2_Bowman 
-9 MTW2_Mace 2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 toxotae_ug2 
 1 4 
 54 unit_models/_Units/byzantines_roster/toxotae_lod0.mesh 121 
@@ -55070,13 +54549,13 @@
 77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_2_norm.texture 0 
 1 
 4 None 
-11 MTW2_Bowman 
-9 MTW2_Mace 2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 tzangratores 
 1 4 
 59 unit_models/_Units/byzantines_roster/tzangratores_lod0.mesh 121 
@@ -55101,12 +54580,10 @@
 69 unit_models/_Units/byzantines_roster/AttachmentSets/gear_norm.texture 0 
 1 
 4 None 
-11 MTW2_Bowman 
-9 MTW2_Mace 2 
-19 MTW2_Bowman_Primary 
-14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
-14 fs_test_shield 
+18 MTW2_Fast_Crossbow 
+20 MTW2_Non_Shield_Fast 1 
+21 MTW2_Crossbow_Primary 1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 tzangratores_ug1 
 1 4 
@@ -55132,13 +54609,11 @@
 77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3_norm.texture 0 
 1 
 4 None 
-11 MTW2_Bowman 
-9 MTW2_Mace 2 
-19 MTW2_Bowman_Primary 
-14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
-14 fs_test_shield 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
+18 MTW2_Fast_Crossbow 
+20 MTW2_Non_Shield_Fast 1 
+21 MTW2_Crossbow_Primary 1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 tzangratores_ug2 
 1 4 
 59 unit_models/_Units/byzantines_roster/tzangratores_lod0.mesh 121 
@@ -55163,13 +54638,11 @@
 77 unit_models/_Units/byzantines_roster/AttachmentSets/byz_attach_3_norm.texture 0 
 1 
 4 None 
-11 MTW2_Bowman 
-9 MTW2_Mace 2 
-19 MTW2_Bowman_Primary 
-14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
-14 fs_test_shield 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
+18 MTW2_Fast_Crossbow 
+20 MTW2_Non_Shield_Fast 1 
+21 MTW2_Crossbow_Primary 1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 varangian_guards 
 1 1 
 73 unit_models/_Units/byzantines_roster/ere_elite_varangian_axemen_lod0.mesh 6400 
@@ -56481,12 +55954,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Arquebus 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Arquebus_Primary 
-1 
-18 MTW2_Spear_primary 
+17 MTW2_Fast_Javelin 
+19 MTW2_Fast_Swordsman 2 
+20 MTW2_Javelin_primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 Petardiers_ug2 
 1 1 
@@ -56572,12 +56045,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Arquebus 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Arquebus_Primary 
-1 
+17 MTW2_Fast_Javelin 
+19 MTW2_Fast_Swordsman 2 
+20 MTW2_Javelin_primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Serjeant_Arquebusiers 
 1 1 
@@ -56663,7 +56136,7 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-11 MTW2_Musket 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
 19 MTW2_Musket_Primary 
@@ -56739,10 +56212,10 @@
 68 unit_models/_Units/neu/textures/attachment_italian_wars_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Arquebus 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -56830,10 +56303,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Arquebus 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -56921,12 +56394,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Arquebus 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
-18 MTW2_Spear_primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 Arcabuceros_ug1 
 1 1 
@@ -56997,10 +56470,10 @@
 68 unit_models/_Units/neu/textures/attachment_italian_wars_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Arquebus 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -57088,10 +56561,10 @@
 62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Arquebus 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -57179,11 +56652,100 @@
 62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Arquebus 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+18 New_Conquistadores 
+1 1 
+49 unit_models/_Units/CSUR/arcabuceros_ug3_lod0.mesh 6400 
+11 
+6 france 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_france.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 england 
+63 unit_models/_Units/CSUR/textures/gs_kpart_kpart_england.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 hungary 
+63 unit_models/_Units/CSUR/textures/gs_kpart_kpart_hungary.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 denmark 
+63 unit_models/_Units/CSUR/textures/gs_kpart_kpart_denmark.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+6 poland 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_poland.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 spain 
+61 unit_models/_Units/CSUR/textures/gs_kpart_kpart_spain.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+8 portugal 
+64 unit_models/_Units/CSUR/textures/gs_kpart_kpart_portugal.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+3 hre 
+59 unit_models/_Units/CSUR/textures/gs_kpart_kpart_hre.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+12 papal_states 
+60 unit_models/_Units/CSUR/textures/gs_kpart_kpart_pope.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 slave 
+60 unit_models/_Units/CSUR/textures/gs_kpart_kpart_merc.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+4 merc 
+60 unit_models/_Units/CSUR/textures/gs_kpart_kpart_merc.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+11 
+6 france 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+7 england 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+7 hungary 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+7 denmark 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+6 poland 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+5 spain 
+61 unit_models/_Units/CSUR/textures/sp_attachments_spain.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+8 portugal 
+64 unit_models/_Units/CSUR/textures/sp_attachments_portugal.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+3 hre 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+12 papal_states 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+5 slave 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+4 merc 
+60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 
+13 MTW2_CR_Sword 1 
+24 MTW2_HR_Arquebus_Primary 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Cuirassiers 
@@ -57269,13 +56831,11 @@
 60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-18 MTW2_Fast_Arquebus 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Arquebus_Primary 
-1 
-18 MTW2_Spear_primary 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Spear 1 
+22 MTW2_HR_Pistol_Primary 1 
+21 MTW2_HR_spear_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 Cuirassiers_ug1 
 1 1 
@@ -57348,13 +56908,11 @@
 60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-18 MTW2_Fast_Arquebus 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Arquebus_Primary 
-1 
-18 MTW2_Sword_Primary 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Spear 1 
+22 MTW2_HR_Pistol_Primary 1 
+21 MTW2_HR_spear_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 Cuirassiers_ug2 
 1 1 
@@ -57439,13 +56997,11 @@
 60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-18 MTW2_Fast_Arquebus 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Arquebus_Primary 
-1 
-18 MTW2_Sword_Primary 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Spear 1 
+22 MTW2_HR_Pistol_Primary 1 
+21 MTW2_HR_spear_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 Cuirassiers_ug3 
 1 1 
@@ -57530,13 +57086,11 @@
 60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-18 MTW2_Fast_Arquebus 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Arquebus_Primary 
-1 
-18 MTW2_Sword_Primary 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Spear 1 
+22 MTW2_HR_Pistol_Primary 1 
+21 MTW2_HR_spear_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 Hakovnice_ug2 
 1 1 
@@ -58137,12 +57691,10 @@
 60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-18 MTW2_Fast_Arquebus 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Arquebus_Primary 
-1 
+5 Horse 
+16 MTW2_CR_Arquebus 
+13 MTW2_CR_Sword 1 
+24 MTW2_HR_Arquebus_Primary 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Reiters_ug3 
@@ -62393,9 +61945,10 @@
 62 unit_models/rus/attachments/rus_equipment_boyar_normal.texture 0 
 1 
 4 None 
-11 MTW2_2H_Axe 0 
-1 
-19 MTW2_2H_Axe_primary 0 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 boyar_cavalry 
 1 3 
@@ -62466,12 +62019,12 @@
 62 unit_models/rus/attachments/rus_equipment_boyar_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Crossbow_Primary 
-1 
-16 MTW2_axe_Primary 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 21 boyar_cavalry_archers 
 1 3 
@@ -63215,10 +62768,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-10 MTW2_Spear 0  
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 New_Levy_Swordsmen 
 1 1 
@@ -63687,10 +63242,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-10 MTW2_Spear 0  
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 0 
+17 MTW2_Fast_Javelin 
+19 MTW2_Fast_Swordsman 2 
+20 MTW2_Javelin_primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Levy_Javelinmen_Horse 
 1 1 
@@ -64253,11 +63810,9 @@
 1 
 5 Horse 
 13 MTW2_HR_Spear 
-13 MTW2_HR_Sword 
-2 
+13 MTW2_HR_Sword 2 
 21 MTW2_HR_spear_Primary 
-14 fs_test_shield 
-2 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -64350,11 +63905,9 @@
 1 
 5 Horse 
 13 MTW2_HR_Spear 
-13 MTW2_HR_Sword 
-2 
+13 MTW2_HR_Sword 2 
 21 MTW2_HR_spear_Primary 
-14 fs_test_shield 
-2 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -64454,10 +64007,9 @@
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
 4 None 
-10 MTW2_Spear 0  
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 0 
+13 MTW2_Knifeman 0  
+1 
+18 MTW2_Knife_Primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 West_Euro_Arty_Crew 
 1 1 
@@ -65108,10 +64660,8 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-18 MTW2_Fast_Knifeman 
-1 
-19 MTW2_Bowman_Primary 
-1 
+18 MTW2_Fast_Knifeman 1 
+19 MTW2_Bowman_Primary 1 
 18 MTW2_Knife_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 10 Shire_Levy 
@@ -65199,10 +64749,8 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-18 MTW2_Fast_Knifeman 
-1 
-19 MTW2_Bowman_Primary 
-1 
+18 MTW2_Fast_Knifeman 1 
+19 MTW2_Bowman_Primary 1 
 18 MTW2_Knife_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Magyar_Levy 
@@ -65290,10 +64838,8 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-18 MTW2_Fast_Knifeman 
-1 
-19 MTW2_Bowman_Primary 
-1 
+18 MTW2_Fast_Knifeman 1 
+19 MTW2_Bowman_Primary 1 
 18 MTW2_Knife_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 New_Levy_Archers_ug1 
@@ -65789,9 +65335,9 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 crusaders_ug1 
@@ -65841,10 +65387,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 9 lazarists 
 1 1 
@@ -65866,11 +65411,13 @@
 63 unit_models/_Units/CSUR/textures/cs_attachments_lazarus.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
-2 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 6 Cliens 
 1 1 
@@ -66148,10 +65695,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 9 Earls_ug2 
 1 1 
@@ -66244,10 +65790,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 new_chevaliers 
 1 1 
@@ -66339,11 +65884,13 @@
 61 unit_models/_Units/CSUR/textures/cs_attachments_moors.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
-2 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 New_Chevaliers_ug2 
 1 1 
@@ -66435,11 +65982,13 @@
 61 unit_models/_Units/CSUR/textures/cs_attachments_moors.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
-2 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 New_Xbow_Militia 
 1 1 
@@ -66614,9 +66163,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Guisarmiers 
@@ -66703,10 +66252,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 21 New_Serjeant_Spearmen 
 1 1 
@@ -66792,9 +66343,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Serjeant_Spearmen_ug1 
@@ -66863,9 +66414,9 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Serjeant_Spearmen_ug2 
@@ -66952,9 +66503,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Serjeant_Spearmen_ug3 
@@ -67041,9 +66592,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 Lancieri 
@@ -67130,9 +66681,9 @@
 62 unit_models/_Units/CSUR/textures/it_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Lancieri_ug1 
@@ -67191,9 +66742,9 @@
 64 unit_models/_Units/CSUR/textures/italian_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Lancieri_ug2 
@@ -67280,9 +66831,9 @@
 62 unit_models/_Units/CSUR/textures/it_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Lancieri_ug3 
@@ -67369,9 +66920,9 @@
 62 unit_models/_Units/CSUR/textures/it_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Fussknechte 
@@ -68128,9 +67679,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Clipeati_ug1 
@@ -68195,9 +67746,9 @@
 63 unit_models/_Units/CSUR/textures/pavise_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Clipeati_ug2 
@@ -68284,9 +67835,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Clipeati_ug3 
@@ -68359,9 +67910,9 @@
 63 unit_models/_Units/CSUR/textures/pavise_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 6 Armati 
@@ -68448,10 +67999,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 10 Armati_ug1 
 1 1 
@@ -68509,10 +68062,12 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 10 Armati_ug2 
 1 1 
@@ -68598,10 +68153,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 10 Armati_ug3 
 1 1 
@@ -68673,10 +68230,12 @@
 63 unit_models/_Units/CSUR/textures/pavise_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 New_Swiss_Guard_ug3 
 1 1 
@@ -69024,10 +68583,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Serjeant_Voulgier_ug1 
 1 1 
@@ -69091,10 +68652,12 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Serjeant_Voulgier_ug2 
 1 1 
@@ -69180,10 +68743,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Serjeant_Voulgier_ug3 
 1 1 
@@ -69269,10 +68834,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 New_Serjeant_Cavalry 
 1 1 
@@ -69359,11 +68926,9 @@
 1 
 5 Horse 
 13 MTW2_HR_Spear 
-13 MTW2_HR_Sword 
-2 
+13 MTW2_HR_Sword 2 
 21 MTW2_HR_spear_Primary 
-14 fs_test_shield 
-2 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -69434,11 +68999,9 @@
 1 
 5 Horse 
 13 MTW2_HR_Spear 
-13 MTW2_HR_Sword 
-2 
+13 MTW2_HR_Sword 2 
 21 MTW2_HR_spear_Primary 
-14 fs_test_shield 
-2 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -69527,11 +69090,9 @@
 1 
 5 Horse 
 13 MTW2_HR_Spear 
-13 MTW2_HR_Sword 
-2 
+13 MTW2_HR_Sword 2 
 21 MTW2_HR_spear_Primary 
-14 fs_test_shield 
-2 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -69620,11 +69181,9 @@
 1 
 5 Horse 
 13 MTW2_HR_Spear 
-13 MTW2_HR_Sword 
-2 
+13 MTW2_HR_Sword 2 
 21 MTW2_HR_spear_Primary 
-14 fs_test_shield 
-2 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -69691,11 +69250,9 @@
 1 
 5 Horse 
 13 MTW2_HR_Spear 
-13 MTW2_HR_Sword 
-2 
+13 MTW2_HR_Sword 2 
 21 MTW2_HR_spear_Primary 
-14 fs_test_shield 
-2 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -69762,11 +69319,9 @@
 1 
 5 Horse 
 13 MTW2_HR_Spear 
-13 MTW2_HR_Sword 
-2 
+13 MTW2_HR_Sword 2 
 21 MTW2_HR_spear_Primary 
-14 fs_test_shield 
-2 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -71254,10 +70809,12 @@
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 New_Galloglaich 
 1 1 
@@ -71280,10 +70837,9 @@
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 New_Highland_Pikemen 
 1 1 
@@ -71306,10 +70862,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 New_Border_Horse 
 1 1 
@@ -71765,10 +71321,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 28 New_Serjeant_Halberdiers_ug1 
 1 1 
@@ -71836,10 +71394,12 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 28 New_Serjeant_Halberdiers_ug2 
 1 1 
@@ -71925,10 +71485,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 28 New_Serjeant_Halberdiers_ug3 
 1 1 
@@ -72014,10 +71576,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 9 Piquieros 
 1 1 
@@ -72103,10 +71667,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 Piquieros_ug1 
 1 1 
@@ -72171,10 +71735,10 @@
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 Piquieros_ug2 
 1 1 
@@ -72260,10 +71824,10 @@
 62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 Piquieros_ug3 
 1 1 
@@ -72349,10 +71913,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Exploradores 
 1 1 
@@ -72437,11 +72001,15 @@
 60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+15 MTW2_HR_Javelin 
+13 MTW2_HR_Sword 
+2 
+23 MTW2_HR_Javelin_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Exploradores_ug2 
 1 1 
@@ -72526,11 +72094,15 @@
 60 unit_models/_Units/CSUR/textures/sp_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/sp_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+15 MTW2_HR_Javelin 
+13 MTW2_HR_Sword 
+2 
+23 MTW2_HR_Javelin_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Espadachines 
 1 1 
@@ -72951,10 +72523,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Landsknechte_ug2 
 1 1 
@@ -73040,10 +72612,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Landsknechte_ug3 
 1 1 
@@ -73129,10 +72701,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 New_Serjeant_Billmen 
 1 1 
@@ -73218,10 +72790,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 New_Serjeant_Billmen_ug1 
 1 1 
@@ -73285,10 +72859,12 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 New_Serjeant_Billmen_ug3 
 1 1 
@@ -73374,10 +72950,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 New_Serjeant_Axemen 
 1 1 
@@ -73676,10 +73254,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 Lithuanian_Axemen 
 1 1 
@@ -73702,10 +73279,9 @@
 72 unit_models/_Units/CSUR/textures/cs_attachments_lithuania_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 Bajorija 
 1 1 
@@ -73728,7 +73304,7 @@
 72 unit_models/_Units/CSUR/textures/cs_attachments_lithuania_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+14 MTW2_Swordsman 0  
 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 0 
@@ -73754,10 +73330,12 @@
 72 unit_models/_Units/CSUR/textures/cs_attachments_lithuania_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 Lithuanian_Cavalry 
 1 1 
@@ -73779,11 +73357,11 @@
 65 unit_models/_Units/CSUR/textures/cs_attachments_lithuania.texture 
 72 unit_models/_Units/CSUR/textures/cs_attachments_lithuania_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
-2 
+5 Horse 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 New_Verlorene_Haufen 
 1 1 
@@ -73869,10 +73447,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 Doppelsoldner_ug1 
 1 1 
@@ -73944,10 +73521,9 @@
 68 unit_models/_Units/CSUR/textures/zweihander2_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 New_Verlorene_Haufen_ug2 
 1 1 
@@ -74033,10 +73609,9 @@
 62 unit_models/_Units/CSUR/textures/zw_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 New_Verlorene_Haufen_ug3 
 1 1 
@@ -74211,10 +73786,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 21 Foot_Reichsritter_ug1 
 1 1 
@@ -74286,10 +73860,9 @@
 68 unit_models/_Units/CSUR/textures/zweihander2_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 21 Foot_Reichsritter_ug2 
 1 1 
@@ -74375,10 +73948,9 @@
 62 unit_models/_Units/CSUR/textures/zw_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 21 New_Chivalric_Knights 
 1 1 
@@ -74463,11 +74035,15 @@
 60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Chivalric_Knights_ug1 
 1 1 
@@ -74538,11 +74114,15 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_merc.texture 
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 New_Chivalric_Knights_ug2 
 1 1 
@@ -74634,11 +74214,15 @@
 61 unit_models/_Units/CSUR/textures/cs_attachments_moors.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Encubertados 
 1 1 
@@ -74730,11 +74314,11 @@
 61 unit_models/_Units/CSUR/textures/cs_attachments_moors.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Spear 1 
+22 MTW2_HR_Pistol_Primary 1 
+21 MTW2_HR_spear_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Encubertados_ug3 
 1 1 
@@ -74806,12 +74390,10 @@
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
 5 Horse 
-13 MTW2_HR_Lance 
-13 MTW2_HR_Sword 2 
-21 MTW2_HR_Lance_Primary 
-14 fs_test_shield 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Spear 1 
+22 MTW2_HR_Pistol_Primary 1 
+21 MTW2_HR_spear_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 New_Foot_Knights 
 1 1 
@@ -74897,7 +74479,7 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+14 MTW2_Swordsman 0  
 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 0 
@@ -75232,9 +74814,9 @@
 62 unit_models/_Units/CSUR/textures/it_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Signori_ug1 
@@ -75301,9 +74883,9 @@
 64 unit_models/_Units/CSUR/textures/italian_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Signori_ug2 
@@ -75397,9 +74979,9 @@
 62 unit_models/_Units/CSUR/textures/it_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Signori_ug3 
@@ -75466,9 +75048,9 @@
 64 unit_models/_Units/CSUR/textures/italian_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
+10 MTW2_Spear 0  
 2 
-18 MTW2_Sword_Primary 
+18 MTW2_Spear_primary 
 14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 New_Condottieri 
@@ -76325,10 +75907,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 New_Axe_Knights_ug1 
 1 1 
@@ -76400,10 +75981,9 @@
 67 unit_models/_Units/CSUR/textures/zweihander_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 New_Axe_Knights_ug2 
 1 1 
@@ -76496,10 +76076,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 New_Axe_Knights_ug3 
 1 1 
@@ -76571,10 +76150,9 @@
 67 unit_models/_Units/CSUR/textures/zweihander_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Montanteiros 
 1 1 
@@ -76660,10 +76238,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 montanteiros_ug1 
 1 1 
@@ -76735,10 +76312,9 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Montanteiros_ug2 
 1 1 
@@ -76824,10 +76400,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Montanteiros_ug3 
 1 1 
@@ -76913,10 +76488,9 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+22 MTW2_Halberd_Secondary 0  
+1 
+17 MTW2_Pike_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Aventureiros 
 1 1 
@@ -76988,10 +76562,10 @@
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Aventureiros_ug1 
 1 1 
@@ -77063,10 +76637,10 @@
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Aventureiros_ug2 
 1 1 
@@ -77168,10 +76742,10 @@
 64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0 
-2 
+9 MTW2_Pike 
+15 MTW2_Non_Shield 1 
+17 MTW2_Pike_primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Reichsritter 
 1 1 
@@ -77256,11 +76830,15 @@
 60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Reichsritter_ug1 
 1 1 
@@ -77331,11 +76909,15 @@
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_merc.texture 
 65 unit_models/_Units/CSUR/textures/serjeant_attachment_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 Reichsritter_ug2 
 1 1 
@@ -77420,11 +77002,15 @@
 60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 Bandiera 
 1 1 
@@ -77481,11 +77067,15 @@
 63 unit_models/_Units/CSUR/textures/pavise_attachment_merc.texture 
 63 unit_models/_Units/CSUR/textures/pavise_attachment_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Bandiera_ug1 
 1 1 
@@ -77550,11 +77140,15 @@
 63 unit_models/_Units/CSUR/textures/pavise_attachment_merc.texture 
 63 unit_models/_Units/CSUR/textures/pavise_attachment_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Bandiera_ug2 
 1 1 
@@ -77642,11 +77236,15 @@
 61 unit_models/_Units/CSUR/textures/cs_attachments_moors.texture 
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0 
+5 Horse 
+13 MTW2_HR_Lance 
+13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 
+14 fs_test_shield 
 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 Francs_Archers 
 1 1 
@@ -77733,10 +77331,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 Francs_Archers_ug1 
@@ -77990,6 +77588,340 @@
 17 MTW2_Mace_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+22 New_Mounted_Longbowmen 
+1 1 
+48 unit_models/_Units/CSUR/francs_archers_lod0.mesh 6400 
+11 
+6 france 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_france.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 england 
+63 unit_models/_Units/CSUR/textures/gs_kmail_kmail_england.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 hungary 
+63 unit_models/_Units/CSUR/textures/gs_kmail_kmail_hungary.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 denmark 
+63 unit_models/_Units/CSUR/textures/gs_kmail_kmail_denmark.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+6 poland 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_poland.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 spain 
+61 unit_models/_Units/CSUR/textures/gs_kmail_kmail_spain.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+8 portugal 
+64 unit_models/_Units/CSUR/textures/gs_kmail_kmail_portugal.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+3 hre 
+59 unit_models/_Units/CSUR/textures/gs_kmail_kmail_hre.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+12 papal_states 
+60 unit_models/_Units/CSUR/textures/gs_kmail_kmail_pope.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 slave 
+60 unit_models/_Units/CSUR/textures/gs_kmail_kmail_merc.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+4 merc 
+60 unit_models/_Units/CSUR/textures/gs_kmail_kmail_merc.texture 
+62 unit_models/_Units/CSUR/textures/gs_kmail_kmail_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+11 
+6 france 
+62 unit_models/_Units/CSUR/textures/cs_attachments_france.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 england 
+63 unit_models/_Units/CSUR/textures/cs_attachments_england.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 hungary 
+63 unit_models/_Units/CSUR/textures/cs_attachments_hungary.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 denmark 
+63 unit_models/_Units/CSUR/textures/cs_attachments_denmark.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+6 poland 
+62 unit_models/_Units/CSUR/textures/cs_attachments_poland.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+5 spain 
+61 unit_models/_Units/CSUR/textures/cs_attachments_spain.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+8 portugal 
+64 unit_models/_Units/CSUR/textures/cs_attachments_portugal.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+3 hre 
+59 unit_models/_Units/CSUR/textures/cs_attachments_hre.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+12 papal_states 
+60 unit_models/_Units/CSUR/textures/cs_attachments_pope.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+5 slave 
+60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+4 merc 
+60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+1 
+5 Horse 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+26 New_Mounted_Longbowmen_ug1 
+1 1 
+48 unit_models/_Units/CSUR/francs_archers_lod0.mesh 6400
+7 
+6 france 
+61 unit_models/_Units/CSUR/textures/serjeants_ug1_france.texture 
+59 unit_models/_Units/CSUR/textures/serjeants_ug1_norm.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 england 
+62 unit_models/_Units/CSUR/textures/serjeants_ug1_england.texture 
+59 unit_models/_Units/CSUR/textures/serjeants_ug1_norm.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+8 scotland 
+64 unit_models/_Units/CSUR/textures/serjeants_scotland_diff.texture 
+57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 spain 
+60 unit_models/_Units/CSUR/textures/serjeants_ug1_spain.texture 
+59 unit_models/_Units/CSUR/textures/serjeants_ug1_norm.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+3 hre 
+58 unit_models/_Units/CSUR/textures/serjeants_ug2_hre.texture 
+59 unit_models/_Units/CSUR/textures/serjeants_ug2_norm.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+12 papal_states 
+57 unit_models/_Units/CSUR/textures/an_army_fig_diff.texture 
+57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 slave 
+57 unit_models/_Units/CSUR/textures/an_army_fig_diff.texture 
+57 unit_models/_Units/CSUR/textures/an_army_fig_norm.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+9 
+6 france 
+66 unit_models/_Units/CSUR/textures/buckler_attachment_france.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+7 england 
+67 unit_models/_Units/CSUR/textures/buckler_attachment_england.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+7 hungary 
+63 unit_models/_Units/CSUR/textures/buckler_attachment_hre.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+5 spain 
+65 unit_models/_Units/CSUR/textures/buckler_attachment_spain.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+8 portugal 
+68 unit_models/_Units/CSUR/textures/buckler_attachment_portugal.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+3 hre 
+63 unit_models/_Units/CSUR/textures/buckler_attachment_hre.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+12 papal_states 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_pope.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+5 slave 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_merc.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+4 merc 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_merc.texture 
+64 unit_models/_Units/CSUR/textures/buckler_attachment_norm.texture 0 
+1 
+5 Horse 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+26 New_Mounted_Longbowmen_ug2 
+1 1 
+52 unit_models/_Units/CSUR/francs_archers_ug2_lod0.mesh 6400
+11 
+6 france 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_france.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 england 
+63 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_england.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 hungary 
+63 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_hungary.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 denmark 
+63 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_denmark.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+6 poland 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_poland.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 spain 
+61 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_spain.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+8 portugal 
+64 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_portugal.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+3 hre 
+59 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_hre.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+12 papal_states 
+60 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_pope.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 slave 
+60 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_merc.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+4 merc 
+60 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_merc.texture 
+62 unit_models/_Units/CSUR/textures/gs_kbrig_kbrig_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+11 
+6 france 
+62 unit_models/_Units/CSUR/textures/cs_attachments_france.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 england 
+63 unit_models/_Units/CSUR/textures/cs_attachments_england.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 hungary 
+63 unit_models/_Units/CSUR/textures/cs_attachments_hungary.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 denmark 
+63 unit_models/_Units/CSUR/textures/cs_attachments_denmark.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+6 poland 
+62 unit_models/_Units/CSUR/textures/cs_attachments_poland.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+5 spain 
+61 unit_models/_Units/CSUR/textures/cs_attachments_spain.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+8 portugal 
+64 unit_models/_Units/CSUR/textures/cs_attachments_portugal.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+3 hre 
+59 unit_models/_Units/CSUR/textures/cs_attachments_hre.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+12 papal_states 
+60 unit_models/_Units/CSUR/textures/cs_attachments_pope.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+5 slave 
+60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+4 merc 
+60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+1 
+5 Horse 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+26 New_Mounted_Longbowmen_ug3 
+1 1 
+52 unit_models/_Units/CSUR/francs_archers_ug3_lod0.mesh 6400
+11 
+6 france 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_france.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 england 
+63 unit_models/_Units/CSUR/textures/gs_kpart_kpart_england.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 hungary 
+63 unit_models/_Units/CSUR/textures/gs_kpart_kpart_hungary.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+7 denmark 
+63 unit_models/_Units/CSUR/textures/gs_kpart_kpart_denmark.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+6 poland 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_poland.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 spain 
+61 unit_models/_Units/CSUR/textures/gs_kpart_kpart_spain.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+8 portugal 
+64 unit_models/_Units/CSUR/textures/gs_kpart_kpart_portugal.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+3 hre 
+59 unit_models/_Units/CSUR/textures/gs_kpart_kpart_hre.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+12 papal_states 
+60 unit_models/_Units/CSUR/textures/gs_kpart_kpart_pope.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+5 slave 
+60 unit_models/_Units/CSUR/textures/gs_kpart_kpart_merc.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+4 merc 
+60 unit_models/_Units/CSUR/textures/gs_kpart_kpart_merc.texture 
+62 unit_models/_Units/CSUR/textures/gs_kpart_kpart_normal.texture 
+51 unit_sprites/CSUR_sprites/sicily_an_scut_sprite.spr 
+11 
+6 france 
+62 unit_models/_Units/CSUR/textures/cs_attachments_france.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 england 
+63 unit_models/_Units/CSUR/textures/cs_attachments_england.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 hungary 
+63 unit_models/_Units/CSUR/textures/cs_attachments_hungary.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+7 denmark 
+63 unit_models/_Units/CSUR/textures/cs_attachments_denmark.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+6 poland 
+62 unit_models/_Units/CSUR/textures/cs_attachments_poland.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+5 spain 
+61 unit_models/_Units/CSUR/textures/cs_attachments_spain.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+8 portugal 
+64 unit_models/_Units/CSUR/textures/cs_attachments_portugal.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+3 hre 
+59 unit_models/_Units/CSUR/textures/cs_attachments_hre.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+12 papal_states 
+60 unit_models/_Units/CSUR/textures/cs_attachments_pope.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+5 slave 
+60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+4 merc 
+60 unit_models/_Units/CSUR/textures/cs_attachments_merc.texture 
+62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
+1 
+5 Horse 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 Basque_Archers 
 1 1 
 48 unit_models/_Units/CSUR/basque_archers_lod0.mesh 6400 
@@ -78012,12 +77944,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 
-2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
-14 fs_test_shield 
-2 
-17 MTW2_Mace_Primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 Basque_Archers_ug2 
@@ -78135,10 +78065,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 New_Serjeant_Archers_ug1 
@@ -78208,10 +78138,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 New_Serjeant_Archers_ug2 
@@ -78299,10 +78229,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 New_Serjeant_Archers_ug3 
@@ -78390,10 +78320,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 tegzesek 
@@ -78481,10 +78411,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 tegzesek_ug1 
@@ -78550,10 +78480,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 tegzesek_ug2 
@@ -78641,10 +78571,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 tegzesek_ug3 
@@ -78718,10 +78648,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 23 New_Serjeant_Longbowmen 
@@ -78787,10 +78717,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 27 New_Serjeant_Longbowmen_ug1 
@@ -78856,10 +78786,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 27 New_Serjeant_Longbowmen_ug3 
@@ -78933,10 +78863,10 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-14 MTW2_Fast_Mace 2 
+19 MTW2_Fast_Swordsman 2 
 19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
-17 MTW2_Mace_Primary 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 New_Serjeant_Crossbowmen 
@@ -79023,12 +78953,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
+20 MTW2_Pavise_Crossbow 
+14 MTW2_Swordsman 2 
 21 MTW2_Crossbow_Primary 
-1 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 28 New_Serjeant_Crossbowmen_ug1 
 1 1 
@@ -79100,12 +79030,12 @@
 63 unit_models/_Units/CSUR/textures/pavise_attachment_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
+20 MTW2_Pavise_Crossbow 
+14 MTW2_Swordsman 2 
 21 MTW2_Crossbow_Primary 
-1 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 28 New_Serjeant_Crossbowmen_ug2 
 1 1 
@@ -79191,12 +79121,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
+20 MTW2_Pavise_Crossbow 
+14 MTW2_Swordsman 2 
 21 MTW2_Crossbow_Primary 
-1 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 Balestrieri 
 1 1 
@@ -79282,12 +79212,12 @@
 62 unit_models/_Units/CSUR/textures/it_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
+20 MTW2_Pavise_Crossbow 
+14 MTW2_Swordsman 2 
 21 MTW2_Crossbow_Primary 
-1 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 Balestrieri_ug1 
 1 1 
@@ -79966,12 +79896,12 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
+20 MTW2_Pavise_Crossbow 
+14 MTW2_Swordsman 2 
 21 MTW2_Crossbow_Primary 
-1 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 23 New_Mounted_Crossbowmen 
 1 1 
@@ -80573,10 +80503,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Crossbow_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -80646,10 +80576,10 @@
 63 unit_models/_Units/CSUR/textures/pavise_attachment_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Crossbow_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -80737,10 +80667,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Crossbow_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -80828,10 +80758,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Crossbow_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -80901,10 +80831,10 @@
 63 unit_models/_Units/CSUR/textures/pavise_attachment_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Crossbow_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -80992,10 +80922,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Crossbow_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -81083,10 +81013,10 @@
 62 unit_models/_Units/CSUR/textures/cs_attachments_normal.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Crossbow_Primary 
+19 MTW2_Musket_Primary 
 1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -81821,12 +81751,10 @@
 59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Crossbow_Primary 
-1 
-16 MTW2_axe_Primary 
+10 MTW2_Spear 0  
+2 
+18 MTW2_Spear_primary 
+14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 russian_cavalry 
 1 3 
@@ -81897,12 +81825,10 @@
 59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Crossbow_Primary 
-1 
-16 MTW2_axe_Primary 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 russian_axemen 
 1 3 
@@ -81934,12 +81860,9 @@
 59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
+11 MTW2_2H_Axe 0  
 1 
-21 MTW2_Crossbow_Primary 
-1 
-16 MTW2_axe_Primary 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 russian_halberdiers 
 1 3 
@@ -81971,12 +81894,12 @@
 59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
 1 
-21 MTW2_Crossbow_Primary 
+17 MTW2_Pike_primary 
 1 
-16 MTW2_axe_Primary 
+17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 russian_archers 
 1 3 
@@ -82008,12 +81931,12 @@
 59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
-20 MTW2_Non_Shield_Fast 
-1 
-21 MTW2_Crossbow_Primary 
-1 
-16 MTW2_axe_Primary 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 23 russian_cavalry_archers 
 1 3 
@@ -82154,61 +82077,247 @@
 59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Crossbow 
+16 MTW2_Fast_Musket 
 20 MTW2_Non_Shield_Fast 
 1 
-21 MTW2_Crossbow_Primary 
+19 MTW2_Musket_Primary 
 1 
-16 MTW2_axe_Primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 new_woodsmen 
-1 3 
-43 unit_models/rus/models/ushkuiniki_lod0.mesh 121 
-43 unit_models/rus/models/ushkuiniki_lod0.mesh 1225 
-43 unit_models/rus/models/ushkuiniki_lod0.mesh 6400 
-5 
+1 1 
+50 unit_models/_Units/euro_peasant/woodsmen_lod0.mesh 6400 
+32 
+6 france 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
 7 hungary 
-64 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud.texture 
-66 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud_n.texture 
-50 unit_sprites/armenia_rus_ohotnik_sp_ug0_sprite.spr 
-6 poland 
-64 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud.texture 
-66 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud_n.texture 
-49 unit_sprites/saxons_rus_ohotnik_sp_ug0_sprite.spr 
-6 russia 
-64 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud.texture 
-66 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud_n.texture 
-49 unit_sprites/russia_rus_ohotnik_sp_ug0_sprite.spr 
+68 unit_models/_Units/euro_peasant/textures/peasants_ee_hungary.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
+8 portugal 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
+5 spain 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+48 unit_sprites/france_Dummy_EN_Spearmen_sprite.spr 
+3 hre 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+45 unit_sprites/hre_Dummy_EN_Spearmen_sprite.spr 
+7 england 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+49 unit_sprites/england_Dummy_EN_Spearmen_sprite.spr 
+7 denmark 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+9 byzantium 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+50 unit_sprites/scotland_Dummy_EN_Spearmen_sprite.spr 
+12 papal_states 
+70 unit_models/_Units/euro_peasant/textures/peasants_papal_states.texture 
+62 unit_models/_Units/euro_peasant/textures/peasants_norm.texture 
+50 unit_sprites/scotland_Dummy_EN_Spearmen_sprite.spr 
 5 slave 
-64 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud.texture 
-66 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud_n.texture 
-48 unit_sprites/slave_rus_ohotnik_sp_ug0_sprite.spr 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+5 turks 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+5 egypt 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+5 milan 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+8 timurids 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+4 mali 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+8 scotland 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+8 zimbabwe 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 sicily 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 ryukyu 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+8 apachean 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 venice 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+5 china 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+7 mongols 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+7 normans 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 saxons 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 aztecs 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 mayans 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 incans 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 4 merc 
-64 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud.texture 
-66 unit_models/rus/textures/rus_bear_spearmen_razboyniy_lud_n.texture 
-47 unit_sprites/merc_rus_ohotnik_sp_ug0_sprite.spr 
-5 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+5 moors 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_merc.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 russia 
+64 unit_models/_Units/euro_peasant/textures/peasants_ee_rus.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+6 poland 
+67 unit_models/_Units/euro_peasant/textures/peasants_ee_poland.texture 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_norm.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
+32 
+6 france 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+7 england 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+9 byzantium 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+12 papal_states 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+5 spain 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+8 portugal 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+3 hre 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+7 denmark 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
 7 hungary 
-58 unit_models/rus/attachments/rus_equipment_base_nov.texture 
-59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
 6 poland 
-58 unit_models/rus/attachments/rus_equipment_base_nov.texture 
-59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
 6 russia 
-58 unit_models/rus/attachments/rus_equipment_base_nov.texture 
-59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
 5 slave 
-58 unit_models/rus/attachments/rus_equipment_base_nov.texture 
-59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+5 turks 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+5 egypt 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+5 moors 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+5 milan 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+8 timurids 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+8 apachean 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+4 mali 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+8 zimbabwe 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+8 scotland 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+6 sicily 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+6 ryukyu 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+5 china 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+6 saxons 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+7 normans 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+7 mongols 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+6 aztecs 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+6 mayans 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+6 incans 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
 4 merc 
-58 unit_models/rus/attachments/rus_equipment_base_nov.texture 
-59 unit_models/rus/attachments/rus_equipment_base_norm.texture 0 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
+6 venice 
+65 unit_models/_Units/euro_peasant/textures/peasants_ee_gear.texture 
+70 unit_models/_Units/euro_peasant/textures/peasants_ee_gear_norm.texture 0 
 1 
 4 None 
-9 MTW2_Pike 
-15 MTW2_Non_Shield 
-1 17 MTW2_Pike_primary 
-1 18 MTW2_Sword_Primary 
+11 MTW2_2H_Axe 0  
+1 
+19 MTW2_2H_Axe_primary 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 ee_arquebusiers
 1 1 
@@ -82754,12 +82863,12 @@
 61 unit_models/_Units/CSUR/textures/wing_attachment_norm.texture 0 
 1 
 5 Horse 
-13 MTW2_HR_Lance 
-18 MTW2_HR_Non_Shield 
-1 
-21 MTW2_HR_Lance_Primary 
-1 
+13 MTW2_HR_Spear 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_spear_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 10 new_feudal 
 1 4 
@@ -83749,10 +83858,12 @@
 56 unit_models/mongols/attachments/mrc_habutu_equip.texture 
 58 unit_models/mongols/attachments/mon_habutu_equip_n.texture 0 
 1 
-5 Horse 
-16 MTW2_CR_Arquebus 
-13 MTW2_CR_Sword 1 
-24 MTW2_HR_Arquebus_Primary 1 
+4 None 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 new_abid_al_shira 
@@ -84295,10 +84406,10 @@
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+18 MTW2_Fast_Crossbow 
+20 MTW2_Non_Shield_Fast 1 
+21 MTW2_Crossbow_Primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 arab_levy_spearmen 
 1 1 
@@ -84772,10 +84883,12 @@
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 moor_gunners 
 1 1 
@@ -84805,10 +84918,12 @@
 62 unit_models/_Units/CSUR/textures/me_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 moor_gunners_ug2 
 1 1 
@@ -84913,14 +85028,12 @@
 58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
 1 
 4 None 
-17 MTW2_Fast_Javelin 
-15 MTW2_Fast_Spear 
-2 
-20 MTW2_Javelin_primary 
-14 fs_test_shield 
-2 
-18 MTW2_Spear_primary 
-14 fs_test_shield 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 moroccan_swordsmen 
 1 1 
@@ -85071,13 +85184,86 @@
 58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
 1 
 4 None 
-17 MTW2_Fast_Javelin 
-15 MTW2_Fast_Spear 
-2 
-20 MTW2_Javelin_primary 
-14 fs_test_shield 
-2 
-18 MTW2_Spear_primary 
+16 MTW2_Fast_Bowman 
+18 MTW2_Fast_Knifeman 1 
+19 MTW2_Bowman_Primary 1 
+18 MTW2_Knife_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+22 moroccan_archers_camel 
+1 1 
+50 unit_models/_Units/arab/moroccan_archers_lod0.mesh 6400 
+9 
+5 egypt 
+55 unit_models/_Units/arab/textures/moroccan_egypt.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+54 unit_models/_Units/arab/textures/moroccan_merc.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+55 unit_models/_Units/arab/textures/moroccan_moors.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+56 unit_models/_Units/arab/textures/moroccan_persia.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 mongols 
+54 unit_models/_Units/arab/textures/moroccan_merc.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 mali 
+54 unit_models/_Units/arab/textures/moroccan_mali.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 scotland 
+57 unit_models/_Units/arab/textures/moroccan_songhai.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 zimbabwe 
+58 unit_models/_Units/arab/textures/moroccan_ethiopia.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+54 unit_models/_Units/arab/textures/moroccan_merc.texture 
+54 unit_models/_Units/arab/textures/moroccan_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+9 
+5 egypt 
+59 unit_models/_Units/arab/textures/levy_buckler_egypt.texture 
+58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
+5 turks 
+59 unit_models/_Units/arab/textures/turk_buckler_turks.texture 
+58 unit_models/_Units/arab/textures/turk_buckler_norm.texture 0  
+5 moors 
+59 unit_models/_Units/arab/textures/levy_buckler_moors.texture 
+58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
+5 milan 
+60 unit_models/_Units/arab/textures/turk_buckler_persia.texture 
+58 unit_models/_Units/arab/textures/turk_buckler_norm.texture 0  
+7 mongols 
+58 unit_models/_Units/arab/textures/levy_buckler_merc.texture 
+58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
+4 mali 
+58 unit_models/_Units/arab/textures/levy_buckler_mali.texture 
+58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
+8 scotland 
+58 unit_models/_Units/arab/textures/levy_buckler_merc.texture 
+58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
+8 zimbabwe 
+58 unit_models/_Units/arab/textures/levy_buckler_merc.texture 
+58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
+5 slave 
+58 unit_models/_Units/arab/textures/levy_buckler_merc.texture 
+58 unit_models/_Units/arab/textures/levy_buckler_norm.texture 0  
+1 
+5 Horse 
+11 MTW2_CR_Bow 
+13 MTW2_CR_Sword 2 
+19 MTW2_HR_Bow_Primary 
+14 fs_test_shield 2 
+18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 moroccan_javelinmen 
@@ -85435,9 +85621,66 @@
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
 5 Horse 
-13 MTW2_HR_Lance 
-13 MTW2_HR_Sword 2 
-21 MTW2_HR_Lance_Primary 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 new_mamluks_foot 
+1 1 
+45 unit_models/_Units/arab/new_mamluks_lod0.mesh 6400 
+6 
+5 egypt 
+57 unit_models/_Units/arab/textures/arab_elite_egypt.texture 
+56 unit_models/_Units/arab/textures/arab_elite_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+57 unit_models/_Units/arab/textures/arab_elite_turks.texture 
+56 unit_models/_Units/arab/textures/arab_elite_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+57 unit_models/_Units/arab/textures/arab_elite_moors.texture 
+56 unit_models/_Units/arab/textures/arab_elite_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+58 unit_models/_Units/arab/textures/arab_elite_persia.texture 
+56 unit_models/_Units/arab/textures/arab_elite_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 mongols 
+56 unit_models/_Units/arab/textures/arab_elite_merc.texture 
+56 unit_models/_Units/arab/textures/arab_elite_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+56 unit_models/_Units/arab/textures/arab_elite_merc.texture 
+56 unit_models/_Units/arab/textures/arab_elite_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 
+5 egypt 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 turks 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 moors 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+7 mongols 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 milan 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+5 slave 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+4 merc 
+53 unit_models/_Units/arab/textures/metal_shield.texture 
+58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
+1 
+4 None 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
 14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
@@ -85859,11 +86102,13 @@
 58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
 63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
+5 Horse 
+13 MTW2_HR_Spear 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_spear_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 New_Akinjis 
 1 1 
@@ -85976,11 +86221,128 @@
 57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
+5 Horse 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 New_Akinjis_Foot 
+1 1 
+41 unit_models/_Units/arab/akinjis_lod0.mesh 6400 
+15 
+5 egypt 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+56 unit_models/_Units/arab/textures/turk_levy_turks.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+57 unit_models/_Units/arab/textures/turk_levy_persia.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 mongols 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 france 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 england 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+3 hre 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+12 papal_states 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 spain 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 portugal 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 hungary 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 poland 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+9 byzantium 
+55 unit_models/_Units/arab/textures/turk_levy_merc.texture 
+55 unit_models/_Units/arab/textures/turk_levy_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+15 
+5 egypt 
+56 unit_models/_Units/arab/textures/arab_gear_egypt.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+5 turks 
+59 unit_models/_Units/arab/textures/turk_buckler_turks.texture 
+58 unit_models/_Units/arab/textures/turk_buckler_norm.texture 0  
+5 moors 
+56 unit_models/_Units/arab/textures/arab_gear_moors.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+5 milan 
+60 unit_models/_Units/arab/textures/turk_buckler_persia.texture 
+58 unit_models/_Units/arab/textures/turk_buckler_norm.texture 0  
+7 mongols 
+55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+5 slave 
+55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+6 france 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+7 england 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+3 hre 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+12 papal_states 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+5 spain 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+8 portugal 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+7 hungary 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+6 poland 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+9 byzantium 
+57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
+55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
+1 
+4 None 
+16 MTW2_Fast_Bowman 
+18 MTW2_Fast_Knifeman 1 
+19 MTW2_Bowman_Primary 1 
+18 MTW2_Knife_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 new_sipahis 
 1 1 
@@ -86093,11 +86455,13 @@
 57 unit_models/_Units/arab/textures/arab_gear_sicily.texture 
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
+5 Horse 
+13 MTW2_HR_Spear 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_spear_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 new_turkish_archers 
 1 1 
@@ -86211,10 +86575,12 @@
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 7 iqtadar 
 1 1 
@@ -86303,11 +86669,15 @@
 53 unit_models/_Units/arab/textures/metal_shield.texture 
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0  
+5 Horse 
+11 MTW2_HR_Bow 
+13 MTW2_HR_Spear 
 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+19 MTW2_HR_Bow_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Spear_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 qapakulu 
 1 1 
@@ -86396,11 +86766,15 @@
 53 unit_models/_Units/arab/textures/metal_shield.texture 
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0  
+5 Horse 
+11 MTW2_HR_Bow 
+13 MTW2_HR_Spear 
 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+19 MTW2_HR_Bow_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Spear_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 21 new_janissary_archers 
 1 1 
@@ -86438,10 +86812,12 @@
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 new_janissary_musketeers 
 1 1 
@@ -86479,10 +86855,12 @@
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 new_ghulam_cavalry 
 1 1 
@@ -86637,11 +87015,13 @@
 53 unit_models/_Units/arab/textures/metal_shield.texture 
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
+5 Horse 
+13 MTW2_HR_Lance 
+18 MTW2_HR_Non_Shield 
+1 
+21 MTW2_HR_Lance_Primary 
+1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 new_bahriyya 
 1 1 
@@ -86678,11 +87058,15 @@
 53 unit_models/_Units/arab/textures/metal_shield.texture 
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0  
+5 Horse 
+11 MTW2_HR_Bow 
+13 MTW2_HR_Spear 
 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+19 MTW2_HR_Bow_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Spear_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 muslim_bodyguard 
 1 1 
@@ -86731,11 +87115,15 @@
 53 unit_models/_Units/arab/textures/metal_shield.texture 
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0  
+5 Horse 
+11 MTW2_HR_Bow 
+13 MTW2_HR_Spear 
 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+19 MTW2_HR_Bow_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Spear_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 7 daylami 
 1 1 
@@ -86887,11 +87275,13 @@
 59 unit_models/_Units/arab/textures/persia_gear_persia.texture 
 57 unit_models/_Units/arab/textures/persia_gear_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
+5 Horse 
+13 MTW2_HR_Spear 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_spear_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 6 charkh 
 1 1 
@@ -86914,10 +87304,10 @@
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+18 MTW2_Fast_Crossbow 
+20 MTW2_Non_Shield_Fast 1 
+21 MTW2_Crossbow_Primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 6 khalaj 
 1 1 
@@ -86939,11 +87329,11 @@
 55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
+5 Horse 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 khalaj_foot 
 1 1 
@@ -86966,10 +87356,12 @@
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 tofangchiyan 
 1 1 
@@ -86992,10 +87384,12 @@
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 10 jazayerchi 
 1 1 
@@ -87060,11 +87454,15 @@
 53 unit_models/_Units/arab/textures/metal_shield.texture 
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0  
+5 Horse 
+11 MTW2_HR_Bow 
+13 MTW2_HR_Spear 
 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+19 MTW2_HR_Bow_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Spear_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 10 tabardaran 
 1 1 
@@ -87127,11 +87525,15 @@
 53 unit_models/_Units/arab/textures/metal_shield.texture 
 58 unit_models/_Units/arab/textures/metal_shield_norm.texture 0 
 1 
-4 None 
-14 MTW2_Swordsman 0  
+5 Horse 
+11 MTW2_HR_Bow 
+13 MTW2_HR_Spear 
 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+19 MTW2_HR_Bow_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Spear_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 persia_bodyguard 
 1 1 
@@ -87153,11 +87555,15 @@
 55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
+5 Horse 
+11 MTW2_HR_Bow 
+13 MTW2_HR_Spear 
 2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+19 MTW2_HR_Bow_Primary 
+14 fs_test_shield 
+2 
+18 MTW2_Spear_Primary 
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 persia_general 
 1 1 
@@ -87242,11 +87648,13 @@
 55 unit_models/_Units/arab/textures/arab_gear_merc.texture 
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
+5 Horse 
+13 MTW2_CR_Spear 
+13 MTW2_CR_Sword 2 
+21 MTW2_HR_spear_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 7 ayyarun 
 1 1 
@@ -88159,10 +88567,12 @@
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+17 MTW2_Fast_Javelin 
+19 MTW2_Fast_Swordsman 2 
+20 MTW2_Javelin_primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 new_arab_archers 
 1 1 
@@ -88328,10 +88738,181 @@
 63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+22 new_arab_archers_horse 
+1 1 
+46 unit_models/_Units/arab/arab_archers_lod0.mesh 6400 
+16 
+5 egypt 
+55 unit_models/_Units/arab/textures/arab_pro_egypt.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 turks 
+55 unit_models/_Units/arab/textures/arab_pro_turks.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 moors 
+55 unit_models/_Units/arab/textures/arab_pro_moors.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 milan 
+56 unit_models/_Units/arab/textures/arab_pro_persia.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 mongols 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 slave 
+54 unit_models/_Units/arab/textures/arab_pro_merc.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+4 merc 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 france 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 england 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+3 hre 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+12 papal_states 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+5 spain 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+8 portugal 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+7 hungary 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+6 poland 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+9 byzantium 
+56 unit_models/_Units/arab/textures/arab_pro_sicily.texture 
+54 unit_models/_Units/arab/textures/arab_pro_norm.texture 
+47 unit_sprites/mongols_Mongol_Infantry_sprite.spr  
+31 
+5 egypt 
+59 unit_models/_Units/arab/textures/arab_buckler_egypt.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_egypt_norm.texture 0  
+5 turks 
+59 unit_models/_Units/arab/textures/arab_buckler_turks.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_turks_norm.texture 0  
+5 moors 
+59 unit_models/_Units/arab/textures/arab_buckler_moors.texture 
+64 unit_models/_Units/arab/textures/arab_buckler_moors_norm.texture 0  
+5 milan 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+7 mongols 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+5 slave 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 france 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+7 england 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+3 hre 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+12 papal_states 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+5 spain 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 portugal 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+7 hungary 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 poland 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+9 byzantium 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 russia 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+4 mali 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 scotland 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 zimbabwe 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 ryukyu 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+5 china 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 saxons 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 venice 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+7 normans 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 aztecs 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 mayans 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 incans 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 apachean 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+8 timurids 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+7 denmark 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+6 sicily 
+58 unit_models/_Units/arab/textures/arab_buckler_merc.texture 
+63 unit_models/_Units/arab/textures/arab_buckler_merc_norm.texture 0  
+1 
+5 Horse 
+11 MTW2_HR_Bow 
+18 MTW2_HR_Non_Shield 1 
+19 MTW2_HR_Bow_Primary 1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 persian_elephant_archers 
 1 1 
@@ -88513,10 +89094,10 @@
 55 unit_models/_Units/arab/textures/arab_gear_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+18 MTW2_Fast_Crossbow 
+20 MTW2_Non_Shield_Fast 1 
+21 MTW2_Crossbow_Primary 1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 moor_xbowmen 
 1 1 
@@ -88546,10 +89127,12 @@
 62 unit_models/_Units/CSUR/textures/me_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+20 MTW2_Pavise_Crossbow 
+14 MTW2_Swordsman 2 
+21 MTW2_Crossbow_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 moor_xbowmen_ug2 
 1 1 
@@ -88579,10 +89162,12 @@
 62 unit_models/_Units/CSUR/textures/tw_attachments_normal.texture 0 
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+20 MTW2_Pavise_Crossbow 
+14 MTW2_Swordsman 2 
+21 MTW2_Crossbow_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 moor_xbow_cavalry 
 1 1 
@@ -89367,10 +89952,12 @@
 53 unit_models/_Units/india/textures/tower1_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+17 MTW2_Fast_Javelin 
+19 MTW2_Fast_Swordsman 2 
+20 MTW2_Javelin_primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 22 indian_militia_cavalry 
 1 1 
@@ -89843,10 +90430,10 @@
 53 unit_models/_Units/india/textures/tower1_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+16 MTW2_Fast_Bowman 
+18 MTW2_Fast_Knifeman 1 
+19 MTW2_Bowman_Primary 1 
+18 MTW2_Knife_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 indian_militia_swordsmen 
 1 1 
@@ -90315,10 +90902,10 @@
 53 unit_models/_Units/india/textures/round1_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+16 MTW2_Fast_Bowman 
+18 MTW2_Fast_Knifeman 1 
+19 MTW2_Bowman_Primary 1 
+18 MTW2_Knife_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 indian_pro_spearmen 
 1 1 
@@ -91259,10 +91846,12 @@
 53 unit_models/_Units/india/textures/round2_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 24 kannada_elephant_archers 
 1 1 
@@ -91494,12 +92083,12 @@
 54 unit_models/_Units/india/textures/round2_india.texture 
 53 unit_models/_Units/india/textures/round2_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+8 Elephant 
+20 MTW2_Elephant_Archer 0  
+1 
+19 MTW2_Bowman_Primary 
+1
+0 -1 0 0 0 0 0 0 
 15 kannada_cavalry 
 1 1 
 50 unit_models/_Units/india/kannada_cavalry_lod0.mesh 6400 
@@ -91731,12 +92320,10 @@
 53 unit_models/_Units/india/textures/round2_norm.texture 0  
 1 
 5 Horse 
-13 MTW2_HR_Lance 
-13 MTW2_HR_Sword 
-2 
-21 MTW2_HR_Lance_Primary 
-14 fs_test_shield 
-2 
+13 MTW2_HR_Spear 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_spear_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
 14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -91971,10 +92558,12 @@
 53 unit_models/_Units/india/textures/tower2_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 indian_pro_swordsmen 
 1 1 
@@ -94812,11 +95401,13 @@
 54 unit_models/_Units/india/textures/round1_india.texture 
 53 unit_models/_Units/india/textures/round1_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
+5 Horse 
+13 MTW2_HR_Spear 
+13 MTW2_HR_Sword 2 
+21 MTW2_HR_spear_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 5 sepoy 
 1 1 
@@ -95049,10 +95640,12 @@
 53 unit_models/_Units/india/textures/round1_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Musket 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Musket_Primary 
+1 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 rocket_elephant_crew 
 1 1 
@@ -95284,12 +95877,11 @@
 54 unit_models/_Units/india/textures/round1_india.texture 
 53 unit_models/_Units/india/textures/round1_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+8 Elephant 
+26 MTW2_Elephant_Rockett_Crew 0  
+1 
+18 MTW2_Knife_Primary 
+0 -1 0 0 0 0 0 0 
 14 rajput_cavalry 
 1 1 
 49 unit_models/_Units/india/rajput_cavalry_lod0.mesh 6400 
@@ -95558,10 +96150,12 @@
 53 unit_models/_Units/india/textures/round2_norm.texture 0  
 1 
 4 None 
-14 MTW2_Swordsman 0  
-2 
+16 MTW2_Fast_Bowman 
+19 MTW2_Fast_Swordsman 2 
+19 MTW2_Bowman_Primary 
+14 fs_test_shield 2 
 18 MTW2_Sword_Primary 
-14 fs_test_shield 0
+14 fs_test_shield 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 garudas_ug1 
 1 1 
@@ -95623,12 +96217,12 @@
 54 unit_models/_Units/india/textures/round2_india.texture 
 53 unit_models/_Units/india/textures/round2_norm.texture 0  
 1 
-4 None 
-14 MTW2_Swordsman 0  
-2 
-18 MTW2_Sword_Primary 
-14 fs_test_shield 0
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+8 Elephant 
+20 MTW2_Elephant_Archer 0  
+1 
+19 MTW2_Bowman_Primary 
+1
+0 -1 0 0 0 0 0 0 
 14 hmong_clansmen 
 1 1 
 48 unit_models/_Units/song/hmong_clansmen_lod0.mesh 6400 
@@ -95695,6 +96289,226 @@
 13 MTW2_Knifeman 0  
 1 
 18 MTW2_Knife_Primary 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+13 inca_spearmen 
+1 4 
+47 unit_models/_Units/inca/inca_spearmen_lod0.mesh 121 
+47 unit_models/_Units/inca/inca_spearmen_lod0.mesh 900 
+47 unit_models/_Units/inca/inca_spearmen_lod0.mesh 2500 
+47 unit_models/_Units/inca/inca_spearmen_lod0.mesh 6400 
+3 
+6 incans 
+53 unit_models/_Units/inca/textures/inca_warrior.texture 
+58 unit_models/_Units/inca/textures/inca_warrior_norm.texture 
+56 unit_sprites/france_Dismounted_Conquistadores_sprite.spr 
+5 slave 
+53 unit_models/_Units/inca/textures/inca_warrior.texture 
+58 unit_models/_Units/inca/textures/inca_warrior_norm.texture 
+55 unit_sprites/spain_Dismounted_Conquistadores_sprite.spr 
+4 merc 
+53 unit_models/_Units/inca/textures/inca_warrior.texture 
+58 unit_models/_Units/inca/textures/inca_warrior_norm.texture 
+58 unit_sprites/portugal_Dismounted_Conquistadores_sprite.spr 
+3 
+6 incans 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+5 slave 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+4 merc 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+1 
+4 None 
+10 MTW2_Spear 0  
+2 
+18 MTW2_Spear_primary 
+14 fs_test_shield 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 canari_spearmen 
+1 4 
+49 unit_models/_Units/inca/canari_spearmen_lod0.mesh 121 
+49 unit_models/_Units/inca/canari_spearmen_lod0.mesh 900 
+49 unit_models/_Units/inca/canari_spearmen_lod0.mesh 2500 
+49 unit_models/_Units/inca/canari_spearmen_lod0.mesh 6400 
+3 
+6 incans 
+47 unit_models/_Units/inca/textures/canari.texture 
+52 unit_models/_Units/inca/textures/canari_norm.texture 
+56 unit_sprites/france_Dismounted_Conquistadores_sprite.spr 
+5 slave 
+47 unit_models/_Units/inca/textures/canari.texture 
+52 unit_models/_Units/inca/textures/canari_norm.texture 
+55 unit_sprites/spain_Dismounted_Conquistadores_sprite.spr 
+4 merc 
+47 unit_models/_Units/inca/textures/canari.texture 
+52 unit_models/_Units/inca/textures/canari_norm.texture 
+58 unit_sprites/portugal_Dismounted_Conquistadores_sprite.spr 
+3 
+6 incans 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+5 slave 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+4 merc 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+1 
+4 None 
+20 MTW2_Halberd_Primary 
+22 MTW2_Halberd_Secondary 
+1 
+17 MTW2_Pike_primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+12 inca_militia 
+1 4 
+46 unit_models/_Units/inca/inca_militia_lod0.mesh 121 
+46 unit_models/_Units/inca/inca_militia_lod0.mesh 900 
+46 unit_models/_Units/inca/inca_militia_lod0.mesh 2500 
+46 unit_models/_Units/inca/inca_militia_lod0.mesh 6400 
+3 
+6 incans 
+50 unit_models/_Units/inca/textures/inca_levy.texture 
+55 unit_models/_Units/inca/textures/inca_levy_norm.texture 
+56 unit_sprites/france_Dismounted_Conquistadores_sprite.spr 
+5 slave 
+50 unit_models/_Units/inca/textures/inca_levy.texture 
+55 unit_models/_Units/inca/textures/inca_levy_norm.texture 
+55 unit_sprites/spain_Dismounted_Conquistadores_sprite.spr 
+4 merc 
+50 unit_models/_Units/inca/textures/inca_levy.texture 
+55 unit_models/_Units/inca/textures/inca_levy_norm.texture 
+58 unit_sprites/portugal_Dismounted_Conquistadores_sprite.spr 
+3 
+6 incans 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+5 slave 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+4 merc 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+13 inca_warriors 
+1 4 
+47 unit_models/_Units/inca/inca_warriors_lod0.mesh 121 
+47 unit_models/_Units/inca/inca_warriors_lod0.mesh 900 
+47 unit_models/_Units/inca/inca_warriors_lod0.mesh 2500 
+47 unit_models/_Units/inca/inca_warriors_lod0.mesh 6400 
+3 
+6 incans 
+53 unit_models/_Units/inca/textures/inca_warrior.texture 
+58 unit_models/_Units/inca/textures/inca_warrior_norm.texture 
+56 unit_sprites/france_Dismounted_Conquistadores_sprite.spr 
+5 slave 
+53 unit_models/_Units/inca/textures/inca_warrior.texture 
+58 unit_models/_Units/inca/textures/inca_warrior_norm.texture 
+55 unit_sprites/spain_Dismounted_Conquistadores_sprite.spr 
+4 merc 
+53 unit_models/_Units/inca/textures/inca_warrior.texture 
+58 unit_models/_Units/inca/textures/inca_warrior_norm.texture 
+58 unit_sprites/portugal_Dismounted_Conquistadores_sprite.spr 
+3 
+6 incans 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+5 slave 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+4 merc 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+1 
+4 None 
+14 MTW2_Swordsman 0  
+2 
+18 MTW2_Sword_Primary 
+14 fs_test_shield 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 mapuche_warriors 
+1 4 
+50 unit_models/_Units/inca/mapuche_warriors_lod0.mesh 121 
+50 unit_models/_Units/inca/mapuche_warriors_lod0.mesh 900 
+50 unit_models/_Units/inca/mapuche_warriors_lod0.mesh 2500 
+50 unit_models/_Units/inca/mapuche_warriors_lod0.mesh 6400 
+3 
+6 incans 
+48 unit_models/_Units/inca/textures/mapuche.texture 
+53 unit_models/_Units/inca/textures/mapuche_norm.texture 
+56 unit_sprites/france_Dismounted_Conquistadores_sprite.spr 
+5 slave 
+48 unit_models/_Units/inca/textures/mapuche.texture 
+53 unit_models/_Units/inca/textures/mapuche_norm.texture 
+55 unit_sprites/spain_Dismounted_Conquistadores_sprite.spr 
+4 merc 
+48 unit_models/_Units/inca/textures/mapuche.texture 
+53 unit_models/_Units/inca/textures/mapuche_norm.texture 
+58 unit_sprites/portugal_Dismounted_Conquistadores_sprite.spr 
+3 
+6 incans 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+5 slave 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+4 merc 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+1 
+4 None 
+11 MTW2_2H_Axe 0  
+2 
+19 MTW2_2H_Axe_primary 
+14 fs_test_shield 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 antisuyu_archers 
+1 4 
+50 unit_models/_Units/inca/antisuyu_archers_lod0.mesh 121 
+50 unit_models/_Units/inca/antisuyu_archers_lod0.mesh 900 
+50 unit_models/_Units/inca/antisuyu_archers_lod0.mesh 2500 
+50 unit_models/_Units/inca/antisuyu_archers_lod0.mesh 6400 
+3 
+6 incans 
+54 unit_models/_Units/inca/textures/antisuyu_suit.texture 
+59 unit_models/_Units/inca/textures/antisuyu_suit_norm.texture 
+56 unit_sprites/france_Dismounted_Conquistadores_sprite.spr 
+5 slave 
+54 unit_models/_Units/inca/textures/antisuyu_suit.texture 
+59 unit_models/_Units/inca/textures/antisuyu_suit_norm.texture 
+55 unit_sprites/spain_Dismounted_Conquistadores_sprite.spr 
+4 merc 
+54 unit_models/_Units/inca/textures/antisuyu_suit.texture 
+59 unit_models/_Units/inca/textures/antisuyu_suit_norm.texture 
+58 unit_sprites/portugal_Dismounted_Conquistadores_sprite.spr 
+3 
+6 incans 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+5 slave 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+4 merc 
+55 unit_models/_Units/inca/attachments/inca_bronze.texture 
+60 unit_models/_Units/inca/attachments/inca_bronze_norm.texture 0  
+1 
+4 None 
+16 MTW2_Fast_Bowman 
+20 MTW2_Non_Shield_Fast 
+1 
+19 MTW2_Bowman_Primary 
+1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 7 test_uk 
 1 1 
