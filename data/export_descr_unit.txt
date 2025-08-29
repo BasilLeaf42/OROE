@@ -15965,8 +15965,8 @@ era 2            incans
 ;unit_info        7, 0, 10
 
 
-type             Inca Urban Militia
-dictionary       Inca_Urban_Militia      ; Mesoamerican Urban Militia
+type             Inca Andean Militia
+dictionary       Inca_Andean_Militia      ; Inca Andean Militia
 category         infantry
 class            heavy
 voice_type       Light
